@@ -12,14 +12,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-*.csv
-*.tsv
-*.json
-*.parquet
-*.h5
-*.hdf5
-
 # OS files
 .DS_Store
 Thumbs.db
