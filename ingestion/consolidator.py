@@ -6,8 +6,8 @@ import pandas as pd
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "datasets"
 MERGED_PATH = DATA_DIR / "merged_dataset.csv"
-SAMPLE_PATH = DATA_DIR / "merged_dataset_sampled_99MiB.csv"
-MAX_SIZE_MIB = 100
+SAMPLE_PATH = DATA_DIR / "merged_dataset_sampled_49MiB.csv"
+MAX_SIZE_MIB = 49
 MIB = 1024 * 1024
 
 DATASETS: dict[str, Path] = {
