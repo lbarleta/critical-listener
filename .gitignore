@@ -12,6 +12,10 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Large files
+datasets/pitchfork_reviews_cleaned.csv
+datasets/merged_dataset.csv
+
 # OS files
 .DS_Store
 Thumbs.db
