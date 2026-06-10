@@ -15,6 +15,7 @@ MIB = 1024 * 1024
 DATASETS: dict[str, Path] = {
     "critique_brainz": DATA_DIR / "critique_brainz_reviews_cleaned.csv",
     "pitchfork": DATA_DIR / "pitchfork_reviews_cleaned.csv",
+    "resident_advisor": DATA_DIR / "resident_advisor_reviews_cleaned.csv",
 }
 
 # Canonical column -> source column when datasets use different names.
@@ -41,6 +42,14 @@ DROP_COLUMNS = [
     "cleaned_body",
     "genres",
 ]
+
+DATASET_RENAMES: dict[str, dict[str, str]] = {
+    "resident_advisor": {
+        "date": "pub_date",
+        "review": "body",
+        "cleaned_review": "cleaned_body",
+    }
+}
 
 
 def review_id_from_url(review_url: object) -> str | None:
@@ -87,7 +96,10 @@ def load_and_merge(datasets: dict[str, Path]) -> pd.DataFrame:
         if not path.exists():
             raise FileNotFoundError(f"Dataset file not found: {path}")
 
-        df = normalize_columns(pd.read_csv(path))
+        df = pd.read_csv(path)
+        if name in DATASET_RENAMES:
+            df = df.rename(columns=DATASET_RENAMES[name])
+        df = normalize_columns(df)
         df.insert(0, "dataset", name)
         frames.append(df)
 
