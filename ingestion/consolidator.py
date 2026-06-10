@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Merge dataset CSV files into a single consolidated file."""
 
+import re
 from pathlib import Path
+
 import pandas as pd
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "datasets"
@@ -15,6 +17,69 @@ DATASETS: dict[str, Path] = {
     "pitchfork": DATA_DIR / "pitchfork_reviews_cleaned.csv",
 }
 
+# Canonical column -> source column when datasets use different names.
+COLUMN_ALIASES: dict[str, str] = {
+    "published_on": "pub_date",
+    "text": "body",
+    "rating": "score",
+    "cleaned_text": "cleaned_body",
+    "album": "title",
+    "reviewer_name": "author",
+    "source_url": "review_url",
+    "genre": "genres",
+}
+
+DROP_COLUMNS = [
+    "review_url",
+    "is_standard_review",
+    "pub_date",
+    "body",
+    "title",
+    "score",
+    "artist_count",
+    "author",
+    "cleaned_body",
+    "genres",
+]
+
+
+def review_id_from_url(review_url: object) -> str | None:
+    if pd.isna(review_url):
+        return None
+
+    match = re.search(r"/(\d+)", str(review_url))
+    return match.group(1) if match else None
+
+
+def _fill_from_alias(df: pd.DataFrame, canonical: str, source: str) -> None:
+    if source not in df.columns:
+        return
+
+    if canonical in df.columns:
+        df[canonical] = df[canonical].fillna(df[source])
+    else:
+        df[canonical] = df[source]
+
+
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+
+    for canonical, source in COLUMN_ALIASES.items():
+        _fill_from_alias(df, canonical, source)
+
+    # Pitchfork scores are on a 0-10 scale; normalize to 0-5.
+    if "score" in df.columns and "rating" in df.columns:
+        df["rating"] = pd.to_numeric(df["rating"], errors="coerce") / 2
+
+    if "review_url" in df.columns:
+        extracted_review_id = df["review_url"].map(review_id_from_url)
+        if "review_id" in df.columns:
+            df["review_id"] = df["review_id"].fillna(extracted_review_id)
+        else:
+            df["review_id"] = extracted_review_id
+
+    return df
+
 
 def load_and_merge(datasets: dict[str, Path]) -> pd.DataFrame:
     frames = []
@@ -22,11 +87,12 @@ def load_and_merge(datasets: dict[str, Path]) -> pd.DataFrame:
         if not path.exists():
             raise FileNotFoundError(f"Dataset file not found: {path}")
 
-        df = pd.read_csv(path)
+        df = normalize_columns(pd.read_csv(path))
         df.insert(0, "dataset", name)
         frames.append(df)
 
-    return pd.concat(frames, ignore_index=True, sort=False)
+    merged = pd.concat(frames, ignore_index=True, sort=False)
+    return merged.drop(columns=[col for col in DROP_COLUMNS if col in merged.columns])
 
 
 def file_size_mib(path: Path) -> float:
