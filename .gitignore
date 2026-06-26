@@ -15,6 +15,9 @@ venv/
 # Large files
 datasets/pitchfork_reviews_cleaned.csv
 datasets/merged_dataset.csv
+datasets/lastfm_recommendations.csv
+datasets/albums_2plus.csv
+datasets/unique_albums_mb.csv
 
 # OS files
 .DS_Store

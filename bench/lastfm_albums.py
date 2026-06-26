@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import random
+import time
 from pathlib import Path
 from typing import Any, Literal
 
@@ -13,8 +14,27 @@ from dotenv import load_dotenv
 
 LASTFM_API_URL = "https://ws.audioscrobbler.com/2.0/"
 ENV_PATH = Path(__file__).resolve().parent / ".env"
+DEFAULT_FETCH_FLOOR = 10
 
 _api_cache: dict[tuple[Any, ...], dict[str, Any]] = {}
+_request_delay_sec: float = 1.0
+_last_request_at: float = 0.0
+
+
+def set_request_delay(seconds: float) -> None:
+    """Minimum seconds between uncached Last.fm API requests."""
+    global _request_delay_sec
+    _request_delay_sec = max(0.0, seconds)
+
+
+def _throttle_request() -> None:
+    global _last_request_at
+    if _request_delay_sec <= 0:
+        return
+    elapsed = time.monotonic() - _last_request_at
+    if elapsed < _request_delay_sec:
+        time.sleep(_request_delay_sec - elapsed)
+    _last_request_at = time.monotonic()
 
 
 def get_api_key() -> str:
@@ -48,6 +68,7 @@ def lastfm_get(method: str, **params: Any) -> dict[str, Any]:
     if cache_key in _api_cache:
         return _api_cache[cache_key]
 
+    _throttle_request()
     response = requests.get(
         LASTFM_API_URL,
         params={
@@ -229,7 +250,13 @@ def _collect_album_recommendations_for_track(
     similar_per_track: int = 10,
     track_lookup_limit: int = 12,
 ) -> list[dict[str, Any]]:
-    """track.getSimilar -> track.getInfo for one seed track; returns raw album rows."""
+    """
+    track.getSimilar -> track.getInfo for one seed track; returns raw album rows.
+
+    Fetches up to similar_per_track similar tracks, drops same-artist matches,
+    keeps the top track_lookup_limit by similarity score, then resolves each to
+    a parent album via track.getinfo.
+    """
     similar_tracks = get_similar_tracks(
         seed["artist"],
         seed_track["name"],
@@ -279,30 +306,30 @@ def _collect_album_recommendations_for_track(
 def recommend_via_similar_tracks(
     seed: dict[str, Any],
     seed_track: dict[str, Any],
-    n: int = 5,
-    similar_per_track: int = 10,
-    track_lookup_limit: int = 12,
+    n_recs: int = 5,
+    fetch_floor: int = DEFAULT_FETCH_FLOOR,
 ) -> pd.DataFrame:
     """
     track.getSimilar -> track.getInfo (parent album) from one seed track.
 
-    API calls: 1 track.getsimilar + up to track_lookup_limit track.getinfo.
+    API calls: 1 album.getinfo (caller) + 1 track.getsimilar + up to n_recs
+    track.getinfo calls (after filtering fetch_floor similar tracks), then
+    return the top n_recs albums.
     """
     rows = _collect_album_recommendations_for_track(
         seed,
         seed_track,
-        similar_per_track=similar_per_track,
-        track_lookup_limit=track_lookup_limit,
+        similar_per_track=fetch_floor,
+        track_lookup_limit=n_recs,
     )
-    return _finalize_recommendations(rows, seed, n, "similarity_score")
+    return _finalize_recommendations(rows, seed, n_recs, "similarity_score")
 
 
 def recommend_via_all_tracks_overlap(
     seed: dict[str, Any],
-    n: int = 5,
+    n_recs: int = 5,
+    fetch_floor: int = DEFAULT_FETCH_FLOOR,
     min_track_votes: int = 2,
-    similar_per_track: int = 10,
-    track_lookup_limit: int = 12,
 ) -> tuple[pd.DataFrame, bool, dict[str, Any] | None]:
     """
     Run similar-track recommendations for every album track and return overlap.
@@ -321,8 +348,8 @@ def recommend_via_all_tracks_overlap(
         for row in _collect_album_recommendations_for_track(
             seed,
             seed_track,
-            similar_per_track=similar_per_track,
-            track_lookup_limit=track_lookup_limit,
+            similar_per_track=fetch_floor,
+            track_lookup_limit=fetch_floor,
         ):
             entry = album_votes.get(row["key"])
             if entry is None:
@@ -346,7 +373,9 @@ def recommend_via_all_tracks_overlap(
     ]
     if not overlap_rows:
         fallback_track = pick_top_listener_track(seed)
-        recommendations = recommend_via_similar_tracks(seed, fallback_track, n=n)
+        recommendations = recommend_via_similar_tracks(
+            seed, fallback_track, n_recs=n_recs, fetch_floor=fetch_floor
+        )
         return recommendations, True, fallback_track
 
     for row in overlap_rows:
@@ -364,13 +393,14 @@ def recommend_via_all_tracks_overlap(
         ascending=False,
     )
     overlap = overlap.drop_duplicates(subset="key", keep="first")
-    return overlap.head(n).reset_index(drop=True), False, None
+    return overlap.head(n_recs).reset_index(drop=True), False, None
 
 
 def compare_recommendations(
     album: str,
     artist: str | None = None,
-    n: int = 5,
+    n_recs: int = 5,
+    fetch_floor: int = DEFAULT_FETCH_FLOOR,
     random_seed: int | None = 42,
 ) -> dict[str, Any]:
     """
@@ -386,10 +416,14 @@ def compare_recommendations(
     top_listener_track = pick_top_listener_track(seed)
     random_track = pick_random_track(seed, random_seed=random_seed)
 
-    top_listener_recs = recommend_via_similar_tracks(seed, top_listener_track, n=n)
-    random_track_recs = recommend_via_similar_tracks(seed, random_track, n=n)
+    top_listener_recs = recommend_via_similar_tracks(
+        seed, top_listener_track, n_recs=n_recs, fetch_floor=fetch_floor
+    )
+    random_track_recs = recommend_via_similar_tracks(
+        seed, random_track, n_recs=n_recs, fetch_floor=fetch_floor
+    )
     all_tracks_recs, all_tracks_used_fallback, all_tracks_fallback_track = (
-        recommend_via_all_tracks_overlap(seed, n=n)
+        recommend_via_all_tracks_overlap(seed, n_recs=n_recs, fetch_floor=fetch_floor)
     )
 
     pairwise_overlap = pd.DataFrame()
@@ -425,16 +459,23 @@ def compare_recommendations(
 def recommend_album(
     album: str,
     artist: str | None = None,
-    n: int = 5,
+    n_recs: int = 5,
+    fetch_floor: int = DEFAULT_FETCH_FLOOR,
     track_selection: Literal["top_listener", "random", "all_tracks_overlap"] = "top_listener",
     random_seed: int | None = None,
+    clear_cache: bool = True,
+    *,
+    n: int | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any] | None, pd.DataFrame, bool]:
     """Convenience wrapper for a single seed-track strategy."""
-    clear_api_cache()
+    if n is not None:
+        n_recs = n
+    if clear_cache:
+        clear_api_cache()
     seed = resolve_album(album, artist=artist)
     if track_selection == "all_tracks_overlap":
         recommendations, used_fallback, fallback_track = recommend_via_all_tracks_overlap(
-            seed, n=n
+            seed, n_recs=n_recs, fetch_floor=fetch_floor
         )
         return seed, fallback_track, recommendations, used_fallback
 
@@ -442,5 +483,7 @@ def recommend_album(
         seed_track = pick_top_listener_track(seed)
     else:
         seed_track = pick_random_track(seed, random_seed=random_seed)
-    recommendations = recommend_via_similar_tracks(seed, seed_track, n=n)
+    recommendations = recommend_via_similar_tracks(
+        seed, seed_track, n_recs=n_recs, fetch_floor=fetch_floor
+    )
     return seed, seed_track, recommendations, False

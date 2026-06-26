@@ -22,7 +22,7 @@ The pipeline is:
 | **(b) Random** | One random track from the album tracklist | Top N albums from that track’s similarity graph |
 | **(c) All-tracks overlap** | Every track on the album | Albums surfaced by **≥ 2** seed tracks, ranked by vote count; falls back to **(a)** if no overlap is found |
 
-Strategy **(c)** is the most robust but also the most expensive: it typically requires ~40–50 API calls for a standard album.
+For strategies **(a)** and **(b)** with `n_recs` recommendations, expect about **`2 + n_recs` API calls per album** (`album.getinfo`, `track.getSimilar`, then `n_recs`× `track.getInfo`). `track.getSimilar` still requests `fetch_floor` candidates (default 10); same-artist tracks are dropped, the top `n_recs` by similarity are kept, and only those are resolved via `track.getInfo`. Strategy **(a)** also calls `track.getInfo` once per song on the album to pick the top-listener seed track. Strategy **(c)** resolves up to `fetch_floor` similar tracks per album track to find overlap.
 
 ## Project files
 
@@ -30,6 +30,7 @@ Strategy **(c)** is the most robust but also the most expensive: it typically re
 |------|---------|
 | `lastfm_albums.py` | API client and recommendation logic |
 | `lastfm_recs.ipynb` | Interactive demo comparing all three strategies |
+| `lastfm_batch.ipynb` | Batch run over `albums_2plus.csv`; fills results in place, resume on `status` |
 | `.env.example` | Template for API key configuration |
 
 
@@ -38,7 +39,7 @@ Strategy **(c)** is the most robust but also the most expensive: it typically re
 ```python
 from lastfm_albums import compare_recommendations
 
-results = compare_recommendations("OK Computer", artist="Radiohead", n=5)
+results = compare_recommendations("OK Computer", artist="Radiohead", n_recs=5, fetch_floor=10)
 
 results["top_listener_recs"]   # strategy (a)
 results["random_track_recs"]   # strategy (b)

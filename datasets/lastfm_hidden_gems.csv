@@ -1,0 +1,1538 @@
+rec_artist,rec_album,rec_key,query_count,mean_score,example_seed_artist,example_seed_album
+Radiohead,The Bends,radiohead::the bends,5,0.27067852000000003,Coldplay,Viva la Vida or Death and All His Friends
+Camera Obscura,Let's Get Out Of This Country,camera obscura::let's get out of this country,4,0.37649915,Au Revoir Simone,The Bird of Music
+Soundgarden,Superunknown,soundgarden::superunknown,4,0.34856475,Nirvana,MTV Unplugged in New York
+Two Door Cinema Club,Tourist History,two door cinema club::tourist history,4,0.294572875,Foster the People,Torches
+Passengers,Original Soundtracks 1,passengers::original soundtracks 1,4,0.16726560000000001,U2,Achtung Baby
+Kylie Minogue,Fever,kylie minogue::fever,4,0.16382325,Madonna,Confessions on a Dance Floor
+Babyshambles,Shotter's Nation,babyshambles::shotter's nation,3,0.3102281666666667,Dirty Pretty Things,Waterloo to Anywhere
+Fatboy Slim,"You've Come a Long Way, Baby","fatboy slim::you've come a long way, baby",3,0.3063146666666667,The Chemical Brothers,Brotherhood
+Brandon Flowers,Flamingo,brandon flowers::flamingo,3,0.296327,Snow Patrol,Fallen Empires
+Maxïmo Park,A Certain Trigger,maximo park::a certain trigger,3,0.28049416666666666,Elbow,Leaders of the Free World
+The Extra Glenns,Martial Arts Weekend,the extra glenns::martial arts weekend,3,0.2336396666666667,The Mountain Goats,All Eternals Deck
+Thurston Moore,Psychic Hearts,thurston moore::psychic hearts,3,0.20950866666666665,No Age,Losing Feeling
+Aphex Twin,Selected Ambient Works 85-92,aphex twin::selected ambient works 85-92,3,0.208732,Boards of Canada,Geogaddi
+The Beach Boys,Pet Sounds,the beach boys::pet sounds,3,0.200694,The Beatles,A Hard Day's Night
+White Lies,To Lose My Life,white lies::to lose my life,3,0.17388033333333333,Editors,An End Has a Start
+Metric,Live It Out,metric::live it out,3,0.15881966666666666,Emily Haines & The Soft Skeleton,Knives Don't Have Your Back
+The Walkmen,Bows + Arrows,the walkmen::bows + arrows,3,0.15553713333333333,Interpol,Interpol
+King Crimson,In the Court of the Crimson King,king crimson::in the court of the crimson king,3,0.14629566666666666,Pink Floyd,Meddle
+Auf der Maur,Auf der Maur,auf der maur::auf der maur,3,0.14050433333333334,Garbage,Absolute Garbage
+Catfish and the Bottlemen,The Balcony,catfish and the bottlemen::the balcony,3,0.13896073333333334,Kings of Leon,Because of the Times
+Wooden Shjips,Back to Land,wooden shjips::back to land,3,0.13622633333333334,Moon Duo,Circles
+Department of Eagles,In Ear Park,department of eagles::in ear park,3,0.1335197,Grizzly Bear,Shields
+John Lennon,John Lennon/Plastic Ono Band,john lennon::john lennon/plastic ono band,3,0.126187,The Beatles,Sgt. Pepper's Lonely Hearts Club Band
+Cansei de Ser Sexy,Donkey,cansei de ser sexy::donkey,2,0.610567,!!!,"Strange Weather, Isn't It?"
+Smog,A River Ain't Too Much to Love,smog::a river ain't too much to love,2,0.5906035000000001,Bill Callahan,Apocalypse
+My Chemical Romance,The Black Parade,my chemical romance::the black parade,2,0.50468,Green Day,21st Century Breakdown
+Bad Meets Evil,Hell: The Sequel,bad meets evil::hell: the sequel,2,0.4944375,Eminem,Recovery
+El-Creepo!,Aloha,el-creepo!::aloha,2,0.4868246,Bob Drake,13 Songs and a Thing
+Antony and the Johnsons,I Am a Bird Now,antony and the johnsons::i am a bird now,2,0.4521485,Patrick Wolf,Sundark and Riverlight
+µ-Ziq,Somerset Avenue Tracks (1992-1995),μ-ziq::somerset avenue tracks (1992-1995),2,0.4348913,Jimmy Edgar,Majenta
+Death and Vanilla,EP,death and vanilla::ep,2,0.4145775,Belbury Poly,The Belbury Tales
+Bonobo,Live at koko,bonobo::live at koko,2,0.4143485,Röyksopp,The Understanding
+Fujiya & Miyagi,Transparent Things,fujiya & miyagi::transparent things,2,0.4111575,Tom Vek,We Have Sound
+Deep Purple,Deepest Purple: The Very Best of Deep Purple,deep purple::deepest purple: the very best of deep purple,2,0.3885235,Led Zeppelin,How the West Was Won
+Boards of Canada,In a Beautiful Place Out in the Country,boards of canada::in a beautiful place out in the country,2,0.38540399999999997,Casino Versus Japan,Whole Numbers Play the Basics
+Owl John,Owl John,owl john::owl john,2,0.36833249999999995,Frightened Rabbit,Pedestrian Verse
+D12,Devil's Night,d12::devil's night,2,0.356533,Eminem,Relapse
+Fugees,The Score,fugees::the score,2,0.34489095000000003,Lauryn Hill,The Miseducation of Lauryn Hill
+The Cure,Greatest Hits,the cure::greatest hits,2,0.344054,The Smiths,Hatful of Hollow
+Magnolia Electric Co.,Fading Trails,magnolia electric co.::fading trails,2,0.34281999999999996,Phosphorescent,Here's to Taking It Easy
+Babes in Toyland,Fontanelle,babes in toyland::fontanelle,2,0.315369,Hole,Live Through This
+Megadeth,Countdown to Extinction,megadeth::countdown to extinction,2,0.307267,Metallica,Death Magnetic
+The Carters,EVERYTHING IS LOVE,the carters::everything is love,2,0.30624549999999995,Beyoncé,I Am… Sasha Fierce
+Ozzy Osbourne,Blizzard of Ozz,ozzy osbourne::blizzard of ozz,2,0.300739,Black Sabbath,Black Sabbath
+Johnny Foreigner,Waited Up Til It Was Light,johnny foreigner::waited up til it was light,2,0.28687050000000003,Dananananaykroyd,Hey Everyone!
+The Wombats,"Proudly Present....A Guide To Love, Loss & Desperation","the wombats::proudly present....a guide to love, loss & desperation",2,0.2817925,Kaiser Chiefs,Employment
+Ten In The Swear Jar,Accordion Solo!,ten in the swear jar::accordion solo!,2,0.2813045,Xiu Xiu,Always
+Travis,The Invisible Band,travis::the invisible band,2,0.268934,Keane,Under the Iron Sea
+Mclusky,The Difference Between Me and You Is That I'm Not On Fire,mclusky::the difference between me and you is that i'm not on fire,2,0.2679095,Future of the Left,The Plot Against Common Sense
+KIDS SEE GHOSTS,KIDS SEE GHOSTS,kids see ghosts::kids see ghosts,2,0.26690349999999996,Kanye West,Graduation
+Justice,Cross,justice::cross,2,0.26291,Daft Punk,Discovery
+DIIV,Oshin,diiv::oshin,2,0.25329715,2:54,2:54
+We Have Band,Ternion,we have band::ternion,2,0.24662250000000002,Is Tropical,Native To
+The Black Keys,Chulahoma,the black keys::chulahoma,2,0.23798999999999998,Alabama Shakes,Boys & Girls
+Blur,13 [Special Edition],blur::13 [special edition],2,0.22140349999999998,Graham Coxon,A+E
+Jenny Lewis,Live and Unrehearsed,jenny lewis::live and unrehearsed,2,0.2179915,Neko Case,Middle Cyclone
+The Pigeon Detectives,Wait for Me,the pigeon detectives::wait for me,2,0.21004,The View,Hats Off to the Buskers
+Richmond Fontaine,Post To Wire,richmond fontaine::post to wire,2,0.2062485,Kathleen Edwards,Back to Me
+Machinedrum,Room(s),machinedrum::room(s),2,0.20108474999999998,FaltyDL,You Stand Uncertain
+Cloud Nothings,Attack on Memory,cloud nothings::attack on memory,2,0.2008775,Crocodiles,Endless Flowers
+The Maccabees,Wall Of Arms,the maccabees::wall of arms,2,0.197065,Bombay Bicycle Club,A Different Kind of Fix
+Yo La Tengo,Electr-o-pura,yo la tengo::electr-o-pura,2,0.19412885,The Raveonettes,Chain Gang of Love
+Johnny Foreigner,You Can Do Better,johnny foreigner::you can do better,2,0.191565,Lightspeed Champion,Life Is Sweet! Nice to Meet You
+Ingrid Michaelson,Be OK,ingrid michaelson::be ok,2,0.19015100000000001,Regina Spektor,Far
+Aldous Harding,Aldous Harding,aldous harding::aldous harding,2,0.1866815,Dark Dark Dark,Wild Go
+Jeff Tweedy,Twilight Override,jeff tweedy::twilight override,2,0.1814315,Wilco,Kicking Television: Live in Chicago
+Neon Blonde,Chandeliers in the Savannah,neon blonde::chandeliers in the savannah,2,0.181431,Jaguar Love,Hologram Jams
+Eels,Shootenanny!,eels::shootenanny!,2,0.18101299999999998,Beck,Guero
+Suede,Suede,suede::suede,2,0.18089795,Manic Street Preachers,The Holy Bible
+Bombay Bicycle Club,I Had the Blues But I Shook Them Loose,bombay bicycle club::i had the blues but i shook them loose,2,0.179508,Bloc Party,Four
+Pete and the Pirates,Little Death,pete and the pirates::little death,2,0.17260405,1990s,Cookies
+Mystery Jets,Twenty One,mystery jets::twenty one,2,0.1715285,Jack Peñate,Matinée
+Air,Moon Safari,air::moon safari,2,0.162828,Moby,Play
+CHVRCHES,Hansa_Session_EP,chvrches::hansa_session_ep,2,0.1626,Purity Ring,Shrines
+Animal Collective,Fall Be Kind,animal collective::fall be kind,2,0.16067605,Gang Gang Dance,Saint Dymphna
+Kanye West,Yeezus,kanye west::yeezus,2,0.156976,Death Grips,The Money Store
+Paul McCartney & Wings,Last Flight:The Complete 1979 Glasgow Concert,paul mccartney & wings::last flight:the complete 1979 glasgow concert,2,0.1563965,The Beatles,Help!
+Giant Sand,Chore of Enchantment,giant sand::chore of enchantment,2,0.154805,Calexico,Carried to Dust
+Marching Church,Throughout the Borders,marching church::throughout the borders,2,0.15008349999999998,Iceage,New Brigade
+Stars,In Our Bedroom After the War,stars::in our bedroom after the war,2,0.14509,Tegan and Sara,Sainthood
+Antemasque,Antemasque,antemasque::antemasque,2,0.144431,The Mars Volta,Octahedron
+How to Destroy Angels,How to Destroy Angels,how to destroy angels::how to destroy angels,2,0.1437765,Nine Inch Nails,With Teeth
+Nicki Minaj,Now! 19,nicki minaj::now! 19,2,0.139942,Rihanna,Rated R
+Public Enemy,It Takes a Nation of Millions to Hold Us Back,public enemy::it takes a nation of millions to hold us back,2,0.13979149999999999,Beastie Boys,Paul's Boutique
+Lorde,Pure Heroine,lorde::pure heroine,2,0.1374959,Halsey,BADLANDS
+Systems Officer,Underslept,systems officer::underslept,2,0.13201105,Pinback,Blue Screen Life
+Fiona Apple,When the Pawn,fiona apple::when the pawn,2,0.1267153,PJ Harvey,Rid of Me
+Squarepusher,Feed Me Weird Things,squarepusher::feed me weird things,2,0.125938,Autechre,Draft 7.30
+Johnny Flynn,A Larum,johnny flynn::a larum,2,0.12349199999999999,Laura Marling,I Speak Because I Can
+Slowdive,Slowdive,slowdive::slowdive,2,0.1226935,Beach House,Bloom
+Bon Iver,Bon Iver,bon iver::bon iver,2,0.1191905,Beirut,The Rip Tide
+Tori Amos,Scarlet's Walk,tori amos::scarlet's walk,2,0.109694,Kate Bush,Director's Cut
+A.C. Newman,The Slow Wonder,a.c. newman::the slow wonder,2,0.10686845,The New Pornographers,Challengers
+Don Caballero,American Don,don caballero::american don,2,0.10379959999999999,Battles,Gloss Drop
+Built to Spill,Perfect From Now On,built to spill::perfect from now on,2,0.10325465,Broken Social Scene,You Forgot It in People
+Volcano Choir,Repave,volcano choir::repave,2,0.1009843,Night Beds,Country Sleep
+Jóhann Jóhannsson,Orphée,johann johannsson::orphee,2,0.0916277,Max Richter,The Blue Notebooks
+J Mascis and the Fog,More Light,j mascis and the fog::more light,2,0.0857929,Dinosaur Jr.,Beyond
+Lali Puna,Scary World Theory,lali puna::scary world theory,2,0.0853012,Charlotte Gainsbourg,IRM
+Bombay Bicycle Club,"So Long, See You Tomorrow","bombay bicycle club::so long, see you tomorrow",2,0.08412030000000001,Foals,Total Life Forever
+The Sugarcubes,Life's Too Good,the sugarcubes::life's too good,2,0.0817908,Björk,Medúlla
+Frightened Rabbit,The Midnight Organ Fight,frightened rabbit::the midnight organ fight,2,0.0810965,Glasvegas,Glasvegas
+Morning Runner,Wilderness Is Paradise Now,morning runner::wilderness is paradise now,2,0.07489275000000001,The Magic Numbers,The Magic Numbers
+The Brian Jonestown Massacre,Revelation,the brian jonestown massacre::revelation,2,0.040968950000000004,TOY,TOY
+Glaze,Wasted Mind,glaze::wasted mind,2,0.010118599999999998,Githead,Art Pop
+Akon,Konvicted (Deluxe Edition),akon::konvicted (deluxe edition),1,1.0,50 Cent,The Massacre
+Ali Farka Touré,Red & Green,ali farka toure::red & green,1,1.0,Toumast,Ishumar
+Alog,Miniatures,alog::miniatures,1,1.0,Phonophani,Oak or Rock
+Aural Imbalance,Proximity Alert / Astral Forest,aural imbalance::proximity alert / astral forest,1,1.0,Spring Heel Jack,Oddities
+Autechre,Incunabula,autechre::incunabula,1,1.0,Boom Bip,Seed to Sun
+Beak>,>>>,beak>::>>>,1,1.0,SUUNS,Zeroes QC
+Beastie Boys,Make Some Noise,beastie boys::make some noise,1,1.0,Pit Er Pat,The Flexible Entertainer
+Black Lips,Black Lips!,black lips::black lips!,1,1.0,White Denim,Fits
+Bleu,Redhead,bleu::redhead,1,1.0,Brendan Benson,"My Old, Familiar Friend"
+Boards of Canada,Tomorrow's Harvest,boards of canada::tomorrow's harvest,1,1.0,Dabrye,Instrmntl
+Bon Iver,"22, a Million","bon iver::22, a million",1,1.0,Gayngs,Relayted
+Bruno Mars,Unorthodox Jukebox (Deluxe Edition),bruno mars::unorthodox jukebox (deluxe edition),1,1.0,Estelle,Shine
+Cachao,Ahora Si,cachao::ahora si,1,1.0,Roberto Fonseca,Zamazu
+Charlie Feathers,Late Night Tales: MGMT,charlie feathers::late night tales: mgmt,1,1.0,Wanda Jackson,The Party Ain't Over
+Combat Astronomy,Time Distort Nine,combat astronomy::time distort nine,1,1.0,Original Silence,The Second Original Silence
+David Guetta & OneRepublic,I Don’t Wanna Wait,david guetta & onerepublic::i don't wanna wait,1,1.0,David Guetta & Bebe Rexha,I'm Good (Blue)
+David Sylvian,Blemish,david sylvian::blemish,1,1.0,Nine Horses,Snow Borne Sorrow
+Destroyer,Destroyer's Rubies,destroyer::destroyer's rubies,1,1.0,Menomena,Mines
+Erykah Badu,New Amerykah Part One (4th World War),erykah badu::new amerykah part one (4th world war),1,1.0,THEESatisfaction,awE naturalE
+Example,Live Life Living (Deluxe),example::live life living (deluxe),1,1.0,Dizzee Rascal,Tongue n' Cheek
+Ffa Coffi Pawb,Ankst Records: Radio Crymi Playlist Vol. 1 1988-1998,ffa coffi pawb::ankst records: radio crymi playlist vol. 1 1988-1998,1,1.0,Euros Childs,The Miracle Inn
+Flume,We Live in a Society,flume::we live in a society,1,1.0,DJ Shadow,The Outsider
+Galaxie 500,This Is Our Music,galaxie 500::this is our music,1,1.0,Damon & Naomi,The Sub Pop Years
+Gensu Dean,Standard Life,gensu dean::standard life,1,1.0,Finale,A Pipe Dream and a Promise
+Glissandro 70,Glissandro 70,glissandro 70::glissandro 70,1,1.0,Town and Country,C'mon
+Global Communication,Path - An Ambient Journey From Windham Hill,global communication::path - an ambient journey from windham hill,1,1.0,The Field,Looping State of Mind
+Hope Sandoval & The Warm Inventions,Until the Hunter,hope sandoval & the warm inventions::until the hunter,1,1.0,Blonde Redhead,Penny Sparkle
+I Am Kloot,Natural History,i am kloot::natural history,1,1.0,The Thrills,Teenager
+In Gowan Ring,The Glinting Spade,in gowan ring::the glinting spade,1,1.0,The Polyphonic Spree,The Beginning Stages Of…
+Irina Rimes,Visele,irina rimes::visele,1,1.0,Andra,Inevitabil va fi bine
+Jeff Parker,Like-Coping,jeff parker::like-coping,1,1.0,Chicago Underground Duo,Axis and Alignment
+John Lennon,Signature Box - 2010 Remaster,john lennon::signature box - 2010 remaster,1,1.0,Ray Davies,Other People's Lives
+Junkie XL,Radio JXL - A Broadcast From The Computerhell Cabin,junkie xl::radio jxl - a broadcast from the computerhell cabin,1,1.0,Felix da Housecat,Virgo Blaktro and the Movie Disco
+Lady Sovereign,Public Warning,lady sovereign::public warning,1,1.0,Sway,This Is My Demo
+LoSoul,warriors,losoul::warriors,1,1.0,Sutekh,Incest Live
+Loudon Wainwright III,Album 1,loudon wainwright iii::album 1,1,1.0,The Felice Brothers,"Celebration, Florida"
+Mark Erelli,Compass & Companion,mark erelli::compass & companion,1,1.0,Tom Brosseau,Cavalier
+Melvins,Tres Cabrones,melvins::tres cabrones,1,1.0,Mudhoney,Since We've Become Translucent
+Michna,Moving Mountains,michna::moving mountains,1,1.0,Midwest Product,Specifics
+Midlake,Bamnan and Slivercork,midlake::bamnan and slivercork,1,1.0,Turin Brakes,JackInABox
+Miles Davis,The Columbia Years 1955 - 1985 (Display Box),miles davis::the columbia years 1955 - 1985 (display box),1,1.0,David Axelrod,David Axelrod
+OK Go,Of the Blue Colour of the Sky,ok go::of the blue colour of the sky,1,1.0,Darwin Deez,Songs for Imaginative People
+Obie Trice,Cheers,obie trice::cheers,1,1.0,The Game,The Documentary
+Philos Moore,Demo,philos moore::demo,1,1.0,Nancy Wallace,Old Stories
+Pimmon,Smudge Another Yesterday,pimmon::smudge another yesterday,1,1.0,Skyphone,Fabula
+Port St. Willow,Holiday,port st. willow::holiday,1,1.0,Halls,Ark
+Robert Plant,lullaby and... The Ceaseless Roar,robert plant::lullaby and... the ceaseless roar,1,1.0,Robert Plant and the Strange Sensation,Mighty Rearranger
+Roo Panes,Little Giant,roo panes::little giant,1,1.0,Philip Selway,Familial
+SPECIAL OTHERS,Star,special others::star,1,1.0,Fontanelle,Style Drift
+Sarah Harmer,I'm a Mountain,sarah harmer::i'm a mountain,1,1.0,Hem,Eveningland
+Sean Slaughter,Die Another Day,sean slaughter::die another day,1,1.0,Emmanuel Jal,WARchild
+Shelby Lynne,I Am Shelby Lynne (Bonus Track Version),shelby lynne::i am shelby lynne (bonus track version),1,1.0,Tift Merritt,See You on the Moon
+Silkworm,Firewater,silkworm::firewater,1,1.0,Three Mile Pilot,The Inevitable Past Is the Future Forgotten
+Sizzla,Reggae Max,sizzla::reggae max,1,1.0,Elephant Man,Good 2 Go
+South,Adventures In The Underground Journey To The Stars,south::adventures in the underground journey to the stars,1,1.0,The Real Tuesday Weld,"I, Lucifer"
+Stephen Malkmus,Face the Truth,stephen malkmus::face the truth,1,1.0,Stephen Malkmus and the Jicks,Real Emotional Trash
+Steve Hauschildt,Tragedy & Geometry,steve hauschildt::tragedy & geometry,1,1.0,Emeralds,Just to Feel Anything
+Summer Cats,Your Timetable,summer cats::your timetable,1,1.0,Get Back Guinozzi!,Carpet Madness
+Sun Kil Moon,Ghosts Of The Great Highway Bonus Tracks,sun kil moon::ghosts of the great highway bonus tracks,1,1.0,The Low Anthem,Smart Flesh
+Superchunk,Here's Where the Strings Come In,superchunk::here's where the strings come in,1,1.0,The Hold Steady,Heaven Is Whenever
+The Delgados,Domestiques,the delgados::domestiques,1,1.0,Cornershop,Judy Sucks a Lemon for Breakfast
+The Mountain Goats,"Peaks and Valleys, More Valleys, More Valleys and a Goat for a Gatekeeper","the mountain goats::peaks and valleys, more valleys, more valleys and a goat for a gatekeeper",1,1.0,Mazes,Ores & Minerals
+The Phoenix Foundation,Buffalo,the phoenix foundation::buffalo,1,1.0,Lawrence Arabia,Chant Darling
+The Pigeon Detectives,Emergency,the pigeon detectives::emergency,1,1.0,Young Knives,Superabundance
+The Tough Alliance,New Waves,the tough alliance::new waves,1,1.0,ceo,White Magic
+Todd Sickafoose,Tiny Resistors,todd sickafoose::tiny resistors,1,1.0,The Nels Cline Singers,Instrumentals
+Tom Waits,"2006-08-04: Orpheum Theatre, Memphis, TN, USA","tom waits::2006-08-04: orpheum theatre, memphis, tn, usa",1,1.0,Willis Earl Beal,Acousmatic Sorcery
+Ying Yang Twins,United States Of Atlanta,ying yang twins::united states of atlanta,1,1.0,Waka Flocka Flame,Flockaveli
+diskJokke,En fin tid,diskjokke::en fin tid,1,1.0,Prins Thomas,Prins Thomas
+Clear Soul Forces,Gold PP7s,clear soul forces::gold pp7s,1,0.999998,Kidz in the Hall,School Was My Hustle
+MC Astro,I'm Not You,mc astro::i'm not you,1,0.999997,Le1f,Fly Zone
+Antonelli,Click,antonelli::click,1,0.999851,Isolée,Western Store
+Skepta,Greatest Hits,skepta::greatest hits,1,0.998771,Wiley,100% Publishing
+Lusine,The Waiting Room,lusine::the waiting room,1,0.995567,Dntel,Life Is Full of Possibilities
+Kool Keith,Matthew,kool keith::matthew,1,0.993394,Dr. Octagon,The Return of Dr. Octagon
+UTFO,Inspiration Information,utfo::inspiration information,1,0.992727,Grandmaster Flash,The Bridge: Concept of a Culture
+Cassie,Dope 'n Diamonds,cassie::dope 'n diamonds,1,0.991223,Ciara,Fantasy Ride
+You'll Never Get to Heaven,You'll Never Get to Heaven,you'll never get to heaven::you'll never get to heaven,1,0.990055,OMBRE,Believe You Me
+Headlights,"Some Racing, Some Stopping","headlights::some racing, some stopping",1,0.985673,Martin Carr,Ye Gods (and Little Fishes)
+The Crookes,Chasing After Ghosts,the crookes::chasing after ghosts,1,0.984633,Let's Wrestle,Nursing Home
+Mary J. Blige,No More Drama,mary j. blige::no more drama,1,0.98418,Estelle,All of Me
+IronSoul,Marcis,ironsoul::marcis,1,0.982013,Terror Danjah,The Dark Crawler
+normpeterson,Tethered To A Dying Animal,normpeterson::tethered to a dying animal,1,0.970076,Osso,Run Rabbit Run
+Bart Davenport,Seal the Deal!,bart davenport::seal the deal!,1,0.963336,Harper Simon,Harper Simon
+Martin L. Gore,Stardust - EP,martin l. gore::stardust - ep,1,0.95399,Silver Columns,Yes and Dance
+Clinic,Internal Wrangler,clinic::internal wrangler,1,0.951786,Wire,Send
+Dos Santos,SAMBA,dos santos::samba,1,0.951211,Allá,Es tiempo
+Art Ensemble of Chicago,Chi-Congo,art ensemble of chicago::chi-congo,1,0.947065,Scorch Trio,Luggumt
+Kanye West,Eyes Closed,kanye west::eyes closed,1,0.94326,Terius Nash,1977
+Humcrush,Hornswoggle,humcrush::hornswoggle,1,0.938866,Alog,Amateur
+4Walls,Which Side Are You On,4walls::which side are you on,1,0.938733,The Claudia Quintet,Royal Toast
+Herborg Kråkevik,Annleis enn i går,herborg krakevik::annleis enn i gar,1,0.935772,Susanna,Flower of Evil
+John Vanderslice,Cellar Door,john vanderslice::cellar door,1,0.935753,Tapes 'n Tapes,Walk It Off
+Quasi,Colonel Jeffrey Pumpernickel,quasi::colonel jeffrey pumpernickel,1,0.933729,The Shaky Hands,Let It Die
+Eivind Aarset,Dream Logic,eivind aarset::dream logic,1,0.930482,Arve Henriksen,Strjon
+Iris Lune,Paper Mache,iris lune::paper mache,1,0.924212,Kotki Dwa,Staycations
+Airiel,Frosted,airiel::frosted,1,0.91808,Spiritualized,Amazing Grace
+Can,Soon Over Babaluma,can::soon over babaluma,1,0.915995,Faust,BBC Sessions +
+Red Hot Chili Peppers,By the Way,red hot chili peppers::by the way,1,0.909479,The White Stripes,Elephant
+Stylophonic,Man Music Technology,stylophonic::man music technology,1,0.904864,Kevin Rudolf,In the City
+Ida,Ten Small Paces,ida::ten small paces,1,0.895438,Low,C'mon
+Infected Mushroom,IM30,infected mushroom::im30,1,0.894639,Ital,Dream On
+Unicorn Hard-On,Euro Tour Tape 2011,unicorn hard-on::euro tour tape 2011,1,0.894619,Container,LP
+Soft Black,The Earth is Black,soft black::the earth is black,1,0.891793,The Shaky Hands,The Shaky Hands
+Panda Bear,Surfer's Hymn,panda bear::surfer's hymn,1,0.883155,High Places,High Places vs. Mankind
+Doves,The Places Between : The Best Of Doves,doves::the places between : the best of doves,1,0.880534,Badly Drawn Boy,Is There Nothing We Could Do?
+Reflection Eternal,Reflection Eternal - Train Of Thought,reflection eternal::reflection eternal - train of thought,1,0.876692,Talib Kweli,Eardrum
+Shaggy,The Boombastic Collection - Best of Shaggy,shaggy::the boombastic collection - best of shaggy,1,0.872488,Sean Paul,Dutty Rock
+The Nightingales,Pigs On Purpose,the nightingales::pigs on purpose,1,0.864237,The Fall,Imperial Wax Solvent
+NEU!,Neu! Digital Box,neu!::neu! digital box,1,0.861362,Eine Kleine Nacht Musik,Eine Kleine Nacht Musik
+Ca$his,The County Hound EP,ca$his::the county hound ep,1,0.859322,50 Cent,Curtis
+The Lonely Island,Incredibad,the lonely island::incredibad,1,0.856883,Flight of the Conchords,Flight of the Conchords
+Destiny's Child,The Writing's on the Wall,destiny's child::the writing's on the wall,1,0.849051,Ciara,The Evolution
+Alexandre Desplat,Inquiétudes,alexandre desplat::inquietudes,1,0.838935,Hans Zimmer,The Simpsons Movie: The Music
+Rush Midnight,Rush Midnight,rush midnight::rush midnight,1,0.836982,The Phenomenal Handclap Band,Form & Control
+Howie Day,Australia,howie day::australia,1,0.836949,Matt Costa,Unfamiliar Faces
+Lili Boniche,Anthologie,lili boniche::anthologie,1,0.834149,Abdel Hadi Halo & the El Gusto Orchestra of Algiers,Abdel Hadi Halo & The El Gusto Orchestra of Algiers
+The Turtles,20 Greatest Hits,the turtles::20 greatest hits,1,0.82396,Roy Orbison,The Soul of Rock and Roll
+Danny Cavanagh,A Place to Be,danny cavanagh::a place to be,1,0.820062,Citay,Dream Get Together
+Deerhunter,Cryptograms,deerhunter::cryptograms,1,0.818428,Liars,Liars
+Lucy Pearl,Lucy Pearl,lucy pearl::lucy pearl,1,0.791465,Cody ChesnuTT,Landing on a Hundred
+The Delgados,The Great Eastern,the delgados::the great eastern,1,0.787116,Emma Pollock,Watch the Fireworks
+Dizzee Rascal,The Fifth,dizzee rascal::the fifth,1,0.783319,Lady Sovereign,Jigsaw
+L.T.D.,Love Songs,l.t.d.::love songs,1,0.778637,Commodores,Commodores
+Family Reunion,Family Album,family reunion::family album,1,0.772144,Kort,Invariable Heartache
+Madlib,Beat Konducta Vol. 5: Dil Cosby Suite,madlib::beat konducta vol. 5: dil cosby suite,1,0.770475,De La Soul,The Grind Date
+The Detroit Cobras,Tied & True,the detroit cobras::tied & true,1,0.755641,The Dirtbombs,Party Store
+Tortoise,Tortoise,tortoise::tortoise,1,0.75542,Trans Am,What Day Is It Tonight?
+The Jam,Back to the Modern World (Dream Remaster),the jam::back to the modern world (dream remaster),1,0.747177,Paul Weller,Sonik Kicks
+Dyonisis,Intoxicated,dyonisis::intoxicated,1,0.739186,Phantom Limb,Phantom Limb
+Ben Folds,Songs For Silverman,ben folds::songs for silverman,1,0.723491,Ben Folds Five,The Sound of the Life of the Mind
+Pan•American,"Cloud Room, Glass Room","pan•american::cloud room, glass room",1,0.721036,Growing,Color Wheel
+Ulanbator,Sputnik,ulanbator::sputnik,1,0.718104,Homelife,Guru Man Hubcap Lady
+Erin McKeown,Hundreds Of Lions,erin mckeown::hundreds of lions,1,0.708145,Martha Wainwright,Come Home to Mama
+We Were Promised Jetpacks,Unravelling,we were promised jetpacks::unravelling,1,0.706969,Sons and Daughters,Mirror Mirror
+Destiny's Child,Love Songs,destiny's child::love songs,1,0.705049,Solange,Sol-Angel and the Hadley St. Dreams
+Bloodgroup,Tracing Echoes,bloodgroup::tracing echoes,1,0.699559,Shy Child,Liquid Love
+Slow Train Soul,Illegal Cargo,slow train soul::illegal cargo,1,0.683133,The Cinematic Orchestra,Ma fleur
+Rokia Traoré,Mouneïssa,rokia traore::mouneissa,1,0.680558,Ali Farka Touré,Savane
+White Lies,Friends,white lies::friends,1,0.650228,Julian Plenti,Julian Plenti Is... Skyscraper
+Miles Kurosky,The Desert of Shallow Effects,miles kurosky::the desert of shallow effects,1,0.650138,Magic Kids,Memphis
+Gkfoes vjgoaf,The Joy of Awakening,gkfoes vjgoaf::the joy of awakening,1,0.643396,Helena Espvall & Masaki Batoh,Helena Espvall & Masaki Batoh
+Trailer Bride,High Seas,trailer bride::high seas,1,0.640253,Laura Cantrell,Humming by the Flowered Vine
+Boris,Attention Please,boris::attention please,1,0.639085,Om,Advaitic Songs
+The Pack A.D.,Unpersons,the pack a.d.::unpersons,1,0.638186,Heavy Trash,Midnight Soul Serenade
+Throwing Muses,House Tornado,throwing muses::house tornado,1,0.635446,Tanya Donelly,Whiskey Tango Ghosts
+The Horrible Crowes,Elsie,the horrible crowes::elsie,1,0.635302,The Gaslight Anthem,American Slang
+P!nk,Greatest Hits...So Far!!!,p!nk::greatest hits...so far!!!,1,0.634084,Alicia Keys,Songs in A Minor
+Dollboy,A Beard of Bees,dollboy::a beard of bees,1,0.630465,Ogurusu Norihide,Modern
+The Beta Band,The Three E.P.'s,the beta band::the three e.p.'s,1,0.627779,Steve Mason,Boys Outside
+The Seahorses,Minus Blue,the seahorses::minus blue,1,0.62537,Ocean Colour Scene,A Hyperactive Workout for the Flying Squad
+Engineers,To An Evergreen EP,engineers::to an evergreen ep,1,0.623441,Maps,Turning the Mind
+Róisín Murphy,Live at Ancienne Belgique 19.11.07,roisin murphy::live at ancienne belgique 19.11.07,1,0.610247,Goldfrapp,The Singles
+Murder By Death,"Bitter Drink, Bitter Moon","murder by death::bitter drink, bitter moon",1,0.604773,Two Gallants,The Bloom and the Blight
+Florry,Sounds Like...,florry::sounds like...,1,0.603541,The Mendoza Line,Full of Light and Full of Fire
+Destiny's Child,Destiny Fulfilled,destiny's child::destiny fulfilled,1,0.600194,Beyoncé,4
+Get Well Soon,Oh Boy (Original Motion Picture Soundtrack),get well soon::oh boy (original motion picture soundtrack),1,0.585239,Ed Harcourt,Lustre
+The Walkmen,Little House Of Savages EP,the walkmen::little house of savages ep,1,0.580475,Archie Bronson Outfit,Coconut
+Cloud Nothings,Turning On,cloud nothings::turning on,1,0.579693,The Men,Open Your Heart
+Ty Segall,Melted,ty segall::melted,1,0.576809,Ty Segall Band,Slaughterhouse
+Kano,No Hats No Hoods Edition 1,kano::no hats no hoods edition 1,1,0.57248,Wiley,Treddin' on Thin Ice
+坂本龍一,星になった少年～Shining Boy & Little Randy～,坂本龍一::星になった少年~shining boy & little randy~,1,0.571966,Hauschka,Foreign Landscapes
+Method Man,What's Happenin',method man::what's happenin',1,0.571709,Busta Rhymes,The Big Bang
+Black Rebel Motorcycle Club,Specter At The Feast,black rebel motorcycle club::specter at the feast,1,0.571562,The Raveonettes,In and out of Control
+Zegunder,Tumbleweeds,zegunder::tumbleweeds,1,0.571144,Sybarite,Placement Issues
+The Album Leaf,An Orchestrated Rise to Fall,the album leaf::an orchestrated rise to fall,1,0.570904,Mice Parade,Obrigado Saudade
+Keyboard Rebel,Pop Grenade,keyboard rebel::pop grenade,1,0.570512,Milk Maid,Mostly No
+Moderat,II,moderat::ii,1,0.567131,Eskmo,Eskmo
+Scissors for Lefty,Underhanded Romance,scissors for lefty::underhanded romance,1,0.564583,Esser,Braveface
+Guts,Brand New Revolution - EP,guts::brand new revolution - ep,1,0.564221,Nightmares on Wax,Thought So…
+White Fence,The Pool,white fence::the pool,1,0.563967,Kelley Stoltz,Circular Sounds
+Thea Gilmore,Avalanche,thea gilmore::avalanche,1,0.563576,LoneLady,Nerve Up
+Prince & The Revolution,4ever,prince & the revolution::4ever,1,0.563304,Prince,1999
+J. Cole,2014 Forest Hills Drive,j. cole::2014 forest hills drive,1,0.55675,Kendrick Lamar,"good kid, m.A.A.d city"
+Elvis Costello & The Attractions,Armed Forces,elvis costello & the attractions::armed forces,1,0.55234,Elvis Costello,Live at the El Mocambo
+Sidsel Endresen & Bugge Wesseltoft,Duplex Ride,sidsel endresen & bugge wesseltoft::duplex ride,1,0.547641,Susanna and the Magical Orchestra,List of Lights and Buoys
+D12,D12 World,d12::d12 world,1,0.539693,Eminem,Encore
+Paul McCartney,New,paul mccartney::new,1,0.534898,The Fireman,Electric Arguments
+SWV,Best of SWV,swv::best of swv,1,0.532615,Mary J. Blige,My Life
+Lower Dens,Twin-Hand Movement,lower dens::twin-hand movement,1,0.532127,Trailer Trash Tracys,Ester
+Bonnie 'Prince' Billy,The Present,bonnie 'prince' billy::the present,1,0.53154,Giant Sand,Blurry Blue Mountain
+Electronic,Twisted Tenderness,electronic::twisted tenderness,1,0.53079,Pet Shop Boys,Please
+Terminal Cheesecake,Dandelion Sauce Of The Ancients,terminal cheesecake::dandelion sauce of the ancients,1,0.526783,Rangda,False Flag
+God Is an Astronaut,A Moment Of Stillness (2011 Remastered Edition),god is an astronaut::a moment of stillness (2011 remastered edition),1,0.522188,Mogwai,Les Revenants
+Kanye West,All Of The Lights,kanye west::all of the lights,1,0.514468,OutKast,Stankonia
+Summer Heart,Hit Me Up Again,summer heart::hit me up again,1,0.507402,Chad Valley,Young Hunger
+Okna Tsahan Zam,Shaman Voices: a Journey In the Steppe,okna tsahan zam::shaman voices: a journey in the steppe,1,0.499716,Hanggai,Introducing Hanggai
+Lee “Scratch” Perry,Rise Again,lee “scratch” perry::rise again,1,0.497548,The Orb feat. Lee “Scratch” Perry,The Orbserver in the Star House
+Moderat,III (Deluxe Edition),moderat::iii (deluxe edition),1,0.497253,Modeselektor,Monkeytown
+Zero 7,When It Falls,zero 7::when it falls,1,0.4963,Thievery Corporation,Radio Retaliation
+Depeche Mode,Delta Machine (Deluxe Edition),depeche mode::delta machine (deluxe edition),1,0.49549,Dave Gahan,Hourglass
+Arnaldo Baptista,Singin' Alone,arnaldo baptista::singin' alone,1,0.491278,Os Mutantes,Haih or amortecedor
+Bilal,1st Born Second,bilal::1st born second,1,0.491116,Angie Stone,Mahogany Soul
+Dinosaur Feathers,Fantasy Memorial,dinosaur feathers::fantasy memorial,1,0.488806,Nurses,Apple's Acre
+Destroyer,We'll Build Them a Golden Bridge,destroyer::we'll build them a golden bridge,1,0.486542,Twin Sister,In Heaven
+Tom Petty and The Heartbreakers,Greatest Hits,tom petty and the heartbreakers::greatest hits,1,0.48012,Tom Petty,Full Moon Fever
+Mary Chapin Carpenter,The Essential Mary Chapin Carpenter,mary chapin carpenter::the essential mary chapin carpenter,1,0.476207,Tift Merritt,Tambourine
+Red House Painters,Red House Painters I,red house painters::red house painters i,1,0.474911,Sun Kil Moon,Ghosts of the Great Highway
+Golden Smog,Weird Tales,golden smog::weird tales,1,0.472294,Son Volt,American Central Dust
+Frog Eyes,Paul's Tomb: A Triumph,frog eyes::paul's tomb: a triumph,1,0.471349,Califone,Sometimes Good Weather Follows Bad People
+The Juan Maclean,In A Dream,the juan maclean::in a dream,1,0.469784,Shit Robot,From the Cradle to the Rave
+Antibalas Afrobeat Orchestra,Talkatif,antibalas afrobeat orchestra::talkatif,1,0.468477,Ebo Taylor,Love and Death
+Pantera,Vulgar Display of Power,pantera::vulgar display of power,1,0.466814,Metallica,…And Justice for All
+Flatbush ZOMBiES,3001: A Laced Odyssey,flatbush zombies::3001: a laced odyssey,1,0.466362,The Underachievers,Indigoism
+µ-Ziq,Chewed Corners,μ-ziq::chewed corners,1,0.461826,Boom Bip,Zig Zaj
+Howe Gelb,Por Vida,howe gelb::por vida,1,0.460643,Giant Sand,Cover Magazine
+Sun Ra,"The Eternal Myth Revealed, Vol. 1","sun ra::the eternal myth revealed, vol. 1",1,0.459103,William Parker,I Plan to Stay a Believer: The Inside Songs of Curtis Mayfield
+Embrace,This New Day,embrace::this new day,1,0.456914,Athlete,Tourist
+Shelagh McDonald,Stargazer,shelagh mcdonald::stargazer,1,0.456,Linda Thompson,Versatile Heart
+Fred Eaglesmith,Tinderbox,fred eaglesmith::tinderbox,1,0.455295,Lucinda Williams,Blessed
+LL Cool J,Mama Said Knock You Out,ll cool j::mama said knock you out,1,0.453684,Neneh Cherry,Raw Like Sushi
+Badly Drawn Boy,"2007-03-03: Richards on Richards, Vancouver, BC, Canada","badly drawn boy::2007-03-03: richards on richards, vancouver, bc, canada",1,0.453269,Fields,Everything Last Winter
+Venomin James,Crowe Valley Blues,venomin james::crowe valley blues,1,0.451773,Saviours,Into Abaddon
+Pearson Sound,Pearson Sound,pearson sound::pearson sound,1,0.450105,Pangaea,Release
+Cansei de Ser Sexy,Hits Me Like A Rock,cansei de ser sexy::hits me like a rock,1,0.449627,The Big Pink,Future This
+Lethal Bizzle,Heavy Meckle,lethal bizzle::heavy meckle,1,0.4489,Wiley,Playtime Is Over
+Nick Cave & the Bad Seeds,The Best Of,nick cave & the bad seeds::the best of,1,0.44566,Grinderman,Grinderman 2
+PARTYNEXTDOOR,PARTYNEXTDOOR,partynextdoor::partynextdoor,1,0.442115,Miguel,Kaleidoscope Dream
+The Vibrators,Guilty & Alaska 127,the vibrators::guilty & alaska 127,1,0.440415,Buzzcocks,30
+Rick Ross,R&B Fresh Hits,rick ross::r&b fresh hits,1,0.438686,Drake,Thank Me Later
+The Jacksons,The Definitive 70's,the jacksons::the definitive 70's,1,0.438642,Michael Jackson,Off the Wall
+Assemble Head In Sunburst Sound,When Sweet Sleep Returned,assemble head in sunburst sound::when sweet sleep returned,1,0.437372,Sleepy Sun,Fever
+Beat Connection,The Palace Garden,beat connection::the palace garden,1,0.437361,Memory Tapes,Player Piano
+T.S.O.L.,T.S.O.L.,t.s.o.l.::t.s.o.l.,1,0.435395,Dead Kennedys,Fresh Fruit for Rotting Vegetables
+Starfucker,Reptilians,starfucker::reptilians,1,0.434898,Miike Snow,Miike Snow
+Blue States,Nothing Changes Under the Sun,blue states::nothing changes under the sun,1,0.432314,Zero 7,Simple Things
+Lootpack,A Journey Into Fresh Diggin' Vol. 1 - Quazimoto Meets Himself,lootpack::a journey into fresh diggin' vol. 1 - quazimoto meets himself,1,0.431886,Quasimoto,The Further Adventures of Lord Quas
+Jenny Lewis,Puppy and a Truck,jenny lewis::puppy and a truck,1,0.431652,Rhett Miller,Rhett Miller
+Clutchy Hopkins,The Story Teller,clutchy hopkins::the story teller,1,0.429499,Paul White,Rapping With Paul White
+The Game,Untold Story,the game::untold story,1,0.427876,Snoop Dogg,Doggumentary
+Superchunk,Foolish (Remastered),superchunk::foolish (remastered),1,0.427063,Six by Seven,The Closer You Get
+Fan Death,A Coin for the Well,fan death::a coin for the well,1,0.42217,Maximum Balloon,Maximum Balloon
+Marsmobil,Minx,marsmobil::minx,1,0.420107,Air,Talkie Walkie
+Sharon Van Etten,"The Walking Dead: AMC Original Soundtrack, Vol. 2","sharon van etten::the walking dead: amc original soundtrack, vol. 2",1,0.419007,Alela Diane,To Be Still
+Whiskeytown,Strangers Almanac,whiskeytown::strangers almanac,1,0.41819,Steve Earle,I'll Never Get Out of This World Alive
+Amon Tobin,Amon Tobin,amon tobin::amon tobin,1,0.417876,Daedelus,Bespoke
+Wham!,Make It Big,wham!::make it big,1,0.41474,George Michael,Faith
+Joy Division,Substance (1977 - 1980),joy division::substance (1977 - 1980),1,0.410371,The Fall,Fall Heads Roll
+Preston School of Industry,All This Sounds Gas,preston school of industry::all this sounds gas,1,0.403693,Spiral Stairs,The Real Feel
+Martin L. Gore,Counterfeit 2,martin l. gore::counterfeit 2,1,0.402204,Dave Gahan,Paper Monsters
+Gregory Alan Isakov,The Weatherman,gregory alan isakov::the weatherman,1,0.401597,Neil Halstead,Sleeping on Roads
+The Kleptones,A Night at the Hip Hopera,the kleptones::a night at the hip hopera,1,0.401524,Cassetteboy,The Parker Tapes
+Frank Black and the Catholics,Devil's Workshop,frank black and the catholics::devil's workshop,1,0.401267,Black Francis,NonStopErotik
+Jürgen Paape,Total 3,jurgen paape::total 3,1,0.398626,Superpitcher,Kilimanjaro
+The Knife,Deep Cuts,the knife::deep cuts,1,0.398151,Chromatics,Kill for Love
+Great White,...Twice Shy,great white::...twice shy,1,0.397372,Mötley Crüe,Dr. Feelgood
+Britney Spears,In the Zone,britney spears::in the zone,1,0.396869,Lady Gaga,The Fame
+Shout Out Louds,100 EP,shout out louds::100 ep,1,0.395704,Peter Bjorn and John,Living Thing
+AFX,Hangable Auto Bulb,afx::hangable auto bulb,1,0.395596,Aphex Twin,Drukqs
+Sufjan Stevens,Seven Swans,sufjan stevens::seven swans,1,0.395383,Rosie Thomas,These Friends of Mine
+Starfucker,Starfucker,starfucker::starfucker,1,0.393509,Maps,We Can Create
+Caspian,Tertia,caspian::tertia,1,0.390312,Russian Circles,Geneva
+Sukh Knight,Jewel Thief / Flyer Manz,sukh knight::jewel thief / flyer manz,1,0.3901,Rusko,Songs
+Röyksopp,The Inevitable End,royksopp::the inevitable end,1,0.389801,Joe Goddard,Harvest Festival
+Fleetwood Mac,Fleetwood Mac,fleetwood mac::fleetwood mac,1,0.387565,Billy Joel,The Stranger
+The High Water Marks,Polar,the high water marks::polar,1,0.387284,The Apples in Stereo,New Magnetic Wonder
+Moloko,Things to Make and Do,moloko::things to make and do,1,0.386204,Goldfrapp,Black Cherry
+The Voidz,Leave It In My Dreams,the voidz::leave it in my dreams,1,0.385967,The Strokes,Comedown Machine
+Rivers Cuomo,Alone II: The Home Recordings of RIvers Cuomo,rivers cuomo::alone ii: the home recordings of rivers cuomo,1,0.385952,Weezer,Raditude
+Tamikrest,Chatma,tamikrest::chatma,1,0.384796,Tinariwen,Tassili
+The Lathums,No Direction,the lathums::no direction,1,0.382417,James,Hey Ma
+Primal Scream,Star,primal scream::star,1,0.382346,Clinic,Funf
+Alanis Morissette,Feast on Scraps,alanis morissette::feast on scraps,1,0.381759,Marianne Faithfull,Kissin Time
+Porches,Patience,porches::patience,1,0.380389,Twin Shadow,Confess
+Allo Darlin',If Loneliness Was Art,allo darlin'::if loneliness was art,1,0.375679,Standard Fare,"Out of Sight, Out of Town"
+Sister Sledge,We Are Family,sister sledge::we are family,1,0.375599,Diana Ross,Diana
+The Honorary Title,The Road Mix: Music From The Television Series One Tree Hill Vol. 3,the honorary title::the road mix: music from the television series one tree hill vol. 3,1,0.374918,Longview,Mercury
+Brandy,The Best of Brandy,brandy::the best of brandy,1,0.373631,Aaliyah,Aaliyah
+Caspa,"Everybody's Talking, Nobody's Listening!","caspa::everybody's talking, nobody's listening!",1,0.373354,Rusko,O.M.G.!
+Tinariwen,Amassakoul,tinariwen::amassakoul,1,0.372479,Amadou & Mariam,Dimanche à Bamako
+Franz Ferdinand,"Right Thoughts, Right Words, Right Action (Deluxe Edition)","franz ferdinand::right thoughts, right words, right action (deluxe edition)",1,0.371913,1990s,Kicks
+MF DOOM,Born Like This,mf doom::born like this,1,0.370415,JJ DOOM,Key to the Kuffs
+Shlohmo,Dark Red,shlohmo::dark red,1,0.370283,Lapalux,Nostalchic
+Jesse Malin,The Fine Art of Self Destruction,jesse malin::the fine art of self destruction,1,0.36792,Marah,Angels of Destruction!
+The Besnard Lakes,The Besnard Lakes Are The Roaring Night,the besnard lakes::the besnard lakes are the roaring night,1,0.367386,Clinic,Bubblegum
+Billy Idol,Greatest Hits,billy idol::greatest hits,1,0.366087,The Cure,Bestival Live 2011
+Dan Michaelson and The Coastguards,Distance,dan michaelson and the coastguards::distance,1,0.365852,Meursault,All Creatures Will Make Merry
+Plaid,Heaven's Door: The Soundtrack,plaid::heaven's door: the soundtrack,1,0.365046,Leila,U&I
+BMX Bandits,My Chain,bmx bandits::my chain,1,0.362631,Mull Historical Society,Us
+Hot Hot Heat,Elevator,hot hot heat::elevator,1,0.361842,Cold War Kids,Loyalty to Loyalty
+Riki,Riki,riki::riki,1,0.361196,Cold Cave,Love Comes Close
+Nouvelle Vague,Nouvelle Vague,nouvelle vague::nouvelle vague,1,0.359486,Cibelle,Las Venus Resort Palace Hotel
+Arctic Monkeys,Crying Lightning,arctic monkeys::crying lightning,1,0.359254,The Last Shadow Puppets,The Age of the Understatement
+Run the Jewels,Run the Jewels,run the jewels::run the jewels,1,0.357733,Killer Mike,R.A.P. Music
+Desmond Dekker,The Definitive Collection: You Can Get It If You Really Want,desmond dekker::the definitive collection: you can get it if you really want,1,0.35465,Jimmy Cliff,Rebirth
+Mates of State,Re-Arrange Us,mates of state::re-arrange us,1,0.354299,The Polyphonic Spree,The Fragile Army
+Dr. Dre,Compton (A Soundtrack by Dr. Dre),dr. dre::compton (a soundtrack by dr. dre),1,0.353756,Eminem,Kamikaze
+Mel Tormé,An Evening With,mel torme::an evening with,1,0.353616,Jamie Cullum,Pointless Nostalgic
+Ralph Myerz,Outrun,ralph myerz::outrun,1,0.351251,diskJokke,Staying In
+Trampled by Turtles,Songs From a Ghost Town,trampled by turtles::songs from a ghost town,1,0.350757,The Felice Brothers,The Felice Brothers
+Paul McCartney & Wings,All the Best!,paul mccartney & wings::all the best!,1,0.349754,The Beatles,Let It Be… Naked
+Jeff Lynne,Armchair Theatre,jeff lynne::armchair theatre,1,0.348929,Electric Light Orchestra,Out of the Blue
+Crippled Black Phoenix,Extra Tracks,crippled black phoenix::extra tracks,1,0.347905,Friends of Dean Martinez,Lost Horizon
+Mirah,(a)spera,mirah::(a)spera,1,0.347091,Azure Ray,Drawing Down the Moon
+Lloyd Banks,The Hunger for More (Deluxe Explicit Version),lloyd banks::the hunger for more (deluxe explicit version),1,0.346453,50 Cent,Before I Self Destruct
+Chris Bathgate,Auld Lang Syne,chris bathgate::auld lang syne,1,0.346288,The Cave Singers,Welcome Joy
+Neil Young & Crazy Horse,1970 Tour Compilation 2,neil young & crazy horse::1970 tour compilation 2,1,0.346137,Neil Young,Sugar Mountain: Live at Canterbury House 1968
+Tu M',Pop Involved,tu m'::pop involved,1,0.343559,Fenn O'Berg,In Stereo
+The Dead 60s,The Dead 60s / Space Invader Dub,the dead 60s::the dead 60s / space invader dub,1,0.342438,Archie Bronson Outfit,Derdang Derdang
+Suede,A New Morning (Remastered),suede::a new morning (remastered),1,0.342176,The Tears,Here Come The Tears
+Robyn,Body Talk Pt. 1,robyn::body talk pt. 1,1,0.342051,La Roux,La Roux
+Four Tet,New Energy,four tet::new energy,1,0.341917,Young Magic,Melt
+Feeder,Echo Park,feeder::echo park,1,0.341532,Secret Machines,Secret Machines
+The Lawrence Arms,Buttsweat and Tears,the lawrence arms::buttsweat and tears,1,0.341509,Against Me!,New Wave
+ionnalee,NOT HUMAN,ionnalee::not human,1,0.341132,iamamiwhoami,kin
+Mason Jennings,180 South Soundtrack,mason jennings::180 south soundtrack,1,0.339583,Bowerbirds,The Clearing
+Tides From Nebula,Aura,tides from nebula::aura,1,0.339543,Red Sparowes,"The Fear Is Excruciating, but Therein Lies the Answer"
+Brian Fallon,Painkillers,brian fallon::painkillers,1,0.338152,The Gaslight Anthem,Handwritten
+The Orwells,Terrible Human Beings,the orwells::terrible human beings,1,0.338031,FIDLAR,FIDLAR
+Two Banks of Four,Junkyard Gods,two banks of four::junkyard gods,1,0.337804,Earl Zinger,Put Your Phazers on Stun Throw Your Health Food Skyward
+The Clash,Sandinista!,the clash::sandinista!,1,0.337248,Gang of Four,Content
+Omarion,21,omarion::21,1,0.336655,Usher,Confessions
+The Bluetones,Luxembourg,the bluetones::luxembourg,1,0.335752,Brakes,Touchdown
+Marbert Rocel,Catch A Bird,marbert rocel::catch a bird,1,0.334724,Booka Shade,More!
+Jens Lekman,CHAPTER 07 - We Were Here,jens lekman::chapter 07 - we were here,1,0.334205,Loney Dear,Hall Music
+Atmosphere,You Can't Imagine How Much Fun We're Having,atmosphere::you can't imagine how much fun we're having,1,0.333982,Brother Ali,Us
+Yael Naim,Yael Naim,yael naim::yael naim,1,0.333953,Lenka,Lenka
+Sugababes,Three,sugababes::three,1,0.333655,Girls Aloud,Ten
+Nathaniel Rateliff,And It's Still Alright,nathaniel rateliff::and it's still alright,1,0.332709,The Avett Brothers,The Carpenter
+Blur,Parklife,blur::parklife,1,0.331824,Oasis,(What's the Story) Morning Glory?
+Carly Simon,Reflections: Carly Simon's Greatest Hits,carly simon::reflections: carly simon's greatest hits,1,0.330672,Carole King,Tapestry
+Flyying Colours,EPX2,flyying colours::epx2,1,0.330063,Crocodiles,Sleep Forever
+Thurston Moore,Trees Outside The Academy,thurston moore::trees outside the academy,1,0.329897,Chelsea Light Moving,Chelsea Light Moving
+Frank Black,Frank Black,frank black::frank black,1,0.329713,Black Francis,Bluefinger
+Idlewild,Captain,idlewild::captain,1,0.32822,Edwyn Collins,Understated
+Josh Ritter,So Runs the World Away,josh ritter::so runs the world away,1,0.328207,Willy Mason,If the Ocean Gets Rough
+Brody Dalle,Diploid Love,brody dalle::diploid love,1,0.327207,Spinnerette,Spinnerette
+Via Audio,saysomethingsaysomethingsaysomething,via audio::saysomethingsaysomethingsaysomething,1,0.326666,Call and Response,Call and Response
+"Crosby, Stills, Nash & Young",Greatest Hits,"crosby, stills, nash & young::greatest hits",1,0.326611,The Band,The Band
+Slum Village,"Fantastic, Vol. 2","slum village::fantastic, vol. 2",1,0.326549,Illa J,Yancey Boys
+Gescom,Keynell Remixes,gescom::keynell remixes,1,0.326491,The Black Dog,Book of Dogma
+Electronic,Raise The Pressure,electronic::raise the pressure,1,0.326169,New Order,Waiting for the Sirens' Call
+Plaid,Double Figure,plaid::double figure,1,0.326061,LFO,Sheath
+Just Jack,Overtones,just jack::overtones,1,0.325377,Audio Bullys,Generation
+Capone-N-Noreaga,The War Report,capone-n-noreaga::the war report,1,0.325108,Mobb Deep,Blood Money
+Death in Vegas,Satan's Circus,death in vegas::satan's circus,1,0.323463,Coldcut,Sound Mirrors
+Come On,New York City 1976-80,come on::new york city 1976-80,1,0.322025,The Method Actors,This Is Still It
+Grooms,Comb The Feelings Through Your Hair,grooms::comb the feelings through your hair,1,0.321305,Cold Pumas,Persistent Malaise
+Rachel Unthank & The Winterset,Cruel Sister,rachel unthank & the winterset::cruel sister,1,0.32078,The Unthanks,Last
+Mary Gauthier,Drag Queens in Limousines,mary gauthier::drag queens in limousines,1,0.320335,Tift Merritt,Another Country
+Brian Eno,Small Craft on a Milk Sea,brian eno::small craft on a milk sea,1,0.319034,Arp,In Light
+Vijay Iyer Trio,Break Stuff,vijay iyer trio::break stuff,1,0.317995,Vijay Iyer,Solo
+Sebadoh,The Freed Man,sebadoh::the freed man,1,0.317369,Times New Viking,Born Again Revisited
+Ariel Pink,A Decade Deeper,ariel pink::a decade deeper,1,0.316527,Peaking Lights,Lucifer in Dub
+Creative Adult,Dead Air,creative adult::dead air,1,0.315044,Double Dagger,More
+Grandaddy,Excerpts From The Diary Of Todd Zilla,grandaddy::excerpts from the diary of todd zilla,1,0.314454,Hockey,Mind Chaos
+Aesop Rock,Black Hole Superette [Clean] [Clean],aesop rock::black hole superette [clean] [clean],1,0.31429,Cadence Weapon,Hope in Dirt City
+Super Furry Animals,Love Kraft,super furry animals::love kraft,1,0.313898,Ian Brown,The Greatest
+Brand New,Your Favorite Weapon,brand new::your favorite weapon,1,0.313006,Taking Back Sunday,Tell All Your Friends
+Any Color Black,Sex & Love,any color black::sex & love,1,0.31209,Kid Sister,Ultraviolet
+The Nomads,Showdown! (1981-1993),the nomads::showdown! (1981-1993),1,0.311912,The Detroit Cobras,Baby
+Depeche Mode,The Singles 86>98,depeche mode::the singles 86>98,1,0.311334,The Cure,Disintegration
+The Vaccines,Melody Calling,the vaccines::melody calling,1,0.311091,Mystery Jets,Serotonin
+Marine Research,Sounds From the Gulf Stream,marine research::sounds from the gulf stream,1,0.310954,Tender Trap,Dansette Dansette
+Drexciya,DJ-Kicks (Mixed),drexciya::dj-kicks (mixed),1,0.310809,The Other People Place,Lifestyles of the Laptop Café
+Mano Negra,Best Of,mano negra::best of,1,0.310542,Manu Chao,La Radiolina
+The Bangles,Greatest Hits,the bangles::greatest hits,1,0.309953,Peter Gabriel,Scratch My Back
+Parker Millsap,The Very Last Day,parker millsap::the very last day,1,0.309913,Dylan LeBlanc,Paupers Field
+A Camp,A Camp,a camp::a camp,1,0.307456,The Cardigans,Super Extra Gravity
+The Dark Romantics,Heartbreaker,the dark romantics::heartbreaker,1,0.307281,Devastations,"Yes, U"
+Kristin Hersh,"Murder, Misery And Then Goodnight","kristin hersh::murder, misery and then goodnight",1,0.306238,Beth Orton,Sugaring Season
+Cave Painting,Votive Life,cave painting::votive life,1,0.304046,Egyptian Hip Hop,Good Don't Sleep
+Mobb Deep,Reminisce Hip Hop Classics,mobb deep::reminisce hip hop classics,1,0.30342,Nas,Illmatic
+SAP,Lard Baby,sap::lard baby,1,0.303289,Nirvana,Incesticide
+Mark Owen,In Your Own Time,mark owen::in your own time,1,0.303036,Take That,Progress
+The Network,Money Money 2020,the network::money money 2020,1,0.302079,Green Day,¡Dos!
+Bola,Shapes,bola::shapes,1,0.301026,Lukid,Lonely at the Top
+The Vines,Highly Evolved,the vines::highly evolved,1,0.300636,The Hives,The Black and White Album
+Donald Fagen,The Nightfly,donald fagen::the nightfly,1,0.3006,Steely Dan,Aja
+Busy P,Procrastinator (Hey Today! Remix),busy p::procrastinator (hey today! remix),1,0.300385,Simian Mobile Disco,Attack Decay Sustain Release
+The Kills,Future Starts Slow - Single,the kills::future starts slow - single,1,0.300113,Yeah Yeah Yeahs,Show Your Bones
+Interpol,Marauder,interpol::marauder,1,0.299445,The Horrors,Primary Colours
+His Name Is Alive,Last Night,his name is alive::last night,1,0.297896,Lisa Germano,Magic Neighbor
+The Babies,The Babies,the babies::the babies,1,0.296836,Harlem,Hippies
+Dead Meadow,Old Growth,dead meadow::old growth,1,0.296659,Black Mountain,Wilderness Heart
+Ceo,Come With Me,ceo::come with me,1,0.29636,El Perro del Mar,Pale Fire
+Sam Smith,Too Good at Goodbyes,sam smith::too good at goodbyes,1,0.296326,Adele,25
+Ryan Adams & The Cardinals,Cold Roses,ryan adams & the cardinals::cold roses,1,0.29629,Ryan Adams,Easy Tiger
+Amason,Sky City,amason::sky city,1,0.29596,Loney Dear,Dear John
+Sleater-Kinney,One Beat,sleater-kinney::one beat,1,0.295238,Wild Flag,Wild Flag
+Stereolab,Margerine Eclipse,stereolab::margerine eclipse,1,0.294965,Imitation Electric Piano,Trinity Neon
+METZ,METZ - Negative Space,metz::metz - negative space,1,0.294557,Erase Errata,At Crystal Palace
+David Gray,Johnny Boy Would Love this…a Tribute to John Martyn,david gray::johnny boy would love this...a tribute to john martyn,1,0.292941,Turin Brakes,Outbursts
+Meiko,Meiko,meiko::meiko,1,0.291737,Jaymay,Autumn Fallin'
+Lenny Kravitz,Greatest Hits,lenny kravitz::greatest hits,1,0.291198,U2,How to Dismantle an Atomic Bomb
+Jeff Tweedy,"Roadcase 104 / June 30, 2024 / North Adams, MA","jeff tweedy::roadcase 104 / june 30, 2024 / north adams, ma",1,0.290866,Wilco,A Ghost Is Born
+The Marcia Blaine School For Girls,Halfway Into The Woods,the marcia blaine school for girls::halfway into the woods,1,0.290537,Mileece,Formations
+Scott Matthews,Elsewhere,scott matthews::elsewhere,1,0.290045,Eugene McGuinness,Eugene McGuinness
+Ramadanman,Each Time,ramadanman::each time,1,0.289533,Ikonika,"Contact, Love, Want, Have"
+The 1975,Being Funny in a Foreign Language,the 1975::being funny in a foreign language,1,0.289252,Cigarettes After Sex,Cigarettes After Sex
+Amiina,Puzzle,amiina::puzzle,1,0.288399,Efterklang,Piramida
+Boys Noize,Oi Oi Oi,boys noize::oi oi oi,1,0.287923,Muscles,Guns Babes Lemonade
+Stephen Malkmus,Jo Jo's Jacket,stephen malkmus::jo jo's jacket,1,0.287918,Stephen Malkmus and the Jicks,Mirror Traffic
+Deerhunter,Rainwater Cassette Exchange,deerhunter::rainwater cassette exchange,1,0.287897,Atlas Sound,Parallax
+Blur,Blur (Japan Mini LP SHM-CD Bonus Track Limited Edition),blur::blur (japan mini lp shm-cd bonus track limited edition),1,0.287456,Graham Coxon,Happiness in Magazines
+Eprom,Humanoid EP,eprom::humanoid ep,1,0.286273,Starkey,Orbits
+Tunng,...And Then We Saw Land,tunng::...and then we saw land,1,0.285008,Clue to Kalo,Come Here When You Sleepwalk
+Dolly Parton,"My Favorite Songwriter, Porter Wagoner","dolly parton::my favorite songwriter, porter wagoner",1,0.284938,Glen Campbell,Ghost on the Canvas
+Tank 86,Rise,tank 86::rise,1,0.284847,Saviours,Accelerated Living
+The Doobie Brothers,Greatest Hits,the doobie brothers::greatest hits,1,0.284174,Steely Dan,Can't Buy a Thrill
+Chicago Underground Quartet,Chicago Underground Quartet,chicago underground quartet::chicago underground quartet,1,0.284139,Chicago Underground Trio,Slon
+Jack White,Lazaretto,jack white::lazaretto,1,0.283194,The Raconteurs,Consolers of the Lonely
+William Fitzsimmons,Gold in the Shadow,william fitzsimmons::gold in the shadow,1,0.282713,Damien Jurado,Saint Bartlett
+Nada Surf,The Weight Is a Gift,nada surf::the weight is a gift,1,0.281442,Gomez,Split the Difference
+Sŵnami,Du a Gwyn,swnami::du a gwyn,1,0.280609,Cerys Matthews,Cockahoop
+Ben Folds Five,Ben Folds Five,ben folds five::ben folds five,1,0.280413,Ben Folds,Way to Normal
+Conor Oberst and the Mystic Valley Band,One of My Kind,conor oberst and the mystic valley band::one of my kind,1,0.280349,Monsters of Folk,Monsters of Folk
+Spirit of the Beehive,"ENTERTAINMENT, DEATH","spirit of the beehive::entertainment, death",1,0.279597,Atlas Sound,Logos
+Poino,Moan Loose,poino::moan loose,1,0.278936,Giddy Motors,Make It Pop
+Julia Jacklin,Crushing,julia jacklin::crushing,1,0.278289,Sharon Van Etten,Epic
+Beach Fossils,Clash the Truth,beach fossils::clash the truth,1,0.277329,Real Estate,Days
+Addison Rae,Addison [Explicit],addison rae::addison [explicit],1,0.277011,Charli xcx,Brat and it's completely different but also still brat
+The Last Shadow Puppets,Everything You've Come to Expect,the last shadow puppets::everything you've come to expect,1,0.276408,Arctic Monkeys,Humbug
+Audioslave,Out of Exile,audioslave::out of exile,1,0.275605,Foo Fighters,Greatest Hits
+A Dream Too Late,Intermission To The Moon,a dream too late::intermission to the moon,1,0.275237,Wave Machines,Wave If You're Really There
+"Bobby ""Blue"" Bland",Two Steps From the Blues,"bobby ""blue"" bland::two steps from the blues",1,0.274282,Bettye LaVette,The Scene of the Crime
+Koushik,Be With,koushik::be with,1,0.27421,James Pants,James Pants
+Jurassic 5,Power In Numbers (Explicit Version),jurassic 5::power in numbers (explicit version),1,0.272262,Pharoahe Monch,Desire
+Robyn Hitchcock and The Egyptians,Respect,robyn hitchcock and the egyptians::respect,1,0.271392,Robyn Hitchcock,Spooked
+Midnight Oil,Diesel and Dust,midnight oil::diesel and dust,1,0.270048,R.E.M.,Live
+Harmonia,Musik von Harmonia,harmonia::musik von harmonia,1,0.268958,Neu!,Neu!
+Suede,Dog Man Star,suede::dog man star,1,0.268892,Manic Street Preachers,Journal for Plague Lovers
+Paul McCartney,Wingspan - Paul McCartney Hits And History,paul mccartney::wingspan - paul mccartney hits and history,1,0.268029,The Beatles,Love
+Lamb of God,VII: Sturm Und Drang (Deluxe Version),lamb of god::vii: sturm und drang (deluxe version),1,0.267374,Machine Head,Unto the Locust
+Neil Young & Crazy Horse,Broken Arrow,neil young & crazy horse::broken arrow,1,0.263559,Neil Young,Chrome Dreams II
+Chris Cornell,Carry On,chris cornell::carry on,1,0.262228,Soundgarden,King Animal
+iamamiwhoami,bounty,iamamiwhoami::bounty,1,0.262007,Planningtorock,W
+Red Light Company,Fine Fascination,red light company::fine fascination,1,0.261536,The Shortwave Set,Replica Sun Machine
+Bleached,Carter,bleached::carter,1,0.261141,Best Coast,The Only Place
+Norken,Soul Static Bureau,norken::soul static bureau,1,0.260797,Pulseprogramming,Tulsa for One Second
+Ty,Extra Yard The Bouncement Revolution,ty::extra yard the bouncement revolution,1,0.26079,Roots Manuva,Slime & Reason
+MC5,The Big Bang: The Best of the MC5,mc5::the big bang: the best of the mc5,1,0.260682,The Stooges,The Weirdness
+Limp Bizkit,Chocolate Starfish and the Hot Dog Flavored Water,limp bizkit::chocolate starfish and the hot dog flavored water,1,0.260105,Linkin Park,Meteora
+Megadeth,Rust In Peace,megadeth::rust in peace,1,0.259835,Metallica,Master of Puppets
+Museum of Bellas Artes,Who do you love,museum of bellas artes::who do you love,1,0.259321,Rainbow Arabia,Boys and Diamonds
+Heather Nova,South,heather nova::south,1,0.259316,Tracey Thorn,Love and Its Opposite
+The Residents,Meet The Residents / Not Available,the residents::meet the residents / not available,1,0.257917,OOIOO,Kila Kila Kila
+Chris Cornell,Euphoria Morning,chris cornell::euphoria morning,1,0.255796,Audioslave,Audioslave
+Hail Mary Mallon,Bestiary (Bonus Track Version),hail mary mallon::bestiary (bonus track version),1,0.255531,Aesop Rock,Skelethon
+Pete Seeger,American Industrial Ballads,pete seeger::american industrial ballads,1,0.255392,Woody Guthrie,My Dusty Road
+Sleep,The Sciences,sleep::the sciences,1,0.255053,Om,God Is Good
+Bombino,Deran,bombino::deran,1,0.253646,Tinariwen,Aman Iman: Water Is Life
+Pete Seeger,"Hit Wonder: Pete Seeger, Vol. 3","pete seeger::hit wonder: pete seeger, vol. 3",1,0.253498,Michael Hurley,Ancestral Swamp
+Kevin Ayers,Falling Up,kevin ayers::falling up,1,0.252842,Bobby Conn,The Golden Age
+Hail Mary Mallon,Are You Gonna Eat That? [Clean Version],hail mary mallon::are you gonna eat that? [clean version],1,0.25273,Aesop Rock,None Shall Pass
+Plaid,Greedy Baby,plaid::greedy baby,1,0.252671,The Orb,Bicycles & Tricycles
+Divine Fits,Ain't That The Way / Chained To Love,divine fits::ain't that the way / chained to love,1,0.252629,Spoon,Transference
+Screaming Trees,Sweet Oblivion,screaming trees::sweet oblivion,1,0.252229,Pearl Jam,Riot Act
+Ne-Yo,Libra Scale,ne-yo::libra scale,1,0.251807,R. Kelly,Untitled
+Suso Saiz,Nothing Is Objective,suso saiz::nothing is objective,1,0.251342,Mountains,Choral
+Richard Thompson,Mock Tudor,richard thompson::mock tudor,1,0.250199,Arbouretum,Song of the Pearl
+Stevie Nicks,Bella Donna,stevie nicks::bella donna,1,0.249556,Fleetwood Mac,Rumours
+Soko,I Thought I Was an Alien,soko::i thought i was an alien,1,0.249356,The Dø,Both Ways Open Jaws
+Ganglians,Still Living,ganglians::still living,1,0.248974,Spectrals,Bad Penny
+The Human League,The Very Best of The Human League,the human league::the very best of the human league,1,0.247964,Heaven 17,Penthouse and Pavement
+OFWGKTA,The OF Tape Vol. 2,ofwgkta::the of tape vol. 2,1,0.247276,"Tyler, The Creator",Goblin
+Johnny Foreigner,Johnny Foreigner vs Everything,johnny foreigner::johnny foreigner vs everything,1,0.246741,Los Campesinos!,Hello Sadness
+George Harrison,All Things Must Pass (Remastered),george harrison::all things must pass (remastered),1,0.24666,The Beatles,Abbey Road
+The Enemy,Streets in the Sky,the enemy::streets in the sky,1,0.246374,Tribes,Baby
+Shearwater,Animal Joy,shearwater::animal joy,1,0.245976,Guillemots,Walk the River
+Juliana Hatfield,Only Everything,juliana hatfield::only everything,1,0.245846,Belly,Star
+Pixies,Surfer Rosa,pixies::surfer rosa,1,0.245044,Radiohead,OK Computer
+Föllakzoid,II,follakzoid::ii,1,0.244672,Goat,World Music
+Brainiac,Bonsai Superstar,brainiac::bonsai superstar,1,0.244475,Mission of Burma,The Sound the Speed the Light
+The Band,Jubilation,the band::jubilation,1,0.243954,Neil Young,Le Noise
+Flunk,Music From The O.C. Mix 4,flunk::music from the o.c. mix 4,1,0.242755,Zero 7,Yeah Ghost
+Littl'ans,Primitive World,littl'ans::primitive world,1,0.242224,Prinzhorn Dance School,Prinzhorn Dance School
+Raider Klan,58 Blunts of Purrp,raider klan::58 blunts of purrp,1,0.242177,SpaceGhostPurrp,Mysterious Phonk: The Chronicles of SpaceGhostPurrp
+Captain Beefheart & His Magic Band,Safe As Milk,captain beefheart & his magic band::safe as milk,1,0.241848,David Lynch,Crazy Clown Time
+Chevelle,Wonder What's Next,chevelle::wonder what's next,1,0.241563,Deftones,White Pony
+Westside Connection,Terrorist Threats,westside connection::terrorist threats,1,0.24145,Ice Cube,"Laugh Now, Cry Later"
+Unwound,Fake Train,unwound::fake train,1,0.241126,Drive Like Jehu,Yank Crime
+Tin Hat,the rain is a handsome animal,tin hat::the rain is a handsome animal,1,0.240575,Tin Hat Trio,Book of Silk
+The Gaslamp Killer,The Gaslamp Killer Experience: Live in Los Angeles,the gaslamp killer::the gaslamp killer experience: live in los angeles,1,0.238868,Gonjasufi,MU.ZZ.LE
+Brambles,Charcoal,brambles::charcoal,1,0.23875,A Winged Victory for the Sullen,A Winged Victory for the Sullen
+Anna von Hausswolff,The Mysterious Vanishing of Electra,anna von hausswolff::the mysterious vanishing of electra,1,0.23826,Tom Waits,Bad as Me
+Lou Reed,The Raven,lou reed::the raven,1,0.238053,John Cale,HoboSapiens
+The Smiths,"Strangeways, Here We Come","the smiths::strangeways, here we come",1,0.237825,Morrissey,Greatest Hits
+Duvchi,Turtleduvs,duvchi::turtleduvs,1,0.236845,Lake Heartbeat,Trust in Numbers
+Fantômas,The Director's Cut,fantomas::the director's cut,1,0.236084,Tomahawk,Tomahawk
+Dawes,North Hills,dawes::north hills,1,0.236036,The Avett Brothers,I and Love and You
+The Little Willies,For The Good Times,the little willies::for the good times,1,0.234892,Shelby Lynne,Just a Little Lovin'
+Rockwell,Somebody's Watching Me,rockwell::somebody's watching me,1,0.234368,Michael Jackson,The Essential Michael Jackson
+Pearl Jam,Vitalogy,pearl jam::vitalogy,1,0.234272,Mudhoney,Vanishing Point
+The Raincoats,The Raincoats,the raincoats::the raincoats,1,0.234133,The Slits,Cut
+Lucinda Williams,Dark Side of Life: Loose Ends & Scattered Songs,lucinda williams::dark side of life: loose ends & scattered songs,1,0.233964,The Handsome Family,Honey Moon
+Burning Airlines,Mission: Control!,burning airlines::mission: control!,1,0.233452,Jawbox,For Your Own Special Sweetheart
+Hermitude,Flume: Deluxe Edition (Spotify Exclusive),hermitude::flume: deluxe edition (spotify exclusive),1,0.233434,Flume,Flume
+Coil,Scatology,coil::scatology,1,0.232484,Einstürzende Neubauten,Kalte Sterne: Early Recordings
+Yes,Close to the Edge,yes::close to the edge,1,0.231616,King Crimson,Red
+Heatmiser,Mic City Sons,heatmiser::mic city sons,1,0.231214,Elliott Smith,New Moon
+A Tribe Called Quest,The Low End Theory,a tribe called quest::the low end theory,1,0.230528,De La Soul,3 Feet High and Rising
+Miles Davis Quintet,Workin' (RVG Remaster),miles davis quintet::workin' (rvg remaster),1,0.228169,Miles Davis,The Complete Jack Johnson Sessions
+OCS,OCS 3+4 (Songs About Death and Dying Vol. 3 /Get Stoved),ocs::ocs 3+4 (songs about death and dying vol. 3 /get stoved),1,0.226885,Sunburned Hand of the Man,Fire Escape
+Tom Petty,Greatest Hits,tom petty::greatest hits,1,0.226323,Bruce Springsteen,Born in the U.S.A.
+Camille,Ilo Veyou,camille::ilo veyou,1,0.226209,Keren Ann,Keren Ann
+Overmono,fabric presents Overmono,overmono::fabric presents overmono,1,0.225452,Martyn,Ghost People
+Rosetta,Wake/Lift,rosetta::wake/lift,1,0.224666,Cult of Luna,Vertikal
+Kendrick Lamar,"good kid, m.A.A.d city [Clean] [Clean]","kendrick lamar::good kid, m.a.a.d city [clean] [clean]",1,0.224353,Kanye West,My Beautiful Dark Twisted Fantasy
+Cults,Static,cults::static,1,0.224309,Dum Dum Girls,I Will Be
+Mudhoney,Superfuzz Bigmuff plus Early Singles,mudhoney::superfuzz bigmuff plus early singles,1,0.22399,Nirvana,Bleach
+Laura Marling,Alas I Cannot Swim,laura marling::alas i cannot swim,1,0.223793,Slow Club,Yeah So
+Mazzy Star,Still,mazzy star::still,1,0.223755,Hope Sandoval & the Warm Inventions,Through the Devil Softly
+The Amps,Pacer,the amps::pacer,1,0.223503,The Breeders,Title TK
+Mylo,Destroy Rock & Roll,mylo::destroy rock & roll,1,0.223369,Groove Armada,Soundboy Rock
+Godspeed You! Black Emperor,Allelujah! Don't Bend! Ascend!,godspeed you! black emperor::allelujah! don't bend! ascend!,1,0.221569,Swans,The Seer
+Soccer Mommy,color theory,soccer mommy::color theory,1,0.220992,Snail Mail,Lush
+Me'Shell Ndegéocello,Comfort Woman,me'shell ndegeocello::comfort woman,1,0.220978,Prince,Musicology
+And So I Watch You From Afar,All Hail Bright Futures (Bonus Track Version),and so i watch you from afar::all hail bright futures (bonus track version),1,0.220484,Fang Island,Major
+"Does It Offend You, Yeah?",Don't Say We Didn't Warn You,"does it offend you, yeah?::don't say we didn't warn you",1,0.219924,Kele,The Boxer
+The Velvet Underground,Loaded,the velvet underground::loaded,1,0.219703,Lou Reed,Transformer
+The Rapture,Pieces Of The People We Love,the rapture::pieces of the people we love,1,0.219018,!!!,Myth Takes
+The Sword,Gods of the Earth,the sword::gods of the earth,1,0.218491,High on Fire,De Vermis Mysteriis
+Robert Pollard,Waved Out,robert pollard::waved out,1,0.217979,Guided by Voices,Let's Go Eat the Factory
+The Rolling Stones,Some Girls,the rolling stones::some girls,1,0.217725,David Bowie,Young Americans
+Saxon,Crusader,saxon::crusader,1,0.216884,Judas Priest,British Steel
+Van Morrison,Deuces Wild,van morrison::deuces wild,1,0.21655,Paul Weller,Wake Up the Nation
+Kid Cudi,Música Clave,kid cudi::musica clave,1,0.216463,Mac Miller,Blue Slide Park
+Cynthia Erivo,Stand Up (From Harriet),cynthia erivo::stand up (from harriet),1,0.215322,Jessie J,Who You Are
+Out Hud,Let Us Never Speak of it Again,out hud::let us never speak of it again,1,0.215154,Thieves Like Us,Play Music
+Gruff Rhys,American Interior,gruff rhys::american interior,1,0.214809,Super Furry Animals,Phantom Power
+Marianne Faithfull,Broken English,marianne faithfull::broken english,1,0.214016,Patti Smith,Twelve
+The Vaccines,Bad Mood,the vaccines::bad mood,1,0.213713,Cat's Eyes,Cat's Eyes
+The Game,Purp & Patron,the game::purp & patron,1,0.213541,Rick Ross,Rich Forever
+Cat Power,The Greatest,cat power::the greatest,1,0.213238,The Watson Twins,"Talking to You, Talking to Me"
+Ice-T,Gangsta Rap,ice-t::gangsta rap,1,0.212559,Ice Cube,I Am the West
+Eric Copeland,Joke In The Hole,eric copeland::joke in the hole,1,0.212182,Black Dice,Broken Ear Record
+Bad Religion,How Could Hell Be Any Worse?,bad religion::how could hell be any worse?,1,0.211599,Fucked Up,Couple Tracks
+Jill Scott,"Who Is Jill Scott? - Words and Sounds, Vol. 1","jill scott::who is jill scott? - words and sounds, vol. 1",1,0.210584,Erykah Badu,Mama's Gun
+Razorlight,Golden Touch,razorlight::golden touch,1,0.210162,Snow Patrol,Up to Now
+Bad Books,II,bad books::ii,1,0.209301,Manchester Orchestra,Simple Math
+Sam Isaac,Bears,sam isaac::bears,1,0.207922,Clor,Clor
+Gravenhurst,Flashlight Seasons,gravenhurst::flashlight seasons,1,0.207601,Dirty Three,Toward the Low Sun
+Drums Of Death,Generation Hexed,drums of death::generation hexed,1,0.207554,WE LOVE,We Love
+Elektric Music,Crosstalk,elektric music::crosstalk,1,0.207398,Karl Bartos,Off the Record
+Thirteen Senses,The Invitation,thirteen senses::the invitation,1,0.206778,Travis,The Boy With No Name
+Wildbirds & Peacedrums,The Snake,wildbirds & peacedrums::the snake,1,0.206669,The Amazing,The Amazing
+Apparat,Walls,apparat::walls,1,0.206556,Moderat,Moderat
+Oval,Iso Fabric,oval::iso fabric,1,0.206486,Fennesz,Venice
+The Band,The Best of the Band,the band::the best of the band,1,0.205784,Bob Dylan,Blood on the Tracks
+Pixie Lott,Young Foolish Happy,pixie lott::young foolish happy,1,0.205588,Scissor Sisters,Magic Hour
+Vic Chesnutt,West of Rome,vic chesnutt::west of rome,1,0.205541,Micah P. Hinson,Micah P. Hinson and the Red Empire Orchestra
+Blood Red Shoes,Box of Secrets,blood red shoes::box of secrets,1,0.204147,The Subways,Young for Eternity
+Genesis,The Lamb Lies Down on Broadway,genesis::the lamb lies down on broadway,1,0.204134,Peter Gabriel,So
+The Shoes,Time to Dance,the shoes::time to dance,1,0.203098,Simian Mobile Disco,Temporary Pleasure
+Kylie Minogue,X,kylie minogue::x,1,0.202968,Goldfrapp,Supernature
+Happy Mondays,Pills 'n' Thrills & Bellyaches (Collector's Edition),happy mondays::pills 'n' thrills & bellyaches (collector's edition),1,0.202618,The Fall,Reformation Post TLC
+The War on Drugs,Lost in the Dream,the war on drugs::lost in the dream,1,0.202506,Clap Your Hands Say Yeah,Hysterical
+Slowdive,Souvlaki,slowdive::souvlaki,1,0.201385,My Bloody Valentine,m b v
+The Prodigy,Experience,the prodigy::experience,1,0.201321,The Chemical Brothers,Surrender
+ZAYN & Taylor Swift,Cleaning At Home - Pop Edition [Explicit],zayn & taylor swift::cleaning at home - pop edition [explicit],1,0.200538,Taylor Swift,Red
+Judas Priest,Killing Machine,judas priest::killing machine,1,0.200368,Iron Maiden,Iron Maiden
+Young Jeezy,The Inspiration,young jeezy::the inspiration,1,0.200241,Rick Ross,"God Forgives, I Don't"
+The Pipettes,The Pipettes B Sides Collection,the pipettes::the pipettes b sides collection,1,0.200063,Rose Elinor Dougall,Without Why
+The Replacements,Tim [Expanded Edition],the replacements::tim [expanded edition],1,0.199881,Abe Vigoda,Crush
+Jack White,"2025-04-04: Uptown Theater, Kansas City, MO, USA","jack white::2025-04-04: uptown theater, kansas city, mo, usa",1,0.19929,The Black Keys,Attack & Release
+Everlast,Eat at Whitey's,everlast::eat at whitey's,1,0.199166,Street Sweeper Social Club,Street Sweeper Social Club
+Stevie Wonder,Fulfillingness' First Finale,stevie wonder::fulfillingness' first finale,1,0.19902,Minnie Riperton,Perfect Angel
+Hooverphonic,The Magnificent Tree,hooverphonic::the magnificent tree,1,0.198982,Portishead,Third
+Can,Monster Movie,can::monster movie,1,0.19867,Faust,Faust IV
+Aaron Parks,Invisible Cinema,aaron parks::invisible cinema,1,0.198535,Vijay Iyer Trio,Accelerando
+Sisqó,Unleash The Dragon,sisqo::unleash the dragon,1,0.198313,R. Kelly,Write Me Back
+Hope Sandoval & The Warm Inventions,Bavarian Fruit Bread,hope sandoval & the warm inventions::bavarian fruit bread,1,0.197642,Mazzy Star,So Tonight That I Might See
+My Latest Novel,Wolves,my latest novel::wolves,1,0.197494,Broken Records,Let Me Come Home
+Latto,Sugar Honey Iced Tea,latto::sugar honey iced tea,1,0.197436,Cardi B,Invasion of Privacy
+Surf Rock is Dead,Anymore,surf rock is dead::anymore,1,0.197109,Wild Nothing,Nocturne
+Y La Bamba,Hues (feat. Devendra Banhart) - Single,y la bamba::hues (feat. devendra banhart) - single,1,0.196947,Devendra Banhart,Mala
+Bill Withers,The Essential Bill Withers,bill withers::the essential bill withers,1,0.196905,Al Green,Lay It Down
+Sophie Ellis-Bextor,Trip the Light Fantastic,sophie ellis-bextor::trip the light fantastic,1,0.196737,Little Boots,Hands
+Good Shoes,Think Before You Speak,good shoes::think before you speak,1,0.196503,The Rakes,Ten New Messages
+Lazerhawk,Visitors,lazerhawk::visitors,1,0.196319,Com Truise,Galactic Melt
+The Embassy,Futile Crimes,the embassy::futile crimes,1,0.196287,jj,jj n° 3
+Temple of the Dog,Hunger Strike (25th Anniversary Mix),temple of the dog::hunger strike (25th anniversary mix),1,0.195751,Pearl Jam,Pearl Jam
+Quicksand,Slip,quicksand::slip,1,0.195586,Rival Schools,United by Fate
+Bell X1,Flock,bell x1::flock,1,0.194151,The Thrills,Let's Bottle Bohemia
+Sugar,Besides,sugar::besides,1,0.193312,Bob Mould,District Line
+Handsome Boy Modeling School,So... How's Your Girl?,handsome boy modeling school::so... how's your girl?,1,0.193207,Spank Rock,YoYoYoYoYo
+Midnight Magic,Walking the Midnight Streets,midnight magic::walking the midnight streets,1,0.192379,Hercules and Love Affair,Hercules and Love Affair
+Smith Westerns,Soft Will,smith westerns::soft will,1,0.190657,Small Black,Small Black EP
+Jonathan Rado,Law And Order,jonathan rado::law and order,1,0.19034,Race Horses,Furniture
+The Lumineers,The Lumineers,the lumineers::the lumineers,1,0.190132,Mumford & Sons,Sigh No More
+Black Flag,The First Four Years,black flag::the first four years,1,0.190026,OFF!,First Four EPs
+Elvis Costello & The Attractions,Goodbye Cruel World,elvis costello & the attractions::goodbye cruel world,1,0.189965,Elvis Costello,North
+Green River,Dry As A Bone/Rehab Doll,green river::dry as a bone/rehab doll,1,0.189436,Mudhoney,March to Fuzz
+Electronic,Songs From the Cool World,electronic::songs from the cool world,1,0.187578,Pet Shop Boys,Yes
+Saxon Shore,The Exquisite Death Of Saxon Shore,saxon shore::the exquisite death of saxon shore,1,0.187159,Mogwai,"Hardcore Will Never Die, but You Will"
+Stiff Little Fingers,Inflammable Material,stiff little fingers::inflammable material,1,0.187086,Buzzcocks,Singles Going Steady
+Chic,Tongue In Chic,chic::tongue in chic,1,0.186898,The Phenomenal Handclap Band,The Phenomenal Handclap Band
+China Crisis,Working With Fire And Steel,china crisis::working with fire and steel,1,0.186748,Scritti Politti,Absolute
+Sheila E.,House of Blues,sheila e.::house of blues,1,0.186318,Terence Trent D'Arby,Introducing the Hardline According to Terence Trent D'Arby
+Burn the Priest,Burn the Priest [Explicit],burn the priest::burn the priest [explicit],1,0.18621,Lamb of God,Resolution
+blink-182,Enema of the State,blink-182::enema of the state,1,0.186182,Green Day,Dookie
+The Dead Weather,Live At Third Man Records,the dead weather::live at third man records,1,0.186077,The Kills,Midnight Boom
+Method Man,4:21...The Day After (UK & Japan),method man::4:21...the day after (uk & japan),1,0.18602,Raekwon,Shaolin vs. Wu-Tang
+Roy Harper,Flashes From the Archives of Oblivion,roy harper::flashes from the archives of oblivion,1,0.186017,Bill Fay,Life Is People
+Foo Fighters,Foo Fighters,foo fighters::foo fighters,1,0.185789,Red Hot Chili Peppers,Blood Sugar Sex Magik
+Okkervil River,The Stage Names,okkervil river::the stage names,1,0.185134,Band of Horses,Cease to Begin
+Whitney Houston,The Greatest Hits,whitney houston::the greatest hits,1,0.185006,Anita Baker,Rapture
+Albert Ayler,New Grass,albert ayler::new grass,1,0.184816,Archie Shepp,Attica Blues
+The Duckworth Lewis Method,The Duckworth Lewis Method,the duckworth lewis method::the duckworth lewis method,1,0.184339,The Divine Comedy,Bang Goes the Knighthood
+Dominik Eulberg,Diorama,dominik eulberg::diorama,1,0.184127,VCMG,Ssss
+Shitdisco,Kingdom Of Fear,shitdisco::kingdom of fear,1,0.18332,Late of the Pier,Fantasy Black Channel
+The High Llamas,Snowbug,the high llamas::snowbug,1,0.182777,The Clientele,Minotaur
+Thug Life,Thug Life: Volume 1,thug life::thug life: volume 1,1,0.181708,2Pac,Pac's Life
+The Style Council,Our Favourite Shop,the style council::our favourite shop,1,0.181675,The Jam,Sound Affects
+Fixers,We'll Be the Moon,fixers::we'll be the moon,1,0.181663,Zulu Winter,Language
+The Prodigy,The Fat of the Land,the prodigy::the fat of the land,1,0.181349,The Chemical Brothers,Don't Think
+Richard Ashcroft,Alone With Everybody,richard ashcroft::alone with everybody,1,0.181,The Verve,Forth
+Suede,A New Morning,suede::a new morning,1,0.180893,Brett Anderson,Brett Anderson
+Band of Horses,Why Are You OK,band of horses::why are you ok,1,0.180851,My Morning Jacket,Circuital
+UK,U.K.,uk::u.k.,1,0.180578,King Crimson,The Power to Believe
+Charli xcx,True Romance,charli xcx::true romance,1,0.180558,Grimes,Visions
+Art Bears,Hopes and Fears,art bears::hopes and fears,1,0.180221,Henry Cow,Western Culture
+DIIV,Is the Is Are,diiv::is the is are,1,0.179276,Wild Nothing,Gemini
+Echobelly,On,echobelly::on,1,0.178106,Mansun,Legacy: The Best of Mansun
+Minor Threat,Complete Discography,minor threat::complete discography,1,0.17785,Black Flag,Damaged
+KMFDM,Symbols,kmfdm::symbols,1,0.177679,Nine Inch Nails,Pretty Hate Machine
+Sage Francis,Personal Journals,sage francis::personal journals,1,0.17747,Atmosphere,God Loves Ugly
+Bomfunk MC's,Burnin' Sneakers,bomfunk mc's::burnin' sneakers,1,0.176888,The Prodigy,"Always Outnumbered, Never Outgunned"
+The Bravery,The Ocean (Moon Version),the bravery::the ocean (moon version),1,0.176364,White Rabbits,It's Frightening
+Bat for Lashes,A Wall - EP,bat for lashes::a wall - ep,1,0.176133,Lia Ices,Grown Unknown
+Portishead,Portishead,portishead::portishead,1,0.175752,Massive Attack,Collected
+Knapsack,Day Three of My New Life,knapsack::day three of my new life,1,0.175683,Jawbreaker,Etc.
+New York Dolls,New York Dolls,new york dolls::new york dolls,1,0.175638,T. Rex,The Slider
+Sunset Rubdown,Dragonslayer,sunset rubdown::dragonslayer,1,0.17515,Wolf Parade,Expo 86
+Pond,Man It Feels Like Space Again,pond::man it feels like space again,1,0.174709,Tame Impala,Innerspeaker
+The Airborne Toxic Event,All I Ever Wanted: Live from Walt Disney Concert Hall,the airborne toxic event::all i ever wanted: live from walt disney concert hall,1,0.174683,Athlete,Beyond the Neighbourhood
+Everything But the Girl,Temperamental,everything but the girl::temperamental,1,0.173787,Tracey Thorn,Out of the Woods
+Erlend Øye,Legao,erlend øye::legao,1,0.173229,The Whitest Boy Alive,Dreams
+Fatboy Slim,The Greatest Hits Remixed,fatboy slim::the greatest hits remixed,1,0.172821,Basement Jaxx,Scars
+Loose Ends,Get Sexy - Back To Disco,loose ends::get sexy - back to disco,1,0.172544,Soul II Soul,Club Classics Vol. One
+The Six Parts Seven,Silence Magnifies Sound,the six parts seven::silence magnifies sound,1,0.172076,Friends of Dean Martinez,Random Harvest
+Conan,Monnos,conan::monnos,1,0.17201,YOB,Clearing the Path to Ascend
+James Blake,CMYK EP,james blake::cmyk ep,1,0.171546,Mount Kimbie,Crooks & Lovers
+Rick James,Wonderful,rick james::wonderful,1,0.171401,Teena Marie,Irons in the Fire
+The Future Sound of London,We Have Explosive,the future sound of london::we have explosive,1,0.170993,Orbital,The Altogether
+The Dandy Warhols,Get Off,the dandy warhols::get off,1,0.170806,Idlewild,Make Another World
+Washed Out,Life of Leisure,washed out::life of leisure,1,0.17051,School of Seven Bells,Alpinisms
+Arkells,Michigan Left,arkells::michigan left,1,0.169831,The Stills,Oceans Will Rise
+Hella,The Devil Isn't Red,hella::the devil isn't red,1,0.169409,Zach Hill,Face Tat
+Sinéad O'Connor,Theology,sinead o'connor::theology,1,0.16913,Patti Smith,Trampin'
+This Will Destroy You,Young Mountain,this will destroy you::young mountain,1,0.169047,Mogwai,The Hawk Is Howling
+Blood Orange,Freetown Sound,blood orange::freetown sound,1,0.168911,Solange,True
+Sam Prekop,Who's Your New Professor,sam prekop::who's your new professor,1,0.16833,The Sea and Cake,Runner
+Lisa Loeb,The Way It Really Is,lisa loeb::the way it really is,1,0.167562,The Cardigans,Long Gone Before Daylight
+Gossip,Standing in the Way of Control,gossip::standing in the way of control,1,0.167054,Yeah Yeah Yeahs,Fever to Tell
+Sabrina Carpenter,Short n' Sweet [Clean] [Clean],sabrina carpenter::short n' sweet [clean] [clean],1,0.167015,Taylor Swift,Speak Now
+Explosions in the Sky,The Earth Is Not a Cold Dead Place,explosions in the sky::the earth is not a cold dead place,1,0.167011,Sigur Rós,Inni
+MSTRKRFT,The Looks,mstrkrft::the looks,1,0.166982,Simian Mobile Disco,Unpatterns
+Helium,Ends with And,helium::ends with and,1,0.166642,Throwing Muses,Anthology
+Descendents,Somery,descendents::somery,1,0.165483,Ramones,Leave Home
+Psychic Ills,Mirror Eye,psychic ills::mirror eye,1,0.165475,Wooden Shjips,Dos
+Håkan Hellström,Tequila,hakan hellstrom::tequila,1,0.164828,Jens Lekman,An Argument With Myself
+Velvet Revolver,Contraband,velvet revolver::contraband,1,0.164816,Guns N' Roses,Chinese Democracy
+Pink Floyd,Excavation,pink floyd::excavation,1,0.164397,The Doors,Strange Days
+Hank Williams,The Complete Hank Williams,hank williams::the complete hank williams,1,0.16397,Willie Nelson,Countryman
+Butthole Surfers,Electriclarryland,butthole surfers::electriclarryland,1,0.163593,Ween,The Friends EP
+Edward Sharpe & The Magnetic Zeros,Here,edward sharpe & the magnetic zeros::here,1,0.163523,Alexander,Alexander
+Suede,Hit Me,suede::hit me,1,0.163116,Brett Anderson,Black Rainbows
+The Dillinger Escape Plan,Miss Machine,the dillinger escape plan::miss machine,1,0.162771,Converge,All We Love We Leave Behind
+Shuttle358,Optimal.LP,shuttle358::optimal.lp,1,0.162738,Oval,O
+HEALTH,HEALTH,health::health,1,0.162477,Liars,Sisterworld
+Junior Boys,So This Is Goodbye,junior boys::so this is goodbye,1,0.162205,Cut Copy,In Ghost Colours
+Bonobo,Migration,bonobo::migration,1,0.162177,Air,Le Voyage dans la Lune
+Fluke,Six Wheels On My Wagon,fluke::six wheels on my wagon,1,0.16196,David Holmes,The Holy Pictures
+David Byrne,T Shirt,david byrne::t shirt,1,0.161787,John Cale,Black Acetate
+Broken Records,Weights & Pulleys,broken records::weights & pulleys,1,0.161653,The Phantom Band,Checkmate Savage
+Poolside,MusicfestNW 2013 Sampler,poolside::musicfestnw 2013 sampler,1,0.161543,Chromeo,Business Casual
+Sleep,Volume One,sleep::volume one,1,0.161396,High on Fire,Snakes for the Divine
+Sophie Hunger,1983,sophie hunger::1983,1,0.161154,Joan as Police Woman,To Survive
+Clark,Throttle Furniture,clark::throttle furniture,1,0.161118,Luke Abbott,Holkham Drones
+Slaid Cleaves,Sorrow & Smoke,slaid cleaves::sorrow & smoke,1,0.160972,Josh Ritter,The Historical Conquests of Josh Ritter
+UNKLE,Live At Metro,unkle::live at metro,1,0.16088,Death in Vegas,Scorpio Rising
+Extrawelt,Soopertrack / Zu Fuss,extrawelt::soopertrack / zu fuss,1,0.158355,Booka Shade,Movements
+A Silver Mt. Zion,He Has Left Us Alone But Shafts of Light Sometimes Grace the Corners of Our Rooms,a silver mt. zion::he has left us alone but shafts of light sometimes grace the corners of our rooms,1,0.157884,Set Fire to Flames,Sings Reign Rebuilder
+Kim Deal,Crystal Breath,kim deal::crystal breath,1,0.15778,The Breeders,Mountain Battles
+Nadine Shah,Love Your Dum and Mad,nadine shah::love your dum and mad,1,0.1577,Villagers,{Awayland}
+Passion Pit,Chunk of Change,passion pit::chunk of change,1,0.157196,Discovery,LP
+Tim Finn,Before & After,tim finn::before & after,1,0.156625,Crowded House,Time on Earth
+Allo Darlin',Europe,allo darlin'::europe,1,0.156447,Fanfarlo,Rooms Filled With Light
+Steve Gunn,"Eight Trails, One Path","steve gunn::eight trails, one path",1,0.156017,Laura Gibson,La Grande
+Midnight Juggernauts,Dystopia,midnight juggernauts::dystopia,1,0.156003,Kindness,"World, You Need a Change of Mind"
+Silo,Alloy,silo::alloy,1,0.155797,Radian,Chimeric
+Injury Reserve,Floss,injury reserve::floss,1,0.155513,Danny Brown,XXX
+Tuxedomoon,Desire / No Tears,tuxedomoon::desire / no tears,1,0.155392,John Maus,We Must Become the Pitiless Censors of Ourselves
+Joep Beving,Ab Ovo,joep beving::ab ovo,1,0.155204,Max Richter,Memoryhouse
+Daniel Caesar,Call On Me,daniel caesar::call on me,1,0.155095,Frank Ocean,channel ORANGE
+Lootpack,Soundpieces: Da Antidote,lootpack::soundpieces: da antidote,1,0.154907,Quasimoto,The Unseen
+Bauhaus,Mask,bauhaus::mask,1,0.154817,Siouxsie and the Banshees,Kaleidoscope
+Reatards,Teenage Hate / Fuck Elvis Here's the Reatards,reatards::teenage hate / fuck elvis here's the reatards,1,0.15425,Jay Reatard,Matador Singles '08
+Tim Hecker,Shards,tim hecker::shards,1,0.154249,Ben Frost,By the Throat
+The Long Winters,Putting the Days to Bed,the long winters::putting the days to bed,1,0.154189,Spoon,Kill the Moonlight
+Tor,Eleuthera - EP,tor::eleuthera - ep,1,0.153976,Bonobo,The North Borders
+Tori Amos,Night of Hunters,tori amos::night of hunters,1,0.153968,Rufus Wainwright,All Days Are Nights: Songs for Lulu
+Copy Haho,Bred For Skills & Magic,copy haho::bred for skills & magic,1,0.153936,Sky Larkin,Kaleide
+The Dandy Warhols,Have a Kick Ass Summer (Me and My Friends),the dandy warhols::have a kick ass summer (me and my friends),1,0.153872,Badly Drawn Boy,Have You Fed the Fish?
+Pernice Brothers,The World Won't End,pernice brothers::the world won't end,1,0.153633,Teenage Fanclub,Shadows
+Cream,Disraeli Gears,cream::disraeli gears,1,0.15319,The Doors,The Doors
+Madonna,Bedtime Stories,madonna::bedtime stories,1,0.153141,Björk,Vespertine
+The Feelies,Here Before,the feelies::here before,1,0.15295,Wire,"The Black Session: Paris, 10 May 2011"
+Ulrich Schnauss & Mark Peters,tomorrow is another day,ulrich schnauss & mark peters::tomorrow is another day,1,0.152551,Ulrich Schnauss,Far Away Trains Passing By
+Bad Suns,Language & Perspective,bad suns::language & perspective,1,0.152523,Young the Giant,Young the Giant
+Santigold,Santigold,santigold::santigold,1,0.152085,M.I.A.,Matangi
+Desert Sessions,11 & 12,desert sessions::11 & 12,1,0.151614,Eagles of Death Metal,Heart On
+Karkwa,Le volume du vent,karkwa::le volume du vent,1,0.151196,Malajube,Labyrinthes
+Manic Street Preachers,Generation Terrorists (Legacy Edition) [Remastered],manic street preachers::generation terrorists (legacy edition) [remastered],1,0.151136,Suede,Bloodsports
+The Breeders,Last Splash,the breeders::last splash,1,0.151039,Pixies,Doolittle
+Ben Kweller,Ben Kweller,ben kweller::ben kweller,1,0.150886,Badly Drawn Boy,Born in the U.K.
+moi Caprice,The Art Of Kissing Properly,moi caprice::the art of kissing properly,1,0.150845,The Kissaway Trail,Sleep Mountain
+Samiyam,"Rap Beats, Volume 1","samiyam::rap beats, volume 1",1,0.150652,Flying Lotus,Until the Quiet Comes
+Andy Gibb,Mythology,andy gibb::mythology,1,0.150567,Bee Gees,Odessa
+Snow Patrol,Songs for Polarbears,snow patrol::songs for polarbears,1,0.149535,The Music,Welcome to the North
+Rilo Kiley,More Adventurous,rilo kiley::more adventurous,1,0.149397,Jenny Lewis,Acid Tongue
+Death Angel,The Evil Divide,death angel::the evil divide,1,0.149226,Slayer,World Painted Blood
+Bonnie 'Prince' Billy,Chijimi,bonnie 'prince' billy::chijimi,1,0.149219,Alasdair Roberts,Spoils
+Ali Farka Touré,Ali & Toumani,ali farka toure::ali & toumani,1,0.148621,Toumani Diabaté,The Mandé Variations
+Mastodon,Cold Dark Place,mastodon::cold dark place,1,0.14802,Baroness,Yellow & Green
+Muse,Drones,muse::drones,1,0.147917,Royal Blood,Royal Blood
+Godspeed You! Black Emperor,Slow Riot for New Zero Kanada,godspeed you! black emperor::slow riot for new zero kanada,1,0.147615,Mogwai,Special Moves
+Elton John,Elton In 2003 The Official DVD,elton john::elton in 2003 the official dvd,1,0.147439,Neil Diamond,12 Songs
+Mood Rings,VPI Harmony,mood rings::vpi harmony,1,0.147356,Still Corners,Creatures of an Hour
+The Roots,100 Tubes Hip Hop 2013,the roots::100 tubes hip hop 2013,1,0.147184,Big Boi,Vicious Lies and Dangerous Rumors
+Massive Attack,No Protection,massive attack::no protection,1,0.147073,Tricky,Mixed Race
+The Cooper Temple Clause,Make This Your Own,the cooper temple clause::make this your own,1,0.146411,The Music,The Music
+Small Black,Cheap Dreams,small black::cheap dreams,1,0.146325,Memoryhouse,The Years EP
+Pixies,Indie Cindy,pixies::indie cindy,1,0.146192,EELS,Hombre Lobo: 12 Songs of Desire
+Miles Benjamin Anthony Robinson,Miles Benjamin Anthony Robinson,miles benjamin anthony robinson::miles benjamin anthony robinson,1,0.146176,A Hawk and a Hacksaw,Délivrance
+The Highwaymen,Highwayman La Légende Country,the highwaymen::highwayman la legende country,1,0.146043,Johnny Cash,American V: A Hundred Highways
+Silver Apples,Silver Apples,silver apples::silver apples,1,0.145983,White Noise,An Electric Storm
+Panama,Always EP (Deluxe Edition),panama::always ep (deluxe edition),1,0.145469,Miike Snow,Happy to You
+Terrorvision,Shaving Peaches,terrorvision::shaving peaches,1,0.145446,Gomez,A New Tide
+Grandaddy,Concrete Dunes,grandaddy::concrete dunes,1,0.14499,Jason Lytle,Dept. of Disappearance
+The Matthew Herbert Big Band,Goodbye Swingtime,the matthew herbert big band::goodbye swingtime,1,0.144836,Matthew Herbert,Bodily Functions
+Swans,Soundtracks for the Blind,swans::soundtracks for the blind,1,0.144757,Godspeed You! Black Emperor,Yanqui U.X.O.
+Scuba,Triangulation,scuba::triangulation,1,0.144738,Martyn,Great Lengths
+Baroness,Red Album,baroness::red album,1,0.144222,Mastodon,The Hunter
+Echo & the Bunnymen,Siberia,echo & the bunnymen::siberia,1,0.144222,The Wedding Present,Take Fountain
+The Dillinger Escape Plan,Calculating Infinity,the dillinger escape plan::calculating infinity,1,0.144146,Converge,Axe to Fall
+Big Business,Here Come the Waterworks,big business::here come the waterworks,1,0.144082,Melvins,The Bride Screamed Murder
+Built to Spill,Keep It Like a Secret,built to spill::keep it like a secret,1,0.143837,Death Cab for Cutie,Transatlanticism
+Beach House,Once Twice Melody,beach house::once twice melody,1,0.14382,Melody's Echo Chamber,Melody's Echo Chamber
+Dutch Uncles,Flexxin,dutch uncles::flexxin,1,0.143793,Everything Everything,Arc
+The Babies,Our House on the Hill,the babies::our house on the hill,1,0.143738,Black Lips,Arabia Mountain
+Jon Hopkins,Contact Note,jon hopkins::contact note,1,0.143443,Tropics,Parodia Flare
+Madonna,American Life,madonna::american life,1,0.143414,Gwen Stefani,The Sweet Escape
+Voxtrot,Raised By Wolves EP,voxtrot::raised by wolves ep,1,0.143236,Peter Bjorn and John,Gimme Some
+Arlo Guthrie,Hobo's Lullaby (remastered 2004),arlo guthrie::hobo's lullaby (remastered 2004),1,0.143232,Jakob Dylan,Seeing Things
+Comus,First Utterance,comus::first utterance,1,0.142269,Exuma,Exuma II
+Giant Sand,Infiltration Of Dreams,giant sand::infiltration of dreams,1,0.141802,Calexico,Garden Ruin
+Fatboy Slim,Better Living Through Chemistry,fatboy slim::better living through chemistry,1,0.141729,The Chemical Brothers,Come With Us
+This Will Destroy You,Tunnel Blanket,this will destroy you::tunnel blanket,1,0.14114,Explosions in the Sky,"Take Care, Take Care, Take Care"
+Opeth,Blackwater Park,opeth::blackwater park,1,0.14071,Mastodon,Crack the Skye
+Nick Cave & the Bad Seeds,No More Shall We Part,nick cave & the bad seeds::no more shall we part,1,0.140661,Grinderman,Grinderman
+Band of Skulls,Sweet Sour,band of skulls::sweet sour,1,0.140559,Howler,America Give Up
+Shearwater,Rook (Bonus Track Version),shearwater::rook (bonus track version),1,0.140481,Midlake,The Courage of Others
+Field Music,Measure,field music::measure,1,0.140475,The Week That Was,The Week That Was
+Moderat,MORE D4TA,moderat::more d4ta,1,0.140435,Apparat,The Devil's Walk
+John Frusciante,Shadows Collide With People,john frusciante::shadows collide with people,1,0.140138,Red Hot Chili Peppers,Stadium Arcadium
+Skalpel,Skalpel,skalpel::skalpel,1,0.140034,The Cinematic Orchestra,Every Day
+Panda Bear,Last Night at the Jetty,panda bear::last night at the jetty,1,0.140012,Animal Collective,Campfire Songs
+Yonderboi,Shallow and Profound,yonderboi::shallow and profound,1,0.139341,Soulsavers,Broken
+Curtis Mayfield,Curtis,curtis mayfield::curtis,1,0.139307,Isaac Hayes,Hot Buttered Soul
+Plain White T's,Big Bad World,plain white t's::big bad world,1,0.139302,The Script,The Script
+Charles Bradley,No Time For Dreaming (Re-issue),charles bradley::no time for dreaming (re-issue),1,0.138531,Lee Fields & the Expressions,Faithful Man
+Aimee Mann,"Bachelor No. 2 (or, The Last Remains of the Dodo)","aimee mann::bachelor no. 2 (or, the last remains of the dodo)",1,0.138258,Beth Orton,Comfort of Strangers
+Mr. Bungle,Disco Volante,mr. bungle::disco volante,1,0.138212,Fantômas,Suspended Animation
+A$AP Mob,"Cozy Tapes, Vol. 1: Friends","a$ap mob::cozy tapes, vol. 1: friends",1,0.138156,Wiz Khalifa,Rolling Papers
+Tori Amos,"1994-06-26: Flynn Theatre, Burlington, VT, USA","tori amos::1994-06-26: flynn theatre, burlington, vt, usa",1,0.137745,Kristin Hersh,The Grotto
+The Sounds,Living in America,the sounds::living in america,1,0.136818,A Camp,Colonia
+The Smiths,Louder Than Bombs,the smiths::louder than bombs,1,0.136785,Morrissey,Viva Hate
+Jenny Hval,Iris Silver Mist,jenny hval::iris silver mist,1,0.136647,Julia Holter,Ekstasis
+The Octopus Project,Hexadecagon,the octopus project::hexadecagon,1,0.136437,Holy Fuck,Latin
+Maribou State,Nova Tunes 3.3,maribou state::nova tunes 3.3,1,0.136212,Jamie Woon,Mirrorwriting
+Howling Bells,Howling Bells,howling bells::howling bells,1,0.136096,Charlotte Hatherley,New Worlds
+The Rolling Stones,Between the Buttons,the rolling stones::between the buttons,1,0.135339,The Kinks,Picture Book
+Monsters of Folk,Monsters of Folk (Deluxe),monsters of folk::monsters of folk (deluxe),1,0.134569,M. Ward,Hold Time
+Feist,Multitudes,feist::multitudes,1,0.13416,Sinéad O'Connor,How About I Be Me (and You Be You)?
+Ólafur Arnalds,Living Room Songs,olafur arnalds::living room songs,1,0.134117,Jóhann Jóhannsson,Fordlândia
+The Rentals,Return of the Rentals,the rentals::return of the rentals,1,0.134056,Weezer,Weezer
+Kids On A Crime Spree,We Love You So Bad,kids on a crime spree::we love you so bad,1,0.134054,Big Troubles,Romantic Comedy
+Neil Young & Crazy Horse,The Complex Sessions,neil young & crazy horse::the complex sessions,1,0.134046,Neil Young,Prairie Wind
+Frightened Rabbit,Painting of a Panic Attack (Deluxe),frightened rabbit::painting of a panic attack (deluxe),1,0.133584,We Were Promised Jetpacks,In the Pit of the Stomach
+Psapp,The Camel's Back,psapp::the camel's back,1,0.133569,Polly Scattergood,Polly Scattergood
+Standard Fare,The Noyelle Beat,standard fare::the noyelle beat,1,0.133517,The Phantom Band,The Wants
+David Gray,Mutineers,david gray::mutineers,1,0.133495,Turin Brakes,Dark on Fire
+Skream,Midnight Request Line / I,skream::midnight request line / i,1,0.133322,Mala,Mala in Cuba
+Okkervil River,Down the River of Golden Dreams,okkervil river::down the river of golden dreams,1,0.133136,British Sea Power,Open Season
+Sambassadeur,Sambassadeur,sambassadeur::sambassadeur,1,0.13303,Club 8,The Boy Who Couldn't Stop Dreaming
+Ben Gibbard,Former Lives,ben gibbard::former lives,1,0.132706,Ben Kweller,Go Fly a Kite
+Cindy Lee,Diamond Jubilee,cindy lee::diamond jubilee,1,0.132377,Women,Public Strain
+Autechre,Chiastic Slide,autechre::chiastic slide,1,0.132066,Squarepusher,Just a Souvenir
+dEUS,Pocket Revolution,deus::pocket revolution,1,0.131859,Tindersticks,Waiting for the Moon
+DJ Cam,Substances,dj cam::substances,1,0.13181,Diplo,Florida
+Imagine Dragons,Night Visions,imagine dragons::night visions,1,0.131773,Coldplay,Mylo Xyloto
+John Lennon,Imagine,john lennon::imagine,1,0.13162,The Beatles,Beatles for Sale
+Sibylle Baier,Colour Green,sibylle baier::colour green,1,0.131032,Vashti Bunyan,Lookaftering
+Toni Braxton,Toni Braxton,toni braxton::toni braxton,1,0.130855,Alicia Keys,Girl on Fire
+Pete Townshend,Empty Glass,pete townshend::empty glass,1,0.130616,The Who,Quadrophenia
+The Time,What Time Is It?,the time::what time is it?,1,0.130533,Prince,Planet Earth
+The B-52's,Cosmic Thing,the b-52's::cosmic thing,1,0.130397,INXS,Kick
+Darkside,Psychic,darkside::psychic,1,0.130332,Nicolas Jaar,Space Is Only Noise
+Steffen Basho-Junghans,In The Morning Twilight,steffen basho-junghans::in the morning twilight,1,0.130033,Jack Rose,Luck in the Valley
+Django Django,Glowing in the Dark,django django::glowing in the dark,1,0.12998,Caribou,Swim
+Craft Spells,Idle Labor,craft spells::idle labor,1,0.129703,Youth Lagoon,The Year of Hibernation
+Russian Circles,Enter,russian circles::enter,1,0.12963,Pelican,What We All Come to Need
+Slick Rick,The Great Adventures of Slick Rick,slick rick::the great adventures of slick rick,1,0.12925,Beastie Boys,Licensed to Ill
+Oasis,Be Here Now,oasis::be here now,1,0.129208,The Stone Roses,The Stone Roses
+Femi Kuti,Fight to Win,femi kuti::fight to win,1,0.12906,Tony Allen,Secret Agent
+Cream,The Very Best of Cream,cream::the very best of cream,1,0.128859,The Doors,L.A. Woman
+Gorky's Zygotic Mynci,Gorky 5,gorky's zygotic mynci::gorky 5,1,0.128814,Cate Le Bon,Me Oh My
+Nikka Costa,Everybody Got Their Something,nikka costa::everybody got their something,1,0.128624,Jamie Lidell,Multiply
+Tsunami Bomb,The Ultimate Escape,tsunami bomb::the ultimate escape,1,0.128622,The Donnas,Spend the Night
+Splashh,Comfort,splashh::comfort,1,0.128599,Palma Violets,180
+Black Star,Mos Def & Talib Kweli Are Black Star,black star::mos def & talib kweli are black star,1,0.128488,Mos Def,The Ecstatic
+Mitski,Be the Cowboy,mitski::be the cowboy,1,0.128222,St. Vincent,Strange Mercy
+Pulp,This Is Hardcore,pulp::this is hardcore,1,0.128179,Blur,Think Tank
+Brainiac,Hissing Prigs in Static Couture,brainiac::hissing prigs in static couture,1,0.127948,Liars,They Threw Us All in a Trench and Stuck a Monument on Top
+Herbie Hancock,Sextant,herbie hancock::sextant,1,0.127904,Miles Davis,The Complete In a Silent Way Sessions
+Dua Lipa,Radical Optimism,dua lipa::radical optimism,1,0.127736,Katy Perry,Teenage Dream
+Wolf Parade,Apologies to the Queen Mary,wolf parade::apologies to the queen mary,1,0.127722,Arcade Fire,Funeral
+Afu-Ra,Body Of The Life Force,afu-ra::body of the life force,1,0.127641,Gang Starr,The Ownerz
+Alvvays,Pharmacist,alvvays::pharmacist,1,0.12758,The Radio Dept.,Clinging to a Scheme
+Floor,Oblation,floor::oblation,1,0.127554,Torche,Harmonicraft
+Hooverphonic,Hooverphonic Collected,hooverphonic::hooverphonic collected,1,0.127113,UNKLE,Where Did the Night Fall
+Taylor Hawkins & The Coattail Riders,Red Light Fever,taylor hawkins & the coattail riders::red light fever,1,0.127109,Foo Fighters,One by One
+The Focus Group,We Are All Pan's People,the focus group::we are all pan's people,1,0.126626,The Advisory Circle,As the Crow Flies
+Astrud Gilberto,Astrud Gilberto's Finest Hour,astrud gilberto::astrud gilberto's finest hour,1,0.126222,Bebel Gilberto,Tanto tempo
+Bill Callahan,Sometimes I Wish We Were an Eagle,bill callahan::sometimes i wish we were an eagle,1,0.126206,Vic Chesnutt,At the Cut
+Do Make Say Think,& Yet & Yet,do make say think::& yet & yet,1,0.126031,Tortoise,It's All Around You
+Six Organs of Admittance,The Sun Awakens,six organs of admittance::the sun awakens,1,0.125972,Vetiver,Tight Knit
+Swans,Filth (Deluxe Edition),swans::filth (deluxe edition),1,0.125952,Glenn Branca,Lesson No. 1
+Heartsrevolution,C.Y.O.A.,heartsrevolution::c.y.o.a.,1,0.125918,YACHT,Shangri-La
+Sharon Jones and the Dap-Kings,"100 Days, 100 Nights","sharon jones and the dap-kings::100 days, 100 nights",1,0.125867,Dexys,One Day I'm Going to Soar
+The Wrens,The Meadowlands,the wrens::the meadowlands,1,0.125483,Grandaddy,The Sophtware Slump
+Blur,Leisure (25th Anniversary Edition),blur::leisure (25th anniversary edition),1,0.125239,Elastica,Elastica
+M.I.A.,MAYA,m.i.a.::maya,1,0.125124,Sleigh Bells,Treats
+Bloodhound Gang,Uncool As Me,bloodhound gang::uncool as me,1,0.124725,Electric Six,Fire
+Marnie,Crystal World,marnie::crystal world,1,0.124476,Ladytron,Best of 00-10
+The Killers,Sam's Town,the killers::sam's town,1,0.123897,Kings of Leon,Only by the Night
+The Silent Years,The Silent Years,the silent years::the silent years,1,0.123671,Dale Earnhardt Jr. Jr.,It's a Corporate World
+Ian Brown,Solarized,ian brown::solarized,1,0.12365,The Charlatans,Simpatico
+Fatboy Slim,Halfway Between the Gutter and the Stars,fatboy slim::halfway between the gutter and the stars,1,0.123541,The Chemical Brothers,Further
+Horse Feathers,House With No Home,horse feathers::house with no home,1,0.123415,Iron & Wine,The Shepherd's Dog
+Songs: Ohia,The Lioness,songs: ohia::the lioness,1,0.123238,J. Tillman,Year in the Kingdom
+Editors,EBM,editors::ebm,1,0.122841,White Lies,To Lose My Life…
+Touré Kunda,Sounké,toure kunda::sounke,1,0.122821,Orchestra Baobab,Made in Dakar
+The Bluetones,The Singles,the bluetones::the singles,1,0.121573,Stereophonics,Language. Sex. Violence. Other?
+Juliana Hatfield,How to Walk Away,juliana hatfield::how to walk away,1,0.121517,Bob Mould,Body of Song
+Adam Green,Minor Love,adam green::minor love,1,0.121488,Adam Green & Binki Shapiro,Adam Green & Binki Shapiro
+The Paper Kites,Woodland - EP,the paper kites::woodland - ep,1,0.121219,Lord Huron,Lonesome Dreams
+The Omnific,Kismet,the omnific::kismet,1,0.120739,Animals as Leaders,The Madness of Many
+Electrocute,Double Diamond,electrocute::double diamond,1,0.120641,Robots in Disguise,We're in the Music Biz
+Skywave,Synthstatic,skywave::synthstatic,1,0.120219,A Place to Bury Strangers,Exploding Head
+G-Unit,Beg For Mercy,g-unit::beg for mercy,1,0.120182,50 Cent,Get Rich or Die Tryin'
+The Beths,Expert in a Dying Field,the beths::expert in a dying field,1,0.119992,Courtney Barnett,"Sometimes I Sit and Think, and Sometimes I Just Sit"
+Megadeth,Rude Awakening,megadeth::rude awakening,1,0.119734,Metallica,St. Anger
+Dog Blood,Next Order / Middle Finger,dog blood::next order / middle finger,1,0.119516,Gesaffelstein,Aleph
+Mouse on Mars,Glam,mouse on mars::glam,1,0.119474,Kraftwerk,Tour de France Soundtracks
+Madonna,Get Together,madonna::get together,1,0.119472,Kelis,Flesh Tone
+Sly & The Family Stone,FRESH,sly & the family stone::fresh,1,0.119205,Curtis Mayfield,Superfly
+Tori Amos,From the Choirgirl Hotel,tori amos::from the choirgirl hotel,1,0.119024,PJ Harvey,"Stories From the City, Stories From the Sea"
+Flying Lotus,1983,flying lotus::1983,1,0.118971,The Gaslamp Killer,Breakthrough
+Balla et ses Balladins,Objectif Perfection (African Dancefloor Classics),balla et ses balladins::objectif perfection (african dancefloor classics),1,0.118947,Bembeya Jazz National,The Syliphone Years
+Explosions in the Sky,"How Strange, Innocence","explosions in the sky::how strange, innocence",1,0.118937,Mogwai,Come On Die Young
+Herbie Hancock,Mwandishi: The Complete Warner Bros. Recordings,herbie hancock::mwandishi: the complete warner bros. recordings,1,0.118838,Miles Davis,The Complete On the Corner Sessions
+Gregory Alan Isakov,This Empty Northern Hemisphere,gregory alan isakov::this empty northern hemisphere,1,0.118325,Bon Iver,"For Emma, Forever Ago"
+Ramesses,Take the Curse,ramesses::take the curse,1,0.118307,Serpentine Path,Serpentine Path
+The Pretenders,Loose Screw,the pretenders::loose screw,1,0.118173,Elvis Costello,When I Was Cruel
+Ricardo Villalobos,Salvador,ricardo villalobos::salvador,1,0.118083,Akufen,My Way
+Mint Condition,7…(The Deluxe Edition),mint condition::7...(the deluxe edition),1,0.118005,Maxwell,Maxwell's Urban Hang Suite
+Nneka,Soul Is Heavy,nneka::soul is heavy,1,0.117161,Aloe Blacc,Good Things
+clipping.,CLPPNG,clipping.::clppng,1,0.117029,Shabazz Palaces,Black Up
+Bright Eyes,"I'm Wide Awake, It's Morning","bright eyes::i'm wide awake, it's morning",1,0.117002,Elliott Smith,From a Basement on the Hill
+Le Syndicat,Sardanapale,le syndicat::sardanapale,1,0.116607,Carter Tutti Void,Transverse
+The Highwaymen,Highwayman,the highwaymen::highwayman,1,0.116445,Johnny Cash,American IV: The Man Comes Around
+James,Seven,james::seven,1,0.11636,Bad Lieutenant,Never Cry Another Tear
+Cameo Blush,Z,cameo blush::z,1,0.116228,Scuba,Personality
+Fiona Apple,Tidal,fiona apple::tidal,1,0.116103,Kate Bush,The Kick Inside
+Tove Lo,Truth Serum,tove lo::truth serum,1,0.116049,Ellie Goulding,Halcyon
+Mint Royale,Dancehall Places,mint royale::dancehall places,1,0.115739,Moby,Last Night
+Brendan Canning,Something for All of Us... (Bonus Track Edition),brendan canning::something for all of us... (bonus track edition),1,0.115523,Broken Social Scene,Forgiveness Rock Record
+Manchester Orchestra,A Black Mile to the Surface,manchester orchestra::a black mile to the surface,1,0.115295,Silversun Pickups,Swoon
+Brandi Carlile,Bear Creek,brandi carlile::bear creek,1,0.115176,Martha Wainwright,I Know You're Married but I've Got Feelings Too
+J. Tillman,Singing Ax,j. tillman::singing ax,1,0.115125,O'Death,Outside
+Magnolia Electric Co.,Sojourner,magnolia electric co.::sojourner,1,0.114913,Shearwater,The Golden Archipelago
+Iggy Pop,The Idiot,iggy pop::the idiot,1,0.114888,David Bowie,Low
+Deerhoof,Friend Opportunity,deerhoof::friend opportunity,1,0.114146,The Fiery Furnaces,Widow City
+J.U.F.,Gogol Bordello vs. Tamir Muskat,j.u.f.::gogol bordello vs. tamir muskat,1,0.114012,Gogol Bordello,Super Taranta!
+Amerie,Best 15 Things,amerie::best 15 things,1,0.113358,Alicia Keys,The Diary of Alicia Keys
+Wilco,"2009-11-04: HMV Forum, London, UK","wilco::2009-11-04: hmv forum, london, uk",1,0.1132,M. Ward,A Wasteland Companion
+Filter,Title of Record,filter::title of record,1,0.112934,Jane's Addiction,Strays
+Peter Bjorn and John,Writer's Block,peter bjorn and john::writer's block,1,0.112713,Lykke Li,Wounded Rhymes
+Joey Ramone,Don't Worry About Me,joey ramone::don't worry about me,1,0.11253,Ramones,Rocket to Russia
+Kaki King,Dreaming Of Revenge,kaki king::dreaming of revenge,1,0.112513,Laura Veirs,July Flame
+The Spyrals,The Spyrals,the spyrals::the spyrals,1,0.112008,The Black Angels,Phosphene Dream
+Bruce Springsteen & The E Street Band,Live/1975-85,bruce springsteen & the e street band::live/1975-85,1,0.111972,Bruce Springsteen,Magic
+Billy Bragg & Wilco,Mermaid Avenue,billy bragg & wilco::mermaid avenue,1,0.111931,Wilco,Yankee Hotel Foxtrot
+Oval,94 Diskont,oval::94 diskont,1,0.111857,Fennesz,Endless Summer
+PASTEL GHOST,Abyss,pastel ghost::abyss,1,0.111766,Crystal Castles,(III)
+Metric,Grow Up and Blow Away,metric::grow up and blow away,1,0.111761,Feist,Metals
+Niki & the Dove,Everybody's Heart Is Broken Now (Deluxe Version),niki & the dove::everybody's heart is broken now (deluxe version),1,0.111548,Lykke Li,Youth Novels
+Bishop Allen,The Broken String,bishop allen::the broken string,1,0.111538,Architecture in Helsinki,Places Like This
+Ex Models,Chrome Panthers,ex models::chrome panthers,1,0.111514,Ponytail,Ice Cream Spiritual
+Tosca,Suzuki,tosca::suzuki,1,0.111038,Lemon Jelly,Lost Horizons
+Andrew Bird,Weather Systems,andrew bird::weather systems,1,0.110929,S. Carey,All We Grow
+Gas,Nah und Fern,gas::nah und fern,1,0.110859,Tim Hecker,"Ravedeath, 1972"
+Emmylou Harris,Roses in the Snow,emmylou harris::roses in the snow,1,0.110669,Loretta Lynn,Van Lear Rose
+Phosphorescent,Aw Come Aw Wry,phosphorescent::aw come aw wry,1,0.110349,Cass McCombs,Humor Risk
+Kae Tempest,Statue In The Square,kae tempest::statue in the square,1,0.110067,Saul Williams,Amethyst Rock Star
+The Who,Who's Next,the who::who's next,1,0.11004,The Rolling Stones,Sticky Fingers
+The Shins,Holidays Rule,the shins::holidays rule,1,0.109995,She & Him,A Very She & Him Christmas
+Seventeen Years Old and Berlin Wall,Reflect,seventeen years old and berlin wall::reflect,1,0.10996,Asobi Seksu,Citrus
+LVL1,FVN! - Single,lvl1::fvn! - single,1,0.109763,Azealia Banks,Broke With Expensive Taste
+Urge Overkill,Exit The Dragon,urge overkill::exit the dragon,1,0.109734,R.E.M.,Live at the Olympia
+Bob Dylan,A Tree With Roots: The Genuine Basement Tape Remasters,bob dylan::a tree with roots: the genuine basement tape remasters,1,0.108912,Johnny Cash,American Recordings
+Air,"10,000 Hz Legend","air::10,000 hz legend",1,0.108474,The Orb,The Dream
+Saxon Shore,Be A Bright Blue,saxon shore::be a bright blue,1,0.108364,The Album Leaf,In a Safe Place
+Sunn O))),Angel Coma,sunn o)))::angel coma,1,0.108271,Earth,Hibernaculum
+Biffy Clyro,Infinity Land,biffy clyro::infinity land,1,0.108061,R.E.M.,Collapse Into Now
+The Naked and Famous,"Passive Me, Aggressive You","the naked and famous::passive me, aggressive you",1,0.108026,Ladyhawke,Ladyhawke
+Faith Evans,Faith,faith evans::faith,1,0.107226,Mary J. Blige,Love & Life
+Daughn Gibson,All Hell,daughn gibson::all hell,1,0.107153,Peaking Lights,Lucifer
+Courtney Barnett,Continental Breakfast - Single,courtney barnett::continental breakfast - single,1,0.10708,Jessica Lea Mayfield,Tell Me
+George Ezra,Gold Rush Kid,george ezra::gold rush kid,1,0.106942,David Gray,A New Day at Midnight
+Hard-Fi,Stars of CCTV,hard-fi::stars of cctv,1,0.106894,Kasabian,West Ryder Pauper Lunatic Asylum
+Stereolab,Fed Up With Your Job / Constant And Uniform Movement Unknown,stereolab::fed up with your job / constant and uniform movement unknown,1,0.106451,Tyondai Braxton,Central Market
+AutoKratz,Animal,autokratz::animal,1,0.106313,Vitalic,Flashmob
+Art Brut,Bang Bang Rock And Roll,art brut::bang bang rock and roll,1,0.106093,Field Music,Plumb
+Secret Service,The Lost Box,secret service::the lost box,1,0.106086,Pet Shop Boys,Fundamental
+Foxes,Youth,foxes::youth,1,0.105693,Ellie Goulding,Lights
+XXYYXX,XXYYXX,xxyyxx::xxyyxx,1,0.105658,Holy Other,Held
+Pain of Salvation,Remedy Lane,pain of salvation::remedy lane,1,0.10553,Opeth,Heritage
+The Wedding Present,Watusi,the wedding present::watusi,1,0.10548,British Sea Power,Valhalla Dancehall
+Diagrams,Black Light,diagrams::black light,1,0.105336,Opossom,Electric Hawaii
+Gescom,This,gescom::this,1,0.10518,Autechre,Oversteps
+Mariah Carey,2000s Pop Essentials,mariah carey::2000s pop essentials,1,0.104999,Nelly Furtado,Loose
+Joy Division,The Best Of,joy division::the best of,1,0.104944,Talking Heads,Remain in Light
+Apollo 440,Millennium Fever,apollo 440::millennium fever,1,0.104701,Orbital,Wonky
+Digitalism,Idealism,digitalism::idealism,1,0.104379,Calvin Harris,I Created Disco
+Connan Mockasin,Myths 001 - Single,connan mockasin::myths 001 - single,1,0.104161,Foxygen,We Are the 21st Century Ambassadors of Peace & Magic
+Material Issue,Freak City Soundtrack,material issue::freak city soundtrack,1,0.103678,Fountains of Wayne,Traffic and Weather
+Roots Manuva,Children Of Men Original Motion Picture Soundtrack,roots manuva::children of men original motion picture soundtrack,1,0.10364,The Streets,A Grand Don't Come for Free
+Mates of State,Mountaintops,mates of state::mountaintops,1,0.103593,The Dodos,No Color
+Spoon,Lucifer On the Sofa,spoon::lucifer on the sofa,1,0.103393,The Walkmen,Lisbon
+Meshuggah,obZen,meshuggah::obzen,1,0.103279,Gojira,L'Enfant sauvage
+Devo,Recombo DNA,devo::recombo dna,1,0.102931,Sparks,Exotic Creatures of the Deep
+Dustin O'Halloran,Lumiere,dustin o'halloran::lumiere,1,0.102608,Ólafur Arnalds,…and They Have Escaped the Weight of Darkness
+Sunn O))),Black One,sunn o)))::black one,1,0.102545,Earth,The Bees Made Honey in the Lion's Skull
+Mark Eitzel,West,mark eitzel::west,1,0.102519,American Music Club,The Golden Age
+The National,"2005-04-29: Black Session #230: Paris, France","the national::2005-04-29: black session #230: paris, france",1,0.101981,Nada Surf,The Stars Are Indifferent to Astronomy
+Spain,The Blue Moods of Spain,spain::the blue moods of spain,1,0.101903,Low,The Invisible Way
+Amerie,In Love & War,amerie::in love & war,1,0.101771,Missy Elliott,The Cookbook
+Grandaddy,The Broken Down Comforter Collection,grandaddy::the broken down comforter collection,1,0.101088,Jason Lytle,"Yours Truly, the Commuter"
+Airwave,Touareg,airwave::touareg,1,0.101032,Sasha,Airdrawndagger
+Vashti Bunyan,Just Another Diamond Day,vashti bunyan::just another diamond day,1,0.100713,Joanna Newsom,Have One on Me
+Airiel,The Battle Of Sealand,airiel::the battle of sealand,1,0.100497,School of Seven Bells,Ghostory
+Amethystium,Transience,amethystium::transience,1,0.1004,Moby,Destroyed
+Angélique Kidjo,Keep On Moving - The Best Of,angelique kidjo::keep on moving - the best of,1,0.10032,The Very Best,Warm Heart of Africa
+The Decemberists,"What a Terrible World, What a Beautiful World","the decemberists::what a terrible world, what a beautiful world",1,0.100237,Calexico,Algiers
+Loose Fur,Loose Fur,loose fur::loose fur,1,0.100168,Wilco,Wilco (The Album)
+Chicks On Speed,The Re-Releases of the Un-Releases,chicks on speed::the re-releases of the un-releases,1,0.100116,Peaches,Fatherfucker
+Alvvays,Antisocialites,alvvays::antisocialites,1,0.10004,Beach House,Teen Dream
+Chapel Club,Palace,chapel club::palace,1,0.0999838,The Horrors,Skying
+corto.alto,THIEF,corto.alto::thief,1,0.0999242,Jaga Jazzist,The Stix
+Kelly Clarkson,Breakaway,kelly clarkson::breakaway,1,0.0998379,Avril Lavigne,Let Go
+Halsey,hopeless fountain kingdom (Deluxe),halsey::hopeless fountain kingdom (deluxe),1,0.0998039,Sia,Some People Have Real Problems
+Seven Mary Three,American Standard,seven mary three::american standard,1,0.099728,Dead Confederate,Wrecking Ball
+Nicole Atkins,Mondo Amore,nicole atkins::mondo amore,1,0.0997255,Beth Orton,Daybreaker
+Zwan,Mary Star of the Sea,zwan::mary star of the sea,1,0.0990752,The Smashing Pumpkins,Oceania
+Joss Stone,The Best Of Joss Stone 2003 - 2009,joss stone::the best of joss stone 2003 - 2009,1,0.0989993,Corinne Bailey Rae,Corinne Bailey Rae
+Feeder,Comfort In Sound,feeder::comfort in sound,1,0.0989389,Embrace,Out of Nothing
+Ratos De Porão,Carniceria Tropical,ratos de porao::carniceria tropical,1,0.0989116,Bad Brains,Into the Future
+Chapterhouse,Whirlpool,chapterhouse::whirlpool,1,0.0984967,Ride,Going Blank Again
+Hop Along,"Bark Your Head Off, Dog","hop along::bark your head off, dog",1,0.0980782,Land of Talk,Some Are Lakes
+Someone Still Loves You Boris Yeltsin,Broom,someone still loves you boris yeltsin::broom,1,0.0980697,Girls,Album
+The Smashing Pumpkins,Siamese Dream,the smashing pumpkins::siamese dream,1,0.0978425,R.E.M.,Out of Time
+Lali Puna,Faking The Books,lali puna::faking the books,1,0.0978142,Au Revoir Simone,"Still Night, Still Light"
+Au Pairs,Playing With a Different Sex,au pairs::playing with a different sex,1,0.0978092,The Raincoats,Odyshape
+Rainbow,Down to Earth,rainbow::down to earth,1,0.0976005,Deep Purple,Rapture of the Deep
+Tim Buckley,Goodbye and Hello,tim buckley::goodbye and hello,1,0.0973992,Nick Drake,Made to Love Magic
+PNAU,PNAU,pnau::pnau,1,0.0973405,The Presets,Apocalypso
+Waxahatchee,Cerulean Salt,waxahatchee::cerulean salt,1,0.0972093,Cat Power,Sun
+The Reindeer Section,Up to Now,the reindeer section::up to now,1,0.0970897,Snow Patrol,A Hundred Million Suns
+Siouxsie and the Banshees,The Best Of...,siouxsie and the banshees::the best of...,1,0.0968478,The Cure,4:13 Dream
+Converge,Converge | Audiotree From Nothing,converge::converge | audiotree from nothing,1,0.0968161,Snapcase,End Transmission
+Funkadelic,Funkadelic,funkadelic::funkadelic,1,0.0966562,Sly & the Family Stone,There's a Riot Goin' On
+Burial,Burial,burial::burial,1,0.096439,Darkstar,News From Nowhere
+Clark,Warp20 (Unheard),clark::warp20 (unheard),1,0.0962499,Squarepusher,Ufabulum
+Lowercase Noises,Passage,lowercase noises::passage,1,0.0962071,Hammock,Chasing After Shadows... Living With the Ghosts
+Teebs,Collections 01,teebs::collections 01,1,0.0962064,Baths,Cerulean
+Creepoid,Creepoid,creepoid::creepoid,1,0.0961636,True Widow,As High as the Highest Heavens and From the Center to the Circumference of the Earth
+Rosie Lowe,Right Thing,rosie lowe::right thing,1,0.0959658,inc.,no world
+Tory Lanez,Alone at Prom,tory lanez::alone at prom,1,0.0957052,The Weeknd,Thursday
+Love,Forever Changes,love::forever changes,1,0.0957032,The Zombies,Odessey and Oracle
+Whitney,Small Talk,whitney::small talk,1,0.0955619,Dr. Dog,Fate
+Angel Olsen,Burn Your Fire for No Witness,angel olsen::burn your fire for no witness,1,0.0951776,Sharon Van Etten,Tramp
+Gruff Rhys,Yr Atal Genhedlaeth,gruff rhys::yr atal genhedlaeth,1,0.0951508,Super Furry Animals,Dark Days/Light Years
+Client,City,client::city,1,0.0949086,Peaches,I Feel Cream
+Bob Dylan,"The Rolling Thunder Revue, Palace Theater Waterbury, Ct. Nov 11th, 1975","bob dylan::the rolling thunder revue, palace theater waterbury, ct. nov 11th, 1975",1,0.0948951,Bruce Springsteen,We Shall Overcome: The Seeger Sessions
+KT Tunstall,Eye to the Telescope,kt tunstall::eye to the telescope,1,0.0946403,Lily Allen,"It's Not Me, It's You"
+Blackbelt Andersen,Blackbelt Andersen,blackbelt andersen::blackbelt andersen,1,0.0945533,Meanderthals,Desire Lines
+Jens Lekman,Night Falls Over Kortedala,jens lekman::night falls over kortedala,1,0.0945192,Loney Dear,"Loney, Noir"
+Marietta,Summer Death,marietta::summer death,1,0.0943509,American Football,American Football
+Gray Matter,Food for Thought / Take It Back,gray matter::food for thought / take it back,1,0.0943256,Jawbreaker,Unfun
+Beverley Knight,100%,beverley knight::100%,1,0.0941591,Laura Mvula,Sing to the Moon
+Tristeza,Fate Unfolds,tristeza::fate unfolds,1,0.0940703,Tortoise,Beacons of Ancestorship
+Brazilian Girls,New York City,brazilian girls::new york city,1,0.0940187,Little Dragon,Machine Dreams
+Gang of Youths,the man himself - Single,gang of youths::the man himself - single,1,0.093967,The Temper Trap,Conditions
+Bag Raiders,Bag Raiders,bag raiders::bag raiders,1,0.0939153,Chromeo,Fancy Footwork
+Bon Homme,Daybreaker (feat. Lydmor) - Single,bon homme::daybreaker (feat. lydmor) - single,1,0.0938403,Lindstrøm & Christabelle,Real Life Is No Cool
+Planning for Burial,Leaving,planning for burial::leaving,1,0.093734,Jesu,Conqueror
+Ihsahn,After,ihsahn::after,1,0.0936008,Enslaved,RIITIIR
+*NSYNC,Celebrity,*nsync::celebrity,1,0.0934504,Justin Timberlake,The 20/20 Experience
+Mumford & Sons,Lend Me Your Eyes EP,mumford & sons::lend me your eyes ep,1,0.0934359,Noah and the Whale,The First Days of Spring
+Phaeleh,Fallen Light,phaeleh::fallen light,1,0.093433,Kuedo,Severant
+Alice in Videoland,Maiden Voyage,alice in videoland::maiden voyage,1,0.0931062,Ladytron,Velocifero
+Camera Obscura,Desire Lines,camera obscura::desire lines,1,0.0930502,Allo Darlin',Allo Darlin'
+Stars of the Lid,The Tired Sounds of Stars of the Lid,stars of the lid::the tired sounds of stars of the lid,1,0.092638,Tim Hecker,Radio Amor
+JPEGMAFIA,Veteran,jpegmafia::veteran,1,0.0924874,Death Grips,No Love Deep Web
+CeeLo Green,Cee-Lo Green And His Perfect Imperfections,ceelo green::cee-lo green and his perfect imperfections,1,0.0921688,Gnarls Barkley,St. Elsewhere
+Lungfish,Sound In Time,lungfish::sound in time,1,0.0920297,The Men,Leave Home
+Black Pus,All My Relations,black pus::all my relations,1,0.0919652,Lightning Bolt,Earthly Delights
+The Dandy Warhols,Earth to The Dandy Warhols,the dandy warhols::earth to the dandy warhols,1,0.0918244,Primal Scream,Beautiful Future
+The Cars,Candy-O,the cars::candy-o,1,0.0916088,The Police,Reggatta de Blanc
+Leftfield,A Final Hit,leftfield::a final hit,1,0.0914405,Underworld,Beaucoup Fish
+Silversun Pickups,Physical Thrills,silversun pickups::physical thrills,1,0.0910886,Wye Oak,Civilian
+Murderdolls,Beyond The Valley Of The Murderdolls [Special Edition],murderdolls::beyond the valley of the murderdolls [special edition],1,0.0910488,Misfits,The Devil's Rain
+Jennifer Gentle,The Midnight Room,jennifer gentle::the midnight room,1,0.091034,Crystal Antlers,Tentacles
+Leon Ware,Musical Massage,leon ware::musical massage,1,0.0902375,Raphael Saadiq,The Way I See It
+Nivea,Animalistic,nivea::animalistic,1,0.0902375,Amerie,Because I Love It
+Calexico,Edge Of The Sun,calexico::edge of the sun,1,0.0900752,Great Lake Swimmers,Lost Channels
+Beach House,B-Sides and Rarities,beach house::b-sides and rarities,1,0.0900698,Tamaryn,The Waves
+This Will Destroy You,This Will Destroy You,this will destroy you::this will destroy you,1,0.0898643,Sigur Rós,Valtari
+The Black Dog,"Ov Mind, Ov Magick","the black dog::ov mind, ov magick",1,0.0898017,Plaid,Scintilli
+The Raveonettes,Observator,the raveonettes::observator,1,0.089398,No Age,Everything in Between
+Róisín Murphy,"Totally Skint, Vol. 1","roisin murphy::totally skint, vol. 1",1,0.0890503,Holy Ghost!,Holy Ghost!
+The Twilight Singers,Blackberry Belle,the twilight singers::blackberry belle,1,0.0890427,The Gutter Twins,Saturnalia
+Dwarves,Blood Guts & Pussy,dwarves::blood guts & pussy,1,0.0889193,Cerebral Ballzy,Cerebral Ballzy
+The Walkmen,[White],the walkmen::[white],1,0.0888654,The Cribs,In the Belly of the Brazen Bull
+Satyricon,Volcano,satyricon::volcano,1,0.0887689,Kvelertak,Meir
+Cock Robin,Live,cock robin::live,1,0.0885479,Bryan Ferry,Olympia
+The Octopus Project,Identification Parade,the octopus project::identification parade,1,0.0884047,Ratatat,LP3
+Kiss,Greatest Kiss,kiss::greatest kiss,1,0.0883857,The Darkness,Permission to Land
+Rachel Sermanni,Dreamer Awake,rachel sermanni::dreamer awake,1,0.0883715,Essie Jain,Until the Light of Morning
+Martha Wainwright,B.M.F.A.,martha wainwright::b.m.f.a.,1,0.08834,Rufus Wainwright,Want Two
+Lene Lovich,Lucky Number (The Best Of),lene lovich::lucky number (the best of),1,0.0883018,Grace Jones,Nightclubbing
+Chelsea Wolfe,Apokalypsis,chelsea wolfe::apokalypsis,1,0.0880565,Esben and the Witch,Violet Cries
+Julia Holter,Have You In My Wilderness,julia holter::have you in my wilderness,1,0.0880087,Pram,Dark Island
+Gillian Welch,Time (The Revelator),gillian welch::time (the revelator),1,0.0879711,Neko Case,Blacklisted
+Woods,With Light and With Love,woods::with light and with love,1,0.0879707,Cass McCombs,Dropping the Writ
+PJ Harvey,"A Child's Question, August","pj harvey::a child's question, august",1,0.0877982,Patti Smith,Banga
+Big Boi,Sir Lucious Left Foot...The Son of Chico Dusty,big boi::sir lucious left foot...the son of chico dusty,1,0.087252,The Roots,How I Got Over
+Linda Perhacs,Parallelograms,linda perhacs::parallelograms,1,0.0870224,Joanna Newsom,Ys
+Brian Eno,Music for Films III,brian eno::music for films iii,1,0.0869278,Fripp & Eno,The Equatorial Stars
+Portastatic,Be Still Please,portastatic::be still please,1,0.0867323,Superchunk,Majesty Shredding
+Tati Quebra Barraco,Boladona,tati quebra barraco::boladona,1,0.0864876,Bonde do Rolê,With Lasers
+Momma,Welcome to My Blue Sky,momma::welcome to my blue sky,1,0.0864385,Band of Horses,Mirage Rock
+aMute,The Sea Horse Limbo,amute::the sea horse limbo,1,0.0863891,Polmo Polpo,The Science of Breath
+Capital Cities,Solarize,capital cities::solarize,1,0.0862531,The Ting Tings,We Started Nothing
+Gracie Abrams,The Secret Of Us Deluxe (Japan Edition),gracie abrams::the secret of us deluxe (japan edition),1,0.0861462,Taylor Swift,Fearless
+The Format,Interventions and Lullabies,the format::interventions and lullabies,1,0.0861274,Voxtrot,Voxtrot
+Editors,Unedited,editors::unedited,1,0.0860285,Maxïmo Park,The National Health
+CHVRCHES,The Bones of What You Believe,chvrches::the bones of what you believe,1,0.0858797,The xx,I See You
+Willie Nelson,Blues 11 Избранные альбомы,willie nelson::blues 11 избранные альбомы,1,0.0857991,Lucinda Williams,West
+Thinking Fellers Union Local 282,The Funeral Pudding,thinking fellers union local 282::the funeral pudding,1,0.0857673,Royal Trux,Accelerator
+Lou Reed,Lou Reed - NYC Man: The Collection,lou reed::lou reed - nyc man: the collection,1,0.0853741,John Cale,Shifty Adventures in Nookie Wood
+Helado Negro,Double Youth,helado negro::double youth,1,0.0853542,Yeasayer,Fragrant World
+µ-Ziq,XTLP,μ-ziq::xtlp,1,0.0853342,Seefeel,Seefeel
+Two Lone Swordsmen,A Virus With Shoes,two lone swordsmen::a virus with shoes,1,0.0851356,Actress,R.I.P.
+Håkan Hellström,Ett kolikbarns bekännelser,hakan hellstrom::ett kolikbarns bekannelser,1,0.0849551,Jens Lekman,I Know What Love Isn't
+Hooverphonic,No More Sweet Music,hooverphonic::no more sweet music,1,0.0847967,Morcheeba,The Antidote
+12 Rods,Separation Anxieties,12 rods::separation anxieties,1,0.0846423,Enon,Believo!
+Sade,The Best of Sade,sade::the best of sade,1,0.0845355,Amy Winehouse,Back to Black
+Shivaree,I Oughtta Give You A Shot In The Head For Making Me Live In This Dump,shivaree::i oughtta give you a shot in the head for making me live in this dump,1,0.0844591,Gossip,A Joyful Noise
+Chisel,Set You Free,chisel::set you free,1,0.0844555,Ted Leo and the Pharmacists,The Brutalist Bricks
+J Mascis,Tied to a Star,j mascis::tied to a star,1,0.0841299,Dinosaur Jr.,Farm
+The Human League,The Dignity Of Labour,the human league::the dignity of labour,1,0.0840786,Orchestral Manoeuvres in the Dark,Dazzle Ships
+Leadbelly,The Essential Leadbelly,leadbelly::the essential leadbelly,1,0.0838696,Tom Waits,"Orphans: Brawlers, Bawlers & Bastards"
+Malory,outerbeats,malory::outerbeats,1,0.0838303,Porcelain Raft,Strange Weekend
+Kirlian Camera,Eclipse - Das Schwarze Denkmal,kirlian camera::eclipse - das schwarze denkmal,1,0.0836001,Cold Cave,Cherish the Light Years
+The Other Two,Super Highways,the other two::super highways,1,0.0834952,Delphic,Acolyte
+The Beach Boys,The Beach Boys' Christmas Album,the beach boys::the beach boys' christmas album,1,0.0831622,Bob Dylan,Christmas in the Heart
+Tyler Childers,Purgatory,tyler childers::purgatory,1,0.0830832,Kacey Musgraves,Golden Hour
+Counting Crows,August and Everything After,counting crows::august and everything after,1,0.0824493,R.E.M.,Automatic for the People
+Veronica Falls,My Heart Beats,veronica falls::my heart beats,1,0.0823113,Dum Dum Girls,Only in Dreams
+Pepper Rabbit,Red Velvet Snow Ball,pepper rabbit::red velvet snow ball,1,0.0823013,CANT,Dreams Come True
+The Cinematic Orchestra,Motion,the cinematic orchestra::motion,1,0.0822689,Jaga Jazzist,What We Must
+Midlake,The Trials Of Van Occupanther,midlake::the trials of van occupanther,1,0.0822466,Other Lives,Tamer Animals
+Ted Leo and the Pharmacists,Hearts of Oak,ted leo and the pharmacists::hearts of oak,1,0.0822417,Clap Your Hands Say Yeah,Some Loud Thunder
+Nathan Fake,Drowning in a Sea of Love,nathan fake::drowning in a sea of love,1,0.0820169,Matthew Dear,Black City
+HALCALI,音樂ノススメ,halcali::音樂ノススメ,1,0.0820156,Cornelius,Sensuous
+Juana Molina,Tres cosas,juana molina::tres cosas,1,0.0817127,Scout Niblett,The Calcination of Scout Niblett
+Ash,Intergalactic Sonic Sevens,ash::intergalactic sonic sevens,1,0.0816045,Elbow,Asleep in the Back
+Patrice Rushen,Signature,patrice rushen::signature,1,0.0815625,Roy Ayers Ubiquity,Everybody Loves the Sunshine
+Thomas Dolby,12x12 Original Remixes,thomas dolby::12x12 original remixes,1,0.0815576,Orchestral Manoeuvres in the Dark,History of Modern
+The Cars,Move Like This,the cars::move like this,1,0.0814843,DEVO,Something for Everybody
+CeeLo Green,Cee-Lo Green... Is the Soul Machine,ceelo green::cee-lo green... is the soul machine,1,0.0814732,Gnarls Barkley,The Odd Couple
+Camper Van Beethoven,Key Lime Pie,camper van beethoven::key lime pie,1,0.0814586,R.E.M.,Document
+RJD2,Since We Last Spoke,rjd2::since we last spoke,1,0.0812728,Hudson Mohawke,Butter
+The Boxer Rebellion,Exits,the boxer rebellion::exits,1,0.081152,Friendly Fires,Pala
+Orbital,Orbital 2,orbital::orbital 2,1,0.0810664,Underworld,Oblivion With Bells
+Mastodon,Remission,mastodon::remission,1,0.0810633,Baroness,Blue Record
+Ty,Awkward,ty::awkward,1,0.080975,Roots Manuva,Run Come Save Me
+Spoon,Gimme Fiction,spoon::gimme fiction,1,0.0806273,Beck,Modern Guilt
+Bob Dylan,"The Genuine Bootleg Series, Volume 4: Fourth Time Around","bob dylan::the genuine bootleg series, volume 4: fourth time around",1,0.0805629,Cat Power,Jukebox
+The Books,Music for a French Elevator and Other Oddities,the books::music for a french elevator and other oddities,1,0.0804781,Bibio,Mind Bokeh
+White Fence,For The Recently Found Innocent,white fence::for the recently found innocent,1,0.0804603,Ty Segall,Goodbye Bread
+Department of Eagles,The Cold Nose,department of eagles::the cold nose,1,0.0803587,Akron/Family,"Set 'Em Wild, Set 'Em Free"
+Esthero,Zero Effect Music From The Motion Picture,esthero::zero effect music from the motion picture,1,0.0803062,Everything but the Girl,Walking Wounded
+Huerco S.,Colonial Patterns,huerco s.::colonial patterns,1,0.0799012,Actress,Splazsh
+Perfume,LEVEL3,perfume::level3,1,0.0796708,CAPSULE,CAPS LOCK
+Andrew Bird,Armchair Apocrypha,andrew bird::armchair apocrypha,1,0.07955,Rufus Wainwright,Release the Stars
+Electrelane,"Singles, B-Sides & Live","electrelane::singles, b-sides & live",1,0.0793772,Deerhoof,Deerhoof vs. Evil
+The Bats,The Guilty Office,the bats::the guilty office,1,0.0792816,The Clientele,Bonfires on the Heath
+Weezer,Weezer (Red Album),weezer::weezer (red album),1,0.0791573,Beck,Odelay
+Lenny Kravitz,Circus,lenny kravitz::circus,1,0.0790962,R.E.M.,Reveal
+McFly,Just My Luck,mcfly::just my luck,1,0.0788862,MIKA,Life in Cartoon Motion
+Pixies,Surfer Rosa & Come On Pilgrim,pixies::surfer rosa & come on pilgrim,1,0.0787839,R.E.M.,Lifes Rich Pageant
+Professor Longhair,New Orleans Piano,professor longhair::new orleans piano,1,0.0786756,Dr. John,Locked Down
+Mando Diao,The Malevolence Of Mando Diao,mando diao::the malevolence of mando diao,1,0.0786709,Travis,Ode to J. Smith
+Stuck in the Sound,Shoegazing Kids,stuck in the sound::shoegazing kids,1,0.0785457,Working for a Nuclear Free City,Jojo Burger Tempest
+Cass McCombs,Wit's End,cass mccombs::wit's end,1,0.0784539,Kurt Vile,Smoke Ring for My Halo
+Mount Kimbie,Maybes,mount kimbie::maybes,1,0.0783069,James Blake,Klavierwerke EP
+Bruce Springsteen & The E Street Band,Live in New York City,bruce springsteen & the e street band::live in new york city,1,0.0781665,Bruce Springsteen,Wrecking Ball
+David Bazan,Curse Your Branches,david bazan::curse your branches,1,0.0781296,Tim Kasher,The Game of Monogamy
+Lightning Bolt,Wonderful Rainbow,lightning bolt::wonderful rainbow,1,0.0779551,HEALTH,GET COLOR
+ROSALÍA,LUX,rosalia::lux,1,0.0779543,Björk,Bastards
+21 Hertz,Infinity Coast,21 hertz::infinity coast,1,0.0776495,Alpha,The Impossible Thrill
+Active Child,Mercy,active child::mercy,1,0.0773303,Twin Shadow,Eclipse
+Djrum,Under Tangled Silence,djrum::under tangled silence,1,0.0772955,Cooly G,Playin' Me
+TNGHT,TNGHT - EP,tnght::tnght - ep,1,0.0771988,Rustie,Glass Swords
+Placebo,Covers,placebo::covers,1,0.0766686,David Bowie,Heathen
+Someone Still Loves You Boris Yeltsin,Let It Sway,someone still loves you boris yeltsin::let it sway,1,0.0764945,Yuck,Yuck
+El Perro del Mar,El Perro Del Mar,el perro del mar::el perro del mar,1,0.0764474,Taken by Trees,East of Eden
+Утро,Семнадцатое ноября,утро::семнадцатое ноября,1,0.0762499,Girls Names,The New Life
+Iron & Wine,Woman King,iron & wine::woman king,1,0.0762061,A.A. Bondy,When the Devil's Loose
+Final Fantasy,He Poos Clouds,final fantasy::he poos clouds,1,0.0760048,Owen Pallett,Heartland
+David Bowie,Aladdin Sane (45th Anniversary),david bowie::aladdin sane (45th anniversary),1,0.0759847,Scissor Sisters,Scissor Sisters
+alt-J,An Awesome Wave,alt-j::an awesome wave,1,0.0758624,The xx,xx
+µ-Ziq,Bluff Limbo,μ-ziq::bluff limbo,1,0.0757342,Hrvatski,Swarm & Dither
+Samiyam,Rap Beats Vol. 1,samiyam::rap beats vol. 1,1,0.0756793,Slugabed,Time Team
+PARTYNEXTDOOR,Dreamin - Single,partynextdoor::dreamin - single,1,0.0756579,The Weeknd,House of Balloons
+Spacemen 3,Recurring,spacemen 3::recurring,1,0.0755377,Spiritualized,Sweet Heart Sweet Light
+Kasabian,iTunes Festival: London - Kasabian (Live),kasabian::itunes festival: london - kasabian (live),1,0.0754995,Guillemots,Red
+The National,Cherry Tree,the national::cherry tree,1,0.0754227,The Antlers,Hospice
+Animal Collective,Feels,animal collective::feels,1,0.0754111,Sufjan Stevens,The Age of Adz
+Two Fingers,Stunt Rhythms,two fingers::stunt rhythms,1,0.075219,Lorn,Nothing Else
+Rachel Stevens,Funky Dory (New EU Version),rachel stevens::funky dory (new eu version),1,0.0747367,Annie,Anniemal
+Interpol,The Other Side of Make-Believe,interpol::the other side of make-believe,1,0.0743517,Wire,Red Barked Tree
+Nils Frahm,Felt,nils frahm::felt,1,0.0739889,Rachel Grimes,Book of Leaves
+Death from Above 1979,Heads Up,death from above 1979::heads up,1,0.0738318,The Death Set,Michel Poiccard
+Robyn,Don't Stop The Music,robyn::don't stop the music,1,0.0736561,Scissor Sisters,Night Work
+Coil,The Unreleased Themes for Hellraiser,coil::the unreleased themes for hellraiser,1,0.0735628,Matmos,The Marriage of True Minds
+Colour,Anthology,colour::anthology,1,0.0733791,Tall Ships,Everything Touching
+Under Byen,Det Er Mig Der Holder Træerne Sammen,under byen::det er mig der holder træerne sammen,1,0.0732449,Efterklang,Parades
+Miami Horror,Real Slow (Remixes),miami horror::real slow (remixes),1,0.0732172,Junior Boys,Begone Dull Care
+The Clientele,God Save The Clientele,the clientele::god save the clientele,1,0.0728105,Richard Hawley,Lady's Bridge
+Lightning Dust,Lightning Dust,lightning dust::lightning dust,1,0.0727368,Great Lake Swimmers,Ongiara
+Xiu Xiu,The Air Force,xiu xiu::the air force,1,0.0726596,Jim O'Rourke,"I'm Happy, and I'm Singing, and a 1, 2, 3, 4"
+Nadia Oh,Colours,nadia oh::colours,1,0.0726209,M.I.A.,Arular
+Black Honey,Psycho,black honey::psycho,1,0.0723952,The Joy Formidable,The Big Roar
+Laura Veirs,Year of Meteors,laura veirs::year of meteors,1,0.0722489,Steve Mason,Monkey Minds in the Devil's Time
+This Heat,Deceit,this heat::deceit,1,0.0722196,Swans,My Father Will Guide Me Up a Rope to the Sky
+The Thermals,"The Body, The Blood, The Machine","the thermals::the body, the blood, the machine",1,0.0721828,Titus Andronicus,The Monitor
+METZ,"2012-11-20: Knitting Factory, Brooklyn, NY, USA","metz::2012-11-20: knitting factory, brooklyn, ny, usa",1,0.0717699,Pissed Jeans,Honeys
+Grandaddy,Just Like The Fambly Cat,grandaddy::just like the fambly cat,1,0.0717189,Avi Buffalo,Avi Buffalo
+The Smashing Pumpkins,Drown (8-Track Demo),the smashing pumpkins::drown (8-track demo),1,0.071713,R.E.M.,Accelerate
+The Soft Pink Truth,Do You Party?,the soft pink truth::do you party?,1,0.0715832,Matmos,Supreme Balloon
+SMERZ,Big city life,smerz::big city life,1,0.0715263,Blood Orange,Coastal Grooves
+Jolie Holland,Pint Of Blood,jolie holland::pint of blood,1,0.0714741,Josh T. Pearson,Last of the Country Gentlemen
+Active Child,You Are All I See,active child::you are all i see,1,0.0713167,Deptford Goth,Life After Defo
+H. Hawkline,In The Pink Of Condition,h. hawkline::in the pink of condition,1,0.0712764,Cate Le Bon,Cyrk
+Balmorhea,CaNDOR/CLAMOR,balmorhea::candor/clamor,1,0.0711795,Rachel's,Systems/Layers
+Alkaline Trio,My Shame Is True [Deluxe Edition],alkaline trio::my shame is true [deluxe edition],1,0.0709772,White Lung,Deep Fantasy
+F.S. Blumm,Zweite Meer,f.s. blumm::zweite meer,1,0.0708502,Walls,Coracle
+CocoRosie,Noah's Ark,cocorosie::noah's ark,1,0.0707675,tUnE-yArDs,BiRd-BrAiNs
+Bromheads Jacket,Dits from the Commuter Belt,bromheads jacket::dits from the commuter belt,1,0.0706513,Art Brut,Art Brut vs. Satan
+Blacklisters,Trickfuck,blacklisters::trickfuck,1,0.0704438,Pissed Jeans,King of Jeans
+Midnight Oil,The Real Thing,midnight oil::the real thing,1,0.0703802,R.E.M.,Around the Sun
+Kate Nash,Foundations,kate nash::foundations,1,0.0702713,Lily Allen,"Alright, Still"
+Butcher Brown,Frontline,butcher brown::frontline,1,0.0701363,Karriem Riggins,Alone Together
+Purity Ring,WOMB,purity ring::womb,1,0.0700254,Ultraísta,Ultraísta
+Mumford & Sons,Babel,mumford & sons::babel,1,0.0698284,Noah and the Whale,"Peaceful, the World Lays Me Down"
+Agnes,Magic Still Exists,agnes::magic still exists,1,0.0697439,Robyn,Robyn
+Black Dice,Beaches & Canyons,black dice::beaches & canyons,1,0.0692402,Jackie-O Motherfucker,Flags of the Sacred Harp
+This Heat,This Heat,this heat::this heat,1,0.0692286,Scott Walker,Bish Bosch
+Raphael Saadiq,Stone Rollin',raphael saadiq::stone rollin',1,0.0692047,Mayer Hawthorne,A Strange Arrangement
+Nils Frahm & Anne Müller,7fingers,nils frahm & anne muller::7fingers,1,0.0691311,Nils Frahm,The Bells
+Françoise Hardy,Tirez pas sur l'ambulance,francoise hardy::tirez pas sur l'ambulance,1,0.0690967,Marianne Faithfull,Before the Poison
+13 & God,Own Your Ghost,13 & god::own your ghost,1,0.0690731,The Notwist,"The Devil, You + Me"
+Austra,Future Politics,austra::future politics,1,0.0690388,Nite Jewel,One Second of Love
+Blood Red Shoes,In Time To Voices,blood red shoes::in time to voices,1,0.0688226,The Kills,No Wow
+Client,Client,client::client,1,0.0688112,Ladytron,Light & Magic
+Badly Drawn Boy,Is There Nothing We Could Do ? (Music Inspired By the Motion Picture: The Fattest Man In Britain),badly drawn boy::is there nothing we could do ? (music inspired by the motion picture: the fattest man in britain),1,0.0687496,We Are Scientists,Barbara
+Sweet Trip,"A Tiny House, in Secret Speeches, Polar Equals","sweet trip::a tiny house, in secret speeches, polar equals",1,0.0687179,Monade,Monstre cosmic
+The Replacements,Tim,the replacements::tim,1,0.0686973,R.E.M.,Fables of the Reconstruction
+Enon,High Society,enon::high society,1,0.0684539,Blonde Redhead,23
+The Veils,Nux Vomica,the veils::nux vomica,1,0.0684487,The Dears,Missiles
+Swing Out Sister,Wave Aid,swing out sister::wave aid,1,0.0683852,Sade,Stronger Than Pride
+Chris Brown,Graffiti,chris brown::graffiti,1,0.0680472,Usher,Looking 4 Myself
+Brian Eno,Before and After Science,brian eno::before and after science,1,0.0680427,Stereolab,Not Music
+The Album Leaf,Seal Beach EP + Bonus Tracks,the album leaf::seal beach ep + bonus tracks,1,0.0680025,Balmorhea,Constellations
+Rei Harakami,[lust],rei harakami::[lust],1,0.0679775,Cornelius,Point
+Bicep,Meli (II),bicep::meli (ii),1,0.0672999,Underworld,Barking
+Savages,Silence Yourself,savages::silence yourself,1,0.0670881,These New Puritans,Beat Pyramid
+Motorpsycho,Still Life With Eggplant,motorpsycho::still life with eggplant,1,0.0669055,Dungen,Skit i allt
+TV on the Radio,Return to Cookie Mountain,tv on the radio::return to cookie mountain,1,0.0666992,Yeasayer,All Hour Cymbals
+Eels,Beautiful Freak,eels::beautiful freak,1,0.0666056,Beck,Sea Change
+The Charlatans,Wonderland,the charlatans::wonderland,1,0.0665976,Primal Scream,Evil Heat
+Kansas,Song for America,kansas::song for america,1,0.0662285,Jethro Tull,This Was
+Primal Scream,Give Out But Don't Give Up,primal scream::give out but don't give up,1,0.0659361,Morrissey,Your Arsenal
+Silversun Pickups,Remixes,silversun pickups::remixes,1,0.0659197,Bloc Party,Intimacy Remixed
+Tullycraft,"Old Traditions, New Standards","tullycraft::old traditions, new standards",1,0.0653524,Veronica Falls,Veronica Falls
+Alela Diane,About Farewell,alela diane::about farewell,1,0.0652138,Devendra Banhart,What Will We Be
+Grouper,Violet Replacement | Pt. II: SLEEP,grouper::violet replacement | pt. ii: sleep,1,0.0649565,Julianna Barwick,The Magic Place
+Thomas Köner,Permafrost,thomas koner::permafrost,1,0.0647939,Biosphere,Autour de la Lune
+Cherubs,Short of Popular,cherubs::short of popular,1,0.0643858,Part Chimp,Thriller
+Figurine,The Heartfelt,figurine::the heartfelt,1,0.0643293,I Am the World Trade Center,Out of the Loop
+FKA twigs,EP1,fka twigs::ep1,1,0.064261,Blue Hawaii,Untogether
+Bob Dylan,Rough and Rowdy Ways,bob dylan::rough and rowdy ways,1,0.0640837,Tom Waits,Real Gone
+Memory Cassette,Call & Response EP,memory cassette::call & response ep,1,0.0639532,Memory Tapes,Seek Magic
+Los Planetas,Super 8,los planetas::super 8,1,0.0638655,The Pains of Being Pure at Heart,Belong
+Stephen Malkmus,Stephen Malkmus,stephen malkmus::stephen malkmus,1,0.0638058,EELS,End Times
+The Residents,Commercial Album,the residents::commercial album,1,0.0637026,Laurie Anderson,Big Science
+Ian Brown,Golden Greats,ian brown::golden greats,1,0.0636749,Doves,Kingdom of Rust
+Film School,Fission,film school::fission,1,0.062824,Autolux,Transit Transit
+Red Red Meat,Bunny Gets Paid (Deluxe Edition),red red meat::bunny gets paid (deluxe edition),1,0.0623046,Califone,All My Friends Are Funeral Singers
+Kylesa,Ultraviolet,kylesa::ultraviolet,1,0.0621122,Torche,Songs for Singles
+Times New Viking,Rip It Off,times new viking::rip it off,1,0.0617342,Wavves,Wavvves
+Moloko,Statues,moloko::statues,1,0.061708,Goldfrapp,Seventh Tree
+Paul McCartney,Chaos and Creation in the Backyard,paul mccartney::chaos and creation in the backyard,1,0.0616758,David Bowie,Reality
+Herbie Hancock,Secrets,herbie hancock::secrets,1,0.0616638,Thundercat,The Golden Age of Apocalypse
+Six Organs of Admittance,For Octavio Paz,six organs of admittance::for octavio paz,1,0.0616111,Espers,III
+Why?,Alopecia,why?::alopecia,1,0.0612184,Wild Beasts,"Limbo, Panto"
+Donna Summer,The Donna Summer Anthology,donna summer::the donna summer anthology,1,0.0611961,Grace Jones,Hurricane
+DJ Cam,Revisited By,dj cam::revisited by,1,0.0608101,DJ Shadow,"The Less You Know, the Better"
+Q and Not U,On Play Patterns,q and not u::on play patterns,1,0.0605714,Les Savy Fav,Let's Stay Friends
+Tilly and the Wall,Wild Like Children,tilly and the wall::wild like children,1,0.0602694,She & Him,Volume Two
+The Bird and the Bee,Interpreting the Masters Volume 1: A Tribute to Daryl Hall and John Oates,the bird and the bee::interpreting the masters volume 1: a tribute to daryl hall and john oates,1,0.0598829,Tracey Thorn,Tinsel and Lights
+Bonnie 'Prince' Billy,Singer's Grave a Sea of Tongues,bonnie 'prince' billy::singer's grave a sea of tongues,1,0.0598188,Cass McCombs,Catacombs
+Apparat,Shapemodes EP,apparat::shapemodes ep,1,0.0597796,Kammerflimmer Kollektief,Hysteria
+Allie X,Girl with No Face,allie x::girl with no face,1,0.0597665,Austra,Feel It Break
+The Majestic Arrows,Eccentric Soul: The Bandit Label,the majestic arrows::eccentric soul: the bandit label,1,0.059542,Kings Go Forth,The Outsiders Are Back
+The Feeling,Twelve Stops And Home,the feeling::twelve stops and home,1,0.059473,Athlete,Vehicles & Animals
+Thom Yorke,ANIMA,thom yorke::anima,1,0.0593435,BEAK>,>>
+The Residents,Stars & Hank Forever,the residents::stars & hank forever,1,0.0592083,Laurie Anderson,Homeland
+Sugar,Beaster,sugar::beaster,1,0.0591303,Bob Mould,Silver Age
+Vladislav Delay,Whistleblower,vladislav delay::whistleblower,1,0.0591189,Clark,Iradelphic
+Madness,Divine Madness,madness::divine madness,1,0.0588348,Dexys Midnight Runners,Let's Make This Precious: The Best of Dexys Midnight Runners
+Super Furry Animals,Mwng,super furry animals::mwng,1,0.0586796,Supergrass,Life on Other Planets
+I LIKE TRAINS,The Shallows,i like trains::the shallows,1,0.0582476,The Twilight Sad,No One Can Ever Know
+Andrew Bird,Ballad of the Red Shoes,andrew bird::ballad of the red shoes,1,0.0580618,Sufjan Stevens,The BQE
+Justice,Woman,justice::woman,1,0.0579731,Basement Jaxx,Crazy Itch Radio
+Tim Hecker,Mirages,tim hecker::mirages,1,0.0579377,Biosphere,Shenzhou
+Aesop Rock,Build Your Own Bazooka Tooth,aesop rock::build your own bazooka tooth,1,0.0576271,Busdriver,Fear of a Black Tangent
+Capsule,CUTIE CINEMA REPLAY,capsule::cutie cinema replay,1,0.0574696,Stereolab,Chemical Chords
+Saint Etienne,Foxbase Alpha,saint etienne::foxbase alpha,1,0.05737,Primal Scream,Screamadelica
+!!!,THR!!!ER,!!!::thr!!!er,1,0.0573593,The Rapture,In the Grace of Your Love
+Sebadoh,Harmacy,sebadoh::harmacy,1,0.0572098,J Mascis,Several Shades of Why
+Gene,Olympian,gene::olympian,1,0.0570877,Morrissey,Years of Refusal
+Fred Frith,Gravity,fred frith::gravity,1,0.0570069,OOIOO,ARMONICO HEWA
+John Mellencamp,Trouble No More,john mellencamp::trouble no more,1,0.0568976,The Black Crowes,Warpaint
+Tori Amos,Live from NY,tori amos::live from ny,1,0.0568687,Antony and the Johnsons,The Crying Light
+Islands,Return to the Sea,islands::return to the sea,1,0.0567905,WHY?,Eskimo Snow
+Archers of Loaf,Icky Mettle,archers of loaf::icky mettle,1,0.0565997,Les Savy Fav,Root for Ruin
+Black Box Recorder,The Facts of Life,black box recorder::the facts of life,1,0.056505,Kate Bush,50 Words for Snow
+Pere Ubu,New Picnic Time,pere ubu::new picnic time,1,0.056112,Can,The Lost Tapes
+Blacklisted,"So, You Are a Magician?","blacklisted::so, you are a magician?",1,0.0561027,Ceremony,Zoo
+Jay Dee,Vintage: Unreleased Instrumentals,jay dee::vintage: unreleased instrumentals,1,0.0559254,J Dilla,Donuts
+Thee Oh Sees,Mutilator Defeated At Last,thee oh sees::mutilator defeated at last,1,0.0559038,Kurt Vile,Childish Prodigy
+MGMT,MGMT,mgmt::mgmt,1,0.0557802,The Flaming Lips,Embryonic
+Cocteau Twins,Garlands,cocteau twins::garlands,1,0.0556026,The Cure,Songs of a Lost World
+The Frames,The Cost,the frames::the cost,1,0.055321,Villagers,Becoming a Jackal
+Gang Gang Dance,God's Money,gang gang dance::god's money,1,0.0552985,Fuck Buttons,Street Horrrsing
+Joan Armatrading,Greatest Hits,joan armatrading::greatest hits,1,0.0552499,Joan as Police Woman,The Deep Field
+Stephen Stills,Manassas,stephen stills::manassas,1,0.0551435,Neil Young,Living With War
+Bran Van 3000,Discosis,bran van 3000::discosis,1,0.0551292,Junior Boys,It's All True
+The Staves,Dead & Born & Grown,the staves::dead & born & grown,1,0.0545474,Laura Marling,A Creature I Don't Know
+Tripping Daisy,Tripping Daisy,tripping daisy::tripping daisy,1,0.0543105,The Lemonheads,Varshons
+Tamaryn,Cranekiss,tamaryn::cranekiss,1,0.0541721,School of Seven Bells,Disconnect From Desire
+Ducktails,Ducktails III: Arcade Dynamics,ducktails::ducktails iii: arcade dynamics,1,0.0537637,Real Estate,Real Estate
+Kaiser Chiefs,Employment (China Anniversary Edition),kaiser chiefs::employment (china anniversary edition),1,0.0536961,Good Shoes,"No Hope, No Future"
+The Velvet Underground,Loaded [2015 Remaster],the velvet underground::loaded [2015 remaster],1,0.053515,Patti Smith,Outside Society
+Kristin Hersh,Sunny Border Blue,kristin hersh::sunny border blue,1,0.0534596,Tanya Donelly,Beautysleep
+Mogwai,Every Country's Sun,mogwai::every country's sun,1,0.0532338,M83,"Hurry Up, We're Dreaming"
+Q and Not U,No Kill No Beep Beep,q and not u::no kill no beep beep,1,0.0531467,mclusky,mclusky Do Dallas
+The Bronx,The Bronx (II),the bronx::the bronx (ii),1,0.053102,Fucked Up,The Chemistry of Common Life
+Herbert,We All Need Love EP,herbert::we all need love ep,1,0.052536,Metro Area,Metro Area
+Amen Dunes,Through Donkey Jaw,amen dunes::through donkey jaw,1,0.0521223,Six Organs of Admittance,Asleep on the Floodplain
+Fursaxa,Alone In The Dark Wood,fursaxa::alone in the dark wood,1,0.0520201,Sun City Girls,Funeral Mariachi
+The Lonely Island,I'm On A Boat (Explicit Version),the lonely island::i'm on a boat (explicit version),1,0.051746,Flight of the Conchords,I Told You I Was Freaky
+Diane Cluck,Oh Vanille / Ova Nil,diane cluck::oh vanille / ova nil,1,0.0516474,Juana Molina,Un día
+Trans Am,Liberation,trans am::liberation,1,0.0513488,Radian,Juxtaposition
+Sufjan Stevens,All Delighted People EP,sufjan stevens::all delighted people ep,1,0.0510727,Rufus Wainwright,Out of the Game
+Lilys,Everything Wrong Is Imaginary,lilys::everything wrong is imaginary,1,0.0509556,Spiritualized,Songs in A&E
+Blind Pilot,3 Rounds and a Sound,blind pilot::3 rounds and a sound,1,0.0507964,Iron & Wine,Around the Well
+The Civil Wars,Barton Hollow,the civil wars::barton hollow,1,0.0506516,Anaïs Mitchell,Young Man in America
+Diamanda Galás,The Diaspora of Rembetiko,diamanda galas::the diaspora of rembetiko,1,0.050561,Scott Walker,The Drift
+Ash,1977,ash::1977,1,0.0503017,British Sea Power,Man of Aran
+Peter Wolf Crier,Inter-Be,peter wolf crier::inter-be,1,0.0500002,Elvis Perkins in Dearland,Elvis Perkins in Dearland
+Mirah,You Think It's Like This But Really It's Like This,mirah::you think it's like this but really it's like this,1,0.0495881,Gregory and the Hawk,Moenie and Kitchi
+Jon Hassell,Vernal Equinox,jon hassell::vernal equinox,1,0.0493174,Supersilent,6
+The Charlatans,Up at the Lake,the charlatans::up at the lake,1,0.048919,Delays,Faded Seaside Glamour
+Justin Townes Earle,Absent Fathers,justin townes earle::absent fathers,1,0.0487891,Caitlin Rose,The Stand-In
+Dan Deacon,America,dan deacon::america,1,0.0485501,Future Islands,In Evening Air
+Maze Featuring Frankie Beverly,Maze Featuring Frankie Beverly / Golden Time Of Day,maze featuring frankie beverly::maze featuring frankie beverly / golden time of day,1,0.0484959,Lewis Taylor,Lewis Taylor
+Stars of the Lid,and Their Refinement of the Decline,stars of the lid::and their refinement of the decline,1,0.048494,Mountains,Centralia
+Julian Cope,The Collection,julian cope::the collection,1,0.0479116,Mercury Rev,Snowflake Midnight
+Perfume Genius,No Shape,perfume genius::no shape,1,0.0468617,Bat for Lashes,The Haunted Man
+Thou,Heathen,thou::heathen,1,0.0466552,Earth,"Angels of Darkness, Demons of Light II"
+Wild Nothing,Indigo,wild nothing::indigo,1,0.0461225,Twin Shadow,Forget
+The Smiths,The Headmaster Ritual,the smiths::the headmaster ritual,1,0.0457314,Morrissey,Swords
+Helado Negro,Invisible Life,helado negro::invisible life,1,0.0457124,Bibio,Ambivalence Avenue
+Molly Nilsson,Extreme,molly nilsson::extreme,1,0.045485,Former Ghosts,New Love
+Dire Straits,Brothers in Arms,dire straits::brothers in arms,1,0.0454045,U2,The Joshua Tree
+Franz Ferdinand,Ulysses - EP,franz ferdinand::ulysses - ep,1,0.0453847,Graham Coxon,The Spinning Top
+Jim O'Rourke,Insignificance,jim o'rourke::insignificance,1,0.0447635,Tindersticks,The Hungry Saw
+Paul Weller,Days of Speed,paul weller::days of speed,1,0.0446234,Richard Hawley,Standing at the Sky's Edge
+The Phoenix Foundation,Happy Ending,the phoenix foundation::happy ending,1,0.0443362,Liam Finn,I'll Be Lightning
+Panda Bear,Reset (Expanded Edition),panda bear::reset (expanded edition),1,0.0439382,Django Django,Django Django
+Caribou,Suddenly,caribou::suddenly,1,0.0435592,Daphni,Jiaolong
+Bright Eyes,A Collection of Songs Written and Recorded 1995-1997,bright eyes::a collection of songs written and recorded 1995-1997,1,0.0431816,Emmy the Great,Virtue
+Whiskeytown,Pneumonia,whiskeytown::pneumonia,1,0.043128,Ryan Adams,Demolition
+Talking Heads,Remixed,talking heads::remixed,1,0.043065,Sparks,Hello Young Lovers
+Emilíana Torrini,Sucker Punch: Original Motion Picture Soundtrack,emiliana torrini::sucker punch: original motion picture soundtrack,1,0.0428388,Scarlett Johansson,Anywhere I Lay My Head
+Black Moth Super Rainbow,Eating Us,black moth super rainbow::eating us,1,0.0427616,U.S. Girls,GEM
+36,Sine Dust,36::sine dust,1,0.042451,Blanck Mass,Blanck Mass
+Cassius,15 Again,cassius::15 again,1,0.0423227,Sébastien Tellier,Sexuality
+The Decemberists,The Hazards of Love,the decemberists::the hazards of love,1,0.0414965,O'Death,"Broken Hymns, Limbs and Skin"
+Stereolab,Aluminum Tunes,stereolab::aluminum tunes,1,0.0413421,The Fiery Furnaces,I'm Going Away
+Casiotone for the Painfully Alone,Etiquette,casiotone for the painfully alone::etiquette,1,0.0405202,The Magnetic Fields,Realism
+Crystal Stilts,Love Is a Wave,crystal stilts::love is a wave,1,0.0404283,Vivian Girls,Everything Goes Wrong
+New Order,Music Complete,new order::music complete,1,0.0401053,Pet Shop Boys,Elysium
+Goldie Lookin' Chain,Greatest Hits,goldie lookin' chain::greatest hits,1,0.039739,The Streets,Computers and Blues
+SNFU,Let's Get It Right The First Time,snfu::let's get it right the first time,1,0.039663,Fucked Up,David Comes to Life
+Shlohmo,Bad Vibes,shlohmo::bad vibes,1,0.0384037,Vondelpark,Seabed
+The American Dollar,The Best of The American Dollar,the american dollar::the best of the american dollar,1,0.0379563,The Album Leaf,A Chorus of Storytellers
+Furry Things,The Big Saturday Illusion,furry things::the big saturday illusion,1,0.0376905,Of Montreal,"If He Is Protecting Our Nation, Then Who Will Protect Big Oil, Our Children?"
+Four Tet,Pink,four tet::pink,1,0.0360331,Unknown Mortal Orchestra,II
+Pupkulies & Rebecca,Burning Boats,pupkulies & rebecca::burning boats,1,0.0354857,Nôze,Songs on the Rocks
+Ms. Dynamite,Neva Soft,ms. dynamite::neva soft,1,0.0354067,The Streets,Everything Is Borrowed
+Hecuba,Paradise,hecuba::paradise,1,0.0344464,YACHT,See Mystery Lights
+Surkin,Action Replay,surkin::action replay,1,0.0326379,Vitalic,OK Cowboy
+Battle Tapes,Sweatshop Boys - EP,battle tapes::sweatshop boys - ep,1,0.0324252,Breton,Other People's Problems
+John Abercrombie Quartet,Wait Till You See Her,john abercrombie quartet::wait till you see her,1,0.0315923,David Torn,Prezens
+Young Jeezy,The Recession (Bonus Track Version),young jeezy::the recession (bonus track version),1,0.0302189,Nas,God's Son
+Panda Bear,Mr Noah,panda bear::mr noah,1,0.0297696,El Guincho,Pop negro
+N.O.R.E.,God's Favorite,n.o.r.e.::god's favorite,1,0.0293189,Plan B,Who Needs Actions When You Got Words
+Julee Cruise,Floating Into the Night,julee cruise::floating into the night,1,0.0282019,Björk,Biophilia
+Gescom,Mini Disc,gescom::mini disc,1,0.0276603,Max Tundra,Mastered by Guy at the Exchange
+Ugress,Sophisticated Wickedness,ugress::sophisticated wickedness,1,0.0253819,Pepe Deluxé,Queen of the Wave
+Mates of State,You're Going to Make It,mates of state::you're going to make it,1,0.0253781,The Go! Team,Rolling Blackouts
+Boris,Dronevil -Final-,boris::dronevil -final-,1,0.0236499,Oneohtrix Point Never,Replica
+T. Rex,Get It On: The Collection,t. rex::get it on: the collection,1,0.0229857,David Bowie,David Bowie
+The Brother Moves On,A New Myth,the brother moves on::a new myth,1,0.0229789,BLK JKS,After Robots
+Meat Beat Manifesto,Answers Come in Dreams,meat beat manifesto::answers come in dreams,1,0.0221184,Zomby,Dedication
+Hey Sholay,((O)),hey sholay::((o)),1,0.0219556,Stricken City,Songs About People I Know
+Rachel's,Technology is Killing Music,rachel's::technology is killing music,1,0.021634,Au,Both Lights
+Dauwd,Heat Division,dauwd::heat division,1,0.0207382,Gang Colours,The Keychain Collection
+The Muttering Retreats,The Muttering Retreats,the muttering retreats::the muttering retreats,1,0.0206012,Music Go Music,Expressions
+Frank Turner,Do One,frank turner::do one,1,0.0194804,Mariachi El Bronx,Mariachi El Bronx
+Simon Curtis,R∆,simon curtis::r∆,1,0.0194413,MEN,Talk About Body
+Paper Lions,Trophies,paper lions::trophies,1,0.0193827,Dog Is Dead,All Our Favourite Stories
+Hanadensha,The Golden Age of Heavy Blood,hanadensha::the golden age of heavy blood,1,0.0193337,Ghost,In Stormy Nights
+Warrior Queen,System Ruff / Stop Dem,warrior queen::system ruff / stop dem,1,0.0190609,Toddla T,Watch Me Dance
+We Swim You Jump,We Swim You Jump (Deluxe),we swim you jump::we swim you jump (deluxe),1,0.0186262,Ferraby Lionheart,Catch the Brass Ring
+Lisa Crawley,"Hello, Goodbye and Everything Inbetween","lisa crawley::hello, goodbye and everything inbetween",1,0.0183818,Bachelorette,My Electric Family
+Hush Arbors,Yankee Reality,hush arbors::yankee reality,1,0.0169728,Woods,Sun and Shade
+Ane Brun,Rarities,ane brun::rarities,1,0.0168684,Rachel Zeffira,The Deserters
+Seekae,+Dome,seekae::+dome,1,0.016582,Sack und Blumm,Kind Kind
+Wild Nothing,Empty Estate,wild nothing::empty estate,1,0.0163165,Freelance Whales,Weathervanes
+Jon Balke,Book Of Velocities,jon balke::book of velocities,1,0.0161757,Opsvik & Jennings,Commuter Anthems
+Rock Kills Kid,Paralyzed,rock kills kid::paralyzed,1,0.0156707,Amazing Baby,Rewild
+Miles Benjamin Anthony Robinson,Summer of Fear,miles benjamin anthony robinson::summer of fear,1,0.0155186,Rain Machine,Rain Machine
+Freeheat,Back On The Water,freeheat::back on the water,1,0.0154924,Sister Vanilla,Little Pop Rock
+Guillemots,Hello Land!,guillemots::hello land!,1,0.0154063,Amateur Best,No Thrills
+Llama Farmers,Get The Keys And Go,llama farmers::get the keys and go,1,0.0153714,Viva Brother,Famous First Words
+BADBADNOTGOOD,III,badbadnotgood::iii,1,0.0151202,Jaga Jazzist,One-Armed Bandit
+Seams,Focus Energy / Motive Order,seams::focus energy / motive order,1,0.0144496,Jimmy Edgar,XXX
+Masters Of The Hemisphere,Protest a Dark Anniversary,masters of the hemisphere::protest a dark anniversary,1,0.0143944,The Mendoza Line,Lost in Revelry
+Electronic Voice Phenomena,John Barleycorn Reborn,electronic voice phenomena::john barleycorn reborn,1,0.0143449,Shelleydevoto,Buzzkunst
+Cassius,The Rawkers,cassius::the rawkers,1,0.0140605,Daft Punk,Human After All
+aMute,Savage Bliss,amute::savage bliss,1,0.0140382,Lokai,Transition
+Barcelona,Not Quite Yours,barcelona::not quite yours,1,0.0138795,Stubborn Heart,Stubborn Heart
+Maxïmo Park,Girls Who Play Guitars,maximo park::girls who play guitars,1,0.0134918,Paul Smith,Margins
+The Hives,Veni Vidi Vicious,the hives::veni vidi vicious,1,0.0129896,The Mooney Suzuki,Have Mercy
+Tomáš Dvořák,Machinarium Soundtrack,tomas dvorak::machinarium soundtrack,1,0.0128889,Monkey,Journey to the West
+Roots Manuva,4everevolution,roots manuva::4everevolution,1,0.0128445,Speech Debelle,Speech Therapy
+The Weather Station,The Line,the weather station::the line,1,0.0127419,Woodpigeon,Songbook
+Josephine Foster & The Supposed,"Live: Molten Truth Tour 2004, Washington DC, The Warehouse Next Door","josephine foster & the supposed::live: molten truth tour 2004, washington dc, the warehouse next door",1,0.0124002,P.G. Six,Slightly Sorry
+Chromeo,She's In Control,chromeo::she's in control,1,0.0120394,The BPA,I Think We're Gonna Need a Bigger Boat
+Troy Gregory,"Love Letters, Vol. 2","troy gregory::love letters, vol. 2",1,0.0120363,The Go,Howl on the Haunted Beat You Ride
+Radioactive Man,Growl,radioactive man::growl,1,0.0115759,Two Lone Swordsmen,From The Double Gone Chapel
+Vampire Weekend,Father of the Bride,vampire weekend::father of the bride,1,0.0108131,The Magic Numbers,The Runaway
+Pear Eyes,Pear Eyes,pear eyes::pear eyes,1,0.0107994,Tussle,Telescope Mind
+Hospitality,Trouble,hospitality::trouble,1,0.010662,White Hinterland,Kairos
+Lobot,"If it's You, it's Me","lobot::if it's you, it's me",1,0.0106135,Eyes Adrift,Eyes Adrift
+Tim Finn,Say It Is So,tim finn::say it is so,1,0.0105045,7 Worlds Collide,The Sun Came Out
+Laura Cannell,Quick Sparrows Over the Black Earth,laura cannell::quick sparrows over the black earth,1,0.0100024,Jherek Bischoff,Composed
+The Beach Boys,Made in California,the beach boys::made in california,1,0.00997868,Brian Wilson,That Lucky Old Sun
+Fettes Brot,Am Wasser gebaut,fettes brot::am wasser gebaut,1,0.00958585,Public Enemy,New Whirl Odor
+Civil Twilight,Civil Twilight,civil twilight::civil twilight,1,0.00880372,Retribution Gospel Choir,2
+James,"Pulse of the Earth - Lounge Music, Vol. 2: Extremes","james::pulse of the earth - lounge music, vol. 2: extremes",1,0.00850484,Pop Levi,Never Never Love
+Angus & Julia Stone,The Beast - EP,angus & julia stone::the beast - ep,1,0.00837705,Amy Millan,Masters of the Burial
+The Detroit Experiment,The Detroit Experiment,the detroit experiment::the detroit experiment,1,0.00820828,The Matthew Herbert Big Band,There's Me and There's You
+Baltic Fleet,Baltic Fleet,baltic fleet::baltic fleet,1,0.00790225,Hector Zazou & Swara,In the House of Mirrors
+The Delgados,The Complete BBC Peel Sessions,the delgados::the complete bbc peel sessions,1,0.00785076,Emma Pollock,The Law of Large Numbers
+We Invented Paris,We Invented Paris,we invented paris::we invented paris,1,0.00750273,Jonny,Jonny
+Wolf Gang,Suego Faults,wolf gang::suego faults,1,0.0074641,Fujiya & Miyagi,Ventriloquizzing
+Paul Young,THE CROSSING,paul young::the crossing,1,0.00730735,Dexys Midnight Runners,Searching for the Young Soul Rebels
+Danielson Famile,Dimension Mix,danielson famile::dimension mix,1,0.0071733,Arthur & Yu,In Camera
+Swell,41,swell::41,1,0.00671862,Chief,Modern Rituals
+M.I.A.,Tribal Warfare,m.i.a.::tribal warfare,1,0.00631456,Spoek Mathambo,Father Creeper
+Jursino Cayetano,Paranda,jursino cayetano::paranda,1,0.00592411,Aurelio,Laru Beya
+Roy Davis Jr.,Scion A/V Remix: Roy Davis Jr. Feat. Bear Who? - Rock Lights,roy davis jr.::scion a/v remix: roy davis jr. feat. bear who? - rock lights,1,0.005547,Azari & III,Azari & III
+Molina & Johnson,Molina & Johnson,molina & johnson::molina & johnson,1,0.00538483,Joker's Daughter,The Last Laugh
+Misteur Valaire,Friterday Night,misteur valaire::friterday night,1,0.00501538,Mocky,Saskamodie
+William Ellwood,Openings,william ellwood::openings,1,0.00494348,The Acorn,Glory Hope Mountain
+Foxbird,Simple Songs,foxbird::simple songs,1,0.00399233,Indians,Somewhere Else
+Flanger,Spirituals,flanger::spirituals,1,0.00381131,Super Numeri,Great Aviaries
+On Wave,Ginger,on wave::ginger,1,0.00357957,Kasabian,Kasabian
+Fera,Familiar Feeling,fera::familiar feeling,1,0.00296415,Limp,Orion
+Rob Zombie,Hellbilly Deluxe,rob zombie::hellbilly deluxe,1,0.00290241,Andrew W.K.,I Get Wet
+Simon & Garfunkel,The Best Of Simon & Garfunkel,simon & garfunkel::the best of simon & garfunkel,1,0.00286699,Paul Simon,So Beautiful or So What
+The Czars,The Ugly People Vs The Beautiful People,the czars::the ugly people vs the beautiful people,1,0.00233447,John Grant,Pale Green Ghosts
+Capillary Action,So Embarrassing,capillary action::so embarrassing,1,0.00190824,Massacre,Killing Time
+Tindersticks,Tindersticks [II],tindersticks::tindersticks [ii],1,0.0018785,Richard Hawley,Truelove's Gutter
+Thurston Moore,Sensitive/ Lethal,thurston moore::sensitive/ lethal,1,0.00180853,Lou Reed,Metal Machine Music
+Throw Me The Statue,Creaturesque,throw me the statue::creaturesque,1,0.00175576,Fool's Gold,Fool's Gold
+Bill Callahan,Dream River,bill callahan::dream river,1,0.00126845,Lambchop,Mr. M
+Fear Before the March of Flames,Art Damage,fear before the march of flames::art damage,1,0.00124372,Rolo Tomassi,Cosmology
+Hamster Theatre,Carnival Detournement,hamster theatre::carnival detournement,1,0.00123286,Robert Wyatt,Comicopera
