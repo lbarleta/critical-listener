@@ -1,6 +1,6 @@
 # Last.fm Album Recommender
 
-Given an album (artist + title), this tool suggests other albums using the public [Last.fm API](https://www.last.fm/api). Recommendations are derived from **track similarity**, because Last.fm does not expose a native “similar album” endpoint.
+Given an album (artist + title), this tool suggests other albums using the public [Last.fm API](https://www.last.fm/api). Recommendations are derived from **track similarity**, because Last.fm does not include a native “similar album” endpoint.
 
 The pipeline is:
 
@@ -12,7 +12,7 @@ The pipeline is:
 2. Pick one or more seed tracks (see matching strategies below).
 3. For each seed track, call `track.getSimilar` to fetch similar tracks from other artists.
 4. Resolve each similar track to its parent album (`track.getinfo`).
-5. Return ranked album recommendations, **excluding albums by the seed artist**.
+5. Return ranked album recommendations, excluding albums by the seed artist.
 
 ## Matching strategies
 
@@ -32,25 +32,8 @@ Strategy **(c)** is the most robust but also the most expensive: it typically re
 | `lastfm_recs.ipynb` | Interactive demo comparing all three strategies |
 | `.env.example` | Template for API key configuration |
 
-## Setup
 
-1. Copy the environment template:
-
-   ```bash
-   cp bench/.env.example bench/.env
-   ```
-
-2. Add your Last.fm API key to `bench/.env`:
-
-   ```
-   LASTFM_API_KEY=your_key_here
-   ```
-
-   Keys are available from [Last.fm API account settings](https://www.last.fm/api/account/create). Ask a teammate if you need a shared project key.
-
-3. Open and run `lastfm_recs.ipynb`.
-
-## Usage
+## Basic Usage
 
 ```python
 from lastfm_albums import compare_recommendations
