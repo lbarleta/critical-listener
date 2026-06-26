@@ -19,6 +19,8 @@ datasets/merged_dataset.csv
 # OS files
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
+*.Zone.Identifier
 
 # VS Code
 .vscode/
