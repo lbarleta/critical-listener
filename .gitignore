@@ -18,6 +18,7 @@ datasets/merged_dataset.csv
 datasets/lastfm_recommendations*.csv
 datasets/albums_2plus.csv
 datasets/unique_albums_mb.csv
+datasets/recommendations_album_level_avg_embeddings.parquet
 
 # OS files
 .DS_Store

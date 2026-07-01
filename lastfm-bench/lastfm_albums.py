@@ -310,19 +310,20 @@ def recommend_via_similar_tracks(
     seed_track: dict[str, Any],
     n_recs: int = 5,
     fetch_floor: int = DEFAULT_FETCH_FLOOR,
+    min_lookup: int = 5,
 ) -> pd.DataFrame:
     """
     track.getSimilar -> track.getInfo (parent album) from one seed track.
 
-    API calls: 1 album.getinfo (caller) + 1 track.getsimilar + up to n_recs
-    track.getinfo calls (after filtering fetch_floor similar tracks), then
-    return the top n_recs albums.
+    Resolves at least min_lookup candidates (default 5) regardless of n_recs,
+    so low n_recs values (e.g. 1) still have enough tracks to resolve before
+    filtering drops them all.
     """
     rows = _collect_album_recommendations_for_track(
         seed,
         seed_track,
         similar_per_track=fetch_floor,
-        track_lookup_limit=n_recs,
+        track_lookup_limit=max(n_recs, min_lookup),
     )
     return _finalize_recommendations(rows, seed, n_recs, "similarity_score")
 
