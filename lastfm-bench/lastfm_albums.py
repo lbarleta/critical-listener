@@ -114,17 +114,54 @@ def _parse_tracks(album_data: dict[str, Any]) -> list[dict[str, str]]:
     return tracks
 
 
+def _parse_toptags(album_data: dict[str, Any]) -> list[str]:
+    """Top tag names from album.getinfo (tags / toptags blocks)."""
+    tags: list[str] = []
+    for block_key in ("tags", "toptags"):
+        block = album_data.get(block_key)
+        if not isinstance(block, dict):
+            continue
+        for item in _as_list(block.get("tag")):
+            name = item.get("name")
+            if name and name not in tags:
+                tags.append(str(name))
+    return tags
+
+
+def format_album_tags(tags: list[str]) -> str | None:
+    """Semicolon-separated tag string for CSV output; None when empty."""
+    cleaned = [tag.strip() for tag in tags if tag and str(tag).strip()]
+    return ";".join(cleaned) if cleaned else None
+
+
+def _get_album_data(artist: str, album: str) -> dict[str, Any]:
+    data = lastfm_get("album.getinfo", artist=artist, album=album)
+    return data["album"]
+
+
 def get_album_detail(artist: str, album: str) -> dict[str, Any]:
     """One album.getinfo call: album metadata plus tracklist."""
-    data = lastfm_get("album.getinfo", artist=artist, album=album)
-    album_data = data["album"]
+    album_data = _get_album_data(artist, album)
     record = album_to_record(album_data)
     record["tracks"] = _parse_tracks(album_data)
+    record["tags"] = _parse_toptags(album_data)
     return record
 
 
 def get_album_info(artist: str, album: str) -> dict[str, Any]:
     return get_album_detail(artist, album)
+
+
+def get_album_listeners(artist: str, album: str) -> int:
+    """Listener count for an album (one album.getinfo call, shares the cache)."""
+    return int(_get_album_data(artist, album).get("listeners", 0) or 0)
+
+
+def get_album_listeners_and_tags(artist: str, album: str) -> tuple[int, list[str]]:
+    """Listeners and top tags from one album.getinfo call (shares the cache)."""
+    album_data = _get_album_data(artist, album)
+    listeners = int(album_data.get("listeners", 0) or 0)
+    return listeners, _parse_toptags(album_data)
 
 
 def search_albums(query: str, limit: int = 10) -> list[dict[str, Any]]:
