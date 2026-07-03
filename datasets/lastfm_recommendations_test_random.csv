@@ -1,0 +1,1391 @@
+album_id,artist,album,review_count,strategy,status,error,seed_track,seed_listeners,rec_artist,rec_album,score,rank,rec_listeners
+14343,Linus Loves,Stage Invader,1,random,ok,,The Victoria Principle,14665,Yves Murasca,Hed Kandi: The Mix USA 2009,1.0,1,56
+14343,Linus Loves,Stage Invader,1,random,ok,,The Victoria Principle,14665,Laurent Wolf,Positiv Energy,0.912308,2,2935
+13924,LCY,Pulling Teeth EP,1,random,error,No tracks found for album 'Pulling Teeth EP',,,,,,,
+9338,Gilles Peterson,Gilles Peterson in Africa,1,random,no_results,,,413,,,,,
+6611,dj blackpower,BLP 2020 “King of the Night” EP,1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=dj+blackpower&album=BLP+2020+%E2%80%9CKing+of+the+Night%E2%80%9D+EP,,,,,,,
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Tycho,Epoch,0.0550467,1,175010
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Two Lone Swordsmen,Tiny Reminders,0.042588,2,70980
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Washed Out,Paracosm,0.0363947,3,305544
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Leon Vynehall,Envelopes - Single,0.0352747,4,216
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,The Prodigy,"Always Outnumbered, Never Outgunned",0.0663311,1,434766
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Fatboy Slim,Halfway Between the Gutter and the Stars (15th Anniversary),0.0662351,2,26202
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Fatboy Slim,Halfway Between the Gutter and the Stars,0.0630057,3,437755
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Barry Can't Swim,Loner,0.0629935,4,98544
+29637,Wiley,The Godfather 3,1,random,no_results,,,7494,,,,,
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Set Fire to Flames,Sings Reign Rebuilder,0.2186,1,96625
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Oiseaux-Tempête,Al-'An! (And Your Night Is Your Shadow / A Fairy-Tale Piece of Land to Make Our Dreams),0.170156,2,26292
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Yndi Halda,Enjoy Eternal Bliss,0.143572,3,174648
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Do Make Say Think,Goodbye Enemy Airship The Landlord Is Dead,0.135547,4,145223
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Mark Chesnutt,Almost Goodbye,0.664096,1,30129
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Tracy Lawrence,The Best of Tracy Lawrence,0.594359,2,153939
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Clint Black,Greatest Hits,0.557326,3,142563
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Ornette Coleman,Sound Grammar,0.015837,1,6615
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,The Bad Plus,Inevitable Western,0.00771208,2,9138
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Chris Speed,Emit,0.00771206,3,1744
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Thomas Chapin,Haywire,0.00771205,4,283
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,Noel Redding,The Experience Sessions,0.169131,1,8955
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,Cream,The Very Best of Cream,0.123132,2,483841
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,The Jimi Hendrix Experience,Axis: Bold as Love,0.115128,3,456382
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,The Jimi Hendrix Experience,Smash Hits,0.108565,4,53893
+21038,Rudra,Antithesis,1,random,no_results,,,1205,,,,,
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Kylie Minogue,Kiss Me Once (Special Edition),0.0707904,1,86517
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Bridgit Mendler,Hello My Name Is...,0.0566646,2,765011
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Christina Perri,Head or Heart,0.0561945,3,308139
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Ellie Goulding,Halcyon Days (Deluxe Edition),0.0515383,4,53778
+4175,Castevet,Obsian,1,random,no_results,,,3840,,,,,
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Le Shok,We Are Electrocution,1.0,1,7362
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,The VSS,Nervous Circuits,0.520584,2,5506
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Socratic,Lunch For The Sky,0.492729,3,49967
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Crash Kings,Crash Kings,0.465355,4,93222
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Lost Ocean,Lost Ocean,0.444648,5,12123
+6683,DJ Rashad,Double Cup,1,random,no_results,,,97225,,,,,
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,girl in red,if i could make it go quiet (Apple Music Edition),0.25862,1,8495
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,MUNA,Silk Chiffon,0.213518,2,123663
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,Conan Gray,Game Music,0.209772,3,2419
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,Chappell Roan,100 Greatest 2020 Songs,0.189243,4,1722
+17078,Murcof,Utopia,1,random,error,No tracks found for album 'Utopia',,,,,,,
+4344,Chandra,Transportation EPs,1,random,error,No tracks found for album 'Transportation EPs',,,,,,,
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,NewDad,Madra [Explicit],0.0924136,1,3757
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,NewDad,Madra,0.0878534,2,377796
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Wet Leg,moisturizer [Explicit],0.0776636,3,685
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Silversun Pickups,Tenterhooks,0.0750221,4,15852
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Alvvays,Pharmacist,0.063479,5,56357
+8400,Fireworks Night,"One Winter, One Spring",1,random,ok,,God's Luck,195,Naoshi Mizuta,Final Fantasy XI Original Soundtrack,0.504695,1,843
+22382,Sloppy Jane,Madison,1,random,no_results,,,41115,,,,,
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Rocko,Gift Of Gab 2 (Deluxe Edition),0.231276,1,126225
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Young Money,We Are Young Money,0.188874,2,716084
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Wale,Ambition (Deluxe Version),0.188774,3,41096
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Young Jeezy,Trap Or Die 2,0.175481,4,7124
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Lloyd Banks,H.F.M. 2 (Explicit Version),0.170139,5,11188
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Nikki Lane,Walk of Shame,0.403839,1,9494
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Freakwater,Feels like the third time,0.403444,2,4586
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Freakwater,Thinking of You,0.381631,3,1328
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Justin Townes Earle,The Good Life,0.36528,4,69311
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Shannon McNally,Geronimo,0.349427,5,10701
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,beabadoobee,Loveworm / Patched Up,0.578407,1,3954
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,TV Girl,The Night in Question: French Exit Outtakes,0.520065,2,1067628
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,TV Girl,The TV Girl Box Set,0.469046,3,4893
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,Lana Del Rey,Ultraviolence (Deluxe),0.461948,4,2375823
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,Saga Faye,Who are you?,0.459953,5,227981
+28463,Various Artists,Nothing But Number 1's of the 50's,1,random,no_results,,,35,,,,,
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Likely Lads,Melrose Yard Demos,0.00936615,1,841
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Electric Touch,Never Look Back,0.00936615,2,2968
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Morning Parade,Morning Parade,0.00936615,3,49068
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Pete and the Pirates,Get Even,0.00936615,4,2377
+3348,Brackles,"Songs for Endless Cities, Volume 1",1,random,error,"No tracks found for album 'Songs for Endless Cities, Volume 1'",,,,,,,
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Hop Along,Get Disowned,0.0722256,1,134407
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Katie Malco,Tearing Ventricles,0.0660819,2,595
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Hop Along,"Bark Your Head Off, Dog",0.0635476,3,123702
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Better Oblivion Community Center,Better Oblivion Community Center,0.0624633,4,337617
+13018,Kele,2042,1,random,no_results,,,4505,,,,,
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,We Versus the Shark,Ruin Everything!,0.056882,1,14884
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,Grass is Green,Vacation Vinny,0.0462377,2,4459
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,31Knots,A Word Is Also A Picture Of A Word,0.0442502,3,4908
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,DD/MM/YYYY,Black Square,0.038805,4,5697
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Thermals,I Don't Believe You - 7 Inch,0.109376,1,1623
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Thermals,"LIVE [at the Echoplex - December 7th, 2007]",0.107822,2,19203
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Babies,Our House on the Hill,0.0918567,3,89089
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,Wavves,Wavvves,0.0868897,4,145939
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,The Dodos,No Color,0.00837543,1,78407
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Galapaghost,Runnin',0.00835421,2,4303
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Owen,Ghost Town,0.00832505,3,50063
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Galapaghost,Neptunes,0.00831796,4,1622
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Matteah Baim,The Laughing Boy,0.999999,1,11664
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Larkin Grimm,The Last Tree,0.806286,2,15552
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Faun Fables,Family Album,0.771266,3,6022
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Beth Custer,In The Broken Fields Where I Lie,0.744967,4,556
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Moderat,III (Deluxe Edition),0.334782,1,155566
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Gui Boratto,Renaissance - The Mix Collection,0.166102,2,6872
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Kollektiv Turmstrasse,Abenteuer Alltag EP,0.127604,3,7042
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Dominik Eulberg,Diorama,0.124141,4,54692
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Steve Bug,That's What I Like,0.956412,1,104
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Axel Boman,Holy Love,0.676735,2,42694
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Basic Channel,BCD,0.58439,3,53029
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Mark Broom,Shanty Star EP,0.459942,4,571
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Axel Boman,Family Vacation,0.440188,5,64395
+19258,Pigeon Funk,Pigeon Funk,1,random,ok,,Süsser Schlamm,21,Moscow Abandoned Hotel,The Salem Witch Trials Vol.2,0.81331,1,294
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Gojira,From Mars to Sirius,0.161041,1,563243
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Death,The Sound of Perseverance,0.154216,2,181682
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Katatonia,The Great Cold Distance,0.140236,3,355822
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,The Impossible Shapes,We Like It Wild,0.011733,1,1367
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Maurice Deebank,Inner Thought Zone,0.0078313,2,3361
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Elevator to Hell,Parts 1-3,0.0078313,3,16907
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Stan Hubbs,Crystal,0.00783129,4,18686
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Elevator,A Taste Of Complete Perspective,0.00783129,5,1139
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,The Long Winters,When I Pretend to Fall,0.120877,1,117827
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Bright Eyes,Cassadaga,0.0832448,2,536335
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Bright Eyes,1st World Blues,0.0812997,3,9349
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Badly Drawn Boy,Year Of The Rat,0.0765759,4,1337
+4186,Catch Prichard,I Still Miss Theresa Benoit,1,random,no_results,,,345,,,,,
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Cara Dillon,Hill of Thieves,0.307556,1,20112
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Bert Jansch,Edge Of A Dream,0.00970875,2,24025
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Bert Jansch & John Renbourn,After the Dance,0.00970872,3,1507
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,John Renbourn,The Nine Maidens,0.00970872,4,5650
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,John Renbourn,Sir John Alot,0.00970871,5,19858
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,The View,Hats Off To The Buskers,0.0566781,1,429606
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,Frightened Rabbit,Pedestrian Verse (10th Anniversary Edition),0.052713,2,3185
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,Frightened Rabbit,Pedestrian Verse (Deluxe Edition),0.0524332,3,8259
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,The Beta Band,The Three E.P.'s (20th Anniversary Remaster),0.0498299,4,219
+25670,The Nels Cline Singers,Share the Wealth,1,random,no_results,,,401,,,,,
+6608,DJ /rupture & Matt Shadetek,Solar Life Raft,1,random,error,No tracks found for album 'Solar Life Raft',,,,,,,
+4537,Chief Keef,Sorry 4 the Weight,1,random,no_results,,,2890,,,,,
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Langhorne Slim,The Spirit Moves (Deluxe Edition),0.211212,1,42600
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Dr. Dog,Be The Void,0.174881,2,88259
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Michael Marcagi,The Other Side - Single,0.171249,3,135
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,The Airborne Toxic Event,The Airborne Toxic Event (Deluxe Edition),0.164341,4,94759
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,I'm from Barcelona,Let Me Introduce My Friends,0.680125,1,275032
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,Sahara Hotnights,What if Leaving is a Loving Thing,0.64269,2,63836
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,A Camp,Song For The Leftovers,0.616554,3,4777
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,A Camp,I Can Buy You,0.563392,4,13646
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,Håkan Hellström,Känn ingen sorg för mig Göteborg,0.537119,5,155045
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Babyface Ray,Ron Artest,0.448006,1,218868
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Pi’erre Bourne,Marie Curie,0.444213,2,59266
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Lil Keed,Pre Game Hype Rap,0.401742,3,32
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Lil Keed,It's Up Freestyle,0.34979,4,69014
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Moneybagg Yo,A GANGSTA'S PAIN,0.337292,5,7517
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Krezip,Best Of,0.240325,1,25009
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Ella Fitzgerald,Une Anthologie 1948/1955,0.102683,2,97
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Peggy Lee,The Best Of Miss Peggy Lee,0.0932346,3,106140
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Doris Day,"I, Tonya (Original Motion Picture Soundtrack)",0.0864535,4,454
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Doris Day,Doris Day - Her Greatest Songs,0.0851734,5,47522
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,The Internet,Hive Mind,0.383691,1,557919
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,Childish Gambino,"""Awaken, My Love!""",0.129913,2,2404206
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,"Tyler, The Creator",IGOR,0.126279,3,2849871
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Jake Slazenger,Makes a Racket,0.185425,1,961
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Tusken Raiders,Bantha Trax,0.159085,2,1224
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Autechre,Anti EP,0.139131,3,22654
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Kid Spatula,Spatula Freak,0.13766,4,2234
+25502,The Mars Volta,Scab Dates,1,random,no_results,,,24763,,,,,
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,Elliott,False Cathedrals,0.0829448,1,53230
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Anniversary,Designing A Nervous Breakdown,0.0683357,2,91499
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Appleseed Cast,Low Level Owl: Volume I,0.0622133,3,23170
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Appleseed Cast,Two Conversations,0.0525427,4,100623
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Wrens,The Meadowlands,0.0477576,5,220207
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,B.o.B,Definitive Rap Classics,1.0,1,6
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Wiz Khalifa,Blacc Hollywood (Deluxe),0.827462,2,351706
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Wiz Khalifa,o.n.i.f.c. (Deluxe Version),0.736036,3,18327
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Mac Miller,On and on and Beyond,0.649714,4,343437
+6861,Donseph,NO ONE ELSE,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Jesse Sykes & The Sweet Hereafter,"Oh, My Girl",0.00469771,1,17648
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Chuck Ragan,Till Midnight,0.00469593,2,14207
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,William Elliott Whitmore,Ashes to Dust,0.00469576,3,14962
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Bonnie 'Prince' Billy,Greatest Palace Music,0.00467196,4,52271
+20182,Rắn Cạp Đuôi,Ngủ Ngày Ngay Ngày Tận Thế,1,random,no_results,,,5461,,,,,
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rita Ora,ORA,0.105202,1,157844
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rita Ora,ORA Deluxe,0.100876,2,93705
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Sophie Ellis-Bextor,Shoot from the Hip,0.100729,3,126143
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Diana Vickers,Music to Make Boys Cry,0.0977326,4,15443
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rachel Stevens,Come and Get It,0.0954829,5,90974
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nadia Oh,Colours,0.102777,1,31694
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Rachel Stevens,Come and Get It,0.102056,2,90974
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nicola Roberts,Cinderella's Eyes,0.0927576,3,73869
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nadia Oh,Hot Like Wow,0.0897585,4,95212
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Les Georges Leningrad,Made in Taiwan,1.0,1,9
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Les Georges Leningrad,Deux Hot Dogs Moutarde Chou,0.961385,2,4114
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Ex Models,Release The Bats - A Tribute to the Birthday Party,0.0179432,3,16
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Ex Models,Chrome Panthers,0.0179182,4,5267
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Pterodactyl,Arnold's Park,0.017874,5,228
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,Chromatics,Yes (Love Theme from Lost River),0.292091,1,24387
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,William Orbit,Strange Cargo Hinterland,0.012323,2,2167
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,Tangerine Dream,Canyon Dreams,0.00986115,3,12115
+10078,Harlem,Free Drugs;-),1,random,error,No tracks found for album 'free drugs;-)',,,,,,,
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Ty Segall,Manipulator,0.853719,1,121708
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,All Them Witches,Lightning at the Door,0.590512,2,166797
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Mars Red Sky,Mars Red Sky,0.589071,3,108186
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,All Them Witches,Live at Ancienne Belgique,0.483651,4,263
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Slift,LEVITATION Sessions,0.436153,5,505
+12057,Jóhann Jóhannsson,Mandy (Original Motion Picture Soundtrack),1,random,no_results,,,58915,,,,,
+28907,Various Artists,"We Are All One, in the Sun: A Tribute to Robbie Basho",1,random,error,"No tracks found for album 'We Are All One, In The Sun: A Tribute to Robbie Basho'",,,,,,,
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Opeth,Ghost Reveries,0.152798,1,383175
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Tool,"10,000 Days",0.14079,2,1272201
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Tool,Lateralus,0.138418,3,1567159
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Mastodon,Leviathan,0.124919,4,714058
+82,22‐20s,22-20s,1,random,no_results,,,160,,,,,
+24190,The Avett Brothers,True Sadness,1,random,no_results,,,142323,,,,,
+6248,Delroy Edwards,Slap Happy,1,random,no_results,,,3057,,,,,
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Queens of the Stone Age,Rated R - Deluxe Edition,0.340894,1,385225
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Masters of Reality,Deep in the Hole,0.211308,2,46482
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Eagles of Death Metal,Peace Love Death Metal,0.186977,3,470013
+2334,Ben Seretan,Youth Pastoral,1,random,no_results,,,2952,,,,,
+897,Âme,Dream House,1,random,error,No tracks found for album 'Dream House',,,,,,,
+11111,It Hugs Back,Inside Your Guitar,1,random,no_results,,,9991,,,,,
+5975,David Zoffer & Adam Larrabee,Courage in Closeness,1,random,no_results,,,0,,,,,
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Sibylle Baier,Colour Green,0.101061,1,396942
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Nina Nastasia,Run To Ruin,0.0961344,2,22422
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Jessica Pratt,Jessica Pratt,0.0922926,3,156587
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Sharon Van Etten,Tramp,0.0920905,4,217960
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Sting,Fifteen Healing Bites,1.0,1,1607
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Phil Collins,"Hello, I Must Be Going",0.674749,2,249415
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Paul McCartney,The Boys Of Dungeon Lane,0.556137,3,39683
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Sting,Symphonicities,0.55187,4,88120
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Van Morrison,Hard Nose the Highway,0.0475217,5,79020
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Miami Horror,Illumination,0.133026,1,428413
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Röyksopp,"Oh, Lover (feat. Susanne Sundfør)",0.105262,2,411
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Warpaint,Radiate Like This,0.0843106,3,87988
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Anthony Naples,Take Me With You,0.497809,1,75560
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,The Black Dog,Fragments,0.372467,2,35410
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,The Detroit Escalator Co.,Black Buildings,0.369324,3,18894
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Daniel Avery,Illusion of Time - Single,0.363817,4,4
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Lnrdcroy,Much Less Normal,0.342423,5,33386
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Fennesz,Cendre,0.364689,1,54032
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Fennesz,Venice,0.361172,2,107550
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Vladislav Delay,"2000-06-09: Mutek, Montréal, QC, Canada",0.315869,3,9
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Cepia,SMM Vol. 2,0.0262718,4,283
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,Brent Faiyaz,ICON,1.0,1,409625
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,SZA,Ctrl,0.815224,2,2041259
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,Daniel Caesar,Let Me Go,0.807653,3,141044
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,SZA,Hits 8 - as Grandes Músicas do Momento,0.801977,4,4271
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,The Happy Family,The Man on Your Street,0.011956,1,1936
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,The Hong Kong,Rock the Faces,0.011956,2,1130
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,Sportique,Black Is a Very Popular Colour,0.011956,3,718
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,New Model Army,Eight,0.011956,4,7070
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,Bogshed,Step on It,0.011956,5,706
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Talkdemonic,Beat Romantic,0.289924,1,71984
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Talkdemonic,Mutiny Sunshine,0.165833,2,12345
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Lateduster,Easy Pieces,0.0112686,3,16723
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Dirty Beaches,Drifters / Love is The Devil,0.0102455,4,60850
+25493,The Manhattan Love Suicides,Burnt Out Landscapes,1,random,ok,,Autumn Fades In,9628,Like Honey,Leaves,0.7178,1,2195
+25493,The Manhattan Love Suicides,Burnt Out Landscapes,1,random,ok,,Autumn Fades In,9628,The Like,Are You Thinking What I'm Thinking?,0.0163703,2,92901
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Ólafur Arnalds,Living Room Songs,0.114368,1,317948
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,A Winged Victory for the Sullen,A Winged Victory for the Sullen,0.10571,2,165405
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Peter Broderick,Float 2013,0.103983,3,70577
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Ólafur Arnalds,…And They Have Escaped The Weight Of Darkness,0.103596,4,38615
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,A Winged Victory for the Sullen,Breathe In (Drake Doremus' Original Motion Picture Soundtrack),0.102782,5,1659
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,John Cale,Fragments of a Rainy Season,0.0888757,1,75770
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Tori Amos,Tower of Song - The Songs of Leonard Cohen,0.0819385,2,2360
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Lou Reed,And I'll Scratch Yours,0.0804629,3,848
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Paul McCartney,Run Devil Run,0.0619557,4,42611
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,David Bowie,Ziggy Stardust: The Motion Picture,0.0542864,5,9033
+22721,Soul-Junk,1942 EP,1,random,error,No tracks found for album '1942 EP',,,,,,,
+28507,Various Artists,"Perfect Unpop: Peel Show Hits & Long‐Lost Lo‐Fi Favourites, Volume 1: 1976–80",1,random,error,"No tracks found for album 'Perfect Unpop: Peel Show Hits & Long‐Lost Lo‐Fi Favourites, Volume 1: 1976–80'",,,,,,,
+17346,Nathan Bowles,Plainly Mistaken,1,random,no_results,,,3644,,,,,
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Soft Hair,Soft Hair,0.105844,1,122699
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Hether,Hether Who?,0.0486088,2,92936
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Dumbo Gets Mad,Thank You Neil,0.0468152,3,146021
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Foxygen,We Are the 21st Century Ambassadors of Peace & Magic,0.0433486,4,502782
+20669,Rob Zombie,The Great Satan,1,random,error,No tracks found for album 'The Great Satan',,,,,,,
+16394,Mike Simonetti,Capricorn Rising EP,1,random,error,No tracks found for album 'Capricorn Rising EP',,,,,,,
+23974,Tenci,My Heart Is an Open Field,1,random,no_results,,,23610,,,,,
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,Paper Rival,Dialog,0.265921,1,24349
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,From Indian Lakes,Able Bodies,0.176482,2,40674
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,From Indian Lakes,The Man With Wooden Legs,0.176278,3,12148
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,Lydia,Illuminate,0.174499,4,149627
+17300,Nas,King's Disease,1,random,no_results,,,186504,,,,,
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Planningtorock,The Breaks,0.0984999,1,3876
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Esben and the Witch,A New Nature,0.073542,2,27508
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,The Knife,Shaking the Habitual,0.0655245,3,208205
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Chelsea Wolfe,Live At Roadburn,0.0629198,4,2564
+15151,Makthaverskan,III,1,random,error,No tracks found for album 'III',,,,,,,
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Songs: Ohia,"1999-06-28: Glasgow, UK",0.279831,1,2260
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Songs: Ohia,Didn't It Rain,0.224829,2,46417
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Jason Molina,"Let Me Go, Let Me Go, Let Me Go",0.160648,3,63751
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Palace Music,Lost Blues and Other Songs,0.128848,4,38307
+9367,Girls,Broken Dreams Club EP,1,random,error,No tracks found for album 'Broken Dreams Club EP',,,,,,,
+9908,"Gustav Mahler; Christian Gerhaher, Gerold Huber",Lieder,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,The Ghost Is Dancing,The Darkest Spark,0.154933,1,1584
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,Rock Plaza Central,are we not horses,0.11064,2,31971
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,Nick Diamonds,City of Quartz,0.00703769,3,2248
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Ryan Bingham,Crazy Heart Original Motion Picture Soundtrack,0.709369,1,2045
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Badly Drawn Boy,About a Boy,0.508025,2,120763
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Glen Hansard,Music from the Motion Picture Once,0.445762,3,319482
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Jack Rose,Dr Ragtime & Pals / Self Titled,0.641361,1,9036
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Sir Richard Bishop,Intermezzo,0.597042,2,6683
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Jandek,Glad to Get Away,0.545548,3,5257
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Patrick Wolf,Brumalia EP,0.987964,1,8858
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Young Man,Ideas of Distance,0.931555,2,5047
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Young Man,Vol. 1,0.931554,3,6649
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Sea Oleena,Sleeplessness,0.909731,4,17126
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Ormonde,Cartographer/ Explorer,0.896015,5,1885
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Count Bass D,Dwight Spitz,1.0,1,279130
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Quasimoto,The Unseen,0.893365,2,464032
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Madlib,"Madlib Medicine Show #5: The History of the Loop Digga, 1990-2000",0.821048,3,36003
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,The Meters,Funkify Your Life: The Meters Anthology,0.681671,4,145828
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Add N To (X),Add Insult to Injury,0.191815,1,29135
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Add N To (X),Loud Like Nature,0.185016,2,24224
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Fujiya & Miyagi,Lightbulbs,0.171011,3,160496
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Starfucker,Starfucker,0.147011,4,168543
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,The Books,The Lemon of Pink,0.142371,5,187434
+8885,Fucked Up,Year of the Snake,1,random,no_results,,,3545,,,,,
+466,Africaine 808,Basar,1,random,no_results,,,6715,,,,,
+1594,Asteroid No. 4,Apple Street EP,1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=Asteroid+No.+4&album=Apple+Street+EP,,,,,,,
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Enon,High Society,0.118228,1,200662
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Quasi,Field Studies,0.0946293,2,17898
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Enon,Believo!,0.0868625,3,41690
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Modest Mouse,Strangers to Ourselves,0.0850115,4,296376
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Archers of Loaf,Icky Mettle,0.0836863,5,80180
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Relaxed Muscle,Billy Jack / Sexualized,0.0160644,1,52
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Mendetz,Mendetz,0.0152288,2,29039
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Mendetz,Souvenir,0.0152169,3,6957
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Heretoir,The Circle,0.159649,1,58897
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Holy Fawn,Death Spells,0.143776,2,98930
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Alcest,Shelter (Deluxe Edition),0.12056,3,113491
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Jesu,Conqueror,0.118382,4,101880
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Black Rebel Motorcycle Club,Beat the Devil's Tattoo,0.968045,1,349233
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Queens of the Stone Age,Over the Years and Through the Woods,0.959609,2,60067
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Lullwater,Silhouette,0.955343,3,8462
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Queens of the Stone Age,Rated R + Songs For The Deaf,0.954894,4,2066
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Red House Painters,Retrospective,1.0,1,36616
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Grant Lee Buffalo,If I Were A Carpenter,0.878675,2,3359
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Paul Weller,Studio 150,0.70432,3,41877
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Lambchop,What Another Man Spills,0.699182,4,43028
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Neko Case,Blacklisted,0.657998,5,280499
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Double Leopards,The Blind Destroyer,0.277568,1,84
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Vibracathedral Orchestra,Lino Hi,0.275681,2,409
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Angus MacLise,The cloud doctrine,0.274814,3,4476
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Tony Conrad,Early Minimalism Volume One,0.273477,4,527
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Double Leopards,The Axe Helve,0.270913,5,170
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Solarized,Neanderthal Speedway,1.0,1,1048
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Amplified Heat,In for Sin,0.982272,2,857
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Pyrior,Oceanus Procellarum,0.96996,3,1147
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Solarized,Driven,0.959988,4,1839
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Tia Carrera,Heaven/Hell EP,0.942718,5,432
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Gas,Nah und Fern,0.097795,1,20436
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Extrawelt,Soopertrack / Zu Fuss,0.0808177,2,65916
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Ricardo Villalobos,Alcachofa,0.0764208,3,96207
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Gui Boratto,The K2 Chapter,0.0753869,4,13923
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,King Tuff,Black Moon Spell,0.317755,1,73478
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,The Orwells,Disgraceland,0.19634,2,139820
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,Old Earth,Out the spheres of The Sorrowful Mysteries,0.00609933,3,16
+7642,Emily A. Sprague,"Hill, Flower, Fog",1,random,no_results,,,14292,,,,,
+10786,Icarus Line,Penance Soiree,1,random,error,No tracks found for album 'Penance Soiree',,,,,,,
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,Jenn Vix,3,0.691412,1,192
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,"Halloween, Alaska","Halloween, Alaska",0.653871,2,10516
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,Pupilar,Don't Hate Us Because We're Beautiful EP,0.590417,3,47
+3377,"Brahms; Wiener Philharmoniker, Leonard Bernstein",4 Symphonies,1,random,error,No tracks found for album '4 Symphonies',,,,,,,
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,Burnt Friedman & Jaki Liebezeit,Secret Rhythms 4,0.447196,1,616
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,ROOT 70,Heaps Dub,0.181703,2,4378
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,Nonplace Urban Field,Unireverse,0.174445,3,226
+22192,Sinking Ships,Out of Key Harmony,1,random,error,No tracks found for album 'Out of Key Harmony',,,,,,,
+6652,DJ Koze,DJ-Kicks,1,random,no_results,,,1850,,,,,
+5949,David Sanborn,Then Again: The Anthology,1,random,ok,,Benjamin,61,Tom Scott,The Honeysuckle Breeze,0.324599,1,20223
+5949,David Sanborn,Then Again: The Anthology,1,random,ok,,Benjamin,61,Dave Grusin,The Gershwin Connection,0.318153,2,10249
+15223,Manitoba,Jacknuggeted EP,1,random,error,No tracks found for album 'Jacknuggeted EP',,,,,,,
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,To Live and Shave in L.A.,The Wigmaker In Eighteenth-Century Williamsburg,0.0822967,1,266
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,Sightings,Michigan Haters,0.0491039,2,505
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,PRE,Third Album,0.0434157,3,2161
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,Uzeda,Different Section Wires,0.042224,4,5493
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,The VSS,Nervous Circuits,0.00457235,5,5506
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Lost Sounds,Lost Sounds,0.103687,1,29993
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Reatards,"Grown Up, Fucked Up",0.0972804,2,8294
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Reatards,Teenage Hate / Fuck Elvis Here's the Reatards,0.0936902,3,30888
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,The Mummies,Death By Unga Bunga!!,0.0800755,4,28750
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,White Mystery,Telepathic,0.865459,1,726
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,White Mystery,Blood & Venom,0.86087,2,3369
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,Catfish Haven,Tell Me,0.832545,3,4085
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,Cains & Abels,My Life is Easy,0.825678,4,347
+7969,"Evan Parker with Noël Akchoté, Lawrence Casserley and Joel Ryan",Live at “Les Instants Chavirés”,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+29496,White Fence,For the Recently Found Innocent,1,random,ok,,The Light,47139,Ty Segall & White Fence,Hair,0.149841,1,16965
+29496,White Fence,For the Recently Found Innocent,1,random,ok,,The Light,47139,Thee Oh Sees,Help,0.103898,2,65715
+20058,Radar Bros.,The Fallen Leaf Pages,1,random,ok,,Faces of the Damned,2851,Idaho,We Were Young and Needed the Money,0.0131089,1,7240
+20058,Radar Bros.,The Fallen Leaf Pages,1,random,ok,,Faces of the Damned,2851,Horse Jumper of Love,Demo Anthology,0.0129419,2,163092
+18457,Oval,Scis,1,random,no_results,,,3952,,,,,
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,The Late B.P. Helium,Kumquat Mae,1.0,1,4543
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Elf Power,Nothing's Going to Happen,0.793106,2,7237
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Circulatory System,Signal Morning (bonus disc: Side 3),0.380531,3,0
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,The Olivia Tremor Control,Flydaddy Demos,0.380531,4,150
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Great Lakes,Great Lakes,0.378874,5,2701
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Beat Happening,You Turn Me On,0.0461772,1,122038
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Camera Obscura,Underachievers Please Try Harder,0.0427112,2,316623
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Velocity Girl,Gilded Stars and Zealous Hearts,0.0420628,3,8136
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Yo La Tengo,This Stupid World,0.0418479,4,75935
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Camera Obscura,Let's Get Out Of This Country,0.0375832,5,468481
+9110,Gary Higgins,Seconds,1,random,error,No tracks found for album 'Seconds',,,,,,,
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,The Futureheads,The Chaos,0.101299,1,83197
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,Wolf Parade,Expo 86,0.0994801,2,105000
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,We Are Scientists,With Love And Squalor,0.0919649,3,945868
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,Superchunk,Majesty Shredding,0.0899222,4,46916
+17249,Nagisa Ni Te,On the Love Beach,1,random,ok,,Deserting You,28617,Comus,First Utterance,0.0318094,1,112850
+17249,Nagisa Ni Te,On the Love Beach,1,random,ok,,Deserting You,28617,森田童子,ラスト・ワルツ,0.0247174,2,888
+14636,Lothar Ohlmeier & Isambard Khroustaliov,Nowhere,1,random,no_results,,,38,,,,,
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Gentle Giant,Octopus,0.224027,1,179072
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Van der Graaf Generator,Pawn Hearts,0.222407,2,84392
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Van der Graaf Generator,"H to He Who, Am the Only One",0.21953,3,44757
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Gentle Giant,Gentle Giant,0.209935,4,129544
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Yes,Drama,0.201074,5,37946
+23108,Stereolab,Electrically Possessed (Switched On Vol. 4),1,random,error,No tracks found for album 'Electrically Possessed (Switched On Vol. 4)',,,,,,,
+19283,Pinch,Fabriclive 61,1,random,no_results,,,555,,,,,
+21871,Shearwater,Palo Santo: Expanded Edition,1,random,error,No tracks found for album 'Palo Santo: Expanded Edition',,,,,,,
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,The Cat's Miaow,A Kiss and a Cuddle,0.105236,1,15441
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,Darren Hanlon,Hello Stranger,0.00657317,2,12841
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,Amycanbe,Being A Grown-Up Sure Is Complicated,0.0045745,3,2394
+19251,Pierre Kwenders,"MAKANDA at the End of Space, the Beginning of Time",1,random,no_results,,,2083,,,,,
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Irish Rovers,Live in Concert,0.999663,1,21316
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Dubliners,Definitive Pub Songs Collection,0.999613,2,42705
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,Liam Clancy,The Clancy Brothers / Tommy Makem and Friends - Celtic Classic Treasures,0.999608,3,374
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Blackwater Boys,Pure Gold Traditional Irish Ballads,0.999587,4,17
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,Warblefly,Crashing Through the Trees,0.999126,5,5807
+30490,सलील कुलकर्णी & संदीप खरे,Ayushavar Bolu Kahi,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+20787,Robyn Hitchcock and the Egyptians,Luminous Groove,1,random,error,No tracks found for album 'Luminous Groove',,,,,,,
+11865,Jherek Bischoff,Composed,2,random,ok,,The Secret of the Machines,8020,Laura Cannell,Quick Sparrows Over the Black Earth,0.0100024,1,1014
+11865,Jherek Bischoff,Composed,2,random,ok,,The Secret of the Machines,8020,Sorne,HOUSE OF STONE,0.00942062,2,3285
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,The Rolling Stones,The Rolling Stones Singles Box Set (1971-2006),0.0731732,1,247226
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Sheryl Crow,Hits And Rarities,0.0686722,2,43786
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Paul McCartney,Run Devil Run,0.0535429,3,42611
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Billy Joel,My Lives,0.0531852,4,42097
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Bryan Ferry,These Foolish Things,0.0524288,5,30007
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Gumball,Super Tasty,0.00274549,1,1161
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Screamfeeder,Burn Out Your Name,0.00274549,2,1040
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Screamfeeder,Kitten Licks,0.00274549,3,1697
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Bully,Feels Like,0.00274549,4,66644
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Tame Impala,A Transparent Night,0.303573,1,478
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Tame Impala,Tame Impala,0.298065,2,327187
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,The Holydrug Couple,Time Bazaar,0.287029,3,22814
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Temples,Sun Structures,0.2373,4,203719
+14134,Liam Finn,I'll Be Lightning,2,random,no_results,,,34684,,,,,
+4753,Cindy Lee,What's Tonight to Eternity,1,random,no_results,,,123985,,,,,
+28775,Various Artists,The Old Grey Whistle Test,1,random,error,No tracks found for album 'The Old Grey Whistle Test',,,,,,,
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Marc Leclair,Musique pour 3 femmes enceintes,0.0737422,1,11888
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Jan Jelinek,Loop-Finding-Jazz-Records,0.0729958,2,120525
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Gas,A Bugged Out Mix,0.0656048,3,53
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Vladislav Delay,Multila,0.0639774,4,57144
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Isolée,We Are Monster,0.062544,5,36719
+10291,Her Space Holiday,"The Astronauts are Sleeping, Volume One",1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=Her+Space+Holiday&album=The+Astronauts+are+Sleeping%2C+Volume+One,,,,,,,
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,For Against,In The Marshes,0.172771,1,21985
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,The Names,Swimming + Singles,0.157114,2,15148
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,The Durutti Column,LC,0.152886,3,110672
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,Lowlife,Diminuendo + Singles,0.145989,4,34637
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Steve Earle & The Dukes,The Hard Way,0.269166,1,6399
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,16 Horsepower,Olden,0.195919,2,21643
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Son Volt,Wide Swing Tremolo,0.156245,3,28046
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Joe Henry,Civilians,0.15615,4,33506
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,16 Horsepower,Low Estate,0.140819,5,79904
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Goatwhore,Carving Out The Eyes Of God,0.0967176,1,44553
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Witchery,Witchkrieg,0.0907166,2,21980
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Toxic Holocaust,An Overdose of Death...,0.0763245,3,85072
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Deströyer 666,"Metal Addict, Vol. 2 (By Une Dose 2 Metal)",0.0737398,4,30
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,Liam Lynch,How To Be A Satellite,0.0792324,1,4667
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,Murder By Death,In Bocca Al Lupo,0.0315337,2,58481
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,The Futureheads,News And Tributes,0.00171568,3,141181
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Alkaline Trio,Remains,0.429144,1,174222
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Daryll-Ann,Trailer Tales,0.0353472,2,2867
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Gigolo Aunts,Pacific Ocean Blues,0.0353471,3,7757
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,Starfucker,Reptilians,0.0866496,1,115275
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,Passion Pit,Manners,0.0849815,2,1672821
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,The Go! Team,Rolling Blackouts,0.084843,3,76987
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,The Bird and the Bee,Ray Guns Are Not Just the Future,0.0843036,4,210608
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,TV-Resistori,TV-Resistori,0.00616623,1,1275
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Op:l Bastards,The Job,0.00589905,2,5679
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Sin Cos Tan,Sin Cos Tan,0.0057872,3,25260
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Viola,Viola Music Club 2011,0.0057255,4,601
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Viola,Melancholydisco 2,0.0057255,5,2150
+10080,Harlem,Oh Boy,1,random,no_results,,,17644,,,,,
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,Badly Drawn Boy,Introduced 100: 100 Issues Intro | Essential Music 1991–2002,1.0,1,
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,The View,The Don,0.912815,2,7554
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,Rusty Shackle,Wash Away These Nights,0.893092,3,392
+6005,dBridge & Instra:mental,FabricLive 50: dBridge & Instra:mental Present Autonomic,1,random,no_results,,,122,,,,,
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,Performance Fragments,0.913823,1,167
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,Feeling Toxic,0.913823,2,494
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,"Outer Space Series, Vol. 2",0.913823,3,1
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,E.stonji,Broken EP,0.886691,4,22
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,E.stonji,"Minerals Series, Volume 3: Unknown Title",0.886691,5,24
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Cursive,The Ugly Organ,0.118881,1,419660
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Bayside,Bayside,0.110922,2,285328
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Taking Back Sunday,Where You Want to Be,0.0929929,3,678756
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Straylight Run,Straylight Run,0.0897908,4,333798
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,The Republic of Wolves,His Old Branches,0.0887094,5,12594
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,King Creosote,They Flock Like Vulcans To See Old Jupiter Eyes On His Home Craters,0.017371,1,753
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Isobel Campbell,Time Is Just the Same,0.0148278,2,1620
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Mary Lou Lord,Mary Lou Lord,0.0142237,3,6996
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Mary Lou Lord,Live City Sounds,0.0141898,4,12813
+21428,Savath y Savalas,Apropa't,1,random,error,"No tracks found for album ""Apropa't""",,,,,,,
+11251,Jacquees,King of R&B,1,random,no_results,,,93484,,,,,
+10664,Hummingbird,Tougher Than Love,1,random,ok,,Sing A Lullaby,96,Syahmi Rawi,The Odyssey,0.947094,1,97
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Tahiti 80,Wallpaper For The Soul,0.0769772,1,51874
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Foster the People,Torches (Redux),0.074488,2,10763
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Polo & Pan,Hits Hits Hits été 2025 Édition Limitée,0.0732157,3,43
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Polo & Pan,22:22,0.0718981,4,49139
+4232,Cavern of Anti-Matter,Hormone Lemonade,1,random,no_results,,,9015,,,,,
+12989,Keith Fullerton Whitman,Antithesis EP,1,random,error,No tracks found for album 'Antithesis EP',,,,,,,
+28707,Various Artists,Tectonic Plates Vol. 4,1,random,error,No tracks found for album 'Tectonic Plates Vol. 4',,,,,,,
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Idaho,Vieux Carré,0.00378787,1,7578
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Mercury Rev,Lego My Ego,0.00377691,2,5917
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Idaho,Hearts of Palm,0.00364939,3,27899
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Low,A Lifetime of Temporary Relief: 10 Years of B-Sides & Rarities,0.00362109,4,62438
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Mercury Rev,Across Yer Ocean,0.00362031,5,6278
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Melt-Banana,Teeny Shiny,0.175744,1,23091
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Coughs,Fright Makes Right,0.153357,2,17928
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Arab on Radar,Queen Hygiene II,0.139633,3,20326
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Melt-Banana,Return of 13 Hedgehogs (MxBx Singles 2000-2009),0.138931,4,11270
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Brainiac,Hissing Prigs in Static Couture,0.13602,5,70914
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Ryan Bingham,Roadhouse Sun,0.954489,1,28933
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Hot Tuna,Steady As She Goes,0.952875,2,5247
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,The Bottle Rockets,The Brooklyn Side,0.952066,3,26119
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Christian Kane,The House Rules,0.944789,4,2632
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,The Flying Burrito Brothers,honky tonk heaven,0.941427,5,222
+5791,Dave Cloud & The Gospel of Power,Today Is the Day That They Take Me Away,1,random,no_results,,,221,,,,,
+8268,Fenn O'Berg,The Return of Fenn O'Berg,1,random,error,"No tracks found for album ""The Return Of Fenn O'Berg""",,,,,,,
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,Japanese Breakfast,Jubilee,0.0538485,1,888181
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,The Japanese House,In the End It Always Does,0.0413361,2,469874
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,Destroyer,ken (Deluxe Version),0.0370459,3,58435
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,ML Buch,Suntub,0.0349896,4,159362
+28292,Various Artists,Kick‐Ass: Music From the Motion Picture,1,random,error,No tracks found for album 'Kick‐Ass: Music From the Motion Picture',,,,,,,
+14850,Luomo,Plus,1,random,no_results,,,3403,,,,,
+27746,Valgeir Sigurðsson,Draumalandid,1,random,error,No tracks found for album 'Draumalandid',,,,,,,
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Nobukazu Takemura,Child's View,0.187503,1,2759
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Serani Poji,オチャメカン,0.175129,2,33431
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Aphex Twin,Drukqs,0.172538,3,1424766
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Supercar,HIGHVISION,0.167378,4,62278
+10566,Hot Hot Heat,Knock Knock Knock EP,1,random,error,No tracks found for album 'Knock Knock Knock EP',,,,,,,
+22465,Smurphy,A Shapeless Pool of Lovely Pale Colours Suspended in the Darkness,1,random,ok,,Pisces,1967,Mexican Institute of Sound,Méjico Máxico,0.852282,1,46261
+659,Alessandro Cortini,SCURO CHIARO,1,random,no_results,,,13340,,,,,
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,The Airfields,City-State,0.00943051,1,69
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Ohbijou,Friends in Bellwoods,0.00941211,2,443
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Ohbijou,Friends in Bellwoods 2,0.00941211,3,607
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Blair Lee,LIMBO,0.00938172,4,5433
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Stars,In Our Bedroom After the War,0.00930644,5,473752
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Tanya Morgan,Sunset...the EP,1.0,1,1763
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Kooley High,Presents...David Thompson,0.497122,2,17699
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,The Roots,Game Theory Deluxe Edition,0.0145594,3,174
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Logic,Under Pressure (Deluxe),0.0142937,4,370532
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,1773,Return of the New,0.0142006,5,2164
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,The Decemberists,The Crane Wife (10th Anniversary Edition),0.175039,1,20705
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,Ra Ra Riot,The Rhumb Line,0.146397,2,276564
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,The Decemberists,The King Is Dead,0.146343,3,466254
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,Frightened Rabbit,Painting of a Panic Attack (Deluxe),0.142863,4,54719
+2920,BlocBoy JB,Simi,1,random,no_results,,,202308,,,,,
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Paws,"Song, By Toad Split 12""",1.0,1,666
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Royal Headache,Royal Headache,0.67769,2,62625
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Ty Segall,Singles 2007-2010,0.596114,3,44351
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,JEFF the Brotherhood,Dig The Classics,0.554097,4,14141
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,The Spits,Kill The Kool,0.475635,5,17731
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Eternal Tapestry,Palace Of The Night Skies,0.0775629,1,3101
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Acid Mothers Gong,Live Tokyo,0.074698,2,259
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Carlton Melton,Live in Point Arena,0.0643763,3,53
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Sensual World,Feeling Wild,0.246389,1,19660
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Neighborhood Brats,Recovery,0.191293,2,3205
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,angry angles,Angry Angles,0.188748,3,8872
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Carbonas,Carbonas,0.182437,4,12976
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Fleet Foxes,Shore,0.0690196,1,307942
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,The Mountain Goats,The Jordan Lake Sessions: Volumes 1 and 2,0.0685334,2,11918
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Laura Marling,Song For Our Daughter,0.0662895,3,205921
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Laura Marling,The Lockdown Sessions,0.0655386,4,2274
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Bon Iver,AUATC,0.0622859,5,105684
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Anahí,Absurda - Single,0.255495,1,1925
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Dulce María,Extranjera Segunda Parte,0.246344,2,47490
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Anahí,Inesperado,0.22663,3,23763
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,RBD,Para Olvidarte De Mi,0.22302,4,8814
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,RBD,Empezar Desde Cero (Fan Edition),0.204834,5,7518
+1481,Art Bears,Art Box,1,random,error,No tracks found for album 'Art Box',,,,,,,
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Daedelus,Looking Ocean,0.0918857,1,627
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Four Tet,Rounds,0.0858055,2,404983
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Two Lone Swordsmen,Stay Down,0.080239,3,78023
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Autechre,Quaristice,0.0782946,4,207341
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Cat Power,You Are Free,1.0,1,591532
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Beth Orton,Trailer Park,0.966112,2,149887
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Nick Drake,Time of No Reply,0.948185,3,175166
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Cass McCombs,Big Wheel and Others,0.873681,4,177889
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Steve Gunn,Time Off,0.863739,5,22228
+17234,Nadia Tehran,Dozakh: All Lovers Hell,1,random,no_results,,,3747,,,,,
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Brian Eno & David Byrne,My Life in the Bush of Ghosts,0.17793,1,104703
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Apparat,Walls,0.159934,2,309037
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Errors,Come Down With Me,0.138013,3,36322
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Schneider TM,Skoda Mluvit,0.135464,4,7027
+20201,RAP,EXPORT,1,random,no_results,,,1150,,,,,
+21146,RØSENKØPF,RØSENKØPF,1,random,error,No tracks found for album 'RØSENKØPF',,,,,,,
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Laurie Anderson,Big Science,0.252826,1,192945
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Diamanda Galás,Malediction and Prayer,0.225056,2,17024
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Laurie Anderson,Talk Normal: The Laurie Anderson Anthology,0.204215,3,33978
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,The Residents,Demons Dance Alone,0.163224,4,8932
+25294,The Jon Spencer Blues Explosion,Dirty Shirt Rock 'n' Roll: The First Ten Years,1,random,no_results,,,56032,,,,,
+28261,Various Artists,IOTDXI,2,random,error,No tracks found for album 'IOTDXI',,,,,,,
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Stars of the Lid,and Their Refinement of the Decline,0.19446,1,311444
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Tim Hecker,Harmony in Ultraviolet,0.189866,2,197226
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Tim Hecker,"Ravedeath, 1972",0.179348,3,203085
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Biosphere,Substrata,0.162374,4,109330
+8049,Explosions in the Sky,The Rescue (Travels in Constants Vol. 21),1,random,error,No tracks found for album 'The Rescue (Travels In Constants Vol. 21)',,,,,,,
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,MØ,No Mythologies to Follow (Deluxe),0.233605,1,218221
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Ryn Weaver,Promises,0.22132,2,31586
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Baby Queen,The Yearbook,0.214614,3,124089
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Echosmith,Over My Head - Single,0.199165,4,1981
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Marina & the Diamonds,E.V.O.L.,0.195692,5,461
+8624,Four Tet,0181,1,random,no_results,,,9323,,,,,
+7165,Dyke Drama,Up Against the Bricks,1,random,no_results,,,6930,,,,,
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Cassie,RockaByeBaby,0.0406129,1,8914
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Janet Jackson,Discipline,0.0405966,2,366644
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Mis-Teeq,"DJ KAORI'S ""RIDE"" into the MIX",0.0403912,3,7
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Goldfrapp,Head First,0.0401715,4,235638
+19565,Portastatic,"De Mel, De Melão EP",1,random,error,"No tracks found for album 'De Mel, De Melão EP'",,,,,,,
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Do Make Say Think,Winter Hymn Country Hymn Secret Hymn,0.0738599,1,186751
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Tortoise,Millions Now Living Will Never Die,0.0675945,2,185781
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,A Silver Mt. Zion,He Has Left Us Alone But Shafts of Light Sometimes Grace the Corners of Our Rooms,0.066223,3,108023
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Mick Turner,Marlan Rosa,0.0605503,4,1447
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Israel Vibration,Forever,0.99995,1,9159
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Max Romeo,The Coming of Jah: Max Romeo Anthology 1967-76,0.999942,2,95524
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Don Carlos,Just A Passing Glance,0.999938,3,4903
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Don Carlos,Is It Rolling Bob? A Reggae Tribute To Bob Dylan,0.999938,4,349
+4759,"Cipriano de Rore; Huelgas Ensemble, Paul Van Nevel",Missa Praeter rerum seriem,1,random,error,No tracks found for album 'Missa Praeter rerum seriem',,,,,,,
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Andrew Combs,All These Dreams,1.0,1,15643
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Andrew Combs,Worried Man,0.946435,2,6843
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Guy Clark,Old Friends,0.883465,3,3829
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Robert Earl Keen,Happy Prisoner: The Bluegrass Sessions,0.869234,4,6311
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Guy Clark,The Essential Guy Clark,0.815891,5,59420
+29221,Vsnares,2370894,1,random,error,No tracks found for album '2370894',,,,,,,
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Passion Pit,Chunk of Change,0.0742758,1,613689
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,School of Seven Bells,Alpinisms,0.0715231,2,150342
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Passion Pit,I'll Be Alright,0.0626632,3,5758
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Cut Copy,Zonoscope,0.0616865,4,323316
+12764,Kali Uchis,Isolation,1,random,no_results,,,2163902,,,,,
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Beggars Velvet,Lady of Autumn,0.867883,1,312
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Kaz Hand,Waifs And Wenches Dbl Cd,0.867883,2,4
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Bob Roberts,Songs from the Sailing Barges,0.840809,3,578
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,The Young Tradition,Galleries/No Relation,0.836817,4,287
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Whitesnake,Trouble,0.201799,1,38259
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Whitesnake,Snakebite,0.18706,2,53005
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Rainbow,20th Century Masters: The Millennium Collection: Best Of Rainbow,0.153594,3,5384
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Rainbow,The Very Best of Rainbow,0.151957,4,406078
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Tommy Bolin,Teaser,0.150203,5,18375
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Djedjotronic,Zone 13: Abyssal Zone - Single,1.0,1,82
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,MSTRKRFT,The Looks,0.815958,2,438309
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Daft Punk,A Musical Tour: Treasures of the Walt Disney Archives at The Reagan Library,0.0487545,3,2568
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Chromeo,Bonafied Lovin' - EP,0.0288624,4,772
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Plus Device,Puncture,0.0287979,5,1154
+11724,Jefre Cantu-Ledesma,In Summer,1,random,no_results,,,54447,,,,,
+12242,John Vanderslice,eeeeeeep! EP,1,random,error,No tracks found for album 'Eeeeeeep! EP',,,,,,,
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,The Drift,Memory Drawings,0.128502,1,7187
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,The Allstar Project,Your Reward... A Bullet,0.0975089,2,3434
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Unwed Sailor,The White Ox,0.0944693,3,4111
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Foxhole,We the Wintering Tree,0.0943533,4,5834
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Unwed Sailor,The Marionette and the Music Box,0.0942573,5,6063
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,The Dimes,The Silent Generation,0.160564,1,3995
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Heidi Solheim,Found,0.145835,2,165
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Üstmamò,ustmamò II,0.143444,3,8
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Gutevolk,Suomi,0.10761,4,9305
+2606,Bill Wells & Aidan Moffat,Everything's Getting Older,1,random,error,"No tracks found for album ""Everything's Getting Older""",,,,,,,
+19729,"Pritam, Swanand Kirkire, Sayeed Quadri, Ashish Pandit & Nilesh Misra",Barfi!,1,random,error,No tracks found for album 'Barfi!',,,,,,,
+9402,Glassine,No Stairway,1,random,no_results,,,515,,,,,
+2049,Basic Soul Unit,Under the Same Sky,1,random,no_results,,,856,,,,,
+15534,Marvin Gaye,What's Going On [40th Anniversary Edition],1,random,error,"No tracks found for album ""What's Going On [40th Anniversary Edition]""",,,,,,,
+23452,Sunwatchers,Illegal Moves,1,random,no_results,,,2948,,,,,
+3190,Bonnie Baxter,AXIS,1,random,no_results,,,2949,,,,,
+378,Ada,Blondie,1,random,ok,,Eve,54668,DJ Koze,Kosi Comes Around,0.273126,1,61767
+378,Ada,Blondie,1,random,ok,,Eve,54668,Paul Kalkbrenner,Self,0.218065,2,177544
+378,Ada,Blondie,1,random,ok,,Eve,54668,Laurent Garnier,Unreasonable Behaviour,0.205146,3,122509
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The Walkmen,Lisbon,0.0740659,1,153532
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The War on Drugs,I Don't Live Here Anymore,0.0725172,2,3136
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,Grizzly Bear,Shields,0.0719728,3,456731
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The Bravery,The Bravery,0.0712555,4,862120
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,We Were Promised Jetpacks,These Four Walls,0.0698303,5,253846
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Ani DiFranco,Not So Soft,0.077732,1,48290
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Ani DiFranco,Puddle Dive,0.077278,2,25276
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Indigo Girls,Come On Now Social,0.0769066,3,22108
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Indigo Girls,Staring Down the Brilliant Dream,0.0663137,4,17531
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Dar Williams,For the Kids Three!,0.0635554,5,1332
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Franc Moody,Dopamine,0.19802,1,18335
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Franc Moody,Dance Moves,0.106795,2,117893
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,L'Impératrice,Matahari,0.0808242,3,64110
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Neil Frances,Teardrops - Single,0.0728497,4,668
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,Minus the Bear,Omni,1.0,1,150135
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,The Get Up Kids,There Are Rules,0.999752,2,24243
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,The Most Serene Republic,Population,0.93604,3,113303
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,"¡Forward, Russia!",Breaking Standing,0.935519,4,343
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,The Last Electro-Acoustic Space Jazz & Percussion Ensemble,Miles Away,0.221872,1,17574
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,Otis Jackson Jr. Trio,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.157173,2,167
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,Ahmad Miller,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.13603,3,121
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,The Eddie Prince Fusion Band,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.113871,4,105
+14356,Lisa Germano,No Elephants,1,random,no_results,,,6107,,,,,
+29336,Wax Idols,American Tragic,1,random,no_results,,,5639,,,,,
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Tu M',Monochromes Vol. 1,0.0823414,1,5090
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Popol Vuh,Hosianna Mantra,0.00258277,2,95095
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Greg Davis,somnia,0.00235731,3,2414
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Nurses,Apple's Acre,0.107817,1,51740
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Blues Control,Blues Control,0.100495,2,14883
+29498,White Flight,White Flight,1,random,ok,,Now,9984,A Lull,Confetti,0.0955415,3,5292
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Anthem In,Anthem In,0.00505128,4,4811
+5938,David Novick,David Novick,1,random,no_results,,,185,,,,,
+23359,Sumac,May You Be Held,1,random,no_results,,,6450,,,,,
+14343,Linus Loves,Stage Invader,1,random,ok,,The Victoria Principle,14665,Yves Murasca,Hed Kandi: The Mix USA 2009,1.0,1,56
+14343,Linus Loves,Stage Invader,1,random,ok,,The Victoria Principle,14665,Laurent Wolf,Positiv Energy,0.912308,2,2935
+13924,LCY,Pulling Teeth EP,1,random,error,No tracks found for album 'Pulling Teeth EP',,,,,,,
+9338,Gilles Peterson,Gilles Peterson in Africa,1,random,no_results,,,413,,,,,
+6611,dj blackpower,BLP 2020 “King of the Night” EP,1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=dj+blackpower&album=BLP+2020+%E2%80%9CKing+of+the+Night%E2%80%9D+EP,,,,,,,
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Tycho,Epoch,0.0550467,1,175010
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Two Lone Swordsmen,Tiny Reminders,0.042588,2,70980
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Washed Out,Paracosm,0.0363947,3,305544
+4303,CFCF,Outside,1,random,ok,,This Breath,17437,Leon Vynehall,Envelopes - Single,0.0352747,4,216
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,The Prodigy,"Always Outnumbered, Never Outgunned",0.0663311,1,434766
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Fatboy Slim,Halfway Between the Gutter and the Stars (15th Anniversary),0.0662351,2,26202
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Fatboy Slim,Halfway Between the Gutter and the Stars,0.0630057,3,437755
+24510,The Chemical Brothers,Born in the Echoes,1,random,ok,,Just Bang,324496,Barry Can't Swim,Loner,0.0629935,4,98544
+29637,Wiley,The Godfather 3,1,random,no_results,,,7494,,,,,
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Set Fire to Flames,Sings Reign Rebuilder,0.2186,1,96625
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Oiseaux-Tempête,Al-'An! (And Your Night Is Your Shadow / A Fairy-Tale Piece of Land to Make Our Dreams),0.170156,2,26292
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Yndi Halda,Enjoy Eternal Bliss,0.143572,3,174648
+200,A Silver Mt. Zion,He Has Left Us Alone but Shafts of Light Sometimes Grace the Corners of Our Rooms,1,random,ok,,Stumble Then Rise on Some Awkward Morning,108023,Do Make Say Think,Goodbye Enemy Airship The Landlord Is Dead,0.135547,4,145223
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Mark Chesnutt,Almost Goodbye,0.664096,1,30129
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Tracy Lawrence,The Best of Tracy Lawrence,0.594359,2,153939
+3603,Brooks & Dunn,The Very Best of Brooks & Dunn,1,random,ok,,You're Gonna Miss Me When I'm Gone,339541,Clint Black,Greatest Hits,0.557326,3,142563
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Ornette Coleman,Sound Grammar,0.015837,1,6615
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,The Bad Plus,Inevitable Western,0.00771208,2,9138
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Chris Speed,Emit,0.00771206,3,1744
+15634,Matana Roberts,Live in London,1,random,ok,,Exchange,712,Thomas Chapin,Haywire,0.00771205,4,283
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,Noel Redding,The Experience Sessions,0.169131,1,8955
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,Cream,The Very Best of Cream,0.123132,2,483841
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,The Jimi Hendrix Experience,Axis: Bold as Love,0.115128,3,456382
+11911,Jimi Hendrix,A Film About Jimi Hendrix,1,random,ok,,In From The Storm,58,The Jimi Hendrix Experience,Smash Hits,0.108565,4,53893
+21038,Rudra,Antithesis,1,random,no_results,,,1205,,,,,
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Kylie Minogue,Kiss Me Once (Special Edition),0.0707904,1,86517
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Bridgit Mendler,Hello My Name Is...,0.0566646,2,765011
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Christina Perri,Head or Heart,0.0561945,3,308139
+22031,Sia,This Is Acting,1,random,ok,,Sweet Design,1084744,Ellie Goulding,Halcyon Days (Deluxe Edition),0.0515383,4,53778
+4175,Castevet,Obsian,1,random,no_results,,,3840,,,,,
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Le Shok,We Are Electrocution,1.0,1,7362
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,The VSS,Nervous Circuits,0.520584,2,5506
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Socratic,Lunch For The Sky,0.492729,3,49967
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Crash Kings,Crash Kings,0.465355,4,93222
+19437,Pleasure Forever,Alter,1,random,ok,,Czarina,3035,Lost Ocean,Lost Ocean,0.444648,5,12123
+6683,DJ Rashad,Double Cup,1,random,no_results,,,97225,,,,,
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,girl in red,if i could make it go quiet (Apple Music Edition),0.25862,1,8495
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,MUNA,Silk Chiffon,0.213518,2,123663
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,Conan Gray,Game Music,0.209772,3,2419
+13318,King Princess,Make My Bed EP,1,random,ok,,1950,369,Chappell Roan,100 Greatest 2020 Songs,0.189243,4,1722
+17078,Murcof,Utopia,1,random,error,No tracks found for album 'Utopia',,,,,,,
+4344,Chandra,Transportation EPs,1,random,error,No tracks found for album 'Transportation EPs',,,,,,,
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,NewDad,Madra [Explicit],0.0924136,1,3757
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,NewDad,Madra,0.0878534,2,377796
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Wet Leg,moisturizer [Explicit],0.0776636,3,685
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Silversun Pickups,Tenterhooks,0.0750221,4,15852
+29822,Wolf Alice,Visions of a Life,1,random,ok,,Sky Musings,775137,Alvvays,Pharmacist,0.063479,5,56357
+8400,Fireworks Night,"One Winter, One Spring",1,random,ok,,God's Luck,195,Naoshi Mizuta,Final Fantasy XI Original Soundtrack,0.504695,1,843
+22382,Sloppy Jane,Madison,1,random,no_results,,,41115,,,,,
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Rocko,Gift Of Gab 2 (Deluxe Edition),0.231276,1,126225
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Young Money,We Are Young Money,0.188874,2,716084
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Wale,Ambition (Deluxe Version),0.188774,3,41096
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Young Jeezy,Trap Or Die 2,0.175481,4,7124
+20565,Rick Ross,Teflon Don,1,random,ok,,All The Money In The World,516438,Lloyd Banks,H.F.M. 2 (Explicit Version),0.170139,5,11188
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Nikki Lane,Walk of Shame,0.403839,1,9494
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Freakwater,Feels like the third time,0.403444,2,4586
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Freakwater,Thinking of You,0.381631,3,1328
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Justin Townes Earle,The Good Life,0.36528,4,69311
+7364,Eilen Jewell,Queen of the Minor Key,1,random,ok,,Long Road,25059,Shannon McNally,Geronimo,0.349427,5,10701
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,beabadoobee,Loveworm / Patched Up,0.578407,1,3954
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,TV Girl,The Night in Question: French Exit Outtakes,0.520065,2,1067628
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,TV Girl,The TV Girl Box Set,0.469046,3,4893
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,Lana Del Rey,Ultraviolence (Deluxe),0.461948,4,2375823
+4801,Clairo,Diary 001 EP,1,random,ok,,How - demo,341,Saga Faye,Who are you?,0.459953,5,227981
+28463,Various Artists,Nothing But Number 1's of the 50's,1,random,no_results,,,35,,,,,
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Likely Lads,Melrose Yard Demos,0.00936615,1,841
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Electric Touch,Never Look Back,0.00936615,2,2968
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Morning Parade,Morning Parade,0.00936615,3,49068
+25112,The Heartbreaks,Funtimes,1,random,ok,,Hand on Heart,9541,Pete and the Pirates,Get Even,0.00936615,4,2377
+3348,Brackles,"Songs for Endless Cities, Volume 1",1,random,error,"No tracks found for album 'Songs for Endless Cities, Volume 1'",,,,,,,
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Hop Along,Get Disowned,0.0722256,1,134407
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Katie Malco,Tearing Ventricles,0.0660819,2,595
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Hop Along,"Bark Your Head Off, Dog",0.0635476,3,123702
+13872,Laura Stevenson,Wheel,1,random,ok,,Telluride,33608,Better Oblivion Community Center,Better Oblivion Community Center,0.0624633,4,337617
+13018,Kele,2042,1,random,no_results,,,4505,,,,,
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,We Versus the Shark,Ruin Everything!,0.056882,1,14884
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,Grass is Green,Vacation Vinny,0.0462377,2,4459
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,31Knots,A Word Is Also A Picture Of A Word,0.0442502,3,4908
+22511,So Many Dynamos,Flashlights,1,random,ok,,"We Vibrate, We Do",14748,DD/MM/YYYY,Black Square,0.038805,4,5697
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Thermals,I Don't Believe You - 7 Inch,0.109376,1,1623
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Thermals,"LIVE [at the Echoplex - December 7th, 2007]",0.107822,2,19203
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,The Babies,Our House on the Hill,0.0918567,3,89089
+18897,PAWS,Cokefloat!,1,random,ok,,Winners Don't Bleed,31610,Wavves,Wavvves,0.0868897,4,145939
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,The Dodos,No Color,0.00837543,1,78407
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Galapaghost,Runnin',0.00835421,2,4303
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Owen,Ghost Town,0.00832505,3,50063
+57,13ghosts,The Strangest Colored Lights,1,random,ok,,King Of The Thieves,1716,Galapaghost,Neptunes,0.00831796,4,1622
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Matteah Baim,The Laughing Boy,0.999999,1,11664
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Larkin Grimm,The Last Tree,0.806286,2,15552
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Faun Fables,Family Album,0.771266,3,6022
+20610,Rio en Medio,Frontier,1,random,ok,,Frontier,9237,Beth Custer,In The Broken Fields Where I Lie,0.744967,4,556
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Moderat,III (Deluxe Edition),0.334782,1,155566
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Gui Boratto,Renaissance - The Mix Collection,0.166102,2,6872
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Kollektiv Turmstrasse,Abenteuer Alltag EP,0.127604,3,7042
+688,Alex Smoke,Incommunicado,1,random,ok,,Coda & Clang,46516,Dominik Eulberg,Diorama,0.124141,4,54692
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Steve Bug,That's What I Like,0.956412,1,104
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Axel Boman,Holy Love,0.676735,2,42694
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Basic Channel,BCD,0.58439,3,53029
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Mark Broom,Shanty Star EP,0.459942,4,571
+12237,John Tejada,Logic Memory Center,1,random,ok,,Something about the Drums,12666,Axel Boman,Family Vacation,0.440188,5,64395
+19258,Pigeon Funk,Pigeon Funk,1,random,ok,,Süsser Schlamm,21,Moscow Abandoned Hotel,The Salem Witch Trials Vol.2,0.81331,1,294
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Gojira,From Mars to Sirius,0.161041,1,563243
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Death,The Sound of Perseverance,0.154216,2,181682
+18332,Opeth,The Roundhouse Tapes,1,random,ok,,Face of Melinda,98187,Katatonia,The Great Cold Distance,0.140236,3,355822
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,The Impossible Shapes,We Like It Wild,0.011733,1,1367
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Maurice Deebank,Inner Thought Zone,0.0078313,2,3361
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Elevator to Hell,Parts 1-3,0.0078313,3,16907
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Stan Hubbs,Crystal,0.00783129,4,18686
+15458,Marmoset,Record in Red,1,random,ok,,Lost Days for Ways,2439,Elevator,A Taste Of Complete Perspective,0.00783129,5,1139
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,The Long Winters,When I Pretend to Fall,0.120877,1,117827
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Bright Eyes,Cassadaga,0.0832448,2,536335
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Bright Eyes,1st World Blues,0.0812997,3,9349
+2324,Ben Kweller,Sha Sha,1,random,ok,,Walk On Me,344507,Badly Drawn Boy,Year Of The Rat,0.0765759,4,1337
+4186,Catch Prichard,I Still Miss Theresa Benoit,1,random,no_results,,,345,,,,,
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Cara Dillon,Hill of Thieves,0.307556,1,20112
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Bert Jansch,Edge Of A Dream,0.00970875,2,24025
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,Bert Jansch & John Renbourn,After the Dance,0.00970872,3,1507
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,John Renbourn,The Nine Maidens,0.00970872,4,5650
+21728,Seth Lakeman,Tales From the Barrel House,1,random,ok,,The Watchmaker's Rhyme,3682,John Renbourn,Sir John Alot,0.00970871,5,19858
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,The View,Hats Off To The Buskers,0.0566781,1,429606
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,Frightened Rabbit,Pedestrian Verse (10th Anniversary Edition),0.052713,2,3185
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,Frightened Rabbit,Pedestrian Verse (Deluxe Edition),0.0524332,3,8259
+10833,Idlewild,Hope is Important,1,random,ok,,Low Light,59211,The Beta Band,The Three E.P.'s (20th Anniversary Remaster),0.0498299,4,219
+25670,The Nels Cline Singers,Share the Wealth,1,random,no_results,,,401,,,,,
+6608,DJ /rupture & Matt Shadetek,Solar Life Raft,1,random,error,No tracks found for album 'Solar Life Raft',,,,,,,
+4537,Chief Keef,Sorry 4 the Weight,1,random,no_results,,,2890,,,,,
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Langhorne Slim,The Spirit Moves (Deluxe Edition),0.211212,1,42600
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Dr. Dog,Be The Void,0.174881,2,88259
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,Michael Marcagi,The Other Side - Single,0.171249,3,135
+7320,Edward Sharpe & the Magnetic Zeros,Edward Sharpe & the Magnetic Zeros,1,random,ok,,Two,496553,The Airborne Toxic Event,The Airborne Toxic Event (Deluxe Edition),0.164341,4,94759
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,I'm from Barcelona,Let Me Introduce My Friends,0.680125,1,275032
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,Sahara Hotnights,What if Leaving is a Loving Thing,0.64269,2,63836
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,A Camp,Song For The Leftovers,0.616554,3,4777
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,A Camp,I Can Buy You,0.563392,4,13646
+26668,Those Dancing Days,Daydreams & Nightmares,1,random,ok,,When We Fade Away,26633,Håkan Hellström,Känn ingen sorg för mig Göteborg,0.537119,5,155045
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Babyface Ray,Ron Artest,0.448006,1,218868
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Pi’erre Bourne,Marie Curie,0.444213,2,59266
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Lil Keed,Pre Game Hype Rap,0.401742,3,32
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Lil Keed,It's Up Freestyle,0.34979,4,69014
+30269,Young Nudy,Rich Shooter,1,random,ok,,Green Bean,87320,Moneybagg Yo,A GANGSTA'S PAIN,0.337292,5,7517
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Krezip,Best Of,0.240325,1,25009
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Ella Fitzgerald,Une Anthologie 1948/1955,0.102683,2,97
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Peggy Lee,The Best Of Miss Peggy Lee,0.0932346,3,106140
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Doris Day,"I, Tonya (Original Motion Picture Soundtrack)",0.0864535,4,454
+4091,Caro Emerald,Deleted Scenes From the Cutting Room Floor,1,random,ok,,A Night Like This,278361,Doris Day,Doris Day - Her Greatest Songs,0.0851734,5,47522
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,The Internet,Hive Mind,0.383691,1,557919
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,Childish Gambino,"""Awaken, My Love!""",0.129913,2,2404206
+23168,Steve Lacy,Steve Lacy's Demo,1,random,ok,,Looks,887688,"Tyler, The Creator",IGOR,0.126279,3,2849871
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Jake Slazenger,Makes a Racket,0.185425,1,961
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Tusken Raiders,Bantha Trax,0.159085,2,1224
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Autechre,Anti EP,0.139131,3,22654
+30483,µ-Ziq,Tango n' Vectif,1,random,ok,,Phi*1700 (U/V),10807,Kid Spatula,Spatula Freak,0.13766,4,2234
+25502,The Mars Volta,Scab Dates,1,random,no_results,,,24763,,,,,
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,Elliott,False Cathedrals,0.0829448,1,53230
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Anniversary,Designing A Nervous Breakdown,0.0683357,2,91499
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Appleseed Cast,Low Level Owl: Volume I,0.0622133,3,23170
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Appleseed Cast,Two Conversations,0.0525427,4,100623
+11857,Jets to Brazil,Perfecting Loneliness,1,random,ok,,Rocket Boy,45857,The Wrens,The Meadowlands,0.0477576,5,220207
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,B.o.B,Definitive Rap Classics,1.0,1,6
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Wiz Khalifa,Blacc Hollywood (Deluxe),0.827462,2,351706
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Wiz Khalifa,o.n.i.f.c. (Deluxe Version),0.736036,3,18327
+1563,Asher Roth,Asleep in the Bread Aisle,1,random,ok,,I Love College,354008,Mac Miller,On and on and Beyond,0.649714,4,343437
+6861,Donseph,NO ONE ELSE,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Jesse Sykes & The Sweet Hereafter,"Oh, My Girl",0.00469771,1,17648
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Chuck Ragan,Till Midnight,0.00469593,2,14207
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,William Elliott Whitmore,Ashes to Dust,0.00469576,3,14962
+24138,The Anomoanon,Joji,1,random,ok,,Leap Alone,1150,Bonnie 'Prince' Billy,Greatest Palace Music,0.00467196,4,52271
+20182,Rắn Cạp Đuôi,Ngủ Ngày Ngay Ngày Tận Thế,1,random,no_results,,,5461,,,,,
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rita Ora,ORA,0.105202,1,157844
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rita Ora,ORA Deluxe,0.100876,2,93705
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Sophie Ellis-Bextor,Shoot from the Hip,0.100729,3,126143
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Diana Vickers,Music to Make Boys Cry,0.0977326,4,15443
+19366,Pixie Lott,Turn It Up,1,random,ok,,The Way the World Works,590843,Rachel Stevens,Come and Get It,0.0954829,5,90974
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nadia Oh,Colours,0.102777,1,31694
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Rachel Stevens,Come and Get It,0.102056,2,90974
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nicola Roberts,Cinderella's Eyes,0.0927576,3,73869
+1213,Annie,Anniemal,2,random,ok,,Anniemal,332577,Nadia Oh,Hot Like Wow,0.0897585,4,95212
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Les Georges Leningrad,Made in Taiwan,1.0,1,9
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Les Georges Leningrad,Deux Hot Dogs Moutarde Chou,0.961385,2,4114
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Ex Models,Release The Bats - A Tribute to the Birthday Party,0.0179432,3,16
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Ex Models,Chrome Panthers,0.0179182,4,5267
+13234,Kill Me Tomorrow,The Garbageman and the Prostitute,1,random,ok,,Skin's getting Weird,2878,Pterodactyl,Arnold's Park,0.017874,5,228
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,Chromatics,Yes (Love Theme from Lost River),0.292091,1,24387
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,William Orbit,Strange Cargo Hinterland,0.012323,2,2167
+23638,Symmetry,Themes For an Imaginary Film,1,random,ok,,A Sort of Homecoming,54448,Tangerine Dream,Canyon Dreams,0.00986115,3,12115
+10078,Harlem,Free Drugs;-),1,random,error,No tracks found for album 'free drugs;-)',,,,,,,
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Ty Segall,Manipulator,0.853719,1,121708
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,All Them Witches,Lightning at the Door,0.590512,2,166797
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Mars Red Sky,Mars Red Sky,0.589071,3,108186
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,All Them Witches,Live at Ancienne Belgique,0.483651,4,263
+8980,Fuzz,Fuzz,1,random,ok,,What's In My Head?,140993,Slift,LEVITATION Sessions,0.436153,5,505
+12057,Jóhann Jóhannsson,Mandy (Original Motion Picture Soundtrack),1,random,no_results,,,58915,,,,,
+28907,Various Artists,"We Are All One, in the Sun: A Tribute to Robbie Basho",1,random,error,"No tracks found for album 'We Are All One, In The Sun: A Tribute to Robbie Basho'",,,,,,,
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Opeth,Ghost Reveries,0.152798,1,383175
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Tool,"10,000 Days",0.14079,2,1272201
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Tool,Lateralus,0.138418,3,1567159
+9483,Gojira,Magma,1,random,ok,,The Cell,511334,Mastodon,Leviathan,0.124919,4,714058
+82,22‐20s,22-20s,1,random,no_results,,,160,,,,,
+24190,The Avett Brothers,True Sadness,1,random,no_results,,,142323,,,,,
+6248,Delroy Edwards,Slap Happy,1,random,no_results,,,3057,,,,,
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Queens of the Stone Age,Rated R - Deluxe Edition,0.340894,1,385225
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Masters of Reality,Deep in the Hole,0.211308,2,46482
+6331,Desert Sessions,Desert Sessions 9 & 10,1,random,ok,,Holey Dime,3245,Eagles of Death Metal,Peace Love Death Metal,0.186977,3,470013
+2334,Ben Seretan,Youth Pastoral,1,random,no_results,,,2952,,,,,
+897,Âme,Dream House,1,random,error,No tracks found for album 'Dream House',,,,,,,
+11111,It Hugs Back,Inside Your Guitar,1,random,no_results,,,9991,,,,,
+5975,David Zoffer & Adam Larrabee,Courage in Closeness,1,random,no_results,,,0,,,,,
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Sibylle Baier,Colour Green,0.101061,1,396942
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Nina Nastasia,Run To Ruin,0.0961344,2,22422
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Jessica Pratt,Jessica Pratt,0.0922926,3,156587
+4178,Cat Power,Moon Pix,1,random,ok,,Peking Saint,417465,Sharon Van Etten,Tramp,0.0920905,4,217960
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Sting,Fifteen Healing Bites,1.0,1,1607
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Phil Collins,"Hello, I Must Be Going",0.674749,2,249415
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Paul McCartney,The Boys Of Dungeon Lane,0.556137,3,39683
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Sting,Symphonicities,0.55187,4,88120
+10579,Hothouse Flowers,Into Your Heart,1,random,ok,,Hallelujah,8147,Van Morrison,Hard Nose the Highway,0.0475217,5,79020
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Miami Horror,Illumination,0.133026,1,428413
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Röyksopp,"Oh, Lover (feat. Susanne Sundfør)",0.105262,2,411
+14960,M83,Junk,1,random,ok,,Laser Gun,324109,Warpaint,Radiate Like This,0.0843106,3,87988
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Anthony Naples,Take Me With You,0.497809,1,75560
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,The Black Dog,Fragments,0.372467,2,35410
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,The Detroit Escalator Co.,Black Buildings,0.369324,3,18894
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Daniel Avery,Illusion of Time - Single,0.363817,4,4
+13180,Khotin,New Tab,1,random,ok,,Frog Fractions,25128,Lnrdcroy,Much Less Normal,0.342423,5,33386
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Fennesz,Cendre,0.364689,1,54032
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Fennesz,Venice,0.361172,2,107550
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Vladislav Delay,"2000-06-09: Mutek, Montréal, QC, Canada",0.315869,3,9
+27470,Twine,Violets,1,random,ok,,Longsided,2692,Cepia,SMM Vol. 2,0.0262718,4,283
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,Brent Faiyaz,ICON,1.0,1,409625
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,SZA,Ctrl,0.815224,2,2041259
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,Daniel Caesar,Let Me Go,0.807653,3,141044
+11737,Jenevieve,Division,1,random,ok,,Baby Powder,350423,SZA,Hits 8 - as Grandes Músicas do Momento,0.801977,4,4271
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,The Happy Family,The Man on Your Street,0.011956,1,1936
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,The Hong Kong,Rock the Faces,0.011956,2,1130
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,Sportique,Black Is a Very Popular Colour,0.011956,3,718
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,New Model Army,Eight,0.011956,4,7070
+21989,Shrag,Canines,1,random,ok,,Chasing Consummations,2691,Bogshed,Step on It,0.011956,5,706
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Talkdemonic,Beat Romantic,0.289924,1,71984
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Talkdemonic,Mutiny Sunshine,0.165833,2,12345
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Lateduster,Easy Pieces,0.0112686,3,16723
+1784,Azeda Booth,In Flesh Tones,1,random,ok,,Be It,28767,Dirty Beaches,Drifters / Love is The Devil,0.0102455,4,60850
+25493,The Manhattan Love Suicides,Burnt Out Landscapes,1,random,ok,,Autumn Fades In,9628,Like Honey,Leaves,0.7178,1,2195
+25493,The Manhattan Love Suicides,Burnt Out Landscapes,1,random,ok,,Autumn Fades In,9628,The Like,Are You Thinking What I'm Thinking?,0.0163703,2,92901
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Ólafur Arnalds,Living Room Songs,0.114368,1,317948
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,A Winged Victory for the Sullen,A Winged Victory for the Sullen,0.10571,2,165405
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Peter Broderick,Float 2013,0.103983,3,70577
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,Ólafur Arnalds,…And They Have Escaped The Weight Of Darkness,0.103596,4,38615
+7134,Dustin O'Halloran,Lumiere,1,random,ok,,Opus 44,113172,A Winged Victory for the Sullen,Breathe In (Drake Doremus' Original Motion Picture Soundtrack),0.102782,5,1659
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,John Cale,Fragments of a Rainy Season,0.0888757,1,75770
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Tori Amos,Tower of Song - The Songs of Leonard Cohen,0.0819385,2,2360
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Lou Reed,And I'll Scratch Yours,0.0804629,3,848
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,Paul McCartney,Run Devil Run,0.0619557,4,42611
+19086,Peter Gabriel,Scratch My Back,2,random,ok,,Flume,194440,David Bowie,Ziggy Stardust: The Motion Picture,0.0542864,5,9033
+22721,Soul-Junk,1942 EP,1,random,error,No tracks found for album '1942 EP',,,,,,,
+28507,Various Artists,"Perfect Unpop: Peel Show Hits & Long‐Lost Lo‐Fi Favourites, Volume 1: 1976–80",1,random,error,"No tracks found for album 'Perfect Unpop: Peel Show Hits & Long‐Lost Lo‐Fi Favourites, Volume 1: 1976–80'",,,,,,,
+17346,Nathan Bowles,Plainly Mistaken,1,random,no_results,,,3644,,,,,
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Soft Hair,Soft Hair,0.105844,1,122699
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Hether,Hether Who?,0.0486088,2,92936
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Dumbo Gets Mad,Thank You Neil,0.0468152,3,146021
+5113,Connan Mockasin,Caramel,1,random,ok,,It's Your Body 2,278485,Foxygen,We Are the 21st Century Ambassadors of Peace & Magic,0.0433486,4,502782
+20669,Rob Zombie,The Great Satan,1,random,error,No tracks found for album 'The Great Satan',,,,,,,
+16394,Mike Simonetti,Capricorn Rising EP,1,random,error,No tracks found for album 'Capricorn Rising EP',,,,,,,
+23974,Tenci,My Heart Is an Open Field,1,random,no_results,,,23610,,,,,
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,Paper Rival,Dialog,0.265921,1,24349
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,From Indian Lakes,Able Bodies,0.176482,2,40674
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,From Indian Lakes,The Man With Wooden Legs,0.176278,3,12148
+1539,As Tall as Lions,As Tall as Lions,1,random,ok,,Milk And Honey,168288,Lydia,Illuminate,0.174499,4,149627
+17300,Nas,King's Disease,1,random,no_results,,,186504,,,,,
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Planningtorock,The Breaks,0.0984999,1,3876
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Esben and the Witch,A New Nature,0.073542,2,27508
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,The Knife,Shaking the Habitual,0.0655245,3,208205
+30426,Zola Jesus,Taiga,1,random,ok,,Hollow,46581,Chelsea Wolfe,Live At Roadburn,0.0629198,4,2564
+15151,Makthaverskan,III,1,random,error,No tracks found for album 'III',,,,,,,
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Songs: Ohia,"1999-06-28: Glasgow, UK",0.279831,1,2260
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Songs: Ohia,Didn't It Rain,0.224829,2,46417
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Jason Molina,"Let Me Go, Let Me Go, Let Me Go",0.160648,3,63751
+15100,Magnolia Electric Co.,Trials & Errors,1,random,ok,,The Big Beast,28715,Palace Music,Lost Blues and Other Songs,0.128848,4,38307
+9367,Girls,Broken Dreams Club EP,1,random,error,No tracks found for album 'Broken Dreams Club EP',,,,,,,
+9908,"Gustav Mahler; Christian Gerhaher, Gerold Huber",Lieder,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,The Ghost Is Dancing,The Darkest Spark,0.154933,1,1584
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,Rock Plaza Central,are we not horses,0.11064,2,31971
+10660,Human Highway,Moody Motorcycle,1,random,ok,,Get Lost,24583,Nick Diamonds,City of Quartz,0.00703769,3,2248
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Ryan Bingham,Crazy Heart Original Motion Picture Soundtrack,0.709369,1,2045
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Badly Drawn Boy,About a Boy,0.508025,2,120763
+12449,Josh Ritter,So Runs the World Away,1,random,ok,,Long Shadows,102959,Glen Hansard,Music from the Motion Picture Once,0.445762,3,319482
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Jack Rose,Dr Ragtime & Pals / Self Titled,0.641361,1,9036
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Sir Richard Bishop,Intermezzo,0.597042,2,6683
+22241,Six Organs of Admittance,Hexadic,1,random,ok,,Future Verbs,2007,Jandek,Glad to Get Away,0.545548,3,5257
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Patrick Wolf,Brumalia EP,0.987964,1,8858
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Young Man,Ideas of Distance,0.931555,2,5047
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Young Man,Vol. 1,0.931554,3,6649
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Sea Oleena,Sleeplessness,0.909731,4,17126
+21635,Secret Cities,Pink Graffiti,1,random,ok,,"Pink Graffiti, Part 1",5456,Ormonde,Cartographer/ Explorer,0.896015,5,1885
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Count Bass D,Dwight Spitz,1.0,1,279130
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Quasimoto,The Unseen,0.893365,2,464032
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,Madlib,"Madlib Medicine Show #5: The History of the Loop Digga, 1990-2000",0.821048,3,36003
+9234,Georgia Anne Muldrow,VWETO,1,random,ok,,Pad Kontrol,5383,The Meters,Funkify Your Life: The Meters Anthology,0.681671,4,145828
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Add N To (X),Add Insult to Injury,0.191815,1,29135
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Add N To (X),Loud Like Nature,0.185016,2,24224
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Fujiya & Miyagi,Lightbulbs,0.171011,3,160496
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,Starfucker,Starfucker,0.147011,4,168543
+19784,Psapp,The Camel's Back,1,random,ok,,Parker,22609,The Books,The Lemon of Pink,0.142371,5,187434
+8885,Fucked Up,Year of the Snake,1,random,no_results,,,3545,,,,,
+466,Africaine 808,Basar,1,random,no_results,,,6715,,,,,
+1594,Asteroid No. 4,Apple Street EP,1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=Asteroid+No.+4&album=Apple+Street+EP,,,,,,,
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Enon,High Society,0.118228,1,200662
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Quasi,Field Studies,0.0946293,2,17898
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Enon,Believo!,0.0868625,3,41690
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Modest Mouse,Strangers to Ourselves,0.0850115,4,296376
+51,12 Rods,Separation Anxieties,1,random,ok,,You Gotta Go,19024,Archers of Loaf,Icky Mettle,0.0836863,5,80180
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Relaxed Muscle,Billy Jack / Sexualized,0.0160644,1,52
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Mendetz,Mendetz,0.0152288,2,29039
+15104,Mahjongg,Raydoncong 2005,1,random,ok,,Hot Lava,970,Mendetz,Souvenir,0.0152169,3,6957
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Heretoir,The Circle,0.159649,1,58897
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Holy Fawn,Death Spells,0.143776,2,98930
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Alcest,Shelter (Deluxe Edition),0.12056,3,113491
+13803,Lantlôs,Melting Sun,1,random,ok,,Melting Sun I: Azure Chimes,72482,Jesu,Conqueror,0.118382,4,101880
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Black Rebel Motorcycle Club,Beat the Devil's Tattoo,0.968045,1,349233
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Queens of the Stone Age,Over the Years and Through the Woods,0.959609,2,60067
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Lullwater,Silhouette,0.955343,3,8462
+13699,Ladyfinger (ne),Dusk,1,random,ok,,Read The Will,1588,Queens of the Stone Age,Rated R + Songs For The Deaf,0.954894,4,2066
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Red House Painters,Retrospective,1.0,1,36616
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Grant Lee Buffalo,If I Were A Carpenter,0.878675,2,3359
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Paul Weller,Studio 150,0.70432,3,41877
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Lambchop,What Another Man Spills,0.699182,4,43028
+15386,Mark Eitzel,Music for Courage & Confidence,1,random,ok,,Move On Up,3747,Neko Case,Blacklisted,0.657998,5,280499
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Double Leopards,The Blind Destroyer,0.277568,1,84
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Vibracathedral Orchestra,Lino Hi,0.275681,2,409
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Angus MacLise,The cloud doctrine,0.274814,3,4476
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Tony Conrad,Early Minimalism Volume One,0.273477,4,527
+27055,Tony Conrad with Faust,Outside the Dream Syndicate,1,random,ok,,From the Side of Man and Womankind,5503,Double Leopards,The Axe Helve,0.270913,5,170
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Solarized,Neanderthal Speedway,1.0,1,1048
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Amplified Heat,In for Sin,0.982272,2,857
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Pyrior,Oceanus Procellarum,0.96996,3,1147
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Solarized,Driven,0.959988,4,1839
+17639,Nick Oliveri,Death Acoustic,1,random,ok,,Outlaw Scumfuc,3009,Tia Carrera,Heaven/Hell EP,0.942718,5,432
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Gas,Nah und Fern,0.097795,1,20436
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Extrawelt,Soopertrack / Zu Fuss,0.0808177,2,65916
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Ricardo Villalobos,Alcachofa,0.0764208,3,96207
+24921,The Field,From Here We Go Sublime,1,random,ok,,Over the Ice,136111,Gui Boratto,The K2 Chapter,0.0753869,4,13923
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,King Tuff,Black Moon Spell,0.317755,1,73478
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,The Orwells,Disgraceland,0.19634,2,139820
+27510,Ty Segall,$INGLE$ 2,1,random,ok,,It's A Problem,1998,Old Earth,Out the spheres of The Sorrowful Mysteries,0.00609933,3,16
+7642,Emily A. Sprague,"Hill, Flower, Fog",1,random,no_results,,,14292,,,,,
+10786,Icarus Line,Penance Soiree,1,random,error,No tracks found for album 'Penance Soiree',,,,,,,
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,Jenn Vix,3,0.691412,1,192
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,"Halloween, Alaska","Halloween, Alaska",0.653871,2,10516
+647,Alejandra and Aeron,Bousha Blue Blazes,1,random,ok,,I Don't Know,1397,Pupilar,Don't Hate Us Because We're Beautiful EP,0.590417,3,47
+3377,"Brahms; Wiener Philharmoniker, Leonard Bernstein",4 Symphonies,1,random,error,No tracks found for album '4 Symphonies',,,,,,,
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,Burnt Friedman & Jaki Liebezeit,Secret Rhythms 4,0.447196,1,616
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,ROOT 70,Heaps Dub,0.181703,2,4378
+3778,Burnt Friedman & The Nu Dub Players,Can't Cool,1,random,ok,,Fuck Back,6977,Nonplace Urban Field,Unireverse,0.174445,3,226
+22192,Sinking Ships,Out of Key Harmony,1,random,error,No tracks found for album 'Out of Key Harmony',,,,,,,
+6652,DJ Koze,DJ-Kicks,1,random,no_results,,,1850,,,,,
+5949,David Sanborn,Then Again: The Anthology,1,random,ok,,Benjamin,61,Tom Scott,The Honeysuckle Breeze,0.324599,1,20223
+5949,David Sanborn,Then Again: The Anthology,1,random,ok,,Benjamin,61,Dave Grusin,The Gershwin Connection,0.318153,2,10249
+15223,Manitoba,Jacknuggeted EP,1,random,error,No tracks found for album 'Jacknuggeted EP',,,,,,,
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,To Live and Shave in L.A.,The Wigmaker In Eighteenth-Century Williamsburg,0.0822967,1,266
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,Sightings,Michigan Haters,0.0491039,2,505
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,PRE,Third Album,0.0434157,3,2161
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,Uzeda,Different Section Wires,0.042224,4,5493
+16184,Mi Ami,Watersports,1,random,ok,,Echononecho,6780,The VSS,Nervous Circuits,0.00457235,5,5506
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Lost Sounds,Lost Sounds,0.103687,1,29993
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Reatards,"Grown Up, Fucked Up",0.0972804,2,8294
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,Reatards,Teenage Hate / Fuck Elvis Here's the Reatards,0.0936902,3,30888
+11590,Jay Reatard,Watch Me Fall,1,random,ok,,Hang Them All,72982,The Mummies,Death By Unga Bunga!!,0.0800755,4,28750
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,White Mystery,Telepathic,0.865459,1,726
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,White Mystery,Blood & Venom,0.86087,2,3369
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,Catfish Haven,Tell Me,0.832545,3,4085
+15228,Mannequin Men,"Lose Your Illusion, Too",1,random,ok,,WTF LOL,593,Cains & Abels,My Life is Easy,0.825678,4,347
+7969,"Evan Parker with Noël Akchoté, Lawrence Casserley and Joel Ryan",Live at “Les Instants Chavirés”,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+29496,White Fence,For the Recently Found Innocent,1,random,ok,,The Light,47139,Ty Segall & White Fence,Hair,0.149841,1,16965
+29496,White Fence,For the Recently Found Innocent,1,random,ok,,The Light,47139,Thee Oh Sees,Help,0.103898,2,65715
+20058,Radar Bros.,The Fallen Leaf Pages,1,random,ok,,Faces of the Damned,2851,Idaho,We Were Young and Needed the Money,0.0131089,1,7240
+20058,Radar Bros.,The Fallen Leaf Pages,1,random,ok,,Faces of the Damned,2851,Horse Jumper of Love,Demo Anthology,0.0129419,2,163092
+18457,Oval,Scis,1,random,no_results,,,3952,,,,,
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,The Late B.P. Helium,Kumquat Mae,1.0,1,4543
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Elf Power,Nothing's Going to Happen,0.793106,2,7237
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Circulatory System,Signal Morning (bonus disc: Side 3),0.380531,3,0
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,The Olivia Tremor Control,Flydaddy Demos,0.380531,4,150
+26219,The Sunshine Fix,Green Imagination,1,random,ok,,Afterglow,3917,Great Lakes,Great Lakes,0.378874,5,2701
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Beat Happening,You Turn Me On,0.0461772,1,122038
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Camera Obscura,Underachievers Please Try Harder,0.0427112,2,316623
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Velocity Girl,Gilded Stars and Zealous Hearts,0.0420628,3,8136
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Yo La Tengo,This Stupid World,0.0418479,4,75935
+25487,The Magnetic Fields,Distortion,2,random,ok,,"Drive on, Driver",135686,Camera Obscura,Let's Get Out Of This Country,0.0375832,5,468481
+9110,Gary Higgins,Seconds,1,random,error,No tracks found for album 'Seconds',,,,,,,
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,The Futureheads,The Chaos,0.101299,1,83197
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,Wolf Parade,Expo 86,0.0994801,2,105000
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,We Are Scientists,With Love And Squalor,0.0919649,3,945868
+14079,Les Savy Fav,Root for Ruin,2,random,ok,,Clear Spirits,74498,Superchunk,Majesty Shredding,0.0899222,4,46916
+17249,Nagisa Ni Te,On the Love Beach,1,random,ok,,Deserting You,28617,Comus,First Utterance,0.0318094,1,112850
+17249,Nagisa Ni Te,On the Love Beach,1,random,ok,,Deserting You,28617,森田童子,ラスト・ワルツ,0.0247174,2,888
+14636,Lothar Ohlmeier & Isambard Khroustaliov,Nowhere,1,random,no_results,,,38,,,,,
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Gentle Giant,Octopus,0.224027,1,179072
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Van der Graaf Generator,Pawn Hearts,0.222407,2,84392
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Van der Graaf Generator,"H to He Who, Am the Only One",0.21953,3,44757
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Gentle Giant,Gentle Giant,0.209935,4,129544
+7629,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1,random,ok,,The Barbarian,271540,Yes,Drama,0.201074,5,37946
+23108,Stereolab,Electrically Possessed (Switched On Vol. 4),1,random,error,No tracks found for album 'Electrically Possessed (Switched On Vol. 4)',,,,,,,
+19283,Pinch,Fabriclive 61,1,random,no_results,,,555,,,,,
+21871,Shearwater,Palo Santo: Expanded Edition,1,random,error,No tracks found for album 'Palo Santo: Expanded Edition',,,,,,,
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,The Cat's Miaow,A Kiss and a Cuddle,0.105236,1,15441
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,Darren Hanlon,Hello Stranger,0.00657317,2,12841
+25464,The Lucksmiths,Naturaliste,1,random,ok,,The Shipwreck Coast,49395,Amycanbe,Being A Grown-Up Sure Is Complicated,0.0045745,3,2394
+19251,Pierre Kwenders,"MAKANDA at the End of Space, the Beginning of Time",1,random,no_results,,,2083,,,,,
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Irish Rovers,Live in Concert,0.999663,1,21316
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Dubliners,Definitive Pub Songs Collection,0.999613,2,42705
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,Liam Clancy,The Clancy Brothers / Tommy Makem and Friends - Celtic Classic Treasures,0.999608,3,374
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,The Blackwater Boys,Pure Gold Traditional Irish Ballads,0.999587,4,17
+11762,Jenny Lindfors,When the Night Time Comes,1,random,ok,,Lovestage,562,Warblefly,Crashing Through the Trees,0.999126,5,5807
+30490,सलील कुलकर्णी & संदीप खरे,Ayushavar Bolu Kahi,1,random,error,Last.fm API error 6: Track not found,,,,,,,
+20787,Robyn Hitchcock and the Egyptians,Luminous Groove,1,random,error,No tracks found for album 'Luminous Groove',,,,,,,
+11865,Jherek Bischoff,Composed,2,random,ok,,The Secret of the Machines,8020,Laura Cannell,Quick Sparrows Over the Black Earth,0.0100024,1,1014
+11865,Jherek Bischoff,Composed,2,random,ok,,The Secret of the Machines,8020,Sorne,HOUSE OF STONE,0.00942062,2,3285
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,The Rolling Stones,The Rolling Stones Singles Box Set (1971-2006),0.0731732,1,247226
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Sheryl Crow,Hits And Rarities,0.0686722,2,43786
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Paul McCartney,Run Devil Run,0.0535429,3,42611
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Billy Joel,My Lives,0.0531852,4,42097
+4614,Chris Isaak,Beyond the Sun,1,random,ok,,I Walk the Line,29009,Bryan Ferry,These Foolish Things,0.0524288,5,30007
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Gumball,Super Tasty,0.00274549,1,1161
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Screamfeeder,Burn Out Your Name,0.00274549,2,1040
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Screamfeeder,Kitten Licks,0.00274549,3,1697
+20908,Roomrunner,Ideal Cities,1,random,ok,,Snac Error,4477,Bully,Feels Like,0.00274549,4,66644
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Tame Impala,A Transparent Night,0.303573,1,478
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Tame Impala,Tame Impala,0.298065,2,327187
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,The Holydrug Couple,Time Bazaar,0.287029,3,22814
+19503,Pond,The Weather,1,random,ok,,The Weather,336580,Temples,Sun Structures,0.2373,4,203719
+14134,Liam Finn,I'll Be Lightning,2,random,no_results,,,34684,,,,,
+4753,Cindy Lee,What's Tonight to Eternity,1,random,no_results,,,123985,,,,,
+28775,Various Artists,The Old Grey Whistle Test,1,random,error,No tracks found for album 'The Old Grey Whistle Test',,,,,,,
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Marc Leclair,Musique pour 3 femmes enceintes,0.0737422,1,11888
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Jan Jelinek,Loop-Finding-Jazz-Records,0.0729958,2,120525
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Gas,A Bugged Out Mix,0.0656048,3,53
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Vladislav Delay,Multila,0.0639774,4,57144
+574,Akufen,My Way,2,random,ok,,Even White Horizons,51890,Isolée,We Are Monster,0.062544,5,36719
+10291,Her Space Holiday,"The Astronauts are Sleeping, Volume One",1,random,error,404 Client Error: Not Found for url: https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b9609ffbce30891af6f8e049a9eaacc5&format=json&artist=Her+Space+Holiday&album=The+Astronauts+are+Sleeping%2C+Volume+One,,,,,,,
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,For Against,In The Marshes,0.172771,1,21985
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,The Names,Swimming + Singles,0.157114,2,15148
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,The Durutti Column,LC,0.152886,3,110672
+26381,The Wake,Here Comes Everybody,1,random,ok,,Here Comes Everybody,5180,Lowlife,Diminuendo + Singles,0.145989,4,34637
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Steve Earle & The Dukes,The Hard Way,0.269166,1,6399
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,16 Horsepower,Olden,0.195919,2,21643
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Son Volt,Wide Swing Tremolo,0.156245,3,28046
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,Joe Henry,Civilians,0.15615,4,33506
+23145,Steve Earle,Jerusalem,1,random,ok,,Go Amanda,37183,16 Horsepower,Low Estate,0.140819,5,79904
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Goatwhore,Carving Out The Eyes Of God,0.0967176,1,44553
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Witchery,Witchkrieg,0.0907166,2,21980
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Toxic Holocaust,An Overdose of Death...,0.0763245,3,85072
+22285,Skeletonwitch,Forever Abomination,1,random,ok,,Reduced to the Failure of Prayer,37804,Deströyer 666,"Metal Addict, Vol. 2 (By Une Dose 2 Metal)",0.0737398,4,30
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,Liam Lynch,How To Be A Satellite,0.0792324,1,4667
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,Murder By Death,In Bocca Al Lupo,0.0315337,2,58481
+7443,Electric Six,Switzerland,1,random,ok,,Mr. Woman,131618,The Futureheads,News And Tributes,0.00171568,3,141181
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Alkaline Trio,Remains,0.429144,1,174222
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Daryll-Ann,Trailer Tales,0.0353472,2,2867
+25875,The Promise Ring,Wood/Water,1,random,ok,,Get on the Floor,26511,Gigolo Aunts,Pacific Ocean Blues,0.0353471,3,7757
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,Starfucker,Reptilians,0.0866496,1,115275
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,Passion Pit,Manners,0.0849815,2,1672821
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,The Go! Team,Rolling Blackouts,0.084843,3,76987
+18099,of Montreal,Skeletal Lamping,2,random,ok,,Wicked Wisdom,346595,The Bird and the Bee,Ray Guns Are Not Just the Future,0.0843036,4,210608
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,TV-Resistori,TV-Resistori,0.00616623,1,1275
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Op:l Bastards,The Job,0.00589905,2,5679
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Sin Cos Tan,Sin Cos Tan,0.0057872,3,25260
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Viola,Viola Music Club 2011,0.0057255,4,601
+29099,Villa Nah,Origin,1,random,ok,,Way of the Future,17226,Viola,Melancholydisco 2,0.0057255,5,2150
+10080,Harlem,Oh Boy,1,random,no_results,,,17644,,,,,
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,Badly Drawn Boy,Introduced 100: 100 Issues Intro | Essential Music 1991–2002,1.0,1,
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,The View,The Don,0.912815,2,7554
+9532,Goldrush,The Heart Is the Place,2,random,ok,,Goodbye Cruel World,2894,Rusty Shackle,Wash Away These Nights,0.893092,3,392
+6005,dBridge & Instra:mental,FabricLive 50: dBridge & Instra:mental Present Autonomic,1,random,no_results,,,122,,,,,
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,Performance Fragments,0.913823,1,167
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,Feeling Toxic,0.913823,2,494
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,Tidy kid,"Outer Space Series, Vol. 2",0.913823,3,1
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,E.stonji,Broken EP,0.886691,4,22
+4004,Capitol K,Island Row,1,random,ok,,Monster,8958,E.stonji,"Minerals Series, Volume 3: Unknown Title",0.886691,5,24
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Cursive,The Ugly Organ,0.118881,1,419660
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Bayside,Bayside,0.110922,2,285328
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Taking Back Sunday,Where You Want to Be,0.0929929,3,678756
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,Straylight Run,Straylight Run,0.0897908,4,333798
+3401,Brand New,Daisy,1,random,ok,,In a Jar,292808,The Republic of Wolves,His Old Branches,0.0887094,5,12594
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,King Creosote,They Flock Like Vulcans To See Old Jupiter Eyes On His Home Craters,0.017371,1,753
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Isobel Campbell,Time Is Just the Same,0.0148278,2,1620
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Mary Lou Lord,Mary Lou Lord,0.0142237,3,6996
+7673,Emma Pollock,The Law of Large Numbers,2,random,ok,,Hug The Piano,9723,Mary Lou Lord,Live City Sounds,0.0141898,4,12813
+21428,Savath y Savalas,Apropa't,1,random,error,"No tracks found for album ""Apropa't""",,,,,,,
+11251,Jacquees,King of R&B,1,random,no_results,,,93484,,,,,
+10664,Hummingbird,Tougher Than Love,1,random,ok,,Sing A Lullaby,96,Syahmi Rawi,The Odyssey,0.947094,1,97
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Tahiti 80,Wallpaper For The Soul,0.0769772,1,51874
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Foster the People,Torches (Redux),0.074488,2,10763
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Polo & Pan,Hits Hits Hits été 2025 Édition Limitée,0.0732157,3,43
+19198,Phoenix,Alphabetical,1,random,ok,,If It's Not With You,593136,Polo & Pan,22:22,0.0718981,4,49139
+4232,Cavern of Anti-Matter,Hormone Lemonade,1,random,no_results,,,9015,,,,,
+12989,Keith Fullerton Whitman,Antithesis EP,1,random,error,No tracks found for album 'Antithesis EP',,,,,,,
+28707,Various Artists,Tectonic Plates Vol. 4,1,random,error,No tracks found for album 'Tectonic Plates Vol. 4',,,,,,,
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Idaho,Vieux Carré,0.00378787,1,7578
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Mercury Rev,Lego My Ego,0.00377691,2,5917
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Idaho,Hearts of Palm,0.00364939,3,27899
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Low,A Lifetime of Temporary Relief: 10 Years of B-Sides & Rarities,0.00362109,4,62438
+13636,L'Altra,In The Afternoon,1,random,ok,,Moth In Rain,14830,Mercury Rev,Across Yer Ocean,0.00362031,5,6278
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Melt-Banana,Teeny Shiny,0.175744,1,23091
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Coughs,Fright Makes Right,0.153357,2,17928
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Arab on Radar,Queen Hygiene II,0.139633,3,20326
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Melt-Banana,Return of 13 Hedgehogs (MxBx Singles 2000-2009),0.138931,4,11270
+999,An Albatross,The An Albatross Family Album,1,random,ok,,The Electric Proletariat Rides a Velvet Chariot,7456,Brainiac,Hissing Prigs in Static Couture,0.13602,5,70914
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Ryan Bingham,Roadhouse Sun,0.954489,1,28933
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Hot Tuna,Steady As She Goes,0.952875,2,5247
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,The Bottle Rockets,The Brooklyn Side,0.952066,3,26119
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,Christian Kane,The House Rules,0.944789,4,2632
+21372,Sarah Borges and the Broken Singles,The Stars Are Out,1,random,ok,,Yesterday's Love,567,The Flying Burrito Brothers,honky tonk heaven,0.941427,5,222
+5791,Dave Cloud & The Gospel of Power,Today Is the Day That They Take Me Away,1,random,no_results,,,221,,,,,
+8268,Fenn O'Berg,The Return of Fenn O'Berg,1,random,error,"No tracks found for album ""The Return Of Fenn O'Berg""",,,,,,,
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,Japanese Breakfast,Jubilee,0.0538485,1,888181
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,The Japanese House,In the End It Always Does,0.0413361,2,469874
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,Destroyer,ken (Deluxe Version),0.0370459,3,58435
+24372,The Blue Nile,Hats,1,random,ok,,Headlights on the Parade,194447,ML Buch,Suntub,0.0349896,4,159362
+28292,Various Artists,Kick‐Ass: Music From the Motion Picture,1,random,error,No tracks found for album 'Kick‐Ass: Music From the Motion Picture',,,,,,,
+14850,Luomo,Plus,1,random,no_results,,,3403,,,,,
+27746,Valgeir Sigurðsson,Draumalandid,1,random,error,No tracks found for album 'Draumalandid',,,,,,,
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Nobukazu Takemura,Child's View,0.187503,1,2759
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Serani Poji,オチャメカン,0.175129,2,33431
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Aphex Twin,Drukqs,0.172538,3,1424766
+5185,Cornelius,Fantasma,1,random,ok,,Star Fruits Surf Rider,93714,Supercar,HIGHVISION,0.167378,4,62278
+10566,Hot Hot Heat,Knock Knock Knock EP,1,random,error,No tracks found for album 'Knock Knock Knock EP',,,,,,,
+22465,Smurphy,A Shapeless Pool of Lovely Pale Colours Suspended in the Darkness,1,random,ok,,Pisces,1967,Mexican Institute of Sound,Méjico Máxico,0.852282,1,46261
+659,Alessandro Cortini,SCURO CHIARO,1,random,no_results,,,13340,,,,,
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,The Airfields,City-State,0.00943051,1,69
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Ohbijou,Friends in Bellwoods,0.00941211,2,443
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Ohbijou,Friends in Bellwoods 2,0.00941211,3,607
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Blair Lee,LIMBO,0.00938172,4,5433
+23226,Still Life Still,Mourning Trance,1,random,ok,,Werewolves,2477,Stars,In Our Bedroom After the War,0.00930644,5,473752
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Tanya Morgan,Sunset...the EP,1.0,1,1763
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Kooley High,Presents...David Thompson,0.497122,2,17699
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,The Roots,Game Theory Deluxe Edition,0.0145594,3,174
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,Logic,Under Pressure (Deluxe),0.0142937,4,370532
+10336,Hezekiah,I Predict a Riot,1,random,ok,,let's get involved,8849,1773,Return of the New,0.0142006,5,2164
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,The Decemberists,The Crane Wife (10th Anniversary Edition),0.175039,1,20705
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,Ra Ra Riot,The Rhumb Line,0.146397,2,276564
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,The Decemberists,The King Is Dead,0.146343,3,466254
+9633,Grand Archives,Grand Archives,1,random,ok,,Torn Blue Foam Couch,3851,Frightened Rabbit,Painting of a Panic Attack (Deluxe),0.142863,4,54719
+2920,BlocBoy JB,Simi,1,random,no_results,,,202308,,,,,
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Paws,"Song, By Toad Split 12""",1.0,1,666
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Royal Headache,Royal Headache,0.67769,2,62625
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,Ty Segall,Singles 2007-2010,0.596114,3,44351
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,JEFF the Brotherhood,Dig The Classics,0.554097,4,14141
+24033,Terry Malts,Nobody Realizes This Is Nowhere,1,random,ok,,They're Feeding,6803,The Spits,Kill The Kool,0.475635,5,17731
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Eternal Tapestry,Palace Of The Night Skies,0.0775629,1,3101
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Acid Mothers Gong,Live Tokyo,0.074698,2,259
+20196,Rangda,Formerly Extinct,1,random,ok,,Night Porter,1857,Carlton Melton,Live in Point Arena,0.0643763,3,53
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Sensual World,Feeling Wild,0.246389,1,19660
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Neighborhood Brats,Recovery,0.191293,2,3205
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,angry angles,Angry Angles,0.188748,3,8872
+17941,Nots,We Are Nots,1,random,ok,,Reactor,14339,Carbonas,Carbonas,0.182437,4,12976
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Fleet Foxes,Shore,0.0690196,1,307942
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,The Mountain Goats,The Jordan Lake Sessions: Volumes 1 and 2,0.0685334,2,11918
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Laura Marling,Song For Our Daughter,0.0662895,3,205921
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Laura Marling,The Lockdown Sessions,0.0655386,4,2274
+23335,Sufjan Stevens,The Ascension,1,random,ok,,Gilgamesh,175628,Bon Iver,AUATC,0.0622859,5,105684
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Anahí,Absurda - Single,0.255495,1,1925
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Dulce María,Extranjera Segunda Parte,0.246344,2,47490
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,Anahí,Inesperado,0.22663,3,23763
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,RBD,Para Olvidarte De Mi,0.22302,4,8814
+14731,LU,LU,1,random,ok,,Entre Mis Brazos,80299,RBD,Empezar Desde Cero (Fan Edition),0.204834,5,7518
+1481,Art Bears,Art Box,1,random,error,No tracks found for album 'Art Box',,,,,,,
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Daedelus,Looking Ocean,0.0918857,1,627
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Four Tet,Rounds,0.0858055,2,404983
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Two Lone Swordsmen,Stay Down,0.080239,3,78023
+957,Amon Tobin,Foley Room,1,random,ok,,Straight Psyche,378424,Autechre,Quaristice,0.0782946,4,207341
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Cat Power,You Are Free,1.0,1,591532
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Beth Orton,Trailer Park,0.966112,2,149887
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Nick Drake,Time of No Reply,0.948185,3,175166
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Cass McCombs,Big Wheel and Others,0.873681,4,177889
+12919,Kathryn Williams,Over Fly Over,1,random,ok,,Just Like a Birthday,1598,Steve Gunn,Time Off,0.863739,5,22228
+17234,Nadia Tehran,Dozakh: All Lovers Hell,1,random,no_results,,,3747,,,,,
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Brian Eno & David Byrne,My Life in the Bush of Ghosts,0.17793,1,104703
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Apparat,Walls,0.159934,2,309037
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Errors,Come Down With Me,0.138013,3,36322
+8823,Fridge,Happiness,1,random,ok,,Sample and Clicks,60345,Schneider TM,Skoda Mluvit,0.135464,4,7027
+20201,RAP,EXPORT,1,random,no_results,,,1150,,,,,
+21146,RØSENKØPF,RØSENKØPF,1,random,error,No tracks found for album 'RØSENKØPF',,,,,,,
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Laurie Anderson,Big Science,0.252826,1,192945
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Diamanda Galás,Malediction and Prayer,0.225056,2,17024
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,Laurie Anderson,Talk Normal: The Laurie Anderson Anthology,0.204215,3,33978
+30195,Yoko Ono,Blueprint for a Sunrise,1,random,ok,,I'm Not Getting Enough,5473,The Residents,Demons Dance Alone,0.163224,4,8932
+25294,The Jon Spencer Blues Explosion,Dirty Shirt Rock 'n' Roll: The First Ten Years,1,random,no_results,,,56032,,,,,
+28261,Various Artists,IOTDXI,2,random,error,No tracks found for album 'IOTDXI',,,,,,,
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Stars of the Lid,and Their Refinement of the Decline,0.19446,1,311444
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Tim Hecker,Harmony in Ultraviolet,0.189866,2,197226
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Tim Hecker,"Ravedeath, 1972",0.179348,3,203085
+29669,William Basinski,The Disintegration Loops,1,random,ok,,dlp 1.1,22019,Biosphere,Substrata,0.162374,4,109330
+8049,Explosions in the Sky,The Rescue (Travels in Constants Vol. 21),1,random,error,No tracks found for album 'The Rescue (Travels In Constants Vol. 21)',,,,,,,
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,MØ,No Mythologies to Follow (Deluxe),0.233605,1,218221
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Ryn Weaver,Promises,0.22132,2,31586
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Baby Queen,The Yearbook,0.214614,3,124089
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Echosmith,Over My Head - Single,0.199165,4,1981
+13253,Kimbra,Primal Heart,1,random,ok,,Top of the World,75717,Marina & the Diamonds,E.V.O.L.,0.195692,5,461
+8624,Four Tet,0181,1,random,no_results,,,9323,,,,,
+7165,Dyke Drama,Up Against the Bricks,1,random,no_results,,,6930,,,,,
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Cassie,RockaByeBaby,0.0406129,1,8914
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Janet Jackson,Discipline,0.0405966,2,366644
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Mis-Teeq,"DJ KAORI'S ""RIDE"" into the MIX",0.0403912,3,7
+13027,Kelis,Flesh Tone,2,random,ok,,Segue 1,230818,Goldfrapp,Head First,0.0401715,4,235638
+19565,Portastatic,"De Mel, De Melão EP",1,random,error,"No tracks found for album 'De Mel, De Melão EP'",,,,,,,
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Do Make Say Think,Winter Hymn Country Hymn Secret Hymn,0.0738599,1,186751
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Tortoise,Millions Now Living Will Never Die,0.0675945,2,185781
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,A Silver Mt. Zion,He Has Left Us Alone But Shafts of Light Sometimes Grace the Corners of Our Rooms,0.066223,3,108023
+6555,Dirty Three,"Whatever You Love, You Are",1,random,ok,,Some Things I Just Don't Want to Know,38485,Mick Turner,Marlan Rosa,0.0605503,4,1447
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Israel Vibration,Forever,0.99995,1,9159
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Max Romeo,The Coming of Jah: Max Romeo Anthology 1967-76,0.999942,2,95524
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Don Carlos,Just A Passing Glance,0.999938,3,4903
+19112,Peter Tosh,1978–1987,1,random,ok,,"Buk-In-Hamm Palace (12"")",59,Don Carlos,Is It Rolling Bob? A Reggae Tribute To Bob Dylan,0.999938,4,349
+4759,"Cipriano de Rore; Huelgas Ensemble, Paul Van Nevel",Missa Praeter rerum seriem,1,random,error,No tracks found for album 'Missa Praeter rerum seriem',,,,,,,
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Andrew Combs,All These Dreams,1.0,1,15643
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Andrew Combs,Worried Man,0.946435,2,6843
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Guy Clark,Old Friends,0.883465,3,3829
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Robert Earl Keen,Happy Prisoner: The Bluegrass Sessions,0.869234,4,6311
+13827,Larry Jon Wilson,Larry Jon Wilson,1,random,ok,,Throw My Hands Up,1194,Guy Clark,The Essential Guy Clark,0.815891,5,59420
+29221,Vsnares,2370894,1,random,error,No tracks found for album '2370894',,,,,,,
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Passion Pit,Chunk of Change,0.0742758,1,613689
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,School of Seven Bells,Alpinisms,0.0715231,2,150342
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Passion Pit,I'll Be Alright,0.0626632,3,5758
+6574,Discovery,LP,2,random,ok,,I Want You Back,253269,Cut Copy,Zonoscope,0.0616865,4,323316
+12764,Kali Uchis,Isolation,1,random,no_results,,,2163902,,,,,
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Beggars Velvet,Lady of Autumn,0.867883,1,312
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Kaz Hand,Waifs And Wenches Dbl Cd,0.867883,2,4
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,Bob Roberts,Songs from the Sailing Barges,0.840809,3,578
+26468,The Witches of Elswick,Out of Bed,1,random,ok,,Daddy Fox,475,The Young Tradition,Galleries/No Relation,0.836817,4,287
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Whitesnake,Trouble,0.201799,1,38259
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Whitesnake,Snakebite,0.18706,2,53005
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Rainbow,20th Century Masters: The Millennium Collection: Best Of Rainbow,0.153594,3,5384
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Rainbow,The Very Best of Rainbow,0.151957,4,406078
+6156,Deep Purple,Come Taste the Band,1,random,ok,,Drifter,110481,Tommy Bolin,Teaser,0.150203,5,18375
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Djedjotronic,Zone 13: Abyssal Zone - Single,1.0,1,82
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,MSTRKRFT,The Looks,0.815958,2,438309
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Daft Punk,A Musical Tour: Treasures of the Walt Disney Archives at The Reagan Library,0.0487545,3,2568
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Chromeo,Bonafied Lovin' - EP,0.0288624,4,772
+8903,Fukkk Offf,Love Me Hate Me Kiss Me Kill Me,1,random,ok,,Pretend,31989,Plus Device,Puncture,0.0287979,5,1154
+11724,Jefre Cantu-Ledesma,In Summer,1,random,no_results,,,54447,,,,,
+12242,John Vanderslice,eeeeeeep! EP,1,random,error,No tracks found for album 'Eeeeeeep! EP',,,,,,,
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,The Drift,Memory Drawings,0.128502,1,7187
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,The Allstar Project,Your Reward... A Bullet,0.0975089,2,3434
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Unwed Sailor,The White Ox,0.0944693,3,4111
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Foxhole,We the Wintering Tree,0.0943533,4,5834
+22665,Sonna,Smile and the World Smiles With You,1,random,ok,,The Right Age,7506,Unwed Sailor,The Marionette and the Music Box,0.0942573,5,6063
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,The Dimes,The Silent Generation,0.160564,1,3995
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Heidi Solheim,Found,0.145835,2,165
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Üstmamò,ustmamò II,0.143444,3,8
+29467,What Made Milwaukee Famous,Trying to Never Catch Up,1,random,ok,,Selling Yourself Short,17156,Gutevolk,Suomi,0.10761,4,9305
+2606,Bill Wells & Aidan Moffat,Everything's Getting Older,1,random,error,"No tracks found for album ""Everything's Getting Older""",,,,,,,
+19729,"Pritam, Swanand Kirkire, Sayeed Quadri, Ashish Pandit & Nilesh Misra",Barfi!,1,random,error,No tracks found for album 'Barfi!',,,,,,,
+9402,Glassine,No Stairway,1,random,no_results,,,515,,,,,
+2049,Basic Soul Unit,Under the Same Sky,1,random,no_results,,,856,,,,,
+15534,Marvin Gaye,What's Going On [40th Anniversary Edition],1,random,error,"No tracks found for album ""What's Going On [40th Anniversary Edition]""",,,,,,,
+23452,Sunwatchers,Illegal Moves,1,random,no_results,,,2948,,,,,
+3190,Bonnie Baxter,AXIS,1,random,no_results,,,2949,,,,,
+378,Ada,Blondie,1,random,ok,,Eve,54668,DJ Koze,Kosi Comes Around,0.273126,1,61767
+378,Ada,Blondie,1,random,ok,,Eve,54668,Paul Kalkbrenner,Self,0.218065,2,177544
+378,Ada,Blondie,1,random,ok,,Eve,54668,Laurent Garnier,Unreasonable Behaviour,0.205146,3,122509
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The Walkmen,Lisbon,0.0740659,1,153532
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The War on Drugs,I Don't Live Here Anymore,0.0725172,2,3136
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,Grizzly Bear,Shields,0.0719728,3,456731
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,The Bravery,The Bravery,0.0712555,4,862120
+16067,Menomena,Under an Hour,1,random,ok,,Flour,24386,We Were Promised Jetpacks,These Four Walls,0.0698303,5,253846
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Ani DiFranco,Not So Soft,0.077732,1,48290
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Ani DiFranco,Puddle Dive,0.077278,2,25276
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Indigo Girls,Come On Now Social,0.0769066,3,22108
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Indigo Girls,Staring Down the Brilliant Dream,0.0663137,4,17531
+1013,Anaïs Mitchell,Hymns for the Exiled,1,random,ok,,1984,6204,Dar Williams,For the Kids Three!,0.0635554,5,1332
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Franc Moody,Dopamine,0.19802,1,18335
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Franc Moody,Dance Moves,0.106795,2,117893
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,L'Impératrice,Matahari,0.0808242,3,64110
+12625,Jungle,For Ever,1,random,ok,,Smile,525392,Neil Frances,Teardrops - Single,0.0728497,4,668
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,Minus the Bear,Omni,1.0,1,150135
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,The Get Up Kids,There Are Rules,0.999752,2,24243
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,The Most Serene Republic,Population,0.93604,3,113303
+11031,Iran,Dissolver,1,random,ok,,Where I'm Going,9169,"¡Forward, Russia!",Breaking Standing,0.935519,4,343
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,The Last Electro-Acoustic Space Jazz & Percussion Ensemble,Miles Away,0.221872,1,17574
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,Otis Jackson Jr. Trio,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.157173,2,167
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,Ahmad Miller,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.13603,3,121
+30242,Young Jazz Rebels,Slave Riot,1,random,ok,,Young Day (Short Version),12622,The Eddie Prince Fusion Band,"Yesterdays Universe: Prepare for a New Yesterday, Vol. 1",0.113871,4,105
+14356,Lisa Germano,No Elephants,1,random,no_results,,,6107,,,,,
+29336,Wax Idols,American Tragic,1,random,no_results,,,5639,,,,,
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Tu M',Monochromes Vol. 1,0.0823414,1,5090
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Popol Vuh,Hosianna Mantra,0.00258277,2,95095
+14167,Lichens,Omns,1,random,ok,,Vevor Of Agassou,10960,Greg Davis,somnia,0.00235731,3,2414
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Nurses,Apple's Acre,0.107817,1,51740
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Blues Control,Blues Control,0.100495,2,14883
+29498,White Flight,White Flight,1,random,ok,,Now,9984,A Lull,Confetti,0.0955415,3,5292
+29498,White Flight,White Flight,1,random,ok,,Now,9984,Anthem In,Anthem In,0.00505128,4,4811
+5938,David Novick,David Novick,1,random,no_results,,,185,,,,,
+23359,Sumac,May You Be Held,1,random,no_results,,,6450,,,,,
