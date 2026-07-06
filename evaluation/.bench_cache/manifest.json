@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "top_n": 5,
+  "sources": {
+    "catalog": {
+      "mtime_ns": 1783355047218933344,
+      "size": 8707758
+    },
+    "recs": {
+      "mtime_ns": 1783355042960133504,
+      "size": 5860912
+    },
+    "baseline": {
+      "mtime_ns": 1783355046988533351,
+      "size": 10534564
+    },
+    "code:bench_cache.py": {
+      "mtime_ns": 1783369054768155143,
+      "size": 6394
+    },
+    "code:data_loader.py": {
+      "mtime_ns": 1783360292277435947,
+      "size": 2644
+    },
+    "code:metrics.py": {
+      "mtime_ns": 1783368655586832719,
+      "size": 30840
+    },
+    "code:utils.py": {
+      "mtime_ns": 1783359916116215120,
+      "size": 9100
+    }
+  }
+}
