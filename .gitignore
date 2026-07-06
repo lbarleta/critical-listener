@@ -11,6 +11,7 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
+lastfm-bench/.bench_cache/
 
 # Large files
 datasets/pitchfork_reviews_cleaned.csv
