@@ -42,7 +42,7 @@ def get_api_key() -> str:
     api_key = os.environ.get("LASTFM_API_KEY")
     if not api_key:
         raise ValueError(
-            "LASTFM_API_KEY is not set. Add it to bench/.env or export it in your shell."
+            "LASTFM_API_KEY is not set. Add it to lastfm-recommender/.env or export it in your shell."
         )
     return api_key
 
