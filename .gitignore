@@ -16,6 +16,7 @@ lastfm-bench/.bench_cache/
 # Large files
 datasets/pitchfork_reviews_cleaned.csv
 datasets/merged_dataset.csv
+datasets/merged_dataset_cleaned.csv
 datasets/unique_albums_mb.csv
 datasets/recommendations_album_level_avg_embeddings.parquet
 
