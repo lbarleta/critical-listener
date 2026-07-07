@@ -1,8 +1,8 @@
 # The Critical Listener
 
-The Critical Listener is a review-based music recommender built on full-text album reviews from Pitchfork, Resident Advisor, and CritiqueBrainz. Instead of optimizing for engagement, user listening history, or genre overlap, it recommends albums whose reviews share semantic qualities with a seed album. The goal is critic-informed discovery: suggestions that reflect how journalists describe music, not just what listeners already consume them. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and we benchmark the system against a industry-style recommender, based on Last.fm API.
+The Critical Listener is a review-based music recommender built on full-text album reviews from Pitchfork, Resident Advisor, and CritiqueBrainz. Instead of optimizing for engagement, user listening history, or genre overlap, it recommends albums whose reviews share semantic qualities with a seed album. The goal is critic-informed discovery: suggestions that reflect how journalists describe music, not just what listeners already consume. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and we benchmark the system against an industry-style recommender built on the Last.fm API.
 
-## Folder Structure and Main Files
+## Folder Structure
 
 ```
 critical-listener/
@@ -23,8 +23,6 @@ We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums 
 - `pitchfork.ipynb`
 - `resident_advisor.ipynb`
 - `critique_brainz.ipynb`
-
-`consolidator.py` merges the three cleaned exports into a single review dataset.
 
 **Cleaning and masking**: personnel names mentioned in reviews are masked so the model matches on descriptive language rather than shared band members. Albums with multiple reviews are handled at recommendation time by averaging embeddings (see Recommender).
 
@@ -50,10 +48,12 @@ Because no ground-truth "similar album" labels exist outside of listening data, 
 
 ## Evaluation
 
-**Baseline** (`lastfm-recommender/`): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See `lastfm_recommender.md` for details.
+**Baseline** ([`lastfm-recommender/`](lastfm-recommender/)): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See [lastfm_recommender.md](lastfm-recommender/lastfm_recommender.md) for details.
 
-**Benchmark** (`evaluation/lastfm_bench.ipynb`): ~45k baseline recs for ~11k seeds, matched against our catalog (~40k albums vs. Last.fm's much larger index). Metrics include:
+**Benchmark** ([`evaluation/lastfm_bench.ipynb`](evaluation/lastfm_bench.ipynb)): ~45k baseline recs for ~11k seeds, matched against our catalog (~40k albums vs. Last.fm's much larger index). Metrics include:
 
 - **Disagreement** (Jaccard overlap on albums, artists, tags)
 - **Baseline recovery** (precision, recall, hit rate)
 - **Beyond-accuracy** (popularity bias, diversity, hubness, reciprocity, novelty, serendipity)
+
+Evaluation results are available in [evaluation/lastfm_bench.ipynb](evaluation/lastfm_bench.ipynb).
