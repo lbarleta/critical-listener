@@ -11,7 +11,7 @@ from data_loader import get_baseline, get_catalog, get_recs
 from metrics import BenchInputs, compute_benchmark_metrics
 from utils import build_subsets, filter_to_baseline, query_key
 
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 MODULE_DIR = Path(__file__).resolve().parent
 DEFAULT_CACHE_DIR = MODULE_DIR / ".bench_cache"
 CODE_PATHS = (

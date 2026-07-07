@@ -252,10 +252,10 @@ def agreement_metrics(
     return pd.concat(parts, ignore_index=True)
 
 
-# --- variety ---
+# --- diversity ---
 
 
-def list_variety_stats(df: pd.DataFrame, kind: str) -> dict:
+def list_diversity_stats(df: pd.DataFrame, kind: str) -> dict:
     keys = ["query_artist", "query_album"]
     if kind == "artist":
         target = norm(df["rec_artist"])
@@ -272,13 +272,13 @@ def list_variety_stats(df: pd.DataFrame, kind: str) -> dict:
     return {
         "n_queries": len(stats),
         "mean_unique": float(stats["nunique"].mean()),
-        "mean_variety_ratio": float(ratio.mean()),
+        "mean_diversity_ratio": float(ratio.mean()),
         "all_distinct_share": float((stats["nunique"] == stats["count"]).mean()),
         "single_target_share": float((stats["nunique"] == 1).mean()),
     }
 
 
-def tag_variety_stats(df: pd.DataFrame, n_comparable_slots: int) -> dict:
+def tag_diversity_stats(df: pd.DataFrame, n_comparable_slots: int) -> dict:
     keys = ["query_artist", "query_album"]
     exploded = explode_rec_tags(df)
     n_queries = df.groupby(keys, observed=True).ngroups
@@ -289,7 +289,7 @@ def tag_variety_stats(df: pd.DataFrame, n_comparable_slots: int) -> dict:
             "queries_with_tags": 0,
             "queries_with_tags_share": 0.0,
             "mean_unique": float("nan"),
-            "mean_variety_ratio": float("nan"),
+            "mean_diversity_ratio": float("nan"),
             "all_distinct_share": float("nan"),
             "single_target_share": float("nan"),
         }
@@ -304,13 +304,13 @@ def tag_variety_stats(df: pd.DataFrame, n_comparable_slots: int) -> dict:
         "queries_with_tags": len(stats),
         "queries_with_tags_share": len(stats) / n_queries if n_queries else float("nan"),
         "mean_unique": float(stats["n_unique"].mean()),
-        "mean_variety_ratio": float(stats["ratio"].mean()),
+        "mean_diversity_ratio": float(stats["ratio"].mean()),
         "all_distinct_share": float((stats["n_unique"] == stats["n_mentions"]).mean()),
         "single_target_share": float((stats["n_unique"] == 1).mean()),
     }
 
 
-def variety_metrics(
+def diversity_metrics(
     recs_n: pd.DataFrame,
     baseline_n: pd.DataFrame,
     recs_tags_n: pd.DataFrame,
@@ -320,16 +320,16 @@ def variety_metrics(
     tag_slots_n: set,
 ) -> pd.DataFrame:
     artist = pivot_recommender(
-        "variety",
-        list_variety_stats(recs_n, "artist"),
-        list_variety_stats(baseline_n, "artist"),
+        "diversity",
+        list_diversity_stats(recs_n, "artist"),
+        list_diversity_stats(baseline_n, "artist"),
         variant="artists",
         n=top_n,
     )
     tags = pivot_recommender(
-        "variety",
-        tag_variety_stats(recs_tags_n, len(tag_slots_n)),
-        tag_variety_stats(baseline_tags_n, len(tag_slots_n)),
+        "diversity",
+        tag_diversity_stats(recs_tags_n, len(tag_slots_n)),
+        tag_diversity_stats(baseline_tags_n, len(tag_slots_n)),
         variant="tags",
         n=top_n,
     )
@@ -825,7 +825,7 @@ def compute_benchmark_metrics(inputs: BenchInputs) -> pd.DataFrame:
         _repetition_tag_metrics(inputs),
         stuckness_metrics(recs_n, baseline_n, top_n=top_n),
         agreement_metrics(inputs.recs_by_n, inputs.baseline_by_n, inputs.catalog_ids),
-        variety_metrics(
+        diversity_metrics(
             recs_n,
             baseline_n,
             inputs.recs_tags_by_n[top_n],
