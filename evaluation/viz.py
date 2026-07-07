@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib.patches import Patch
+from matplotlib.ticker import FuncFormatter
 
 from metrics import BASELINE_COL, EMBEDDING_COL
 
@@ -112,6 +113,232 @@ def plot_symmetric_sweep(
     sns.lineplot(data=long, x="n", y="value", hue="series", marker="o", ax=ax)
     ax.set(xlabel="n", ylabel=ylabel, title=title)
     ax.set_xticks(range(1, top_n + 1))
+
+
+def _theme_metric(
+    metrics_df: pd.DataFrame,
+    theme: str,
+    variant: str,
+    metric: str,
+    n: int,
+    *,
+    col: str = EMBEDDING_COL,
+) -> float:
+    row = metrics_df.loc[
+        (metrics_df["theme"] == theme)
+        & (metrics_df["variant"] == variant)
+        & (metrics_df["metric"] == metric)
+        & (metrics_df["n"] == n),
+        col,
+    ]
+    return float(row.iloc[0]) if len(row) else float("nan")
+
+
+def _disagreement_metric(
+    metrics_df: pd.DataFrame,
+    variant: str,
+    metric: str,
+    n: int,
+) -> float:
+    return _theme_metric(metrics_df, "disagreement", variant, metric, n)
+
+
+def _agreement_metric(metrics_df: pd.DataFrame, variant: str, metric: str, n: int) -> float:
+    return _theme_metric(metrics_df, "agreement", variant, metric, n)
+
+
+def _section_two_line_title(ax, heading: str, subtitle: str) -> None:
+    ax.set_title("")
+    ax.text(
+        0.5,
+        1.10,
+        heading,
+        transform=ax.transAxes,
+        ha="center",
+        va="bottom",
+        fontsize=14,
+        fontweight="semibold",
+    )
+    ax.text(
+        0.5,
+        1,
+        subtitle,
+        transform=ax.transAxes,
+        ha="center",
+        va="bottom",
+        fontsize=10,
+    )
+
+
+def _disagreement_two_line_title(ax, subtitle: str) -> None:
+    _section_two_line_title(ax, "Disagreement", subtitle)
+
+
+def _style_pct_axes(ax, *, ylabel: str | None = None) -> None:
+    if ylabel is not None:
+        ax.set_ylabel(ylabel, fontsize=9, labelpad=2)
+    ax.tick_params(axis="both", labelsize=8, pad=2)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{y:.0%}"))
+
+
+def _style_disagreement_axes(ax, *, ylabel: str | None = None) -> None:
+    _style_pct_axes(ax, ylabel=ylabel)
+
+
+def _compact_section_layout(fig, *, legend: bool = False) -> None:
+    right = 0.86 if legend else 0.98
+    fig.subplots_adjust(left=0.13, right=right, bottom=0.16, top=0.78)
+
+
+def _pct_text(ax, x: float, y: float, value: float, *, va: str = "center") -> None:
+    if not np.isfinite(value) or value <= 0:
+        return
+    ax.text(x, y, f"{value:.1%}", ha="center", va=va, fontsize=8)
+
+
+def plot_disagreement_jaccard_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (5, 2.75),
+):
+    """Mean Jaccard at fixed n for albums, artists, and comparable tags."""
+    specs = [
+        ("albums", "mean_jaccard", "Albums"),
+        ("artists", "mean_jaccard", "Artists"),
+        ("tags_comparable", "mean_jaccard_comparable", "Tags\n(comparable)"),
+    ]
+    labels = [label for _, _, label in specs]
+    values = [_disagreement_metric(metrics_df, variant, metric, n) for variant, metric, _ in specs]
+
+    fig, ax = plt.subplots(figsize=figsize)
+    palette = sns.color_palette(n_colors=len(labels))
+    bars = ax.bar(labels, values, color=palette)
+    _disagreement_two_line_title(ax, f"Mean Jaccard @ n = {n}")
+    _style_disagreement_axes(ax, ylabel="Mean Jaccard")
+    ax.set_ylim(0, 1)
+    ax.set_xlabel(None)
+    ax.tick_params(axis="x", labelsize=8)
+    for bar, value in zip(bars, values):
+        _pct_text(
+            ax,
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.02,
+            value,
+            va="bottom",
+        )
+    plt.tight_layout(pad=0.3)
+    _compact_section_layout(fig)
+    plt.show()
+
+
+def plot_disagreement_overlap_stacked(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (5, 2.75),
+):
+    """Stacked zero-overlap vs any-overlap shares at fixed n."""
+    specs = [
+        ("albums", "zero_overlap_share", "any_overlap_share", "Albums"),
+        ("artists", "zero_overlap_share", "any_overlap_share", "Artists"),
+        (
+            "tags_comparable",
+            "zero_overlap_comparable_share",
+            "any_overlap_comparable_share",
+            "Tags\n(comparable)",
+        ),
+    ]
+    labels = [label for *_, label in specs]
+    zero = [_disagreement_metric(metrics_df, variant, z_metric, n) for variant, z_metric, _, _ in specs]
+    any_overlap = [_disagreement_metric(metrics_df, variant, a_metric, n) for variant, _, a_metric, _ in specs]
+
+    colors = sns.color_palette(n_colors=2)
+
+    fig, ax = plt.subplots(figsize=figsize)
+    bars_zero = ax.bar(labels, zero, label="Zero overlap", color=colors[0])
+    bars_any = ax.bar(labels, any_overlap, bottom=zero, label="Any overlap", color=colors[1])
+    ax.tick_params(axis="x", labelsize=8)
+    _disagreement_two_line_title(ax, f"Overlap @ n = {n}")
+    _style_disagreement_axes(ax, ylabel="Share of shared queries")
+    ax.set_ylim(0, 1)
+    for bz, ba, z, a in zip(bars_zero, bars_any, zero, any_overlap):
+        if z >= 0.04:
+            _pct_text(ax, bz.get_x() + bz.get_width() / 2, z / 2, z)
+        if a >= 0.04:
+            _pct_text(ax, ba.get_x() + ba.get_width() / 2, z + a / 2, a)
+    ax.legend(loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=9)
+    plt.tight_layout(pad=0.3)
+    _compact_section_layout(fig, legend=True)
+    plt.show()
+
+
+def _plot_baseline_recovery_metric_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    metric: str,
+    subtitle: str,
+    ylabel: str,
+    figsize: tuple[float, float] = (4, 2.75),
+) -> None:
+    specs = [("full", "Full"), ("in_corpus", "In-corpus")]
+    labels = [label for _, label in specs]
+    values = [_agreement_metric(metrics_df, variant, metric, n) for variant, _ in specs]
+
+    fig, ax = plt.subplots(figsize=figsize)
+    palette = sns.color_palette(n_colors=len(labels))
+    bars = ax.bar(labels, values, color=palette)
+    _section_two_line_title(ax, "Baseline recovery", subtitle)
+    _style_pct_axes(ax, ylabel=ylabel)
+    ax.set_ylim(0, 1)
+    ax.set_xlabel(None)
+    ax.tick_params(axis="x", labelsize=8)
+    for bar, value in zip(bars, values):
+        _pct_text(
+            ax,
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.02,
+            value,
+            va="bottom",
+        )
+    plt.tight_layout(pad=0.3)
+    _compact_section_layout(fig)
+    plt.show()
+
+
+def plot_baseline_recovery_hit_rate_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (4, 2.75),
+) -> None:
+    """Hit rate at fixed n for full vs in-corpus queries."""
+    _plot_baseline_recovery_metric_bars(
+        metrics_df,
+        n=n,
+        metric="hit_rate",
+        subtitle=f"Hit rate @ n = {n}",
+        ylabel="Hit rate",
+        figsize=figsize,
+    )
+
+
+def plot_baseline_recovery_precision_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (4, 2.75),
+) -> None:
+    """Precision at fixed n for full vs in-corpus queries."""
+    _plot_baseline_recovery_metric_bars(
+        metrics_df,
+        n=n,
+        metric="precision",
+        subtitle=f"Precision @ n = {n}",
+        ylabel="Precision",
+        figsize=figsize,
+    )
 
 
 def plot_repetition_sweeps(

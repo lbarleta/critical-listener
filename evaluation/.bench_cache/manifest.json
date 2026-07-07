@@ -1,34 +1,34 @@
 {
-  "version": 2,
+  "version": 3,
   "top_n": 5,
   "sources": {
     "catalog": {
-      "mtime_ns": 1783355047218933344,
+      "mtime_ns": 1783371548040388026,
       "size": 8707758
     },
     "recs": {
-      "mtime_ns": 1783355042960133504,
+      "mtime_ns": 1783371548076664402,
       "size": 5860912
     },
     "baseline": {
-      "mtime_ns": 1783355046988533351,
+      "mtime_ns": 1783371548112940777,
       "size": 10534564
     },
     "code:bench_cache.py": {
-      "mtime_ns": 1783369054768155143,
-      "size": 6394
+      "mtime_ns": 1783437118452123751,
+      "size": 6195
     },
     "code:data_loader.py": {
-      "mtime_ns": 1783360292277435947,
-      "size": 2644
+      "mtime_ns": 1783371548116568414,
+      "size": 2560
     },
     "code:metrics.py": {
-      "mtime_ns": 1783368655586832719,
-      "size": 30840
+      "mtime_ns": 1783437118028123877,
+      "size": 29973
     },
     "code:utils.py": {
-      "mtime_ns": 1783359916116215120,
-      "size": 9100
+      "mtime_ns": 1783371548116568414,
+      "size": 8860
     }
   }
 }
