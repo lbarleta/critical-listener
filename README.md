@@ -1,7 +1,5 @@
 # The Critical Listener
 
-## Introduction
-
 The Critical Listener is a review-based music recommender built on full-text album reviews from Pitchfork, Resident Advisor, and CritiqueBrainz. Instead of optimizing for engagement, user listening history, or genre overlap, it recommends albums whose reviews share semantic qualities with a seed album. The goal is critic-informed discovery: suggestions that reflect how journalists describe music, not just what listeners already consume them. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and we benchmark the system against a industry-style recommender, based on Last.fm API.
 
 ## Folder Structure and Main Files
@@ -20,7 +18,7 @@ critical-listener/
 
 We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums across rock, electronic, hip hop, pop, experimental, R&B, and related genres.
 
-**Sources** (`preprocessing/01_sources/`):
+**Sources**:
 
 - `pitchfork.ipynb`
 - `resident_advisor.ipynb`
@@ -28,13 +26,9 @@ We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums 
 
 `consolidator.py` merges the three cleaned exports into a single review dataset.
 
-**Cleaning and masking** (`preprocessing/03_clean/masked_dataset.ipynb`): personnel names mentioned in reviews are masked so the model matches on descriptive language rather than shared band members. Albums with multiple reviews are handled at recommendation time by averaging embeddings (see Recommender).
-
-**Catalog** (`preprocessing/02_catalog/`): `albums.ipynb` and `lastfm_album_metadata.ipynb` build and enrich the album catalog; `musicbrainz_album_metadata_merge.ipynb` adds MusicBrainz metadata.
+**Cleaning and masking**: personnel names mentioned in reviews are masked so the model matches on descriptive language rather than shared band members. Albums with multiple reviews are handled at recommendation time by averaging embeddings (see Recommender).
 
 ## Recommender
-
-Model selection lives in `model_selection/`:
 
 1. **`recommender_1_model_compare.ipynb`** compares TF-IDF, MiniLM, E5-large, and Nomic on cross-source same-album pairs.
 2. **`recommender_2_with_name_masking.ipynb`** embeds the masked corpus with Nomic.
@@ -46,7 +40,7 @@ Model selection lives in `model_selection/`:
 2. **Score similarity.** For a query album, compute cosine similarity against every other album in the catalog.
 3. **Filter and rank.** Drop the query and same-artist albums, then return the top *k* most similar albums.
 
-Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattered because many Pitchfork reviews exceed 512 tokens. Output: `recommendations_album_level_avg_embeddings.parquet`, joined with metadata in `datasets/final_recs.parquet`.
+Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattered because many Pitchfork reviews exceed 512 tokens.
 
 ## Explainer
 
@@ -55,8 +49,6 @@ Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattere
 Because no ground-truth "similar album" labels exist outside of listening data, the explainer is our primary qualitative validation tool.
 
 ## Evaluation
-
-`evaluation/` compares embedding recommendations to the Last.fm baseline on shared query albums.
 
 **Baseline** (`lastfm-recommender/`): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See `lastfm_recommender.md` for details.
 
