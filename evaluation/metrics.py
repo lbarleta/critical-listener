@@ -461,23 +461,23 @@ def listener_popularity_stats(
             "n_rows_with_data": 0,
             "mean_listeners_catalog": catalog_mean,
             "catalog_listener_coverage": catalog_coverage,
-            "median_rec_listeners": float("nan"),
-            "median_query_listeners": float("nan"),
-            "median_rec_query_ratio": float("nan"),
-            "median_rec_catalog_ratio": float("nan"),
+            "mean_rec_listeners": float("nan"),
+            "mean_query_listeners": float("nan"),
+            "mean_rec_query_ratio": float("nan"),
+            "mean_rec_catalog_ratio": float("nan"),
             "rec_more_popular_share": float("nan"),
         }
     ratio = (sub["rec_listeners"] + 1) / (sub["query_listeners"] + 1)
-    median_rec = sub["rec_listeners"].median()
+    mean_rec = sub["rec_listeners"].mean()
     return {
         "n_comparable_slots": n_comparable_slots,
         "n_rows_with_data": len(sub),
         "mean_listeners_catalog": catalog_mean,
         "catalog_listener_coverage": catalog_coverage,
-        "median_rec_listeners": median_rec,
-        "median_query_listeners": sub["query_listeners"].median(),
-        "median_rec_query_ratio": ratio.median(),
-        "median_rec_catalog_ratio": median_rec / catalog_mean if catalog_mean else float("nan"),
+        "mean_rec_listeners": mean_rec,
+        "mean_query_listeners": sub["query_listeners"].mean(),
+        "mean_rec_query_ratio": ratio.mean(),
+        "mean_rec_catalog_ratio": mean_rec / catalog_mean if catalog_mean else float("nan"),
         "rec_more_popular_share": (ratio > 1).mean(),
     }
 

@@ -147,27 +147,36 @@ def _agreement_metric(metrics_df: pd.DataFrame, variant: str, metric: str, n: in
     return _theme_metric(metrics_df, "agreement", variant, metric, n)
 
 
-def _section_two_line_title(ax, heading: str, subtitle: str) -> None:
+def _section_two_line_title(
+    ax,
+    heading: str,
+    subtitle: str = "",
+    *,
+    align: str = "center",
+) -> None:
+    x = 0.0 if align == "left" else 0.5
+    ha = "left" if align == "left" else "center"
     ax.set_title("")
     ax.text(
-        0.5,
+        x,
         1.10,
         heading,
         transform=ax.transAxes,
-        ha="center",
+        ha=ha,
         va="bottom",
         fontsize=14,
         fontweight="semibold",
     )
-    ax.text(
-        0.5,
-        1,
-        subtitle,
-        transform=ax.transAxes,
-        ha="center",
-        va="bottom",
-        fontsize=10,
-    )
+    if subtitle:
+        ax.text(
+            x,
+            1,
+            subtitle,
+            transform=ax.transAxes,
+            ha=ha,
+            va="bottom",
+            fontsize=10,
+        )
 
 
 def _disagreement_two_line_title(ax, subtitle: str) -> None:
@@ -337,6 +346,289 @@ def plot_baseline_recovery_precision_bars(
         metric="precision",
         subtitle=f"Precision @ n = {n}",
         ylabel="Precision",
+        figsize=figsize,
+    )
+
+
+def _popularity_metric(
+    metrics_df: pd.DataFrame,
+    variant: str,
+    metric: str,
+    n: int,
+    *,
+    col: str = EMBEDDING_COL,
+) -> float:
+    return _theme_metric(metrics_df, "popularity", variant, metric, n, col=col)
+
+
+def _style_ratio_axes(ax, *, ylabel: str | None = None) -> None:
+    if ylabel is not None:
+        ax.set_ylabel(ylabel, fontsize=9, labelpad=2)
+    ax.tick_params(axis="both", labelsize=8, pad=2)
+
+
+def _metric_bar_label(value: float, *, as_pct: bool) -> str:
+    return f"{value:.1%}" if as_pct else f"{value:.2f}"
+
+
+def plot_popularity_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (10, 2.75),
+) -> None:
+    """Popularity bias: review ratio, listener/catalog ratio, and upscale-pick share."""
+    specs = [
+        ("reviews", "mean_reviews_ratio", "(a) Mean Reviews*", False, 1.0),
+        ("listeners", "mean_rec_catalog_ratio", "(b) Mean Listeners*", False, 1.0),
+        ("listeners", "rec_more_popular_share", "(c) More popular than seed (listeners)", True, None),
+    ]
+    fig, axes = plt.subplots(1, len(specs), figsize=figsize)
+    axes = np.atleast_1d(axes)
+    palette = sns.color_palette(n_colors=2)
+    x = np.arange(2)
+
+    for ax, (variant, metric, panel_title, as_pct, hline) in zip(axes, specs):
+        values = [
+            _popularity_metric(metrics_df, variant, metric, n),
+            _popularity_metric(metrics_df, variant, metric, n, col=BASELINE_COL),
+        ]
+        bars = ax.bar(x, values, color=palette)
+        ax.set_title(panel_title, fontsize=9)
+        ax.set_xlabel(None)
+        ax.tick_params(axis="x", labelbottom=False)
+
+        if as_pct:
+            _style_pct_axes(ax)
+            ax.set_ylim(0, 1)
+        else:
+            _style_ratio_axes(ax)
+            finite = [v for v in values if np.isfinite(v)]
+            ymax = max(finite + [hline or 0]) * 1.15 if finite else 1.2
+            ax.set_ylim(0, ymax)
+            if hline is not None:
+                ax.axhline(hline, color="gray", linestyle="--", linewidth=1, alpha=0.6)
+
+        for bar, value in zip(bars, values):
+            if not np.isfinite(value):
+                continue
+            pad = 0.02 if as_pct else max(v for v in values if np.isfinite(v)) * 0.02
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + pad,
+                _metric_bar_label(value, as_pct=as_pct),
+                ha="center",
+                va="bottom",
+                fontsize=8,
+            )
+
+    fig.text(0.13, 0.97, "Popularity bias", ha="left", va="top", fontsize=14, fontweight="semibold")
+    legend_recommenders(axes[-1], loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=9)
+    fig.text(0.13, 0.07, "* adjusted to catalog mean", ha="left", va="bottom", fontsize=8)
+    plt.tight_layout(pad=0.3)
+    fig.subplots_adjust(left=0.13, right=0.86, bottom=0.14, top=0.80)
+    plt.show()
+
+
+def plot_diversity_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    variant: str = "artists",
+    figsize: tuple[float, float] = (7, 2.75),
+) -> None:
+    """Within-list diversity: mean ratio and fully diverse list share."""
+    specs = [
+        ("mean_diversity_ratio", "(a) Mean diversity ratio", True, 1.0),
+        ("all_distinct_share", "(b) Fully diverse lists", True, None),
+    ]
+    fig, axes = plt.subplots(1, len(specs), figsize=figsize)
+    axes = np.atleast_1d(axes)
+    palette = sns.color_palette(n_colors=2)
+    x = np.arange(2)
+
+    for ax, (metric, panel_title, as_pct, hline) in zip(axes, specs):
+        values = [
+            _theme_metric(metrics_df, "diversity", variant, metric, n),
+            _theme_metric(metrics_df, "diversity", variant, metric, n, col=BASELINE_COL),
+        ]
+        bars = ax.bar(x, values, color=palette)
+        ax.set_title(panel_title, fontsize=9)
+        ax.set_xlabel(None)
+        ax.tick_params(axis="x", labelbottom=False)
+        _style_pct_axes(ax)
+        ax.set_ylim(0, 1)
+        if hline is not None:
+            ax.axhline(hline, color="gray", linestyle="--", linewidth=1, alpha=0.6)
+
+        for bar, value in zip(bars, values):
+            if not np.isfinite(value):
+                continue
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + 0.02,
+                _metric_bar_label(value, as_pct=as_pct),
+                ha="center",
+                va="bottom",
+                fontsize=8,
+            )
+
+    fig.text(
+        0.13,
+        0.97,
+        f"Diversity ({variant})",
+        ha="left",
+        va="top",
+        fontsize=14,
+        fontweight="semibold",
+    )
+    legend_recommenders(axes[-1], loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=9)
+    plt.tight_layout(pad=0.3)
+    fig.subplots_adjust(left=0.13, right=0.86, bottom=0.14, top=0.80)
+    plt.show()
+
+
+def _plot_theme_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    theme: str,
+    n: int,
+    section_title: str,
+    specs: list[tuple[str, str, str, bool, float | None]],
+    figsize: tuple[float, float] = (7, 2.75),
+    footnote: str | None = None,
+) -> None:
+    """Multi-panel embedding vs baseline bars for a theme at fixed n."""
+    fig, axes = plt.subplots(1, len(specs), figsize=figsize)
+    axes = np.atleast_1d(axes)
+    palette = sns.color_palette(n_colors=2)
+    x = np.arange(2)
+
+    for ax, (variant, metric, panel_title, as_pct, hline) in zip(axes, specs):
+        values = [
+            _theme_metric(metrics_df, theme, variant, metric, n),
+            _theme_metric(metrics_df, theme, variant, metric, n, col=BASELINE_COL),
+        ]
+        bars = ax.bar(x, values, color=palette)
+        ax.set_title(panel_title, fontsize=9)
+        ax.set_xlabel(None)
+        ax.tick_params(axis="x", labelbottom=False)
+
+        if as_pct:
+            _style_pct_axes(ax)
+            ax.set_ylim(0, 1)
+        else:
+            _style_ratio_axes(ax)
+            finite = [v for v in values if np.isfinite(v)]
+            ymax = max(finite + [hline or 0]) * 1.15 if finite else 1.2
+            ax.set_ylim(0, ymax)
+
+        if hline is not None:
+            ax.axhline(hline, color="gray", linestyle="--", linewidth=1, alpha=0.6)
+
+        for bar, value in zip(bars, values):
+            if not np.isfinite(value):
+                continue
+            pad = 0.02 if as_pct else max(v for v in values if np.isfinite(v)) * 0.02
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + pad,
+                _metric_bar_label(value, as_pct=as_pct),
+                ha="center",
+                va="bottom",
+                fontsize=8,
+            )
+
+    fig.text(0.13, 0.97, section_title, ha="left", va="top", fontsize=14, fontweight="semibold")
+    legend_recommenders(axes[-1], loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=9)
+    if footnote:
+        fig.text(0.13, 0.07, footnote, ha="left", va="bottom", fontsize=8)
+    plt.tight_layout(pad=0.3)
+    bottom = 0.14 if footnote else 0.14
+    fig.subplots_adjust(left=0.13, right=0.86, bottom=bottom, top=0.80)
+    plt.show()
+
+
+def plot_repetition_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    variant: str,
+    figsize: tuple[float, float] = (10, 2.75),
+) -> None:
+    """Hubness at fixed n: coverage, slot recycling, and head concentration."""
+    _plot_theme_bars(
+        metrics_df,
+        theme="repetition",
+        n=n,
+        section_title=f"Repetition & hubness ({variant})",
+        specs=[
+            (variant, "unique_share", "(a) Global coverage", True, None),
+            (variant, "hub_slot_share", "(b) Slot-level recycling", True, None),
+            (variant, "top1pct_concentration", "(c) Head concentration", True, None),
+        ],
+        figsize=figsize,
+    )
+
+
+def plot_reciprocity_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (7, 2.75),
+) -> None:
+    """Reciprocal edge rate for albums and artists."""
+    _plot_theme_bars(
+        metrics_df,
+        theme="reciprocity",
+        n=n,
+        section_title="Reciprocity",
+        specs=[
+            ("albums", "reciprocal_rate", "(a) Albums", True, None),
+            ("artists", "reciprocal_rate", "(b) Artists", True, None),
+        ],
+        figsize=figsize,
+    )
+
+
+def plot_novelty_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    variant: str,
+    figsize: tuple[float, float] = (7, 2.75),
+) -> None:
+    """Cross-list novelty at fixed n."""
+    _plot_theme_bars(
+        metrics_df,
+        theme="novelty",
+        n=n,
+        section_title=f"Novelty ({variant})",
+        specs=[
+            (variant, "singleton_share", "(a) One-list recs", True, None),
+            (variant, "mean_novelty", "(b) Normalized surprise", True, None),
+        ],
+        figsize=figsize,
+    )
+
+
+def plot_serendipity_bars(
+    metrics_df: pd.DataFrame,
+    *,
+    n: int,
+    figsize: tuple[float, float] = (10, 2.75),
+) -> None:
+    """Serendipity proxy: in-corpus, listener-comparable, and coverage rates."""
+    _plot_theme_bars(
+        metrics_df,
+        theme="serendipity",
+        n=n,
+        section_title="Serendipity",
+        specs=[
+            ("reviews", "serendipitous_in_corpus_share", "(a) Serendipitous (in-corpus)", True, None),
+            ("listeners", "serendipitous_listener_share", "(b) Serendipitous (listeners)", True, None),
+            ("reviews", "in_corpus_share", "(c) In-corpus coverage", True, None),
+        ],
         figsize=figsize,
     )
 

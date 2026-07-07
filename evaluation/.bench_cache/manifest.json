@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "top_n": 5,
   "sources": {
     "catalog": {
@@ -15,7 +15,7 @@
       "size": 10534564
     },
     "code:bench_cache.py": {
-      "mtime_ns": 1783437118452123751,
+      "mtime_ns": 1783443887962314199,
       "size": 6195
     },
     "code:data_loader.py": {
@@ -23,8 +23,8 @@
       "size": 2560
     },
     "code:metrics.py": {
-      "mtime_ns": 1783437118028123877,
-      "size": 29973
+      "mtime_ns": 1783443887850314437,
+      "size": 29945
     },
     "code:utils.py": {
       "mtime_ns": 1783371548116568414,
