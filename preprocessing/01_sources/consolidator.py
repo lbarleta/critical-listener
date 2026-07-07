@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "datasets"
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "datasets"
 MERGED_PATH = DATA_DIR / "merged_dataset.csv"
 SAMPLE_PATH = DATA_DIR / "merged_dataset_sampled_49MiB.csv"
 MAX_SIZE_MIB = 49
