@@ -554,18 +554,17 @@ def plot_repetition_bars(
     *,
     n: int,
     variant: str,
-    figsize: tuple[float, float] = (10, 2.75),
+    figsize: tuple[float, float] = (7, 2.75),
 ) -> None:
-    """Hubness at fixed n: coverage, slot recycling, and head concentration."""
+    """Hubness at fixed n: slot recycling and head concentration."""
     _plot_theme_bars(
         metrics_df,
         theme="repetition",
         n=n,
         section_title=f"Repetition & hubness ({variant})",
         specs=[
-            (variant, "unique_share", "(a) Global coverage", True, None),
-            (variant, "hub_slot_share", "(b) Slot-level recycling", True, None),
-            (variant, "top1pct_concentration", "(c) Head concentration", True, None),
+            (variant, "hub_slot_share", "(a) Slot-level recycling", True, None),
+            (variant, "top1pct_concentration", "(b) Head concentration", True, None),
         ],
         figsize=figsize,
     )
