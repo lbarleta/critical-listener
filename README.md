@@ -1,12 +1,12 @@
 # The Critical Listener
 
-*Let the Critics (and Natural Language Processing) Recommend Your Next Album*
+*An Embedding-Based Music Recommender Built on Music Criticism*
 
 James McNally, Leonardo Barleta
 
 Music recommendation algorithms on platforms like Spotify optimize for engagement, usually suggesting albums that match what a listener already knows rather than surfacing connections across genres or taste boundaries. The Critical Listener uses full-text reviews from Pitchfork, Resident Advisor, and CritiqueBrainz instead: albums are matched by the semantic language critics use to describe them, not by listening history or genre overlap. The goal is critic-informed discovery for listeners willing to go a bit further than their usual taste profile. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and benchmark the system against an industry-style Last.fm recommender.
 
-**Write-ups:** [executive summary](00_executive_summary.pdf) · [presentation](01_presentation.pdf)
+[Executive Summary](<001 Executive Summary.pdf>) · [Slides](<002 Slides.pdf>) · [Project Video](<003 Project Video.mp4>)
 
 ## Folder Structure
 
@@ -50,7 +50,7 @@ Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattere
 
 `model_selection/recommender+explainer_in_action.ipynb` runs the recommender on a seed album and calls a state-of-the-art LLM to explain each suggestion. The explainer reads reviews of the seed and recommended albums, identifies up to three shared qualities grounded in verbatim quotes, and returns them side by side so the connection is auditable before listening.
 
-Because no ground-truth "similar album" labels exist outside of listening data, the explainer is our primary qualitative validation tool. A worked example using Drake's *Take Care* appears in the executive summary appendix.
+Because no ground-truth "similar album" labels exist outside of listening data, the explainer is our primary qualitative validation tool. A worked example using Drake's *Take Care* appears in the [executive summary](<001 Executive Summary.pdf>) appendix.
 
 ## Evaluation
 
