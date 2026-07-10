@@ -1,6 +1,12 @@
 # The Critical Listener
 
-The Critical Listener is a review-based music recommender built on full-text album reviews from Pitchfork, Resident Advisor, and CritiqueBrainz. Instead of optimizing for engagement, user listening history, or genre overlap, it recommends albums whose reviews share semantic qualities with a seed album. The goal is critic-informed discovery: suggestions that reflect how journalists describe music, not just what listeners already consume. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and we benchmark the system against an industry-style recommender built on the Last.fm API.
+*Let the Critics (and Natural Language Processing) Recommend Your Next Album*
+
+James McNally, Leonardo Barleta
+
+Music recommendation algorithms on platforms like Spotify optimize for engagement, usually suggesting albums that match what a listener already knows rather than surfacing connections across genres or taste boundaries. The Critical Listener uses full-text reviews from Pitchfork, Resident Advisor, and CritiqueBrainz instead: albums are matched by the semantic language critics use to describe them, not by listening history or genre overlap. The goal is critic-informed discovery for listeners willing to go a bit further than their usual taste profile. We pair the recommender with an LLM explainer that grounds each suggestion in quoted review text, and benchmark the system against an industry-style Last.fm recommender.
+
+**Write-ups:** [executive summary](00_executive_summary.pdf) · [presentation](01_presentation.pdf)
 
 ## Folder Structure
 
@@ -16,7 +22,7 @@ critical-listener/
 
 ## Dataset
 
-We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums across rock, electronic, hip hop, pop, experimental, R&B, and related genres.
+48,639 reviews (1999–2026) covering 44,717 albums across rock, electronic, hip hop, pop, experimental, R&B, and related genres.
 
 **Sources**:
 
@@ -28,7 +34,7 @@ We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums 
 
 ## Recommender
 
-1. **`recommender_1_model_compare.ipynb`** compares TF-IDF, MiniLM, E5-large, and Nomic on cross-source same-album pairs.
+1. **`recommender_1_model_compare.ipynb`** compares TF-IDF, MiniLM, E5-large, and Nomic on a cross-source retrieval task (given a review of album X by reviewer A, retrieve the same album's review by reviewer B).
 2. **`recommender_2_with_name_masking.ipynb`** embeds the masked corpus with Nomic.
 3. **`recommender_3_average_embeddings_final.ipynb`** implements the final system.
 
@@ -38,22 +44,20 @@ We collected over 48,000 reviews (1999–2026) covering more than 44,000 albums 
 2. **Score similarity.** For a query album, compute cosine similarity against every other album in the catalog.
 3. **Filter and rank.** Drop the query and same-artist albums, then return the top *k* most similar albums.
 
-Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattered because many Pitchfork reviews exceed 512 tokens.
+Nomic was used in zero-shot form (no fine-tuning). Long-context handling mattered because many Pitchfork reviews exceed 512 tokens; Nomic's 8,192-token limit outperformed the shorter-context models and the TF-IDF baseline.
 
 ## Explainer
 
-`model_selection/recommender+explainer_in_action.ipynb` runs the recommender on a seed album and calls an LLM (Anthropic) to explain each suggestion. The explainer reads reviews of the seed and recommended albums, identifies shared qualities, and returns side-by-side quotes so the connection is auditable before listening.
+`model_selection/recommender+explainer_in_action.ipynb` runs the recommender on a seed album and calls a state-of-the-art LLM to explain each suggestion. The explainer reads reviews of the seed and recommended albums, identifies up to three shared qualities grounded in verbatim quotes, and returns them side by side so the connection is auditable before listening.
 
-Because no ground-truth "similar album" labels exist outside of listening data, the explainer is our primary qualitative validation tool.
+Because no ground-truth "similar album" labels exist outside of listening data, the explainer is our primary qualitative validation tool. A worked example using Drake's *Take Care* appears in the executive summary appendix.
 
 ## Evaluation
 
 **Baseline** ([`lastfm-recommender/`](lastfm-recommender/)): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See [lastfm_recommender.md](lastfm-recommender/lastfm_recommender.md) for details.
 
-**Benchmark** ([`evaluation/lastfm_bench.ipynb`](evaluation/lastfm_bench.ipynb)): ~45k baseline recs for ~11k seeds, matched against our catalog (~40k albums vs. Last.fm's much larger index). Metrics include:
+**Benchmark** ([`evaluation/lastfm_bench.ipynb`](evaluation/lastfm_bench.ipynb)): top-5 recommendations for ~11,000 seed albums (~45,000 slots total), matched against our catalog (~44,000 albums vs. Last.fm's ~2.2 million). We compute 30+ metrics at album, artist, and tag level, grouped into themes such as disagreement, popularity bias, diversity, repetition, novelty, and serendipity.
 
-- **Disagreement** (Jaccard overlap on albums, artists, tags)
-- **Baseline recovery** (precision, recall, hit rate)
-- **Beyond-accuracy** (popularity bias, diversity, hubness, reciprocity, novelty, serendipity)
+At a high level: recommendations diverge substantially from Last.fm (low Jaccard overlap on albums and artists) while still sharing some tag-level alignment. The model shows less popularity bias — recommendations average ~225k listeners per album vs. ~293k for Last.fm — and greater diversity in artists and tags within a top-5 list. It does repeat albums more often than the baseline, which is expected given the smaller catalog.
 
-Evaluation results are available in [evaluation/lastfm_bench.ipynb](evaluation/lastfm_bench.ipynb).
+Full results and plots are in [evaluation/lastfm_bench.ipynb](evaluation/lastfm_bench.ipynb).
