@@ -1,6 +1,9 @@
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from schemas import (
     AlbumRef,
@@ -14,6 +17,8 @@ from schemas import (
 )
 from services import catalog, embedding, explainer, lastfm
 
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
@@ -24,6 +29,17 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(title="Critical Listener", version="0.1.0", lifespan=lifespan)
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+
+@app.get("/")
+def index() -> FileResponse:
+    return FileResponse(STATIC_DIR / "index.html")
+
+
+@app.get("/about")
+def about() -> FileResponse:
+    return FileResponse(STATIC_DIR / "about.html")
 
 
 @app.get("/health")

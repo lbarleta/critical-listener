@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Critical Listener</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <main class="shell">
+      <div class="stage">
+        <header class="hero">
+          <p class="nav">
+            <a href="/about">About</a>
+          </p>
+          <h1 class="brand">Critical Listener</h1>
+          <p class="lede">
+            Find albums critics describe in the same language — then see how
+            Last.fm’s listener graph differs.
+          </p>
+
+          <div class="search">
+            <label class="sr-only" for="album-query">Search albums</label>
+            <input
+              id="album-query"
+              type="search"
+              autocomplete="off"
+              placeholder="Search artist or album…"
+              spellcheck="false"
+            />
+            <ul id="suggestions" class="suggestions" hidden></ul>
+          </div>
+
+          <div class="discovery">
+            <label class="discovery-toggle" for="discovery-mode">
+              <span class="switch">
+                <input id="discovery-mode" type="checkbox" />
+                <span class="switch-track" aria-hidden="true"></span>
+              </span>
+              <span>Discovery Mode</span>
+            </label>
+            <button
+              type="button"
+              class="help"
+              aria-describedby="discovery-tip"
+              aria-label="About Discovery Mode"
+            >
+              ?
+            </button>
+            <span id="discovery-tip" class="help-tip" role="tooltip">
+              Punishes recommendations that share similar tags, favoring less
+              obvious connections.
+            </span>
+          </div>
+        </header>
+
+        <section id="results" class="results" hidden>
+          <p id="loading" class="loading" hidden aria-live="polite">
+            Generating recommendations…
+          </p>
+          <ol id="embedding-list" class="rec-list rec-list--primary"></ol>
+          <p id="embedding-error" class="error" hidden></p>
+        </section>
+      </div>
+
+      <section id="secondary" class="secondary" hidden>
+        <div class="tabs" role="tablist" aria-label="Secondary details">
+          <button
+            type="button"
+            class="tab is-active"
+            role="tab"
+            id="tab-explain"
+            aria-selected="true"
+            aria-controls="panel-explain"
+            data-tab="explain"
+          >
+            Why this pair
+          </button>
+          <button
+            type="button"
+            class="tab"
+            role="tab"
+            id="tab-lastfm"
+            aria-selected="false"
+            aria-controls="panel-lastfm"
+            data-tab="lastfm"
+          >
+            Last.fm baseline
+          </button>
+          <button
+            type="button"
+            class="tab"
+            role="tab"
+            id="tab-metrics"
+            aria-selected="false"
+            aria-controls="panel-metrics"
+            data-tab="metrics"
+          >
+            Metrics
+          </button>
+        </div>
+
+        <div
+          id="panel-explain"
+          class="tab-panel is-active"
+          role="tabpanel"
+          aria-labelledby="tab-explain"
+        >
+          <p id="explain-empty" class="panel-hint">
+            Select a recommendation to see shared critic language.
+          </p>
+          <div id="explain-body" hidden>
+            <p id="explain-pair" class="explain-pair"></p>
+            <ul id="explain-list" class="explain-list"></ul>
+          </div>
+          <p id="explain-error" class="error" hidden></p>
+        </div>
+
+        <div
+          id="panel-lastfm"
+          class="tab-panel"
+          role="tabpanel"
+          aria-labelledby="tab-lastfm"
+          hidden
+        >
+          <p class="panel-hint">Listener-similarity baseline from Last.fm</p>
+          <ol id="lastfm-list" class="rec-list rec-list--quiet"></ol>
+          <p id="lastfm-error" class="error" hidden></p>
+        </div>
+
+        <div
+          id="panel-metrics"
+          class="tab-panel"
+          role="tabpanel"
+          aria-labelledby="tab-metrics"
+          hidden
+        >
+          <p class="panel-hint">
+            Evaluation metrics for this recommendation will appear here.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
