@@ -20,6 +20,7 @@
         <header class="hero">
           <p class="nav">
             <a href="/about">About</a>
+            <a href="/benchmark">Benchmark</a>
           </p>
           <h1 class="brand">Critical Listener</h1>
           <p class="lede">
@@ -63,9 +64,6 @@
         </header>
 
         <section id="results" class="results" hidden>
-          <p id="loading" class="loading" hidden aria-live="polite">
-            Generating recommendations…
-          </p>
           <ol id="embedding-list" class="rec-list rec-list--primary"></ol>
           <p id="embedding-error" class="error" hidden></p>
         </section>
@@ -94,6 +92,7 @@
             data-tab="lastfm"
           >
             Last.fm baseline
+            <span class="tab-spinner" hidden aria-hidden="true"></span>
           </button>
           <button
             type="button"
@@ -105,6 +104,7 @@
             data-tab="metrics"
           >
             Metrics
+            <span class="tab-spinner" hidden aria-hidden="true"></span>
           </button>
         </div>
 

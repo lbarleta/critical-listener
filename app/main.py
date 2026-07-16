@@ -42,6 +42,11 @@ def about() -> FileResponse:
     return FileResponse(STATIC_DIR / "about.html")
 
 
+@app.get("/benchmark")
+def benchmark() -> FileResponse:
+    return FileResponse(STATIC_DIR / "benchmark.html")
+
+
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}

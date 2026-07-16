@@ -3,7 +3,6 @@
   const suggestions = document.getElementById("suggestions");
   const results = document.getElementById("results");
   const secondary = document.getElementById("secondary");
-  const loading = document.getElementById("loading");
   const embeddingList = document.getElementById("embedding-list");
   const lastfmList = document.getElementById("lastfm-list");
   const embeddingError = document.getElementById("embedding-error");
@@ -16,6 +15,9 @@
   const discoveryMode = document.getElementById("discovery-mode");
   const tabs = document.querySelectorAll(".tab");
   const tabPanels = document.querySelectorAll(".tab-panel");
+  const baselineSpinners = document.querySelectorAll(
+    "#tab-lastfm .tab-spinner, #tab-metrics .tab-spinner"
+  );
 
   let seed = null;
   let debounceTimer = null;
@@ -29,9 +31,10 @@
     return `${titleCase(artist)} — ${titleCase(album)}`;
   }
 
-  function setLoading(isLoading) {
-    loading.hidden = !isLoading;
-    results.classList.toggle("is-loading", isLoading);
+  function setBaselineLoading(isLoading) {
+    baselineSpinners.forEach((el) => {
+      el.hidden = !isLoading;
+    });
   }
 
   async function fetchJson(url) {
@@ -152,6 +155,22 @@
     explainError.hidden = true;
   }
 
+  function resetPage() {
+    seed = null;
+    requestId += 1;
+    hideSuggestions();
+    document.body.classList.remove("has-results");
+    results.hidden = true;
+    secondary.hidden = true;
+    setBaselineLoading(false);
+    embeddingList.innerHTML = "";
+    lastfmList.innerHTML = "";
+    embeddingError.hidden = true;
+    lastfmError.hidden = true;
+    resetExplain();
+    setTab("explain");
+  }
+
   async function selectSeed(artist, album) {
     seed = { artist, album };
     queryInput.value = albumLabel(artist, album);
@@ -169,7 +188,7 @@
     lastfmList.innerHTML = "";
     embeddingError.hidden = true;
     lastfmError.hidden = true;
-    setLoading(true);
+    setBaselineLoading(true);
 
     const params = new URLSearchParams({
       artist,
@@ -178,29 +197,28 @@
       discovery: discoveryMode.checked ? "true" : "false",
     });
 
-    try {
-      const [embeddingResult, lastfmResult] = await Promise.all([
-        fetchJson(`/recommend/embedding?${params}`)
-          .then((data) => ({ data }))
-          .catch((err) => ({ error: err.message })),
-        fetchJson(`/recommend/lastfm?${params}`)
-          .then((data) => ({ data }))
-          .catch((err) => ({ error: err.message })),
-      ]);
+    fetchJson(`/recommend/embedding?${params}`)
+      .then((data) => {
+        if (thisRequest !== requestId) return;
+        renderPrimaryList(data);
+      })
+      .catch((err) => {
+        if (thisRequest !== requestId) return;
+        renderPrimaryList({ error: err.message });
+      });
 
-      if (thisRequest !== requestId) return;
-
-      renderPrimaryList(
-        embeddingResult.error
-          ? { error: embeddingResult.error }
-          : embeddingResult.data
-      );
-      renderLastfmList(
-        lastfmResult.error ? { error: lastfmResult.error } : lastfmResult.data
-      );
-    } finally {
-      if (thisRequest === requestId) setLoading(false);
-    }
+    fetchJson(`/recommend/lastfm?${params}`)
+      .then((data) => {
+        if (thisRequest !== requestId) return;
+        renderLastfmList(data);
+      })
+      .catch((err) => {
+        if (thisRequest !== requestId) return;
+        renderLastfmList({ error: err.message });
+      })
+      .finally(() => {
+        if (thisRequest === requestId) setBaselineLoading(false);
+      });
   }
 
   async function explainRecommendation(button, rec) {
@@ -256,7 +274,15 @@
 
   queryInput.addEventListener("input", () => {
     clearTimeout(debounceTimer);
+    if (!queryInput.value.trim()) {
+      resetPage();
+      return;
+    }
     debounceTimer = setTimeout(() => searchAlbums(queryInput.value), 250);
+  });
+
+  queryInput.addEventListener("search", () => {
+    if (!queryInput.value.trim()) resetPage();
   });
 
   queryInput.addEventListener("keydown", (event) => {
