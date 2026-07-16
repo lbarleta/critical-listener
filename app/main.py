@@ -5,11 +5,12 @@ from fastapi import FastAPI, HTTPException, Query
 from schemas import (
     AlbumListResponse,
     AlbumRef,
-    CompareResponse,
+    ExplainResponse,
     RecommendResponse,
     Recommendation,
+    SharedQuality,
 )
-from services import embedding, lastfm
+from services import embedding, explainer, lastfm
 
 
 @asynccontextmanager
@@ -73,23 +74,23 @@ def recommend_lastfm(
     )
 
 
-@app.get("/recommend/compare", response_model=CompareResponse)
-def recommend_compare(
-    artist: str = Query(...),
-    album: str = Query(...),
-    k: int = Query(5, ge=1, le=10),
-) -> CompareResponse:
-    embedding_rows = embedding.recommend(artist, album, k=k)
-    if embedding_rows is None:
-        raise HTTPException(status_code=404, detail="Album not in embedding-recs store")
-
-    try:
-        _seed, lastfm_rows = lastfm.recommend(artist, album, k=k)
-    except Exception as exc:
-        raise HTTPException(status_code=502, detail=str(exc)) from exc
-
-    return CompareResponse(
-        seed=AlbumRef(artist=artist.strip(), album=album.strip()),
-        embedding=[Recommendation(**r) for r in embedding_rows],
-        lastfm=[Recommendation(**r) for r in lastfm_rows],
+@app.get("/explain", response_model=ExplainResponse)
+def explain_pair(
+    query_artist: str = Query(..., description="Seed album artist"),
+    query_album: str = Query(..., description="Seed album title"),
+    rec_artist: str = Query(..., description="Recommended album artist"),
+    rec_album: str = Query(..., description="Recommended album title"),
+    n: int = Query(3, ge=1, le=5, description="Max shared qualities to return"),
+) -> ExplainResponse:
+    qualities = explainer.explain(
+        query_artist=query_artist,
+        query_album=query_album,
+        rec_artist=rec_artist,
+        rec_album=rec_album,
+        n=n,
+    )
+    return ExplainResponse(
+        seed=AlbumRef(artist=query_artist.strip(), album=query_album.strip()),
+        recommendation=AlbumRef(artist=rec_artist.strip(), album=rec_album.strip()),
+        qualities=[SharedQuality(**q) for q in qualities],
     )
