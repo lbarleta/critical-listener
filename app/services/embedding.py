@@ -34,11 +34,10 @@ def list_albums() -> list[dict[str, str]]:
 
 def status() -> dict:
     """Stats for the embedding-recs store (JSON file for now)."""
-    path = DATA_PATH
     return {
         "backend": "json",
-        "path": str(path),
-        "size_bytes": path.stat().st_size if path.exists() else 0,
+        "path": DATA_PATH.name,
+        "size_bytes": DATA_PATH.stat().st_size if DATA_PATH.exists() else 0,
         "seed_albums": len(_recs),
         "recommendation_edges": sum(len(rows) for rows in _recs.values()),
     }
