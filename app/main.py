@@ -9,6 +9,8 @@ from schemas import (
     RecommendResponse,
     Recommendation,
     SharedQuality,
+    StatusResponse,
+    StoreStatus,
 )
 from services import embedding, explainer, lastfm
 
@@ -26,6 +28,14 @@ app = FastAPI(title="Critical Listener", version="0.1.0", lifespan=lifespan)
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+
+
+@app.get("/status", response_model=StatusResponse)
+def status() -> StatusResponse:
+    return StatusResponse(
+        status="ok",
+        embedding=StoreStatus(**embedding.status()),
+    )
 
 
 @app.get("/albums", response_model=AlbumListResponse)

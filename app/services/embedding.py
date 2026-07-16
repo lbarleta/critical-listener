@@ -32,6 +32,18 @@ def list_albums() -> list[dict[str, str]]:
     return albums
 
 
+def status() -> dict:
+    """Stats for the embedding-recs store (JSON file for now)."""
+    path = DATA_PATH
+    return {
+        "backend": "json",
+        "path": str(path),
+        "size_bytes": path.stat().st_size if path.exists() else 0,
+        "seed_albums": len(_recs),
+        "recommendation_edges": sum(len(rows) for rows in _recs.values()),
+    }
+
+
 def recommend(artist: str, album: str, k: int = 5) -> list[dict] | None:
     """Exact key match. Returns None if the seed is missing."""
     key = album_key(artist, album)

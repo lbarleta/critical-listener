@@ -34,3 +34,16 @@ class ExplainResponse(BaseModel):
     seed: AlbumRef
     recommendation: AlbumRef
     qualities: list[SharedQuality]
+
+
+class StoreStatus(BaseModel):
+    backend: str
+    path: str
+    size_bytes: int
+    seed_albums: int
+    recommendation_edges: int
+
+
+class StatusResponse(BaseModel):
+    status: str
+    embedding: StoreStatus
