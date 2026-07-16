@@ -3,8 +3,8 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query
 
 from schemas import (
-    AlbumListResponse,
     AlbumRef,
+    AlbumSearchResponse,
     ExplainResponse,
     RecommendResponse,
     Recommendation,
@@ -12,13 +12,14 @@ from schemas import (
     StatusResponse,
     StoreStatus,
 )
-from services import embedding, explainer, lastfm
+from services import catalog, embedding, explainer, lastfm
 
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
     n = embedding.load()
-    print(f"Loaded {n} embedding seed albums")
+    catalog.load(embedding.list_albums())
+    print(f"Loaded {n} embedding seed albums into catalog")
     yield
 
 
@@ -38,12 +39,16 @@ def status() -> StatusResponse:
     )
 
 
-@app.get("/albums", response_model=AlbumListResponse)
-def albums() -> AlbumListResponse:
-    items = embedding.list_albums()
-    return AlbumListResponse(
-        count=len(items),
-        albums=[AlbumRef(**a) for a in items],
+@app.get("/albums/search", response_model=AlbumSearchResponse)
+def albums_search(
+    q: str = Query(..., min_length=1, description="Autocomplete query"),
+    limit: int = Query(15, ge=1, le=50),
+) -> AlbumSearchResponse:
+    hits = catalog.search(q, limit=limit)
+    return AlbumSearchResponse(
+        query=q,
+        count=len(hits),
+        albums=[AlbumRef(**a) for a in hits],
     )
 
 

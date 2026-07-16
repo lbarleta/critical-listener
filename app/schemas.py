@@ -19,9 +19,10 @@ class RecommendResponse(BaseModel):
     recommendations: list[Recommendation]
 
 
-class AlbumListResponse(BaseModel):
+class AlbumSearchResponse(BaseModel):
+    query: str
     count: int
-    albums: list[AlbumRef] = Field(description="Seeds available in the embedding-recs store")
+    albums: list[AlbumRef] = Field(description="Autocomplete matches from the catalog")
 
 
 class SharedQuality(BaseModel):
