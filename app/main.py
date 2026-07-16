@@ -42,6 +42,11 @@ def about() -> FileResponse:
     return FileResponse(STATIC_DIR / "about.html")
 
 
+@app.get("/model")
+def model() -> FileResponse:
+    return FileResponse(STATIC_DIR / "model.html")
+
+
 @app.get("/benchmark")
 def benchmark() -> FileResponse:
     return FileResponse(STATIC_DIR / "benchmark.html")

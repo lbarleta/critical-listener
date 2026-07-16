@@ -72,7 +72,16 @@ body.has-results .hero {
   font-size: 0.85rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.85rem;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.nav-dot {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background: var(--line);
+  flex-shrink: 0;
 }
 
 .nav a {

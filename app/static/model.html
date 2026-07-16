@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Benchmark · Critical Listener</title>
+    <title>Model · Critical Listener</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,21 +21,16 @@
         <span class="nav-dot" aria-hidden="true"></span>
         <a href="/about">About</a>
         <span class="nav-dot" aria-hidden="true"></span>
-        <a href="/model">Model</a>
+        <a href="/benchmark">Benchmark</a>
       </p>
-      <h1 class="brand">Benchmark</h1>
+      <h1 class="brand">Model</h1>
       <p class="lede">
-        How critic-language recommendations compare to an industry-style
-        Last.fm baseline.
+        Critic-review embeddings matched by semantic similarity.
       </p>
       <p class="about-body">
-        We generate top-5 recommendations for thousands of seed albums and
-        score them against Last.fm on overlap, popularity bias, diversity,
-        novelty, and related metrics at album, artist, and tag level.
-      </p>
-      <p class="about-body">
-        Detailed plots and tables will live here. For now, see the evaluation
-        notebooks in the project repository.
+        Reviews are embedded with a long-context model, averaged per album, then
+        ranked by cosine similarity — excluding the seed and same-artist
+        albums. Details on training choices and ablations will live here.
       </p>
     </main>
   </body>
