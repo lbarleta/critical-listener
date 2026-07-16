@@ -1,0 +1,354 @@
+{
+  "radiohead::kid a": [
+    {
+      "artist": "endochine",
+      "album": "day two",
+      "rank": 1,
+      "score": 0.8478
+    },
+    {
+      "artist": "idiot pilot",
+      "album": "strange we should meet here",
+      "rank": 2,
+      "score": 0.846
+    },
+    {
+      "artist": "muse",
+      "album": "showbiz",
+      "rank": 3,
+      "score": 0.8401
+    },
+    {
+      "artist": "aereogramme",
+      "album": "sleep and release",
+      "rank": 4,
+      "score": 0.8386
+    },
+    {
+      "artist": "thom yorke",
+      "album": "the eraser",
+      "rank": 5,
+      "score": 0.8381
+    }
+  ],
+  "radiohead::ok computer": [
+    {
+      "artist": "thom yorke",
+      "album": "the eraser",
+      "rank": 1,
+      "score": 0.8403
+    },
+    {
+      "artist": "thom yorke",
+      "album": "the eraser rmxs",
+      "rank": 2,
+      "score": 0.8262
+    },
+    {
+      "artist": "easy star all-stars",
+      "album": "radiodread",
+      "rank": 3,
+      "score": 0.8135
+    },
+    {
+      "artist": "various artists",
+      "album": "jonny greenwood is the controller",
+      "rank": 4,
+      "score": 0.8108
+    },
+    {
+      "artist": "eob",
+      "album": "earth",
+      "rank": 5,
+      "score": 0.8044
+    }
+  ],
+  "drake::take care": [
+    {
+      "artist": "stwo",
+      "album": "d.t.s.n.t.",
+      "rank": 1,
+      "score": 0.8523
+    },
+    {
+      "artist": "majid jordan",
+      "album": "majid jordan",
+      "rank": 2,
+      "score": 0.8494
+    },
+    {
+      "artist": "partynextdoor",
+      "album": "partynextdoor",
+      "rank": 3,
+      "score": 0.8463
+    },
+    {
+      "artist": "tory lanez",
+      "album": "i told you",
+      "rank": 4,
+      "score": 0.8436
+    },
+    {
+      "artist": "popcaan",
+      "album": "vanquish",
+      "rank": 5,
+      "score": 0.8429
+    }
+  ],
+  "kendrick lamar::to pimp a butterfly": [
+    {
+      "artist": "various artists",
+      "album": "black panther the album",
+      "rank": 1,
+      "score": 0.8194
+    },
+    {
+      "artist": "terrace martin",
+      "album": "velvet portraits",
+      "rank": 2,
+      "score": 0.8095
+    },
+    {
+      "artist": "shabazz palaces",
+      "album": "black up",
+      "rank": 3,
+      "score": 0.7993
+    },
+    {
+      "artist": "schoolboy q",
+      "album": "habits & contradictions",
+      "rank": 4,
+      "score": 0.7955
+    },
+    {
+      "artist": "lukah",
+      "album": "why look up, god\u2019s in the mirror",
+      "rank": 5,
+      "score": 0.7955
+    }
+  ],
+  "beyonc\u00e9::lemonade": [
+    {
+      "artist": "solange",
+      "album": "true",
+      "rank": 1,
+      "score": 0.8341
+    },
+    {
+      "artist": "kelly rowland",
+      "album": "ms. kelly",
+      "rank": 2,
+      "score": 0.814
+    },
+    {
+      "artist": "rihanna",
+      "album": "unapologetic",
+      "rank": 3,
+      "score": 0.8114
+    },
+    {
+      "artist": "solange",
+      "album": "a seat at the table",
+      "rank": 4,
+      "score": 0.8102
+    },
+    {
+      "artist": "rihanna",
+      "album": "good girl gone bad",
+      "rank": 5,
+      "score": 0.8065
+    }
+  ],
+  "kanye west::my beautiful dark twisted fantasy": [
+    {
+      "artist": "various artists",
+      "album": "kanye west presents good music: cruel summer",
+      "rank": 1,
+      "score": 0.8523
+    },
+    {
+      "artist": "g.o.o.d. music",
+      "album": "cruel summer",
+      "rank": 2,
+      "score": 0.8336
+    },
+    {
+      "artist": "\u2026and you will know us by the trail of dead",
+      "album": "source tags & codes",
+      "rank": 3,
+      "score": 0.8234
+    },
+    {
+      "artist": "kid cudi",
+      "album": "man on the moon ii: the legend of mr. rager",
+      "rank": 4,
+      "score": 0.8081
+    },
+    {
+      "artist": "abstract mindstate",
+      "album": "dreams still inspire",
+      "rank": 5,
+      "score": 0.8065
+    }
+  ],
+  "daft punk::discovery": [
+    {
+      "artist": "justice",
+      "album": "audio, video, disco.",
+      "rank": 1,
+      "score": 0.8467
+    },
+    {
+      "artist": "mstrkrft",
+      "album": "the looks",
+      "rank": 2,
+      "score": 0.843
+    },
+    {
+      "artist": "various artists",
+      "album": "discovered: a collection of daft funk samples",
+      "rank": 3,
+      "score": 0.8369
+    },
+    {
+      "artist": "various artists",
+      "album": "cosmic machine",
+      "rank": 4,
+      "score": 0.8367
+    },
+    {
+      "artist": "justice",
+      "album": "audio, video, disco",
+      "rank": 5,
+      "score": 0.8343
+    }
+  ],
+  "aphex twin::selected ambient works 85-92": [
+    {
+      "artist": "polygon window",
+      "album": "surfing on sine waves",
+      "rank": 1,
+      "score": 0.8785
+    },
+    {
+      "artist": "caustic window",
+      "album": "caustic window lp",
+      "rank": 2,
+      "score": 0.8744
+    },
+    {
+      "artist": "caustic window",
+      "album": "caustic window",
+      "rank": 3,
+      "score": 0.8511
+    },
+    {
+      "artist": "afx",
+      "album": "chosen lords",
+      "rank": 4,
+      "score": 0.8489
+    },
+    {
+      "artist": "astrobotnia",
+      "album": "parts 1, 2 & 3",
+      "rank": 5,
+      "score": 0.8438
+    }
+  ],
+  "bj\u00f6rk::homogenic": [
+    {
+      "artist": "kesha",
+      "album": "animal",
+      "rank": 1,
+      "score": 0.932
+    },
+    {
+      "artist": "seal",
+      "album": "seal",
+      "rank": 2,
+      "score": 0.9236
+    },
+    {
+      "artist": "lync",
+      "album": "these are not fall colors",
+      "rank": 3,
+      "score": 0.9232
+    },
+    {
+      "artist": "the klf",
+      "album": "chill out",
+      "rank": 4,
+      "score": 0.9193
+    },
+    {
+      "artist": "various artists",
+      "album": "pure moods, vol. 1",
+      "rank": 5,
+      "score": 0.9159
+    }
+  ],
+  "nirvana::nevermind": [
+    {
+      "artist": "unwound",
+      "album": "no energy",
+      "rank": 1,
+      "score": 0.8484
+    },
+    {
+      "artist": "foo fighters",
+      "album": "greatest hits",
+      "rank": 2,
+      "score": 0.8232
+    },
+    {
+      "artist": "soundgarden",
+      "album": "superunknown",
+      "rank": 3,
+      "score": 0.8184
+    },
+    {
+      "artist": "hole",
+      "album": "live through this",
+      "rank": 4,
+      "score": 0.8121
+    },
+    {
+      "artist": "the band",
+      "album": "music from big pink",
+      "rank": 5,
+      "score": 0.8096
+    }
+  ],
+  "!!!::as if": [
+    {
+      "artist": "off!",
+      "album": "off!",
+      "rank": 1,
+      "score": 0.8588
+    },
+    {
+      "artist": "off!",
+      "album": "first four eps",
+      "rank": 2,
+      "score": 0.8443
+    },
+    {
+      "artist": "chic",
+      "album": "c\u2019est chic",
+      "rank": 3,
+      "score": 0.8403
+    },
+    {
+      "artist": "holy ghost!",
+      "album": "holy ghost!",
+      "rank": 4,
+      "score": 0.8352
+    },
+    {
+      "artist": "yeah yeah yeahs",
+      "album": "it's blitz!",
+      "rank": 5,
+      "score": 0.8341
+    }
+  ]
+}
