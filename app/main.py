@@ -23,7 +23,7 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 # Root .env first; keep older module .env files as fallbacks (no override).
 load_dotenv(REPO_ROOT / ".env")
-load_dotenv(REPO_ROOT / "lastfm-recommender" / ".env", override=False)
+load_dotenv(REPO_ROOT / "lastfm" / ".env", override=False)
 
 
 @asynccontextmanager

@@ -1,8 +1,8 @@
-"""Thin wrapper around lastfm_albums (on PYTHONPATH via lastfm-recommender/)."""
+"""Thin wrapper around lastfm.recommender."""
 
 from __future__ import annotations
 
-from lastfm_albums import recommend_album
+from lastfm.recommender import recommend_album
 
 
 def recommend(artist: str, album: str, k: int = 5) -> tuple[dict, list[dict]]:

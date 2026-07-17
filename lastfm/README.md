@@ -27,16 +27,16 @@ Responses are cached within a run (`lastfm_get`); pass `clear_cache=False` on la
 ## Getting Started
 
 1. Make sure you have all dependencies (`requirements.txt`) installed.
-2. Copy `.env.example` to `lastfm-recommender/.env` and set your API key:
+2. Prefer the repo-root `.env` (see `.env.example`), or copy `lastfm/.env.example` to `lastfm/.env`:
 
 ```
 LASTFM_API_KEY=your_key_here
 ```
 
-3. Run the code below to find recommendation for Radiohead's *Ok Computer*:
+3. From the repo root (with `PYTHONPATH=.`), run:
 
 ```python
-from lastfm_albums import recommend_album
+from lastfm.recommender import recommend_album
 
 seed, seed_track, recs, used_fallback = recommend_album(
     "OK Computer",

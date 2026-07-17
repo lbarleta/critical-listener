@@ -17,7 +17,7 @@ critical-listener/
 ├── model_selection/           # Embedding comparison, final recommender, explainer demo
 ├── eda/                       # Exploratory analysis of reviews, sources, and recs
 ├── evaluation/                # Benchmark vs. Last.fm (metrics, plots, notebooks)
-└── lastfm-recommender/        # Industry-style baseline recommender (Last.fm API)
+└── lastfm/                    # Industry-style baseline recommender (Last.fm API)
 ```
 
 ## Dataset
@@ -54,7 +54,7 @@ Because no ground-truth "similar album" labels exist outside of listening data, 
 
 ## Evaluation
 
-**Baseline** ([`lastfm-recommender/`](lastfm-recommender/)): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See [lastfm_recommender.md](lastfm-recommender/lastfm_recommender.md) for details.
+**Baseline** ([`lastfm/`](lastfm/)): track-similarity recommendations via the Last.fm API (seed album → seed track → similar track → parent album). See [lastfm/README.md](lastfm/README.md) for details.
 
 **Benchmark** ([`evaluation/lastfm_bench.ipynb`](evaluation/lastfm_bench.ipynb)): top-5 recommendations for ~11,000 seed albums (~45,000 slots total), matched against our catalog (~44,000 albums vs. Last.fm's ~2.2 million). We compute 30+ metrics at album, artist, and tag level, grouped into themes such as disagreement, popularity bias, diversity, repetition, novelty, and serendipity.
 

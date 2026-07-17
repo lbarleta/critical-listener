@@ -11,7 +11,7 @@ if [[ -f .env ]]; then
   set +a
 fi
 
-export PYTHONPATH="${PYTHONPATH:-.:lastfm-recommender}"
+export PYTHONPATH="${PYTHONPATH:-.}"
 
 UVICORN="${ROOT}/app/.venv/bin/uvicorn"
 if [[ ! -x "$UVICORN" ]]; then
