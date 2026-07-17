@@ -13,7 +13,8 @@ import requests
 from dotenv import load_dotenv
 
 LASTFM_API_URL = "https://ws.audioscrobbler.com/2.0/"
-ENV_PATH = Path(__file__).resolve().parent / ".env"
+_MODULE_ENV = Path(__file__).resolve().parent / ".env"
+_ROOT_ENV = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_FETCH_FLOOR = 10
 
 _api_cache: dict[tuple[Any, ...], dict[str, Any]] = {}
@@ -38,11 +39,14 @@ def _throttle_request() -> None:
 
 
 def get_api_key() -> str:
-    load_dotenv(ENV_PATH)
+    # Prefer repo-root .env; keep lastfm-recommender/.env as a fallback.
+    load_dotenv(_ROOT_ENV)
+    load_dotenv(_MODULE_ENV, override=False)
     api_key = os.environ.get("LASTFM_API_KEY")
     if not api_key:
         raise ValueError(
-            "LASTFM_API_KEY is not set. Add it to lastfm-recommender/.env or export it in your shell."
+            "LASTFM_API_KEY is not set. Add it to the repo-root .env "
+            "(or lastfm-recommender/.env) or export it in your shell."
         )
     return api_key
 

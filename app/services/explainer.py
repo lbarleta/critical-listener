@@ -1,15 +1,8 @@
-"""Thin wrapper around explainer/explainer.py."""
+"""Thin wrapper around the explainer package."""
 
 from __future__ import annotations
 
-import sys
-from pathlib import Path
-
-_EXPLAINER_DIR = Path(__file__).resolve().parents[2] / "explainer"
-if str(_EXPLAINER_DIR) not in sys.path:
-    sys.path.insert(0, str(_EXPLAINER_DIR))
-
-from explainer import Explainer  # noqa: E402
+from explainer import Explainer
 
 _explainer = Explainer()
 

@@ -1,11 +1,12 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from schemas import (
+from app.schemas import (
     AlbumRef,
     AlbumSearchResponse,
     ExplainResponse,
@@ -15,9 +16,14 @@ from schemas import (
     StatusResponse,
     StoreStatus,
 )
-from services import catalog, embedding, explainer, lastfm
+from app.services import catalog, embedding, explainer, lastfm
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
 STATIC_DIR = Path(__file__).resolve().parent / "static"
+
+# Root .env first; keep older module .env files as fallbacks (no override).
+load_dotenv(REPO_ROOT / ".env")
+load_dotenv(REPO_ROOT / "lastfm-recommender" / ".env", override=False)
 
 
 @asynccontextmanager

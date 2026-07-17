@@ -1,15 +1,8 @@
-"""Thin wrapper around lastfm-recommender/lastfm_albums.py."""
+"""Thin wrapper around lastfm_albums (on PYTHONPATH via lastfm-recommender/)."""
 
 from __future__ import annotations
 
-import sys
-from pathlib import Path
-
-_LASTFM_DIR = Path(__file__).resolve().parents[2] / "lastfm-recommender"
-if str(_LASTFM_DIR) not in sys.path:
-    sys.path.insert(0, str(_LASTFM_DIR))
-
-from lastfm_albums import recommend_album  # noqa: E402
+from lastfm_albums import recommend_album
 
 
 def recommend(artist: str, album: str, k: int = 5) -> tuple[dict, list[dict]]:
