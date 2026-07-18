@@ -9,6 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from app.schemas import (
     AlbumRef,
     AlbumSearchResponse,
+    ExplainRequest,
     ExplainResponse,
     RecommendResponse,
     Recommendation,
@@ -121,23 +122,24 @@ def recommend_lastfm(
     )
 
 
-@app.get("/explain", response_model=ExplainResponse)
-def explain_pair(
-    query_artist: str = Query(..., description="Seed album artist"),
-    query_album: str = Query(..., description="Seed album title"),
-    rec_artist: str = Query(..., description="Recommended album artist"),
-    rec_album: str = Query(..., description="Recommended album title"),
-    n: int = Query(3, ge=1, le=5, description="Max shared qualities to return"),
-) -> ExplainResponse:
-    qualities = explainer.explain(
-        query_artist=query_artist,
-        query_album=query_album,
-        rec_artist=rec_artist,
-        rec_album=rec_album,
-        n=n,
-    )
+@app.post("/explain", response_model=ExplainResponse)
+def explain_pair(body: ExplainRequest) -> ExplainResponse:
+    try:
+        result = explainer.explain(
+            body.seed_review_text,
+            body.rec_review_text,
+            seed_review_id=body.seed_review_id,
+            rec_review_id=body.rec_review_id,
+            n=body.n,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+
     return ExplainResponse(
-        seed=AlbumRef(artist=query_artist.strip(), album=query_album.strip()),
-        recommendation=AlbumRef(artist=rec_artist.strip(), album=rec_album.strip()),
-        qualities=[SharedQuality(**q) for q in qualities],
+        qualities=[SharedQuality(**q) for q in result["qualities"]],
+        raw_text=result["raw_text"],
+        seed_review_id=result["seed_review_id"],
+        rec_review_id=result["rec_review_id"],
     )

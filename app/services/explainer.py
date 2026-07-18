@@ -4,28 +4,41 @@ from __future__ import annotations
 
 from explainer import Explainer
 
-_explainer = Explainer()
+_explainer: Explainer | None = None
+
+
+def _get_explainer() -> Explainer:
+    global _explainer
+    if _explainer is None:
+        _explainer = Explainer()
+    return _explainer
 
 
 def explain(
-    query_artist: str,
-    query_album: str,
-    rec_artist: str,
-    rec_album: str,
+    seed_review_text: str,
+    rec_review_text: str,
+    *,
+    seed_review_id: str | None = None,
+    rec_review_id: str | None = None,
     n: int = 3,
-) -> list[dict]:
-    qualities = _explainer.explain(
-        query_artist=query_artist,
-        query_album=query_album,
-        rec_artist=rec_artist,
-        rec_album=rec_album,
+) -> dict:
+    result = _get_explainer().explain(
+        seed_review_text,
+        rec_review_text,
+        seed_review_id=seed_review_id,
+        rec_review_id=rec_review_id,
         n=n,
     )
-    return [
-        {
-            "quality": q.quality,
-            "seed_quote": q.seed_quote,
-            "rec_quote": q.rec_quote,
-        }
-        for q in qualities
-    ]
+    return {
+        "qualities": [
+            {
+                "quality": q.quality,
+                "seed_quote": q.seed_quote,
+                "rec_quote": q.rec_quote,
+            }
+            for q in result.qualities
+        ],
+        "raw_text": result.raw_text,
+        "seed_review_id": result.seed_review_id,
+        "rec_review_id": result.rec_review_id,
+    }

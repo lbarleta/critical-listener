@@ -1,3 +1,3 @@
-from .explainer import Explainer, SharedQuality
+from .explainer import ExplainResult, Explainer, SharedQuality
 
-__all__ = ["Explainer", "SharedQuality"]
+__all__ = ["ExplainResult", "Explainer", "SharedQuality"]

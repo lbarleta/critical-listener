@@ -234,34 +234,10 @@
     explainBody.hidden = false;
     explainPair.textContent = `${albumLabel(seed.artist, seed.album)} → ${albumLabel(rec.artist, rec.album)}`;
     explainList.innerHTML = "";
-    explainError.hidden = true;
-    explainPair.textContent += " · generating explanation…";
-
-    const params = new URLSearchParams({
-      query_artist: seed.artist,
-      query_album: seed.album,
-      rec_artist: rec.artist,
-      rec_album: rec.album,
-      n: "3",
-    });
-
-    try {
-      const data = await fetchJson(`/explain?${params}`);
-      explainPair.textContent = `${albumLabel(seed.artist, seed.album)} → ${albumLabel(rec.artist, rec.album)}`;
-      for (const q of data.qualities || []) {
-        const li = document.createElement("li");
-        li.innerHTML = `
-          <p class="quality">${q.quality}</p>
-          <blockquote>${q.seed_quote}</blockquote>
-          <blockquote>${q.rec_quote}</blockquote>
-        `;
-        explainList.appendChild(li);
-      }
-    } catch (err) {
-      explainPair.textContent = `${albumLabel(seed.artist, seed.album)} → ${albumLabel(rec.artist, rec.album)}`;
-      explainError.textContent = err.message;
-      explainError.hidden = false;
-    }
+    // Explainer needs review texts; catalog lookup is not wired into the UI yet.
+    explainError.textContent =
+      "Explanation needs review text. The explainer module is ready; review lookup is next.";
+    explainError.hidden = false;
   }
 
   tabs.forEach((tab) => {

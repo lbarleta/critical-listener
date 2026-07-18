@@ -31,10 +31,19 @@ class SharedQuality(BaseModel):
     rec_quote: str
 
 
+class ExplainRequest(BaseModel):
+    seed_review_text: str
+    rec_review_text: str
+    seed_review_id: str | None = None
+    rec_review_id: str | None = None
+    n: int = Field(3, ge=1, le=5)
+
+
 class ExplainResponse(BaseModel):
-    seed: AlbumRef
-    recommendation: AlbumRef
     qualities: list[SharedQuality]
+    raw_text: str
+    seed_review_id: str | None = None
+    rec_review_id: str | None = None
 
 
 class StoreStatus(BaseModel):
