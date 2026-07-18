@@ -1,0 +1,986 @@
+{
+  "!!!::as if": {
+    "artist": "!!!",
+    "album": "as if",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "abstract mindstate::dreams still inspire": {
+    "artist": "abstract mindstate",
+    "album": "dreams still inspire",
+    "genres": [
+      "Rap"
+    ],
+    "tags": [
+      "kanye west",
+      "2021",
+      "rap",
+      "hip hop",
+      "yzy snd"
+    ],
+    "review_count": 1,
+    "listeners": 71174
+  },
+  "aereogramme::sleep and release": {
+    "artist": "aereogramme",
+    "album": "sleep and release",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "progressive rock",
+      "alternative metal",
+      "alternative rock",
+      "emo",
+      "post-rock"
+    ],
+    "review_count": 1,
+    "listeners": 20616
+  },
+  "afx::chosen lords": {
+    "artist": "afx",
+    "album": "chosen lords",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "idm",
+      "electronic",
+      "acid techno",
+      "acid",
+      "techno"
+    ],
+    "review_count": 1,
+    "listeners": 96484
+  },
+  "aphex twin::selected ambient works 85-92": {
+    "artist": "aphex twin",
+    "album": "selected ambient works 85-92",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "ambient",
+      "electronic",
+      "idm",
+      "chillout",
+      "ambient techno"
+    ],
+    "review_count": 1,
+    "listeners": 1408988
+  },
+  "astrobotnia::parts 1, 2 & 3": {
+    "artist": "astrobotnia",
+    "album": "parts 1, 2 & 3",
+    "genres": [],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "beyoncé::lemonade": {
+    "artist": "beyoncé",
+    "album": "lemonade",
+    "genres": [
+      "Pop",
+      "Rnb"
+    ],
+    "tags": [
+      "pop",
+      "rnb",
+      "soul",
+      "2016",
+      "rock"
+    ],
+    "review_count": 1,
+    "listeners": 1307803
+  },
+  "björk::homogenic": {
+    "artist": "björk",
+    "album": "homogenic",
+    "genres": [
+      "Electronic",
+      "Alternative"
+    ],
+    "tags": [
+      "electronic",
+      "alternative",
+      "experimental",
+      "female vocalists",
+      "icelandic"
+    ],
+    "review_count": 1,
+    "listeners": 1064397
+  },
+  "caustic window::caustic window": {
+    "artist": "caustic window",
+    "album": "caustic window",
+    "genres": [
+      "Electronic",
+      "IDM"
+    ],
+    "tags": [
+      "idm",
+      "electronic",
+      "acid",
+      "ape"
+    ],
+    "review_count": 2,
+    "listeners": 12000
+  },
+  "caustic window::caustic window lp": {
+    "artist": "caustic window",
+    "album": "caustic window lp",
+    "genres": [
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "1994",
+      "idm",
+      "techno",
+      "electronic",
+      "ambient"
+    ],
+    "review_count": 2,
+    "listeners": 8992
+  },
+  "chic::c’est chic": {
+    "artist": "chic",
+    "album": "c’est chic",
+    "genres": [
+      "Disco",
+      "Funk"
+    ],
+    "tags": [
+      "disco",
+      "funk",
+      "soul",
+      "70s",
+      "dance"
+    ],
+    "review_count": 1,
+    "listeners": 235892
+  },
+  "daft punk::discovery": {
+    "artist": "daft punk",
+    "album": "discovery",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic",
+      "dance",
+      "poptron",
+      "house",
+      "electronica"
+    ],
+    "review_count": 2,
+    "listeners": 3805781
+  },
+  "drake::take care": {
+    "artist": "drake",
+    "album": "take care",
+    "genres": [
+      "Rap",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "rap",
+      "hip-hop",
+      "rnb",
+      "2011",
+      "drake"
+    ],
+    "review_count": 2,
+    "listeners": 567929
+  },
+  "easy star all-stars::radiodread": {
+    "artist": "easy star all-stars",
+    "album": "radiodread",
+    "genres": [
+      "Global"
+    ],
+    "tags": [
+      "reggae",
+      "dub",
+      "cover",
+      "covers",
+      "radiohead cover"
+    ],
+    "review_count": 1,
+    "listeners": 209162
+  },
+  "endochine::day two": {
+    "artist": "endochine",
+    "album": "day two",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "maybe",
+      "erinnerungstag",
+      "rock",
+      "indie",
+      "alternative"
+    ],
+    "review_count": 1,
+    "listeners": 2528
+  },
+  "eob::earth": {
+    "artist": "eob",
+    "album": "earth",
+    "genres": [
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic",
+      "indie rock"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "foo fighters::greatest hits": {
+    "artist": "foo fighters",
+    "album": "greatest hits",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "rock",
+      "alternative rock",
+      "alternative",
+      "grunge",
+      "foo fighters"
+    ],
+    "review_count": 2,
+    "listeners": 1249399
+  },
+  "g.o.o.d. music::cruel summer": {
+    "artist": "g.o.o.d. music",
+    "album": "cruel summer",
+    "genres": [
+      "Rap"
+    ],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "hole::live through this": {
+    "artist": "hole",
+    "album": "live through this",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "grunge",
+      "90s",
+      "female vocalists",
+      "rock",
+      "alternative"
+    ],
+    "review_count": 2,
+    "listeners": 1197364
+  },
+  "holy ghost!::holy ghost!": {
+    "artist": "holy ghost!",
+    "album": "holy ghost!",
+    "genres": [
+      "Electronic, Rock",
+      "Pop"
+    ],
+    "tags": [
+      "2011",
+      "electropop",
+      "disco",
+      "poptron",
+      "best of 2011"
+    ],
+    "review_count": 2,
+    "listeners": 183311
+  },
+  "idiot pilot::strange we should meet here": {
+    "artist": "idiot pilot",
+    "album": "strange we should meet here",
+    "genres": [
+      "Metal, Rock",
+      "Rock"
+    ],
+    "tags": [
+      "experimental",
+      "post-hardcore",
+      "indietronica",
+      "indie",
+      "post-rock"
+    ],
+    "review_count": 1,
+    "listeners": 44565
+  },
+  "justice::audio, video, disco": {
+    "artist": "justice",
+    "album": "audio, video, disco",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "2011",
+      "electronic",
+      "french",
+      "ed banger",
+      "electro"
+    ],
+    "review_count": 1,
+    "listeners": 99992
+  },
+  "justice::audio, video, disco.": {
+    "artist": "justice",
+    "album": "audio, video, disco.",
+    "genres": [
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "2011",
+      "house",
+      "electro house",
+      "arena rock",
+      "poptron"
+    ],
+    "review_count": 1,
+    "listeners": 386719
+  },
+  "kanye west::my beautiful dark twisted fantasy": {
+    "artist": "kanye west",
+    "album": "my beautiful dark twisted fantasy",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "hip hop",
+      "hip-hop",
+      "rap",
+      "kanye west",
+      "2010"
+    ],
+    "review_count": 2,
+    "listeners": 3371789
+  },
+  "kelly rowland::ms. kelly": {
+    "artist": "kelly rowland",
+    "album": "ms. kelly",
+    "genres": [
+      "Pop"
+    ],
+    "tags": [
+      "rnb",
+      "kelly rowland",
+      "female vocalists",
+      "dance",
+      "soul"
+    ],
+    "review_count": 1,
+    "listeners": 204796
+  },
+  "kendrick lamar::to pimp a butterfly": {
+    "artist": "kendrick lamar",
+    "album": "to pimp a butterfly",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "hip-hop",
+      "jazz rap",
+      "conscious hip hop",
+      "funk",
+      "rap"
+    ],
+    "review_count": 2,
+    "listeners": 2364568
+  },
+  "kesha::animal": {
+    "artist": "kesha",
+    "album": "animal",
+    "genres": [
+      "Pop/R&B"
+    ],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "kid cudi::man on the moon ii: the legend of mr. rager": {
+    "artist": "kid cudi",
+    "album": "man on the moon ii: the legend of mr. rager",
+    "genres": [
+      "Rap, Rock",
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "hip-hop",
+      "alternative",
+      "rap",
+      "kid cudi",
+      "alternative rap"
+    ],
+    "review_count": 2,
+    "listeners": 1594922
+  },
+  "lukah::why look up, god’s in the mirror": {
+    "artist": "lukah",
+    "album": "why look up, god’s in the mirror",
+    "genres": [],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "lync::these are not fall colors": {
+    "artist": "lync",
+    "album": "these are not fall colors",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "post-hardcore",
+      "real post-hardcore",
+      "emo",
+      "1994",
+      "slacker rock"
+    ],
+    "review_count": 1,
+    "listeners": 35548
+  },
+  "majid jordan::majid jordan": {
+    "artist": "majid jordan",
+    "album": "majid jordan",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "alternative r&b",
+      "pop",
+      "r&b",
+      "contemporary r&b",
+      "soul"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "mstrkrft::the looks": {
+    "artist": "mstrkrft",
+    "album": "the looks",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic",
+      "electro",
+      "dance",
+      "2006",
+      "electronica"
+    ],
+    "review_count": 1,
+    "listeners": 438309
+  },
+  "muse::showbiz": {
+    "artist": "muse",
+    "album": "showbiz",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "rock",
+      "alternative rock",
+      "energetic",
+      "art rock",
+      "anxious",
+      "passionate"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "nirvana::nevermind": {
+    "artist": "nirvana",
+    "album": "nevermind",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "grunge",
+      "rock",
+      "90s",
+      "alternative",
+      "alternative rock"
+    ],
+    "review_count": 2,
+    "listeners": 2831964
+  },
+  "off!::first four eps": {
+    "artist": "off!",
+    "album": "first four eps",
+    "genres": [
+      "Metal, Rock"
+    ],
+    "tags": [
+      "hardcore punk",
+      "2010",
+      "debut album",
+      "hardcore",
+      "punk"
+    ],
+    "review_count": 2,
+    "listeners": 65319
+  },
+  "off!::off!": {
+    "artist": "off!",
+    "album": "off!",
+    "genres": [
+      "Metal, Rock"
+    ],
+    "tags": [],
+    "review_count": 2,
+    "listeners": null
+  },
+  "partynextdoor::partynextdoor": {
+    "artist": "partynextdoor",
+    "album": "partynextdoor",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "rnb",
+      "alternative rnb",
+      "partynextdoor",
+      "hip-hop",
+      "trap"
+    ],
+    "review_count": 1,
+    "listeners": 1296069
+  },
+  "polygon window::surfing on sine waves": {
+    "artist": "polygon window",
+    "album": "surfing on sine waves",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "techno",
+      "electronic",
+      "idm",
+      "ambient",
+      "experimental"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "popcaan::vanquish": {
+    "artist": "popcaan",
+    "album": "vanquish",
+    "genres": [
+      "Global, Pop/R&B"
+    ],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "radiohead::kid a": {
+    "artist": "radiohead",
+    "album": "kid a",
+    "genres": [
+      "Rock",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "alternative",
+      "electronic",
+      "alternative rock",
+      "rock",
+      "radiohead"
+    ],
+    "review_count": 2,
+    "listeners": 3049027
+  },
+  "radiohead::ok computer": {
+    "artist": "radiohead",
+    "album": "ok computer",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "alternative",
+      "alternative rock",
+      "rock",
+      "radiohead",
+      "indie"
+    ],
+    "review_count": 2,
+    "listeners": 4837806
+  },
+  "rihanna::good girl gone bad": {
+    "artist": "rihanna",
+    "album": "good girl gone bad",
+    "genres": [
+      "Pop/R&B",
+      "Pop"
+    ],
+    "tags": [
+      "pop",
+      "rnb",
+      "rihanna",
+      "dance",
+      "female vocalists"
+    ],
+    "review_count": 2,
+    "listeners": 3072080
+  },
+  "rihanna::unapologetic": {
+    "artist": "rihanna",
+    "album": "unapologetic",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "contemporary r&b",
+      "pop",
+      "electronic",
+      "dance-pop",
+      "edm",
+      "trap rap"
+    ],
+    "review_count": 2,
+    "listeners": null
+  },
+  "schoolboy q::habits & contradictions": {
+    "artist": "schoolboy q",
+    "album": "habits & contradictions",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "hip-hop",
+      "2012",
+      "blaze to this one",
+      "rap",
+      "hip hop"
+    ],
+    "review_count": 1,
+    "listeners": 450000
+  },
+  "seal::seal": {
+    "artist": "seal",
+    "album": "seal",
+    "genres": [
+      "Pop/R&B",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "pop",
+      "90s",
+      "soul",
+      "seal",
+      "british"
+    ],
+    "review_count": 1,
+    "listeners": 711671
+  },
+  "shabazz palaces::black up": {
+    "artist": "shabazz palaces",
+    "album": "black up",
+    "genres": [
+      "Rap",
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "2011",
+      "hip hop",
+      "best of 2011",
+      "hip-hop",
+      "experimental hip hop"
+    ],
+    "review_count": 2,
+    "listeners": 163116
+  },
+  "solange::a seat at the table": {
+    "artist": "solange",
+    "album": "a seat at the table",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "neo-soul",
+      "art pop",
+      "alternative rnb",
+      "2016",
+      "rnb"
+    ],
+    "review_count": 1,
+    "listeners": 672888
+  },
+  "solange::true": {
+    "artist": "solange",
+    "album": "true",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "alternative r&b",
+      "electronic",
+      "rock",
+      "r&b",
+      "alternative dance",
+      "synth-pop"
+    ],
+    "review_count": 2,
+    "listeners": null
+  },
+  "soundgarden::superunknown": {
+    "artist": "soundgarden",
+    "album": "superunknown",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "grunge",
+      "rock",
+      "90s",
+      "alternative rock",
+      "1994"
+    ],
+    "review_count": 1,
+    "listeners": 1578063
+  },
+  "stwo::d.t.s.n.t.": {
+    "artist": "stwo",
+    "album": "d.t.s.n.t.",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "terrace martin::velvet portraits": {
+    "artist": "terrace martin",
+    "album": "velvet portraits",
+    "genres": [
+      "Pop/R&B",
+      "R&B/Soul/Funk"
+    ],
+    "tags": [
+      "contemporary r&b",
+      "jazz",
+      "jazz-funk"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "the band::music from big pink": {
+    "artist": "the band",
+    "album": "music from big pink",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "rock",
+      "folk rock",
+      "roots rock",
+      "country rock"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "the klf::chill out": {
+    "artist": "the klf",
+    "album": "chill out",
+    "genres": [
+      "Electronic",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "ambient",
+      "electronic"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "thom yorke::the eraser": {
+    "artist": "thom yorke",
+    "album": "the eraser",
+    "genres": [
+      "Electronic, Rock",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic",
+      "2006",
+      "experimental",
+      "alternative",
+      "5 stars"
+    ],
+    "review_count": 2,
+    "listeners": 1025976
+  },
+  "thom yorke::the eraser rmxs": {
+    "artist": "thom yorke",
+    "album": "the eraser rmxs",
+    "genres": [
+      "Electronic, Rock",
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "electronic",
+      "art rock",
+      "dubstep",
+      "rock",
+      "leftfield",
+      "electro"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "tory lanez::i told you": {
+    "artist": "tory lanez",
+    "album": "i told you",
+    "genres": [
+      "Rap"
+    ],
+    "tags": [
+      "tory lanez",
+      "r&b",
+      "canadian",
+      "hip-hop",
+      "rnb"
+    ],
+    "review_count": 1,
+    "listeners": 704858
+  },
+  "unwound::no energy": {
+    "artist": "unwound",
+    "album": "no energy",
+    "genres": [
+      "Rock",
+      "Punk/Hardcore"
+    ],
+    "tags": [
+      "post-punk",
+      "art rock",
+      "rock",
+      "math rock"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::black panther the album": {
+    "artist": "various artists",
+    "album": "black panther the album",
+    "genres": [],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::cosmic machine": {
+    "artist": "various artists",
+    "album": "cosmic machine",
+    "genres": [],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::discovered: a collection of daft funk samples": {
+    "artist": "various artists",
+    "album": "discovered: a collection of daft funk samples",
+    "genres": [
+      "Electronic/Dance"
+    ],
+    "tags": [
+      "disco",
+      "unclassifiable",
+      "electronic",
+      "funk",
+      "soul"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::jonny greenwood is the controller": {
+    "artist": "various artists",
+    "album": "jonny greenwood is the controller",
+    "genres": [],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::kanye west presents good music: cruel summer": {
+    "artist": "various artists",
+    "album": "kanye west presents good music: cruel summer",
+    "genres": [
+      "Hip Hop/Rap"
+    ],
+    "tags": [
+      "hip hop",
+      "contemporary r&b",
+      "pop rap"
+    ],
+    "review_count": 1,
+    "listeners": null
+  },
+  "various artists::pure moods, vol. 1": {
+    "artist": "various artists",
+    "album": "pure moods, vol. 1",
+    "genres": [
+      "Electronic"
+    ],
+    "tags": [],
+    "review_count": 1,
+    "listeners": null
+  },
+  "yeah yeah yeahs::it's blitz!": {
+    "artist": "yeah yeah yeahs",
+    "album": "it's blitz!",
+    "genres": [
+      "Rock"
+    ],
+    "tags": [
+      "indie",
+      "indie rock",
+      "poptron",
+      "electronic",
+      "female vocalists"
+    ],
+    "review_count": 2,
+    "listeners": 1639967
+  },
+  "…and you will know us by the trail of dead::source tags & codes": {
+    "artist": "…and you will know us by the trail of dead",
+    "album": "source tags & codes",
+    "genres": [
+      "Indie Rock",
+      "Post-Hardcore"
+    ],
+    "tags": [
+      "indie rock",
+      "post-hardcore",
+      "alternative rock",
+      "2002",
+      "american artist"
+    ],
+    "review_count": 1,
+    "listeners": 282521
+  }
+}

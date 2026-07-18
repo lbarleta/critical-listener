@@ -64,6 +64,8 @@
               obvious connections.
             </span>
           </div>
+
+          <div id="seed-info" class="seed-info" hidden></div>
         </header>
 
         <section id="results" class="results" hidden>
@@ -90,12 +92,24 @@
             type="button"
             class="tab"
             role="tab"
-            id="tab-lastfm"
+            id="tab-autoplay"
             aria-selected="false"
-            aria-controls="panel-lastfm"
-            data-tab="lastfm"
+            aria-controls="panel-autoplay"
+            data-tab="autoplay"
           >
-            Last.fm baseline
+            Auto-Play
+            <span class="tab-spinner" hidden aria-hidden="true"></span>
+          </button>
+          <button
+            type="button"
+            class="tab"
+            role="tab"
+            id="tab-benchmark"
+            aria-selected="false"
+            aria-controls="panel-benchmark"
+            data-tab="benchmark"
+          >
+            Benchmark
             <span class="tab-spinner" hidden aria-hidden="true"></span>
           </button>
           <button
@@ -114,7 +128,7 @@
 
         <div
           id="panel-explain"
-          class="tab-panel is-active"
+          class="tab-panel tab-panel--wide is-active"
           role="tabpanel"
           aria-labelledby="tab-explain"
         >
@@ -122,22 +136,58 @@
             Pick a recommendation to see the explainer in action.
           </p>
           <div id="explain-body" hidden>
-            <p id="explain-pair" class="explain-pair"></p>
+            <div id="explain-pair" class="explain-pair" hidden>
+              <div class="explain-album">
+                <span class="explain-role">Seed</span>
+                <span id="explain-seed-label" class="explain-album-name"></span>
+              </div>
+              <div class="explain-album">
+                <span class="explain-role">Match</span>
+                <span id="explain-rec-label" class="explain-album-name"></span>
+              </div>
+            </div>
             <ul id="explain-list" class="explain-list"></ul>
           </div>
           <p id="explain-error" class="error" hidden></p>
         </div>
 
         <div
-          id="panel-lastfm"
+          id="panel-autoplay"
           class="tab-panel"
           role="tabpanel"
-          aria-labelledby="tab-lastfm"
+          aria-labelledby="tab-autoplay"
           hidden
         >
-          <p class="panel-hint">Listener-similarity baseline from Last.fm</p>
-          <ol id="lastfm-list" class="rec-list rec-list--quiet"></ol>
-          <p id="lastfm-error" class="error" hidden></p>
+          <p class="panel-hint">
+            A listening stack from the embedding recommender.
+          </p>
+          <ol id="autoplay-stack" class="autoplay-stack"></ol>
+          <p id="autoplay-error" class="error" hidden></p>
+        </div>
+
+        <div
+          id="panel-benchmark"
+          class="tab-panel tab-panel--wide"
+          role="tabpanel"
+          aria-labelledby="tab-benchmark"
+          hidden
+        >
+          <p class="panel-hint">
+            Side-by-side recommendations: critic embeddings vs Last.fm listeners.
+            Shared picks are marked in both columns.
+          </p>
+          <div class="benchmark">
+            <div class="benchmark-col">
+              <h3 class="benchmark-heading">Critical Listener</h3>
+              <ol id="benchmark-embedding" class="benchmark-list"></ol>
+              <p id="benchmark-embedding-error" class="error" hidden></p>
+            </div>
+            <div class="benchmark-col">
+              <h3 class="benchmark-heading">Last.fm</h3>
+              <ol id="benchmark-lastfm" class="benchmark-list"></ol>
+              <p id="benchmark-lastfm-error" class="error" hidden></p>
+            </div>
+          </div>
         </div>
 
         <div

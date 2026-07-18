@@ -6,16 +6,25 @@ class AlbumRef(BaseModel):
     album: str
 
 
-class Recommendation(BaseModel):
+class AlbumStats(BaseModel):
+    """Album identity plus catalog stats used in Benchmark."""
+
     artist: str
     album: str
+    genres: list[str] = Field(default_factory=list)
+    tags: list[str] = Field(default_factory=list)
+    review_count: int | None = None
+    listeners: int | None = None
+
+
+class Recommendation(AlbumStats):
     rank: int
     score: float | None = None
 
 
 class RecommendResponse(BaseModel):
     source: str
-    seed: AlbumRef
+    seed: AlbumStats
     recommendations: list[Recommendation]
 
 

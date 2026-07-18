@@ -9,6 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from app.schemas import (
     AlbumRef,
     AlbumSearchResponse,
+    AlbumStats,
     ExplainRequest,
     ExplainResponse,
     RecommendResponse,
@@ -17,7 +18,7 @@ from app.schemas import (
     StatusResponse,
     StoreStatus,
 )
-from app.services import catalog, embedding, explainer, lastfm, reviews
+from app.services import catalog, embedding, explainer, lastfm, metadata, reviews
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STATIC_DIR = Path(__file__).resolve().parent / "static"
@@ -32,8 +33,10 @@ async def lifespan(_app: FastAPI):
     n = embedding.load()
     catalog.load(embedding.list_albums())
     n_reviews = reviews.load()
+    n_meta = metadata.load()
     print(f"Loaded {n} embedding seed albums into catalog")
     print(f"Loaded {n_reviews} album reviews for explainer")
+    print(f"Loaded {n_meta} album metadata rows")
     yield
 
 
@@ -96,10 +99,11 @@ def recommend_embedding(
     rows = embedding.recommend(artist, album, k=k)
     if rows is None:
         raise HTTPException(status_code=404, detail="Album not in embedding-recs store")
+    seed_artist, seed_album = artist.strip(), album.strip()
     return RecommendResponse(
         source="embedding",
-        seed=AlbumRef(artist=artist.strip(), album=album.strip()),
-        recommendations=[Recommendation(**r) for r in rows],
+        seed=AlbumStats(**metadata.get(seed_artist, seed_album)),
+        recommendations=[Recommendation(**metadata.enrich(r)) for r in rows],
     )
 
 
@@ -114,13 +118,12 @@ def recommend_lastfm(
     except Exception as exc:  # Last.fm / network / missing key
         raise HTTPException(status_code=502, detail=str(exc)) from exc
 
+    seed_artist = seed.get("artist", artist)
+    seed_album = seed.get("album", album)
     return RecommendResponse(
         source="lastfm",
-        seed=AlbumRef(
-            artist=seed.get("artist", artist),
-            album=seed.get("album", album),
-        ),
-        recommendations=[Recommendation(**r) for r in rows],
+        seed=AlbumStats(**metadata.get(seed_artist, seed_album)),
+        recommendations=[Recommendation(**metadata.enrich(r)) for r in rows],
     )
 
 
