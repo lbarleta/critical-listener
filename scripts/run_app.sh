@@ -13,9 +13,17 @@ fi
 
 export PYTHONPATH="${PYTHONPATH:-.}"
 
-UVICORN="${ROOT}/app/.venv/bin/uvicorn"
+# Prefer repo-root .venv (shared deps); fall back to app/.venv, then PATH.
+UVICORN="${ROOT}/.venv/bin/uvicorn"
+if [[ ! -x "$UVICORN" ]]; then
+  UVICORN="${ROOT}/app/.venv/bin/uvicorn"
+fi
 if [[ ! -x "$UVICORN" ]]; then
   UVICORN=uvicorn
 fi
 
-exec "$UVICORN" app.main:app --reload --host 127.0.0.1 --port 8000
+exec "$UVICORN" app.main:app --reload \
+  --reload-dir app \
+  --reload-dir explainer \
+  --reload-dir lastfm \
+  --host 127.0.0.1 --port 8000
