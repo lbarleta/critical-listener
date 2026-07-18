@@ -32,10 +32,10 @@ class SharedQuality(BaseModel):
 
 
 class ExplainRequest(BaseModel):
-    seed_review_text: str
-    rec_review_text: str
-    seed_review_id: str | None = None
-    rec_review_id: str | None = None
+    """Explain a seed → recommendation pair by looking up review texts."""
+
+    seed: AlbumRef
+    recommendation: AlbumRef
     n: int = Field(3, ge=1, le=5)
 
 

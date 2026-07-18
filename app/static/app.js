@@ -18,10 +18,12 @@
   const baselineSpinners = document.querySelectorAll(
     "#tab-lastfm .tab-spinner, #tab-metrics .tab-spinner"
   );
+  const explainSpinner = document.querySelector("#tab-explain .tab-spinner");
 
   let seed = null;
   let debounceTimer = null;
   let requestId = 0;
+  let explainRequestId = 0;
 
   function titleCase(text) {
     return text.replace(/\b\w/g, (c) => c.toUpperCase());
@@ -37,14 +39,34 @@
     });
   }
 
-  async function fetchJson(url) {
-    const res = await fetch(url);
+  async function fetchJson(url, options) {
+    const res = await fetch(url, options);
     const data = await res.json().catch(() => ({}));
     if (!res.ok) {
       const detail = data.detail || res.statusText || "Request failed";
       throw new Error(typeof detail === "string" ? detail : JSON.stringify(detail));
     }
     return data;
+  }
+
+  function setExplainLoading(isLoading) {
+    if (explainSpinner) explainSpinner.hidden = !isLoading;
+  }
+
+  function renderQualities(qualities) {
+    explainList.innerHTML = "";
+    for (const item of qualities || []) {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <p class="quality"></p>
+        <blockquote class="seed-quote"></blockquote>
+        <blockquote class="rec-quote"></blockquote>
+      `;
+      li.querySelector(".quality").textContent = item.quality || "";
+      li.querySelector(".seed-quote").textContent = item.seed_quote || "";
+      li.querySelector(".rec-quote").textContent = item.rec_quote || "";
+      explainList.appendChild(li);
+    }
   }
 
   function hideSuggestions() {
@@ -148,11 +170,14 @@
   }
 
   function resetExplain() {
+    explainRequestId += 1;
+    setExplainLoading(false);
     explainEmpty.hidden = false;
     explainBody.hidden = true;
     explainList.innerHTML = "";
     explainPair.textContent = "";
     explainError.hidden = true;
+    explainError.textContent = "";
   }
 
   function resetPage() {
@@ -229,15 +254,40 @@
       .forEach((el) => el.classList.remove("active"));
     button.classList.add("active");
 
+    const thisExplain = ++explainRequestId;
     setTab("explain");
     explainEmpty.hidden = true;
     explainBody.hidden = false;
     explainPair.textContent = `${albumLabel(seed.artist, seed.album)} → ${albumLabel(rec.artist, rec.album)}`;
     explainList.innerHTML = "";
-    // Explainer needs review texts; catalog lookup is not wired into the UI yet.
-    explainError.textContent =
-      "Explanation needs review text. The explainer module is ready; review lookup is next.";
-    explainError.hidden = false;
+    explainError.hidden = true;
+    explainError.textContent = "";
+    setExplainLoading(true);
+
+    try {
+      const data = await fetchJson("/explain", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          seed: { artist: seed.artist, album: seed.album },
+          recommendation: { artist: rec.artist, album: rec.album },
+          n: 3,
+        }),
+      });
+      if (thisExplain !== explainRequestId) return;
+      renderQualities(data.qualities);
+      if (!data.qualities || !data.qualities.length) {
+        explainError.textContent = "No shared qualities returned for this pair.";
+        explainError.hidden = false;
+      }
+    } catch (err) {
+      if (thisExplain !== explainRequestId) return;
+      explainList.innerHTML = "";
+      explainError.textContent = err.message || "Explanation failed";
+      explainError.hidden = false;
+    } finally {
+      if (thisExplain === explainRequestId) setExplainLoading(false);
+    }
   }
 
   tabs.forEach((tab) => {

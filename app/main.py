@@ -17,7 +17,7 @@ from app.schemas import (
     StatusResponse,
     StoreStatus,
 )
-from app.services import catalog, embedding, explainer, lastfm
+from app.services import catalog, embedding, explainer, lastfm, reviews
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STATIC_DIR = Path(__file__).resolve().parent / "static"
@@ -31,7 +31,9 @@ load_dotenv(REPO_ROOT / "lastfm" / ".env", override=False)
 async def lifespan(_app: FastAPI):
     n = embedding.load()
     catalog.load(embedding.list_albums())
+    n_reviews = reviews.load()
     print(f"Loaded {n} embedding seed albums into catalog")
+    print(f"Loaded {n_reviews} album reviews for explainer")
     yield
 
 
@@ -124,12 +126,29 @@ def recommend_lastfm(
 
 @app.post("/explain", response_model=ExplainResponse)
 def explain_pair(body: ExplainRequest) -> ExplainResponse:
+    seed_review = reviews.get(body.seed.artist, body.seed.album)
+    if seed_review is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No review for seed {body.seed.artist} — {body.seed.album}",
+        )
+
+    rec_review = reviews.get(body.recommendation.artist, body.recommendation.album)
+    if rec_review is None:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No review for recommendation "
+                f"{body.recommendation.artist} — {body.recommendation.album}"
+            ),
+        )
+
     try:
         result = explainer.explain(
-            body.seed_review_text,
-            body.rec_review_text,
-            seed_review_id=body.seed_review_id,
-            rec_review_id=body.rec_review_id,
+            seed_review["text"],
+            rec_review["text"],
+            seed_review_id=seed_review.get("review_id"),
+            rec_review_id=rec_review.get("review_id"),
             n=body.n,
         )
     except ValueError as exc:
