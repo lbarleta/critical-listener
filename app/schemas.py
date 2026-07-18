@@ -41,7 +41,6 @@ class ExplainRequest(BaseModel):
 
 class ExplainResponse(BaseModel):
     qualities: list[SharedQuality]
-    raw_text: str
     seed_review_id: str | None = None
     rec_review_id: str | None = None
 

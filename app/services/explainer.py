@@ -38,7 +38,6 @@ def explain(
             }
             for q in result.qualities
         ],
-        "raw_text": result.raw_text,
         "seed_review_id": result.seed_review_id,
         "rec_review_id": result.rec_review_id,
     }

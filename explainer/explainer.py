@@ -26,10 +26,9 @@ class SharedQuality:
 
 @dataclass
 class ExplainResult:
-    """Structured qualities plus the raw model response."""
+    """Structured shared qualities for a review pair."""
 
     qualities: list[SharedQuality]
-    raw_text: str
     seed_review_id: str | None = None
     rec_review_id: str | None = None
 
@@ -90,12 +89,10 @@ class Explainer:
             max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw_text = response.content[0].text.strip()
-        qualities = _parse_qualities(raw_text)
+        qualities = _parse_qualities(response.content[0].text.strip())
 
         return ExplainResult(
             qualities=qualities,
-            raw_text=raw_text,
             seed_review_id=seed_review_id,
             rec_review_id=rec_review_id,
         )
