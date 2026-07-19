@@ -201,6 +201,10 @@ body.has-results .search input {
   animation: rise 0.55s ease-out both;
 }
 
+.results[hidden] {
+  display: none !important;
+}
+
 .discovery {
   position: relative;
   display: flex;
@@ -508,25 +512,11 @@ body.has-results .search input {
   font-weight: 500;
 }
 
-.seed-info {
-  margin-top: 1rem;
-  max-width: 28rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid var(--line);
-  animation: fade 0.25s ease-out;
-}
-
-.seed-info-name {
-  margin: 0 0 0.35rem;
-  font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.seed-info .benchmark-stats,
-.seed-info .benchmark-meta-line {
-  margin-left: 0;
+.results-heading {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.35;
 }
 
 .autoplay-stack {

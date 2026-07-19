@@ -5,7 +5,7 @@
   const secondary = document.getElementById("secondary");
   const embeddingList = document.getElementById("embedding-list");
   const embeddingError = document.getElementById("embedding-error");
-  const seedInfoEl = document.getElementById("seed-info");
+  const resultsHeading = document.getElementById("results-heading");
   const autoplayStack = document.getElementById("autoplay-stack");
   const autoplayError = document.getElementById("autoplay-error");
   const benchmarkEmbedding = document.getElementById("benchmark-embedding");
@@ -159,7 +159,11 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.innerHTML = `<span class="title">${titleCase(item.album)}</span><span class="artist">${titleCase(item.artist)}</span>`;
-      btn.addEventListener("click", () => selectSeed(item.artist, item.album));
+      // pointerdown: click can be lost if suggestions re-render or input blurs first
+      btn.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
+        selectSeed(item.artist, item.album);
+      });
       li.appendChild(btn);
       suggestions.appendChild(li);
     }
@@ -226,21 +230,15 @@
     return keys;
   }
 
-  function renderSeedInfo() {
-    const fromApi = embeddingPayload?.seed || lastfmPayload?.seed;
-    const artist = seed?.artist || fromApi?.artist;
-    const album = seed?.album || fromApi?.album;
-    if (!artist || !album) {
-      seedInfoEl.hidden = true;
-      seedInfoEl.innerHTML = "";
+  function renderResultsHeading() {
+    if (!resultsHeading) return;
+    if (!seed?.artist || !seed?.album) {
+      resultsHeading.hidden = true;
+      resultsHeading.textContent = "";
       return;
     }
-    const info = { ...(fromApi || {}), artist, album };
-    seedInfoEl.hidden = false;
-    seedInfoEl.innerHTML = `
-      <p class="seed-info-name">${albumLabel(artist, album)}</p>
-      ${metaLinesHtml(info)}
-    `;
+    resultsHeading.hidden = false;
+    resultsHeading.textContent = `Recommendations for ${albumLabel(seed.artist, seed.album)}`;
   }
 
   function renderPrimaryList(payload) {
@@ -366,14 +364,14 @@
     setAutoPlayLoading(false);
     embeddingList.innerHTML = "";
     embeddingError.hidden = true;
-    renderSeedInfo();
+    renderResultsHeading();
     renderBenchmark();
     renderAutoPlay();
     resetExplain();
     setTab("explain");
   }
 
-  async function selectSeed(artist, album) {
+  function selectSeed(artist, album) {
     seed = { artist, album };
     queryInput.value = albumLabel(artist, album);
     hideSuggestions();
@@ -390,7 +388,7 @@
 
     embeddingList.innerHTML = "";
     embeddingError.hidden = true;
-    renderSeedInfo();
+    renderResultsHeading();
     renderBenchmark();
     renderAutoPlay();
     setBaselineLoading(true);
@@ -408,7 +406,6 @@
         if (thisRequest !== requestId) return;
         embeddingPayload = data;
         renderPrimaryList(data);
-        renderSeedInfo();
         renderBenchmark();
         renderAutoPlay();
       })
@@ -416,7 +413,6 @@
         if (thisRequest !== requestId) return;
         embeddingPayload = { error: err.message };
         renderPrimaryList(embeddingPayload);
-        renderSeedInfo();
         renderBenchmark();
         renderAutoPlay();
       })
@@ -428,13 +424,11 @@
       .then((data) => {
         if (thisRequest !== requestId) return;
         lastfmPayload = data;
-        renderSeedInfo();
         renderBenchmark();
       })
       .catch((err) => {
         if (thisRequest !== requestId) return;
         lastfmPayload = { error: err.message };
-        renderSeedInfo();
         renderBenchmark();
       })
       .finally(() => {
